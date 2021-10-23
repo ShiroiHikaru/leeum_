@@ -779,6 +779,31 @@ a{
   font-size: 15px;
 }
 
+/* 페이지버튼 영역 */
+
+.pages{
+  width: 1200px;
+  margin: auto;
+  height: 50px;
+  border: 1px solid red;
+  margin-bottom: 150px;
+}
+
+.pages ul{
+  border: 1px solid green;
+  height: 30px;
+  width: 270px;
+  margin: auto;
+}
+
+.pages ul li{
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px 0 0;
+  border: 1px solid #ccc;
+}
+
 
 /* 뉴스레터구독 */
 #Subscribe{
