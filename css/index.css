@@ -1,0 +1,999 @@
+body{
+  font-size: 20px;
+}
+
+body::selection{
+	background-color: #3d3326;
+	color: yellow;
+}
+
+.clearfix:before, .clearfix:after {
+  display: block;
+  content: '';
+  line-height: 0;
+}
+
+.clearfix:after {
+  clear:both;
+}
+
+
+
+/* 메뉴항목 */
+
+header{
+  width: 100%;
+  height: 120px;
+  background-color: #000;
+}
+
+header h2{text-indent: -999px;}
+
+header nav{
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  color: white;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li{
+  display: flex;
+  justify-content: center;
+  width: calc(1000px / 7);
+  line-height: 60px;
+  text-align: center;
+}
+
+header nav #logo{
+  float: left;
+  margin-top: 40px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul li a:hover{
+  height: 120px;
+  background: #fff;
+  color: #000;
+  transition:  0.3s ease 0s, left 0.3s ease 0s;
+  padding: 10px;
+  font-family: 'GmarketSansMedium';
+  height: 30px;
+  line-height: 35px;
+}
+
+
+
+
+
+/* 메인이미지 영역 */
+
+main{
+  position: relative;
+  bottom: 30px;
+  min-width: 1200px;
+}
+
+#main_Slide{
+  width: 100%;
+  height: 950px;
+  position: relative;
+  z-index: -1;
+}
+
+#main_Slide .slider{
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#main_Slide .arrow{
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  top: 300px;
+}
+
+
+#main_Slide .arrow .prev{
+  float: left;
+}
+
+#main_Slide .arrow .next{
+  float: right;
+}
+
+.dott{
+  width: 150px;
+  height: 20px;
+  position: relative;
+  z-index: 9999;
+  margin: auto;
+ bottom: 200px;
+}
+
+.dott ul{
+  height: 20px;
+  margin: auto;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dott ul li{
+  float: left;
+  background:#ccc;
+  margin-right: 1rem;
+  border-radius: 50px;
+  width: 13px;
+  height: 13px;
+  text-indent: -9999px;
+  padding: 0;
+}
+
+/* 오른쪽 quick bar 영역 */
+
+/* quick 키워드 */
+
+#quickbar{
+  font-size: 18px;
+  position: fixed;
+  right: 0;
+  top: 300px;
+  z-index: 9998;
+  float: right;
+}
+
+#quickbar .quickright{
+  float: right;
+  width: 80px;
+  height: 400px;
+}
+
+#quickbar .quickright ul li{
+  text-indent: -9999px;
+  height: 90px;
+}
+
+#quickbar .quickright ul li a{
+  display: block;
+  height: 90px;
+}
+
+#quickbar .quickright ul .bar5 a{
+  height: 40px;
+}
+
+#quickbar .quickright ul .bar1{
+  background-image: url(/images/quick_01.jpg);
+}
+
+#quickbar .quickright ul .bar1:hover{
+  background-image: url(/images/hover_01.jpg);
+  transition: 0.3s;
+}
+
+#quickbar .quickright ul .bar2{
+  background-image: url(/images/quick_02.jpg);
+}
+
+#quickbar .quickright ul .bar2:hover{
+  background-image: url(/images/hover_02.jpg);
+  transition: 0.3s;
+}
+
+#quickbar .quickright ul .bar3{
+  background-image: url(/images/quick_03.jpg);
+}
+
+#quickbar .quickright ul .bar3:hover{
+  background-image: url(/images/hover_03.jpg);
+  transition: 0.3s;
+}
+
+#quickbar .quickright ul .bar4{
+  background-image: url(/images/quick_04.jpg);
+}
+
+#quickbar .quickright ul .bar4:hover{
+  background-image: url(/images/hover_04.jpg);
+  transition: 0.3s;
+}
+
+
+#quickbar .quickright ul .bar5{
+  background: url(/images/quick_05.jpg) no-repeat;
+  height: 40px;
+}
+
+/* quick 로그인 항목*/
+#quickbar .quick_log{
+  height: 400px;
+  width: 370px;
+  border: 1px solid #ccc;
+  position: absolute;
+  right: 80px;
+  background-color: #fff;
+}
+
+#quickbar .quick_log .quick_title{
+  text-align: center;
+  margin-top: 50px;
+}
+
+#quickbar .quick_log .quick_title h3{
+  font-size: 40px;
+}
+
+#quickbar .quick_log .quick_title p{
+  font-size: 15px;
+  line-height: 30px;
+}
+
+#quickbar .quick_log .quick_form table{
+  width: 275px;
+  margin: auto;
+}
+
+#quickbar .quick_log .quick_form table tr td{
+  height: 40px;
+  vertical-align: middle;
+}
+
+
+#quickbar .quick_log .quick_form table tr td input{
+  height: 30px;
+  width: 209px;
+  float: right;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-family: 'GmarketSanslight';
+}
+
+#quickbar .quick_log .quick_btn{
+  width: 275px;
+  margin: auto;
+}
+
+#quickbar .quick_log .quick_btn .lockon{
+  width: 275px;
+  height: 45px;
+  margin-top: 15px;
+  background-color: #3d3326;
+  border: none;
+  font-family: 'GmarketSansMedium';
+  font-size: 18px;
+  color: white;
+}
+
+#quickbar .quick_log .quick_btn .forget{
+  width: calc(268px / 2);
+  height: 30px;
+  margin-top: 10px;
+  background: #8a7a67;
+  border: none;
+  color: white;
+  font-family: 'GmarketSanslight';
+}
+
+#quickbar .quick_log .joinmember{
+  width: 275px;
+  margin-top: 50px;
+  margin: auto;
+}
+
+#quickbar .quick_log .joinmember table{
+  margin-top: 10px;
+}
+
+
+#quickbar .quick_log .joinmember table tr td{
+  vertical-align: middle;
+}
+
+#quickbar .quick_log .joinmember table tr td button{
+  background: #3d3326;
+  float: right;
+  border: none;
+}
+
+#quickbar .quick_log .joinmember table tr td button a{
+  color: white;
+  text-decoration: none;
+}
+
+/* 티켓예매 항목 */
+#ticket{
+  width: 1200px;
+  height: 690px;
+  background: #f1f1f1;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#ticket .ticket_box .ticket_title{
+  width: 1200px;
+  height: 60px;
+  background: #141414;
+  color: white;
+  font-weight: bold;
+  line-height: 62px;
+}
+
+#ticket .ticket_box .ticket_title table{
+  height: 45px;
+  width: 250px;
+  margin: auto;
+}
+#ticket .ticket_box .ticket_title table tr .icon img{
+  vertical-align: middle;
+}
+
+#ticket .ticket_box .ticket_title table tr td{
+  vertical-align: middle;
+  text-align: center;
+}
+
+#ticket .ticket_box .group{
+  width: 1100px;
+  height: 200px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#ticket .ticket_box .group .box1, .box2, .box3{
+  float: left;
+  width: calc(1100px / 3);
+  height: 200px;
+}
+
+#ticket .ticket_box .group .box1 table{
+  width: calc(1100px / 3);
+  height: 150px;
+}
+
+#ticket .ticket_box .group .box1 table tr td{
+  height: 65px;
+  font-weight: bold;
+}
+
+#ticket .ticket_box .group .box1 table tr .leftbox{
+  width: 80px;
+}
+
+#ticket .ticket_box .group .box1 table tr td input{
+  width: 250px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+}
+
+#ticket .ticket_box .group .box2 table{
+  margin-top: 20px;
+}
+
+
+#ticket .ticket_box .group .box2 table tr td{
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#ticket .ticket_box .group .box2 table tr .leftbox2{
+  width: 120px;
+}
+
+#ticket .ticket_box .group .box3 table{
+  margin-top: 20px;
+}
+
+#ticket .ticket_box .group .box3 table tr td{
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#ticket .ticket_box .group .box3 table tr .leftbox{
+  width: 80px;
+}
+
+#ticket .ticket_box .ticketbtn{
+  width: 1100px;
+  margin: auto;
+  margin-top: 10px;
+}
+#ticket .ticket_box .ticketbtn button{
+  width: 1100px;
+  height: 45px;
+  background: #8a7a67;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+#ticket .ticket_box .ticketbtn button:hover{
+  background: #141414;
+  transition: 0.3s;
+}
+
+#ticket .notice{
+  width: 1100px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#ticket  .notice .notice01{
+  float: left;
+  width: 550px;
+}
+
+#ticket  .notice .notice02{
+  float: left;
+  width: 550px;
+}
+
+#ticket  .notice .notice01 li{
+  font-size: 15px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+#ticket  .notice .notice02 li{
+  font-size: 15px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+
+/* 배너시작 */
+
+#banner{
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+
+#banner .bannerBox{
+  width: 1200px;
+  height: 400px;
+}
+
+#banner .bannerBox .box1{
+  width: 290px;
+  height: 400px;
+  float: left;
+  margin: 0 13px 0 0;
+  position: relative;
+  z-index: -9999px;
+}
+
+#banner .bannerBox .box1 h2{
+  width: 290px;
+  height: 400px;
+  background: url(/images/banner1.jpg) no-repeat;
+  text-indent: -9999px;
+}
+
+#banner .bannerBox .box1 .titleText{
+  position: absolute;
+  bottom: 0px;
+  width: 290px;
+  height: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+#banner .bannerBox .box2{
+  width: 290px;
+  height: 400px;
+  float: left;
+  margin: 0 13px 0 0;
+  position: relative;
+}
+
+#banner .bannerBox .box2 h2{
+  width: 290px;
+  height: 400px;
+  background: url(/images/banner2.jpg) no-repeat;
+  text-indent: -9999px;
+  position: absolute;
+  z-index: -9999;
+}
+
+#banner .bannerBox .box2 .titleText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  height: 400px;
+  color: white;
+  line-height: 30px;
+  position: absolute;
+  bottom: 0px;
+}
+
+
+#banner .bannerBox .box3{
+  width: 290px;
+  height: 400px;
+  float: left;
+  margin: 0 13px 0 0;
+  position: relative;
+}
+
+#banner .bannerBox .box3 h2{
+  width: 290px;
+  height: 400px;
+  background: url(/images/banner3.jpg) no-repeat;
+  text-indent: -9999px;
+}
+
+#banner .bannerBox .box3 .titleText{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 290px;
+  height: 400px;
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  justify-content: center;
+  line-height: 30px;
+}
+
+#banner .bannerBox .box4{
+  width: 290px;
+  height: 400px;
+  float: left;
+  position: relative;
+}
+
+#banner .bannerBox .box4 h2{
+  width: 290px;
+  height: 400px;
+  background: url(/images/banner4.jpg) no-repeat;
+  text-indent: -9999px;
+}
+
+#banner .bannerBox .box4 .titleText{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 290px;
+  height: 400px;
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  justify-content: center;
+  line-height: 30px;
+}
+
+
+ /* 전시이벤트 시작 */
+
+ #event{
+   width: 100%;
+   height: 767px;
+   background-image: url(/images/event_bg.jpg);
+   background-size: cover;
+   clear: both;
+   position: relative;
+   z-index: -1;
+   top: 120px;
+   color: white;
+ }
+
+ #event .eventBox{
+   width: 1200px;
+   margin: auto;
+ }
+
+ #event .eventPic .eveImg{
+   background: url(/images/event_img_01.jpg)no-repeat;
+   width: 514px;
+   height: 395px;
+   text-indent: -9999px;
+   float: left;
+   margin-top: 185px;
+ }
+
+ #event .eventBox .eventPic .eventtext{
+  width: 630px;
+  float: right;
+  margin-top: 185px;
+ }
+
+ #event .eventBox .eventPic .eventtext span{
+   font-size: 18px;
+ }
+
+ #event .eventBox .eventPic .eventtext p{
+   font-size: 18px;
+   line-height: 25px;
+ }
+
+ #event .eventBox .eventPic .eventtext button{
+   width: 145px;
+   height: 40px;
+   border-radius: 50px;
+   border: 2px solid white;
+   background: rgba(255, 255, 255, 0);
+   margin-top: 35px;
+   font-size: 18px;
+   color: white;
+ }
+
+ #event .eventBox .eventPic .eventtext button a:hover{
+   transition: 0.3s;
+   background: rgba(000, 000, 000, 0.5);
+   cursor: pointer;
+ }
+
+ #event .eventBox .eventPic .eventtext button a{
+   color: white;
+   text-decoration: none;
+   display: block;
+   border-radius: 50px;
+   padding: 5px;
+   width: 120spx;
+   text-align: center;
+   cursor: pointer;
+ }
+
+ #event .eventdott{
+   width: 1200px;
+   margin: auto;
+ }
+
+ #event .eventdott .dottbox{
+   width: 200px;
+ }
+
+ #event .eventdott .dottbox ul li{
+   float: left;
+   margin: 20px 20px 0 0;
+   text-indent: -9999px;
+   background: #ccc;
+   width: 13px;
+   height: 13px;
+   border-radius: 50px;
+ }
+
+
+/* 공지사항 */
+#noticeandmovie{
+  width: 1200px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+#noticeandmovie .notice{
+  width: 580px;
+  height: 395px;
+  position: relative;
+  top: 250px;
+  overflow: hidden;
+}
+
+#noticeandmovie .notice ul{
+  height: 308px;
+}
+
+#noticeandmovie .notice ul li{
+  line-height: 60px;
+  border-bottom: 1px solid #ccc;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+
+#noticeandmovie .notice ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+#noticeandmovie h2{text-indent: -9999px;}
+
+#noticeandmovie h3{
+  float: left;
+  font-size: 30px;
+  font-family: 'GmarketSansMedium';
+  line-height: normal;
+}
+
+#noticeandmovie .noti{
+  float: right;
+  font-size: 18px;
+  font-family:'GmarketSansMedium';
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+
+}
+
+#noticeandmovie ul{
+  clear: both;
+}
+
+#noticeandmovie .mov{
+  float: right;
+  position: relative;
+  bottom: 160px;
+}
+
+.list_tap{
+  width: 1200px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 110px
+}
+
+.list_tap ul{
+  position: relative;
+  bottom: 125px;
+  margin-bottom: 50px;
+}
+
+.list_tap ul li{
+  float: left;
+  width: calc(1200px / 5);
+  height: 50px;
+  text-indent: -9999px;
+}
+
+.list_tap ul li a{
+  display: block;
+  width: 230px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.list_tap ul .list_btn01{
+  background: url(/images/list_btn1.jpg) no-repeat;
+}
+
+.list_tap ul .list_btn02{
+  background: url(/images/list_btn2.jpg) no-repeat;
+}
+
+.list_tap ul .list_btn03{
+  background: url(/images/list_btn3.jpg) no-repeat;
+}
+
+.list_tap ul .list_btn04{
+  background: url(/images/list_btn4.jpg) no-repeat;
+}
+
+.list_tap ul .list_btn05{
+  background: url(/images/list_btn5.jpg) no-repeat;
+}
+
+/* 뉴스레터구독 */
+#Subscribe{
+  z-index: 99px;
+  width: 1200px;
+  height: 245px;
+  margin: auto;
+  position: relative;
+  bottom: 150px;
+  margin-bottom: 100px;
+  background: #141414;
+}
+
+.subc_text{
+  color: white;
+  height: 140px;
+  z-index: 9999;
+  padding: 50px 0px 50px 50px;
+  float: left;
+}
+
+.subc_text h3{
+  font-size: 50px;
+  color: #bfa37b;
+}
+
+.subc_text ul li{
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.subc_form{
+  width: 500px;
+  height: 140px;
+  float: right;
+  padding: 50px 50px 50px 0px;
+}
+
+.subc_form .email_form input{
+  width: 489px;
+  height: 50px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.subc_form .news_btn{
+  width: 246px;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border: none;
+  background: #8a7a67;
+}
+
+.subc_form .news_btn:hover{
+  background: #3d3326;
+}
+
+.subc_form .news_btn a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 246px;
+  line-height: 35px;
+  height: 40px;
+}
+
+.subc_form label input{
+  width: 15px;
+  height: 15px;
+  float: left;
+  border: none;
+  margin-right: 15px;
+}
+
+.subc_form label p{
+  line-height: 25px;
+  font-size: 15px;
+  color: white;
+}
+
+/* footer */
+
+.footer{
+  background:#8a7a67;
+  color:#fff;
+  width:100%;
+  height: 226px;
+  display: flex;
+  justify-content: center;
+  z-index: -50;
+}
+.footer a{
+  color:#fff
+}
+
+.footer_top{
+  height: 80px;
+  width: 100%;
+  position:relative;
+  background-color: #141414;
+  bottom: 80px;
+}
+
+.footer h2{
+  text-indent:-9999px;
+}
+
+.footer .hide{
+  text-indent:-9999px;
+}
+
+.footer_top .term{
+  width: 1200px;
+  margin: auto;
+}
+
+.footer_top .term ul{
+  position: relative;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_top .term ul li{
+  margin: 1rem;
+  text-align: center;
+  text-align: center;
+  float: left;
+}
+
+.footer_top .term ul li a{
+  text-decoration: none;
+}
+
+.footer_top .term ul li a:hover{
+  font-family: 'GmarketsansMedium';
+}
+
+.footer_b_box{
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.family_site{
+  clear: both;
+  width: 230px;
+  background-color: white;
+  float: right;
+  position: relative;
+}
+
+.family_site h3{
+  width: 190px;
+  height: 40px;
+  color: #000;
+  font-size: 18px;
+  font-family: 'GmarketsansMedium';
+  padding: 10px;
+  background: url(/images/drop.png) no-repeat;
+  background-position: right;
+  line-height: 40px;
+}
+
+.family_site ul{
+  position: absolute;
+  overflow: hidden;
+  width: 230px;
+  box-sizing: border-box;
+}
+
+.family_site ul li{
+  line-height: 25px;
+  font-size: 15px;
+  padding-left: 10px;
+  position: absolute;
+}
+
+
+.family_site ul li a{
+  color: #000;
+  text-decoration: none;
+}
+
+.footer_bottom{
+  width: 1200px;
+  margin: auto;
+}
+
+.footer_b_bot{
+  width: 174px;
+  height: 130px;
+  background: url(/images/lee_logo_w.svg) no-repeat;
+  opacity: 0.5;
+  float: left;
+  margin: 0 40px 0 0;
+}
+
+.footer_bottom address{
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer_bottom p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+

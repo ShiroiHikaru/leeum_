@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/mario.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <style>
+    .bx-wrapper {
+      border: none;
+      box-shadow: none;
+      margin-top: 50px;
+    }
+
+    .bx-wrapper .bx-controls .bx-next {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_right.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+
+    .bx-wrapper .bx-controls .bx-prev {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_left.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+  </style>
+  <title>Leeum - 건축 / 마리오보타</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
+      <h2>메뉴소개</h2>
+      <ul>
+        <li><a href="/intro.html">미술관소개</a></li>
+        <li><a href="#">프로그램</a></li>
+        <li><a href="/place.html">편의시설</a></li>
+        <li><a href="/membership.html">멤버십안내</a></li>
+        <li><a href="#">자료실</a></li>
+        <li><a href="https://leeumstore.org/">리움스토어</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="quickbar">
+      <div class="quickbox">
+        <div class="quickright">
+          <ul>
+            <li class="bar1"><a href="#indexlogin">로그인</a></li>
+            <li class="bar2"><a href="/join01.html">회원가입</a></li>
+            <li class="bar3"><a href="#">마이페이지</a></li>
+            <li class="bar4"><a href="/map.html">오시는길</a></li>
+            <li class="bar5"><a href="#logo">top</a></li>
+          </ul>
+        </div>
+        <div class="quick_log" id="indexlogin">
+          <div class="quick_title">
+            <h3>LOG - IN</h3>
+            <p>리움미술관 홈페이지를 방문해주셔서 감사합니다.</p>
+          </div>
+          <div class="quick_form">
+            <table>
+              <tr>
+                <td>ID</td>
+                <td><input type="text" id="quicklogin" name="quickID" placeholder="아이디(이메일 주소)를 입력해주세요" autofocus></td>
+              </tr>
+              <tr>
+                <td>PW</td>
+                <td><input type="password" id="quickpassword" name="quickPW" placeholder="비밀번호를 입력해주세요"></td>
+              </tr>
+            </table>
+          </div>
+          <div class="quick_btn">
+            <button class="lockon">로그인</button>
+            <button class="forget">ID(아이디)찾기</button>
+            <button class="forget">PW(비밀번호)찾기</button>
+          </div>
+          <div class="joinmember">
+            <table width="275px">
+              <tr>
+                <td style="font-size: 15px;">아직 회원이 아니신가요?</td>
+                <td><button><a href="join01.html">회원가입하기</a></button></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="title">
+      <div class="title_text">
+        <h3>리움미술관 건축인터뷰 - 마리오 보타</h3>
+        <p>Architect Interview Leeum with Mario Botta</p>
+      </div>
+    </section>
+
+    <div class="menu_wrap">
+      <ul class="dep1">
+        <li>
+          <a href="mario.html">마리오보타 - Mario Botta</a>
+          <ul class="dep2">
+            <li><a href="#museum1">MUSEUM 1</a></li>
+            <li><a href="#texture">Architect Tour</a></li>
+            <li><a href="#mario">Mario Botta</a></li>
+            <li><a href="#interview">Interview</a></li>
+          </ul>
+        </li>
+        <li><a href="jean.html">장 누벨 - Jean Nouvel</a>
+          <ul class="dep2">
+            <li><a href="">MUSEUM 2</a></li>
+            <li><a href="">Architect Tour</a></li>
+            <li><a href="">Jean Nouvel</a></li>
+            <li><a href="">interview</a></li>
+          </ul>
+        </li>
+        <li><a href="rem.html">렘 쿨하스 - Rem Koolhaas</a>
+          <ul class="dep2">
+            <li><a href="">삼성아동교육문화센터</a></li>
+            <li><a href="">Architect Tour</a></li>
+            <li><a href="">Rem Koolhaas</a></li>
+            <li><a href="">interview</a></li>
+          </ul>
+        </li>
+       
+      </ul>
+    </div>
+
+    <section id="museum1">
+      <h2>전통의 뿌리와 힘을 상징한 고고한 기하학 - MUSEUM 1</h2>
+      <div class="slider">
+        <div><img src="/images/mario/slide_page_1.jpg" alt="page1"></div>
+        <div><img src="/images/mario/slide_page_2.jpg" alt="page2"></div>
+        <div><img src="/images/mario/slide_page_3.jpg" alt="page3"></div>
+        <div><img src="/images/mario/slide_page_4.jpg" alt="page4"></div>
+        <div><img src="/images/mario/slide_page_5.jpg" alt="page5"></div>
+        <div><img src="/images/mario/slide_page_6.jpg" alt="page6"></div>
+        <div><img src="/images/mario/slide_page_7.jpg" alt="page7"></div>
+        <div><img src="/images/mario/slide_page_8.jpg" alt="page8"></div>
+        <div><img src="/images/mario/slide_page_9.jpg" alt="page9"></div>
+        <div><img src="/images/mario/slide_page_10.jpg" alt="page10"></div>
+        <div><img src="/images/mario/slide_page_11.jpg" alt="page11"></div>
+        <div><img src="/images/mario/slide_page_12.jpg" alt="page12"></div>
+        <div><img src="/images/mario/slide_page_13.jpg" alt="page13"></div>
+        <div><img src="/images/mario/slide_page_14.jpg" alt="page14"></div>
+      </div>
+
+      <div class="introbox">
+        <p>
+          미술관 건축은 "과거에 종교 건축이 했던 역할, 즉 경건함과 숭고함을 불러일으키는 역할을 해야 한다"고 역설해 온 마리오 보타는<br>
+          삼성미술관 Leeum의 MUSEUM 1에서도 그러한 자신의 건축 철학을 유감없이 형상화합니다.<br>
+          <br>
+          MUSEUM 1은 남산의 경사면이 한강을 내려다보는 위치에 미니멀 하면서도 둔중한 입체(직육면체, 콘)로 들어서 있습니다.<br>
+          지극히 단순한 직육면체와 역원추형 형태는 마리오 보타 건축 디자인의 상징과도 같습니다. 남산을 호위하는 듯한 직육면체의 매스와,<br>남쪽 도로와 만나는 땅에 박힌 듯한
+          역원추형 매스는 서로 대비되면서도 단순한 볼륨의 조화를 이룹니다.<br>건물의 스카이라인은 중세의 성곽에서 유래한 요철의 형태[총안(銃眼, battlement)]로 처리했습니다.
+          <br><br>
+          이 옥상부에 배치된 나무들은 요새의 깃발을 연상시키며 역동적 뉘앙스를 자아냅니다. 성곽 도시라는 서울의 지리적 전통을 은유하는<br>이러한 요소는
+          렘 쿨하스 건축의 수평적 플랫폼(삼성아동교육문화센터)과, 은둔자적 이미지를 주는 장 누벨의 육중한 매스(MUSEUM 2) 사이에서 단지 전체의 이미지를 주도합니다.
+          <br><br>
+          MUSEUM 1의 견고한 형태는 전통과 고미술품의 불변하는 가치를 수호하는 요새 또는 성(城)을 연상시킵니다.<br>특히 흙과 불로 만들어진 외벽의 테라코타 벽돌은
+          세계적으로 인정받아 온 한국의 도자기를 상징합니다. 이러한 직설적 이고 기하학적인 형태와 고고한 느낌의 외벽은 전통의 뿌리와 힘을 느끼게 하면서<br>
+          삼성미술관 Leeum의 전체적 인상을 강렬하게 만들어 줍니다.
+        </p>
+        <table>
+          <tr>
+            <td class="title">건축가</td>
+            <td>Mario Botta (마리오 보타)</td>
+            <td class="title">대지면적</td>
+            <td>2,333㎡</td>
+          </tr>
+          <tr>
+            <td class="title">연면적</td>
+            <td>9,850㎡</td>
+            <td class="title">규모</td>
+            <td>지상 4층, 지하 3층</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="arch" id="texture">
+        <h3 class="arch_title">Architect Tour</h3>
+        <div class="arch1">
+          <div class="arch_img">
+            <img src="/images/mario/mario_step01.jpg" alt="테라코타">
+          </div>
+          <div class="arch_text">
+            <h3>건축재질 - 미묘한 음영과 부드러운 질감을 선사하는<br>테라코타 벽면</h3>
+            <br>
+            <p>
+              MUSEUM 1의 역원추형과 직육면체 두 매스(mass)는<br>
+              수평 띠를 이루는 테라코타 벽돌로 자연스럽게 연결됩니다.<br>
+              테라코타 벽돌, 자연 즉 흙(土)에서 유래한 외장 재료는<br>
+              자연광 속에서 미묘한 음영을 드리웁니다.<br><br>
+
+              이 타일과 빛이 만들어내는 색조의 부드러운 변화는 육중한<br>
+              두 매스의 부담감을 완화시켜주는 역할을 합니다.<br>
+              <br>
+              또한 테라코타 벽돌은 MUSEUM 1의 전시품 가운데 많은 부분을<br>
+              차지하는 한국의 도자기가 대지에서 왔음을 은유합니다.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="arch2">
+          <div class="arch_img">
+            <img src="/images/mario/mario_step02.jpg" alt="로비">
+          </div>
+          <div class="arch_text">
+            <h3>로비 - 삼성미술관 Leeum의 심장, MUSEUM1의 로비</h3>
+            <br>
+            <p>
+              MUSEUM 1의 역원추형과 직육면체 두 매스(mass)는,<br>
+              MUSEUM 1의 역원추형 매스 부분 지하에 자리한 로비는<br>
+              삼성미술관 Leeum의 심장이라고 할 수 있습니다.
+              <br><br>
+              이 로비에서 MUSEUM 1, MUSEUM 2, 삼성아동교육문화센터 등으로<br>
+              연결되며, 미술관의 모든 동선이 이 곳에서 시작하고<br>
+              이 곳에서 마무리 됩니다.
+              <br><br>
+              로비는 렘 쿨하스의 삼성아동교육문화센터 건물 중간의 램프로<br>진입하게 되어 있습니다.
+              이 램프 통로는 모든 관람자가<br>맨 처음 들어서는 삼성미술관 Leeum의 공공 출입구입니다.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="arch3">
+          <div class="arch_img">
+            <img src="/images/mario/mario_step03.jpg" alt="로툰다">
+          </div>
+          <div class="arch_text">
+            <h3>로툰다 - 한 줄기 천창의 빛이 만드는 평온하고 신비한 공간</h3>
+            <br>
+            <p>
+              MUSEUM 1의 역원추형 매스는 '둥근 천창이 있는 원형 홀 공간(로툰다)'으로<br>
+              지하의 로비에서 천창까지 뚫려 있습니다.<br><br>원형 보이드(void) 공간은 관람자에게
+              로비로부터 그 위의 상부 층들까지<br>한눈에 경험할 수 있도록 합니다.
+              또한 원형 보이드 공간을 따라 돌아가는 계단은 4개 층에 걸쳐 있는 전시 공간으로
+              연결하는 통로 역할을 합니다.<br><br>로툰다 상부의 천창은 부드러운 빛을 관람객들이 모이는
+              지하의 로비까지<br>전달하여 자연스럽게 내부 공간을 하나로 묶어 주는 기능을 하며,
+              전시 공간 간에 열린 공간을 제공합니다.
+
+              자연광이 은은하게 내려드는 로툰다 공간은 조명이<br>인공적으로 조절되는 공간에서는
+              느낄 수 없는 색다른 체험을 선사할 것입니다.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="arch4">
+          <div class="arch_img">
+            <img src="/images/mario/mario_step04.jpg" alt="로툰다">
+          </div>
+          <div class="arch_text">
+            <h3>전시공간 - MUSEUM 1 특유의 두 개성적 형태를 반영한
+              전시 공간과 전시 케이스</h3>
+            <br>
+            <p>
+              MUSEUM 1의 전시 공간은 크게 직육면체의 전시 공간과 로툰다 둘레에 있는<br>
+              원형 전시 공간으로 나누어지며, 전시 공간 내부는 기둥이 없도록 연출했습니다.
+              <br><br>
+              전시 케이스는 세계적 전시 케이스 제작사인 독일의 글라스바우한(Glasbau Hahn)사와의
+              협력으로 제작되었으며, 직육면체 전시장 벽면에 설치된<br>벽부장 유물 케이스
+              (full-height fixed case)와 원형 전시장 공간에 배치된<br>정사각형의 독립장 케이스로
+              구분하여 디자인 하였습니다.
+              <br><br>
+              특히 원형 전시 공간의 독립 케이스는 천장에만 고정되어 유물이 마치 공간 속에 떠 있는 듯한
+              독특한 느낌을 안겨 줄 것입니다.
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <section id="mario">
+      <div class="mario_intro">
+        <div class="mariotext">
+          <h2>건축은 모든 예술의 모체입니다.</h2>
+          <h3>고전 건축에서 길어 올린 현대 건축 언어, 마리오 보타</h3>
+          <p>1943년 스위스 멘드리소 - 티치노에서 태어난 마리오 보타는<br>
+            티치노 지방을 중심으로 활동하면서, 지역적 아이덴티티를 강하게 살려<br>
+            세계적으로 명성을 얻은 건축가입니다.
+            <br><br>
+            이탈리아 밀라노와 베니스에서 건축을 공부한 후,<br>르 코르뷔지에와 루이스 칸의
+            설계사무소에서 경험을 쌓았고,<br>이탈리아 건축가 카를로 스카르파에게도 배웠습니다.<br>
+            이후 지금까지 티치노의 중심 도시 루가노에<br>자신의 사무실(Mario Botta Architetto)
+            을 열고 활동하고 있습니다.
+            <br><br>
+            1980년대 이후 그가 설계한 티치노 지방의 건축물들은<br>세계적 화제를 불러일으키며,
+            그에게 수많은 수상의<br>기회와 명성을 안겨 주었습니다.
+          </p>
+          <button><a href="http://www.botta.ch/en/studio">Visit Web Site</a></button>
+        </div>
+        <div class="profile">건축가 마리오</div>
+      </div>
+      <div class="mario_intro2">
+        <div class="work"><img src="/images/mario/mario_work.jpg" alt="work"></div>
+        <div class="mariotext2">
+          스위스 뇌샤텔의 뒤렌마트 기념관, 바젤의 장 팅겔리 미술관,<br>일본 도쿄의
+          와타 Leeum 미술관, 최근 세계적으로 주목받은<br>미국 샌프란시스코의 현대미술관
+          (SFMOMA) 등 다수의 미술관을 설계한 바 있습니다.
+          <br><br>
+          1999년 보로미니 탄생 400주년을 기념하는 산 카를로 교회의 모델을 루가노 호수에
+          제작한 데서도 알 수 있듯이, 마리오 보타의 건축은 유럽의 고전 건축, 특히
+          로마네스크 교회의 전통에 깊게 뿌리내리고 있습니다.
+          <br><br>
+          그는 그 지역의 자연에서 얻은 소재, 돌이나 흙과 같은<br>변치 않는 재료, 그리고 빛이 주는
+          극적 효과를 건축물에 구현하는데<br>관심을 둡니다.
+          그는 건축물을 통해 지역의 전통을 현대적으로 재해석하여, 견고한 중량감과
+          강렬한 기하학적 형태로 표현해 왔습니다.
+          <br><br>
+          다음과 같은 마리오 보타의 생각은 그가 왜 그다지도 진지하게<br>전통의 재해석과
+          건축의 숭고미에 대해 천착해 왔는지를<br>잘 알게 해 줍니다.
+        </div>
+      </div>
+    </section>
+
+    <section id="mario02">
+      <div class="text">
+        <p>
+          좋은 건축은 우리에게 현대의 문제점을 일깨워주고,<br>
+          현대가 진부한 시대로 전락하지 않도록 저항하게 하는 도구입니다.<br>
+          건축은 인간을 훨씬 능가하는 수명을 가지고 있습니다.
+          <br><br>
+          그것은 우리 시대 감성과 감수성의 척도이자,<br>
+          동시에 과거를 증언하는, 흔치 않은 인간 행위입니다.
+        </p>
+        <p class="saying">누군가 도시를 지나다 신비한 모습에 이끌려 리움에 오겠지요.</p>
+        <img src="/images/mario/mario_sign.png" alt="signature" width="230px">
+      </div>
+    </section>
+    <section id="interview">
+      <iframe width="1200" height="675" src="https://www.youtube.com/embed/RiRze_YKBY8" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+
+      <div class="qanda">
+        <h3>마리오 보타 (Mario Botta) - 인터뷰 전문</h3>
+        <div class="q01">
+          <div class="question"><span>Q</span>
+            <p>선생님의 건축은 기하학적으로 독특한 형태와 벽돌과 같은 자연적인 소재의 사용으로 특징지어집니다.<br>이러한 요소들이 어떤 의미를 지니는지요.</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>순수 기하학은 간단하게 해석할 수 있다는 장점이 있습니다.
+              <br><br>
+              단순한 형식은 사람들에게 직접적으로 전달되지요. 그래서 사람들이 받아들이기가 쉽습니다.<br>또 고전적이고 전통적인 재료가 범세계적 이미지를
+              주는 것은 그것이 기하학적 차원이나 시간의 차원을 극복해서<br>모든 이에게 직접적으로 의미를 전달하기 때문일 겁니다.
+              제가 건축물을 설계할 때 가장 먼저 고려하는 것은<br>기하학의 기본에 속하는지, 자연적인 것인지, 인간과 공간이 원하는 것인지 등입니다.
+              벽돌이나 석재 같은 천연 재료를 사용한<br>건축물은 단순히 자연적인 것이나 기하학적인 것만이 아니라 인간과 공간이 필요로 하는 것입니다.
+              <br>이러한 인간의 본성이 형식과 재료에 가치를 주는 기반이 된다고 믿습니다.
+            </p>
+          </div>
+        </div>
+        <hr class="interview_line">
+
+        <div class="q02">
+          <div class="question"><span>Q</span>
+            <p>MUSEUM 1의 디자인 컨셉트는 무엇인가요? 배치와 형태 그리고 빛에 대한 해석을 중심으로 말씀해 주시지요.</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              Leeum의 MUSEUM 1은 도자기 박물관을 염두에 둔 공간입니다.
+              <br><br>
+              처음 한국의 도자기를 보고 순수하면서도 현대적인 모습에 깊은 인상을 받았습니다. 많은 작품들이 피카소 작품처럼 현대적 이미지를 풍겼어요.
+              하지만 그 아름다움에는 신고전주의가 배어 있더군요. 신고전주의에는 고풍스러움이 가득하지요. 그 느낌이 전체 계획에 많이 반영되어 있습니다.
+              배치를 할 때에는 언덕 위의 건축이라는 사실에 주안점을 두었습니다. 이 건물을 상당히 폐쇄적인 형태로 만들어 지면 아래에서 주요 활동이 일어남을
+              알리도록 했어요. 도자기 화병을 거대하게 만든 듯한 신비한 형태를 만들었지요.
+              <br><br>
+              누군가 도시를 지나가다 이 신비한 모습에 끌려 미술관 안으로 들어오도록 말입니다. 위엔 나무를 심어서 깃발처럼 보이도록 했고요.
+              바람에 흔들려 빛에 반사되는 나뭇잎으로 시선을 끄는 겁니다. 빛은 공간을 구성하는 기본 요소입니다.
+              <br><br>
+              저는 설계할 때 공간 내부에 자연의 빛을 이용하려고 노력합니다.
+              Leeum의 경우, MUSEUM 1 중앙에 렌즈의 초점과 같은 촉광을 넣었습니다. 박물관 중심의 지면과 하늘을 연결시켜 주는 역할을 하지요.
+              아주 강한 빛이 집중적으로 비칩니다. 방문객의 동선 공간에는 부드러운 빛이 비치고 전시된 작품에는 그보다 강한 빛이 비칩니다.
+              이렇게 말할 수 있겠군요. 이 박물관에 끌어들인 인간을 위한 자연이, 작품을 위해 끌어들인 빛과 조화를 이룬다고 말입니다.
+            </p>
+          </div>
+        </div>
+        <hr class="interview_line">
+
+        <div class="q03">
+          <div class="question"><span>Q</span>
+            <p>미술관이나 박물관에 대한 선생님의 생각을 통해 MUSEUM 1의 전시 공간의 특성을 설명해 주시겠습니까?</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              미술관이나 박물관에는 공존해야 하는 두 개의 공간이 있습니다.
+              첫 번째 공간은 관객의 공간입니다.<br>관객 자신이 주인공이라 느끼고 공간의 위치와 빛, 동선을 인식하도록 해야 합니다.
+              두 번째는 작품이 주인공이 되는 공간입니다. 이 때는 건물은 사라지고 작품을 통해 메시지를 남기죠. 즉 하나는 인간을 위한 것으로 공동의 공간이고,<br>
+              세 번째는 내면적이고 비밀스러운 곳으로 예술가가 관객에게 이야기하는 공간이지요.<br><br>Leeum은 작지만 아주 귀중한 곳입니다.
+              우리는 작품을 다양한 방법으로 관람하도록 했습니다.<br>관객의 눈과 작품 사이의 공간만을 고려한 것이 아니라 전시될 작품과 관객들의 동선도 고려했습니다.
+              관객은 다른 공간으로도 움직이니까요. 관객들은 각각 다른 지점에서 다양한 작품을 관람할 수 있습니다.<br><br>
+              전시창은 지표로부터 이어져 작품 감상을 보다 쉽게 합니다.
+
+              또 모두 다른 각도와 위치에 설치돼 있어 동선을 따라 움직이면서 보거나 읽게 되어 있지요. 박물관이나 미술관은 교류의 장소이자 내면적인 공간입니다.
+              인간이 생각하는 것 이상의 가치와<br>메시지를 가지고 있어요. 인간에게 어떤 견해를 전달하는 신전이라고나 할까요.<br><br>박물관은 관객들을 일상적 생활에서
+              벗어나게 해 주고 선물 같은 메시지를 전달해 주지요.
+
+              또 박물관은 기도하는 공간이라고도 할 수 있습니다. Leeum은 제게 중요한 경험이었고 상당히 즐거운 작업이었습니다.
+              침묵, 평화, 평온의 순간을 찾아야 했으니까요. 현시대 도시의 혼란 속에서 말이죠.
+            </p>
+          </div>
+        </div>
+
+        <hr class="interview_line">
+
+        <div class="q04">
+          <div class="question"><span>Q</span>
+            <p>Leeum의 성격을 서울이라는 도시적 맥락에서 접근한다면 어떤 설명이 가능할까요?</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              도시 공학은 인간의 생활이 보다 나아지도록 공간을 구성하는 것입니다.<br><br>
+
+              사회의 역사를 비추는 거울이라고 할 수 있지요. 서울은 상당히 빠른 속도로 성장한 도시입니다.<br>최근 30-40년의 흐름이 가장 잘 집약된 곳이죠. 
+              긍정적 에너지는 물론, 모순점도 있을 겁니다. 전 서울의 긴장감과<br>강한 에너지에 놀라곤 합니다. 사람들이 모두 뛰어다니고 생기가 넘치는 거리와 
+              공동체 환경이 상당히 인상적이더군요. 
+              <br><br>
+              그런데 Leeum이 위치한 언덕은 다른 지역과는 좀 다릅니다. MUSEUM 1 꼭대기의 스카이라인이 이를 말해 주는 신호와 같은 역할을 합니다. 
+              이 곳이 주거 환경이 아니라 미술관이나 일종의 공공 시설임을 표시하는 거지요. 형태도 특이해서 불가사의해 보이고요. 이 신호가 사람들을 끌어당기는 것입니다.<br><br>
+              그 안에서 어떤 신비로운 일이 생길 것 같은 착각이 들게 하지요. 하지만 기본 형식은 땅 속에 들어 있습니다. 
+              <br>
+              기하학적 압력의 중심이 지표 아래에 있습니다. Leeum의 지형학적 측면에서 보면 누벨이나 쿨하스의 미술관 경계 구조는 
+              <br>모두 문화 유산이 되는 과정에 있습니다. 그것이 한국 역사의 문화적, 학술적 증언이 되리라 믿습니다.
+            </p>
+          </div>
+        </div>
+        <hr class="interview_line">
+
+        
+        <div class="q06">
+          <div class="question"><span>Q</span>
+            <p>선생님의 건축 철학에 대해 말씀해 주십시오.</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              철학은 결론을 내리기 상당히 어렵고 복잡한 부분인데요. 전, 건축은 시대의 증언이라고 생각합니다.
+              <br><br>
+              건축가의 의무는 반대 의견을 수용하면서 증언을 찾는 것이지요. 건축은 인류의 첫인상이라고 생각합니다.<br>인간은 자신의 생활 공간을 만들어야 합니다. 
+              이 공간은 기계적이고 기능적인 것만으론 존재할 수 없지요. 상징적인 것, 은유적인 것, 추억과 같은 것들이 우리 시대에 맞아야 해요. 
+              건축은 건축가 자신의 삶을 드러내기도 합니다.<br><br>그래서 차세대에겐 시대의 증언이 되는 것입니다. 건축은 미적이라기보다 철학적인 것이라고 생각합니다.<br> 
+              그런 점에서 많은 젊은이들이 Leeum에 관심을 가져줬으면 좋겠습니다. 도자기를 통해 인류를 표현한 작품들에 말이죠.
+              <br>젊은이들이 Leeum에 찾아온다면 우린 성공한 거라고 봅니다.
+            </p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+  </main>
+  <div class="clerfix"></div>
+  <section id="Subscribe">
+    <div class="subc_text">
+      <h3>Subscribe</h3>
+      <br>
+      <p>리움의 최신 정보를 받아보길 원하시면 이메일 주소를 남겨주세요!</p>
+      <br>
+      <ul>
+        <li>수집항목 : 이메일주소 | 보유기간 : 메일 수신거부 신청 시 까지</li>
+        <li>수집목적 : 전시 및 프로그램 등 리움 관련 소식 메일 발송</li>
+      </ul>
+    </div>
+    <div class="subc_form">
+      <form action="#" method="POST">
+        <div class="email_form">
+          <label for="이메일">
+            <input type="email" class="email_form">
+          </label>
+        </div>
+        <br>
+        <label for="sub_btn">
+          <button type="submit" class="news_btn"><a href="#">등록하기</a></button>
+          <button type="submit" class="news_btn"><a href="#">해지하기</a></button>
+        </label>
+        <br>
+        <label for="agree">
+          <input type="checkbox">
+          <p>정보 안내를 위한 이메일 수집 및 광고성 메일 수신에 동의합니다.</p>
+        </label>
+      </form>
+    </div>
+
+  </section>
+  <footer id="footer" class="footer">
+    <div class="footer_top">
+      <h2>사이트 이용안내</h2>
+
+      <div class="term">
+        <h3 class="hide">약관 및 정책</h3>
+        <ul>
+          <li><a href="map.html">오시는길</a></li>
+          <li><a href="#">이메일문의</a></li>
+          <li><a href="#">이메일 무단수집거부</a></li>
+          <li><a href="#">개인정보 처리방침</a></li>
+        </ul>
+      </div>
+      <div class="footer_b_box">
+        <div class="family_site">
+          <h3>Family Site</h3>
+          <ul>
+            <li><a href="#">호암미술관</a></li>
+            <li><a href="#">삼성문화재단</a></li>
+            <li><a href="#">삼성아동교육문화센터</a></li>
+            <li><a href="#">호암재단</a></li>
+            <li><a href="#">삼성장학회</a></li>
+            <li><a href="#">드림클래스</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer_bottom">
+        <div class="footer_b_bot">
+        </div>
+        <address>Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, Korea 04348</address>
+        <p>Copyright ⓒ Leeum 2011-2021, All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    $(document).ready(function () {
+      $('.slider').bxSlider();
+    });
+  </script>
+</body>
+
+</html>

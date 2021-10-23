@@ -1,0 +1,1081 @@
+body{
+  font-size: 20px;
+}
+
+li::marker{
+  color: #8a7a67;
+}
+.clearfix:before, .clearfix:after {
+  display: block;
+  content: '';
+  line-height: 0;
+}
+
+
+.clearfix:after {
+  clear:both;
+}
+
+/* 메뉴항목 */
+
+header{
+  width: 100%;
+  height: 120px;
+  background-color: #000;
+}
+
+header h2{text-indent: -999px;}
+
+header nav{
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  color: white;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li{
+  display: flex;
+  justify-content: center;
+  width: calc(1000px / 7);
+  line-height: 60px;
+  text-align: center;
+}
+
+header nav #logo{
+  float: left;
+  margin-top: 40px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul li a:hover{
+  height: 120px;
+  background: #fff;
+  color: #000;
+  transition:  0.3s ease 0s, left 0.3s ease 0s;
+  padding: 10px;
+  font-family: 'GmarketSansMedium';
+  height: 30px;
+  line-height: 35px;
+}
+
+
+/* 메인이미지 영역 */
+#title{
+  width: 100%;
+  background: url(/images/membership.jpg);
+  background-size: cover;
+  height: 328px;
+  position: relative;
+}
+
+
+#title .title_text{
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  line-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+#title .title_text h3{
+  font-size: 50px;
+}
+
+
+/* quick 키워드 */
+
+#quickbar{
+  font-size: 18px;
+  position: fixed;
+  right: 0;
+  top: 300px;
+  z-index: 9998;
+  float: right;
+}
+
+#quickbar .quickright{
+  float: right;
+  width: 80px;
+  height: 400px;
+}
+
+#quickbar .quickright ul li{
+  text-indent: -9999px;
+  height: 90px;
+}
+
+#quickbar .quickright ul li a{
+  display: block;
+  height: 90px;
+}
+
+#quickbar .quickright ul .bar5 a{
+  height: 40px;
+}
+
+#quickbar .quickright ul .bar1{
+  background-image: url(/images/quick_01.jpg);
+}
+
+#quickbar .quickright ul .bar1:hover{
+  background-image: url(/images/hover_01.jpg);
+  transition: 0.3s;
+}
+
+#quickbar .quickright ul .bar2{
+  background-image: url(/images/quick_02.jpg);
+}
+
+#quickbar .quickright ul .bar2:hover{
+  background-image: url(/images/hover_02.jpg);
+  transition: 0.3s;
+}
+
+#quickbar .quickright ul .bar3{
+  background-image: url(/images/quick_03.jpg);
+}
+
+#quickbar .quickright ul .bar3:hover{
+  background-image: url(/images/hover_03.jpg);
+  transition: 0.3s;
+}
+
+#quickbar .quickright ul .bar4{
+  background-image: url(/images/quick_04.jpg);
+}
+
+#quickbar .quickright ul .bar4:hover{
+  background-image: url(/images/hover_04.jpg);
+  transition: 0.3s;
+}
+
+
+#quickbar .quickright ul .bar5{
+  background: url(/images/quick_05.jpg) no-repeat;
+  height: 40px;
+}
+
+/* quick 로그인 항목*/
+#quickbar .quick_log{
+  height: 400px;
+  width: 370px;
+  border: 1px solid #ccc;
+  position: absolute;
+  right: 80px;
+  background-color: #fff;
+}
+
+#quickbar .quick_log .quick_title{
+  text-align: center;
+  margin-top: 50px;
+}
+
+#quickbar .quick_log .quick_title h3{
+  font-size: 40px;
+}
+
+#quickbar .quick_log .quick_title p{
+  font-size: 15px;
+  line-height: 30px;
+}
+
+#quickbar .quick_log .quick_form table{
+  width: 275px;
+  margin: auto;
+}
+
+#quickbar .quick_log .quick_form table tr td{
+  height: 40px;
+  vertical-align: middle;
+}
+
+
+#quickbar .quick_log .quick_form table tr td input{
+  height: 30px;
+  width: 209px;
+  float: right;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-family: 'GmarketSanslight';
+}
+
+#quickbar .quick_log .quick_btn{
+  width: 275px;
+  margin: auto;
+}
+
+#quickbar .quick_log .quick_btn .lockon{
+  width: 275px;
+  height: 45px;
+  margin-top: 15px;
+  background-color: #3d3326;
+  border: none;
+  font-family: 'GmarketSansMedium';
+  font-size: 18px;
+  color: white;
+}
+
+#quickbar .quick_log .quick_btn .forget{
+  width: calc(268px / 2);
+  height: 30px;
+  margin-top: 10px;
+  background: #8a7a67;
+  border: none;
+  color: white;
+  font-family: 'GmarketSanslight';
+}
+
+#quickbar .quick_log .joinmember{
+  width: 275px;
+  margin-top: 50px;
+  margin: auto;
+}
+
+#quickbar .quick_log .joinmember table{
+  margin-top: 10px;
+}
+
+
+#quickbar .quick_log .joinmember table tr td{
+  vertical-align: middle;
+}
+
+#quickbar .quick_log .joinmember table tr td button{
+  background: #3d3326;
+  float: right;
+  border: none;
+}
+
+#quickbar .quick_log .joinmember table tr td button a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+/* 프렌즈 */
+#friend{
+  width: 1200px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#friend .friend_text{
+  margin-bottom: 20px;
+}
+
+#friend .friend_text table{
+  width: 600px;
+  height: 50px;
+}
+
+#friend .friend_text tr{
+  width: 600px;
+}
+
+#friend .friend_text tr td{
+  vertical-align: middle;
+}
+
+#friend .friend_text tr .main_text{
+  font-size: 30px;
+  font-family: 'GmarketSansMedium';
+  width: 180px;
+}
+
+#friend .friend_text tr .icon{
+  background: url(/images/icon/membership.svg) no-repeat;
+  width: 30px;
+  text-indent: -9999px;
+}
+
+#friend .friend_btn{
+  background-color: #3d3326;
+  width: 180px;
+  height: 50px;
+  float: right;
+  position: relative;
+  bottom: 120px;
+  cursor: pointer;
+  border: none;
+}
+
+#friend .friend_btn h3 a{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'GmarketSanslight';
+  text-decoration: none;
+}
+
+#friend .friend_btn
+
+/* 프렌즈 박스영역 */
+
+#friend .friend_box table{
+  height: 400px;
+}
+
+#friend .friend_box table tr td{
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  padding-left: 15px;
+  line-height: 50px;
+}
+
+#friend .friend_box table tr .sub_t{
+  background-color: #8a7a67;
+  width: 200px;
+  text-align: center;
+  height: 50px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+#friend .friend_box table tr td ul li{
+  float: left;
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#friend .friend_box table tr td ul .notice{
+  font-size: 14px;
+  clear: both;
+  line-height: 20px;
+  list-style-type: none;
+  margin: 0;
+}
+
+#friend .friend_box table tr td .list_box li{
+  margin-right: 10px;
+  width: 266px;
+  }
+
+#friend .friend_box table tr td .list_box2 li{
+  margin-right: 10px;
+  width: 285px;
+  line-height: 25px;
+  padding: 10px 0 10px 0;
+}
+
+#friend .friend_box table tr td button{
+  margin-left: 15px;
+  background-color: #8a7a67;
+  border: none;
+  height: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+/* 패밀리 */
+
+#family{
+  width: 1200px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#family .family_text{
+  margin-bottom: 20px;
+}
+
+#family .family_text p{
+  line-height: 30px;
+}
+
+#family .family_text table{
+  width: 600px;
+  height: 50px;
+}
+
+#family .family_text tr{
+  width: 600px;
+}
+
+#family .family_text tr td{
+  vertical-align: middle;
+}
+
+#family .family_text tr .main_text{
+  font-size: 30px;
+  font-family: 'GmarketSansMedium';
+  width: 180px;
+}
+
+#family .family_text tr .icon{
+  background: url(/images/icon/membership.svg) no-repeat;
+  width: 30px;
+  text-indent: -9999px;
+}
+
+/* 패밀리 박스 영역 */
+
+#family .family_box table{
+  width: 1200px;
+  height: 400px;
+}
+
+#family .family_box table tr td{
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  padding-left: 15px;
+  line-height: 50px;
+}
+
+#family .family_box table tr .sub_t{
+  background-color: #8a7a67;
+  width: 200px;
+  text-align: center;
+  height: 50px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+#family .family_box table tr td ul li{
+  float: left;
+  list-style: disc;
+  margin-left: 20px;
+}
+
+
+#family .family_box table tr td ul .dues{
+  width: 290px;
+}
+
+#family .family_box table tr td ul .notice{
+  font-size: 14px;
+  clear: both;
+  line-height: 20px;
+  list-style-type: none;
+  margin: 0;
+}
+
+#family .family_box table tr td .list_box li{
+  margin-right: 10px;
+  width: 266px;
+  }
+
+#family .family_box table tr td .list_box2 li{
+  margin-right: 10px;
+  width: 285px;
+  line-height: 25px;
+  padding: 10px 0 10px 0;
+}
+
+/* 기프트 */
+
+
+#gift{
+  width: 1200px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#gift .gift_text{
+  margin-bottom: 20px;
+}
+
+#gift .gift_text p{
+  line-height: 30px;
+  width: 1200px;
+  clear: both;
+  position: relative;
+  bottom: 50px;
+}
+
+#gift .gift_text table{
+  width: 600px;
+  height: 50px;
+}
+
+#gift .gift_text tr{
+  width: 1200px;
+}
+
+#gift .gift_text tr td{
+  vertical-align: middle;
+}
+
+#gift .gift_text tr .main_text{
+  font-size: 30px;
+  font-family: 'GmarketSansMedium';
+  width: 200px;
+}
+
+#gift .gift_text tr .icon{
+  background: url(/images/icon/membership.svg) no-repeat;
+  width: 30px;
+  text-indent: -9999px;
+}
+
+#gift .gift_btn{
+  float: right;
+}
+
+
+#gift .gift_btn .buy_btn {
+  background-color: #3d3326;
+  width: 180px;
+  height: 50px;
+  float: left;
+  position: relative;
+  bottom: 80px;
+  cursor: pointer;
+  margin: 0.5rem;
+  border: none;
+}
+
+#gift .gift_btn .buy_btn h3 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  height: 48px;
+  line-height: 50px;
+  font-family: 'GmarketSanslight';
+  font-size: 18px;
+}
+
+/* 기프트 박스 영역 */
+
+#gift .gift_box table{
+  width: 1200px;
+  height: 400px;
+  position: relative;
+  bottom: 50px;
+}
+
+#gift .gift_box table tr td{
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  padding-left: 15px;
+  line-height: 50px;
+}
+
+#gift .gift_box table tr .sub_t{
+  background-color: #8a7a67;
+  width: 200px;
+  text-align: center;
+  height: 50px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+#gift .gift_box table tr td ul li{
+  float: left;
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#gift .gift_box table tr td ul li button{
+  background-color: #8a7a67;
+  margin-left: 20px;
+  border: none;
+  height: 25px;
+}
+
+#gift .gift_box table tr td ul li button a{
+  color: white;
+  text-decoration: none;
+}
+
+/* 질문 */
+
+#faq{
+  width: 1200px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#faq .faq_text{
+  margin-bottom: 20px;
+}
+
+#faq .faq_text p{
+  line-height: 30px;
+  width: 1200px;
+  margin-top: 20px;
+}
+
+#faq  .faq_text table{
+  width: 600px;
+  height: 50px;
+}
+
+#faq  .faq_text tr{
+  width: 1200px;
+}
+
+#faq .faq_text tr td{
+  vertical-align: middle;
+}
+
+#faq .faq_text tr .main_text{
+  font-size: 30px;
+  font-family: 'GmarketSansMedium';
+  width: 250px;
+  text-align: center;
+}
+
+#faq .faq_text tr .icon{
+  background: url(/images/icon/membership.svg) no-repeat;
+  width: 30px;
+  text-indent: -9999px;
+}
+
+#faq .faq_box table{
+  width: 1200px;
+}
+
+#faq .faq_box table tr{
+  height: 80px;
+  vertical-align: middle;
+  border-bottom: 1px solid #ccc;
+}
+
+#faq .faq_box table .tr_title td{
+  height: 50px;
+  padding: 20px 0 20px 20px;
+  border-style: none;
+}
+
+#faq .faq_box table .tr_title td span ul {
+  list-style: disc;
+}
+
+#coperate{
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#coperate .coper_text{
+  margin: 20px;
+}
+
+#coperate .coper_text p{
+  line-height: 30px;
+  width: 1200px;
+  margin-top: 20px;
+}
+
+#coperate .coper_text table{
+  width: 600px;
+  height: 50px;
+}
+
+#coperate .coper_text tr{
+  width: 1200px;
+}
+
+#coperate .coper_text tr td{
+  vertical-align: middle;
+}
+
+#coperate .coper_text tr .main_text{
+  font-size: 30px;
+  font-family: 'GmarketSansMedium';
+  width: 200px;
+  text-align: center;
+}
+
+#coperate .coper_text tr .icon{
+  background: url(/images/icon/membership.svg) no-repeat;
+  width: 30px;
+  text-indent: -9999px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 오른쪽 quick bar 영역 */
+
+.quickbar{
+  width: 80px;
+  height: 400px;
+  float: right;
+  position: relative;
+  z-index: 9999px;
+  bottom: 750px;
+  right: 0;
+}
+
+.quickbar ul{
+  position: fixed;
+  z-index: 9999;
+}
+
+.quickbar ul li{
+  width: 80px;
+  height: 90px;
+}
+
+.quickbar ul li a{
+  width: 80px;
+  height: 90px;
+  display: block;
+}
+
+.quickbar ul .quick01{
+  background: url(/images/quick_01.jpg);
+  text-indent: -9999px;
+}
+
+.quickbar ul .quick02{
+  background: url(/images/quick_02.jpg);
+  text-indent: -9999px;
+}
+
+.quickbar ul .quick03{
+  background: url(/images/quick_03.jpg);
+  text-indent: -9999px;
+}
+
+.quickbar ul .quick04{
+  background: url(/images/quick_04.jpg);
+  text-indent: -9999px;
+}
+
+.quickbar ul .quick05{
+  background: url(/images/quick_05.jpg);
+  text-indent: -9999px;
+  height: 42px;
+}
+
+.quickbar ul .quick01:hover{
+  background: url(/images/hover_01.jpg);
+  transition:  0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.quickbar ul .quick02:hover{
+  background: url(/images/hover_02.jpg);
+  transition:  0.3s ease 0s, left 0.3s ease 0s;
+}
+
+
+.quickbar ul .quick03:hover{
+  background: url(/images/hover_03.jpg);
+  transition:  0.3s ease 0s, left 0.3s ease 0s;
+}
+
+
+.quickbar ul .quick04:hover{
+  background: url(/images/hover_04.jpg);
+  transition:  0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.quickbar .loginform{
+  width: 354px;
+  height: 400px;
+  background: #fff;
+  position: fixed;
+  z-index: 9999;
+  right: 80px;
+  border: 1px solid #ccc;
+}
+
+.quickbar .loginform .message{
+  width: 254px;
+  height: 258px;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.quickbar .loginform .message h3{
+  font-size: 40px;
+}
+
+.quickbar .loginform .message p{
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.quickbar .loginform .message legend{
+  text-indent: -9999px;
+}
+
+.quickbar .loginform .message fieldset table{
+  width: 254px;
+  height: 80px;
+}
+
+.quickbar .loginform .message fieldset table tr{
+  margin-bottom: 5px;
+}
+
+.quickbar .loginform .message fieldset table td input{
+  width: 200px;
+  height: 25px;
+  border: 1px solid #ccc;
+}
+
+.quickbar .loginform .message fieldset .key{
+  width: 254px;
+  background-color: #3d3326;
+  color: white;
+  font-family:'GmarketSansMedium';
+  font-size: 18px;
+  border:none;
+  padding: 10px 0 10px 0;
+}
+
+.quickbar .loginform .message fieldset .forget button{
+  width: 123px;
+  height: 30px;
+  margin-top: 10px;
+  background: #8a7a67;
+  border: none;
+  color: white;
+}
+
+
+
+
+
+ 
+
+
+
+/* 뉴스레터구독 */
+#Subscribe{
+  z-index: -9999px;
+  width: 1200px;
+  height: 245px;
+  margin: auto;
+  position: relative;
+  bottom: 50px;
+  margin-bottom: 200px;
+  background: #141414;
+}
+
+.subc_text{
+  color: white;
+  height: 140px;
+  z-index: 9999;
+  padding: 50px 0px 50px 50px;
+  float: left;
+}
+
+.subc_text h3{
+  font-size: 50px;
+  color: #bfa37b;
+}
+
+.subc_text ul li{
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.subc_form{
+  width: 500px;
+  height: 140px;
+  float: right;
+  padding: 50px 50px 50px 0px;
+}
+
+.subc_form .email_form input{
+  width: 489px;
+  height: 50px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.subc_form .news_btn{
+  width: 246px;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border: none;
+  background: #8a7a67;
+}
+
+.subc_form .news_btn:hover{
+  background: #3d3326;
+}
+
+.subc_form .news_btn a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 246px;
+  line-height: 35px;
+  height: 40px;
+}
+
+.subc_form label input{
+  width: 15px;
+  height: 15px;
+  float: left;
+  border: none;
+  margin-right: 15px;
+}
+
+.subc_form label p{
+  line-height: 25px;
+  font-size: 15px;
+  color: white;
+}
+
+/* footer */
+
+.footer{
+  background:#8a7a67;
+  color:#fff;
+  width:100%;
+  height: 226px;
+  display: flex;
+  justify-content: center;
+  z-index: -50;
+}
+.footer a{
+  color:#fff
+}
+
+.footer_top{
+  height: 80px;
+  width: 100%;
+  position:relative;
+  background-color: #141414;
+  bottom: 80px;
+}
+
+.footer h2{
+  text-indent:-9999px;
+}
+
+.footer .hide{
+  text-indent:-9999px;
+}
+
+.footer_top .term{
+  width: 1200px;
+  margin: auto;
+}
+
+.footer_top .term ul{
+  position: relative;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_top .term ul li{
+  margin: 1rem;
+  text-align: center;
+  text-align: center;
+  float: left;
+}
+
+.footer_top .term ul li a{
+  text-decoration: none;
+}
+
+.footer_top .term ul li a:hover{
+  font-family: 'GmarketsansMedium';
+}
+
+.footer_b_box{
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.family_site{
+  clear: both;
+  width: 230px;
+  background-color: white;
+  float: right;
+  position: relative;
+}
+
+.family_site h3{
+  width: 190px;
+  height: 40px;
+  color: #000;
+  font-size: 18px;
+  font-family: 'GmarketsansMedium';
+  padding: 10px;
+  background: url(/images/drop.png) no-repeat;
+  background-position: right;
+  line-height: 40px;
+}
+
+.family_site ul{
+  position: absolute;
+  overflow: hidden;
+  width: 230px;
+  box-sizing: border-box;
+}
+
+.family_site ul li{
+  line-height: 25px;
+  font-size: 15px;
+  padding-left: 10px;
+  position: absolute;
+}
+
+
+.family_site ul li a{
+  color: #000;
+  text-decoration: none;
+}
+
+.footer_bottom{
+  width: 1200px;
+  margin: auto;
+}
+
+.footer_b_bot{
+  width: 174px;
+  height: 130px;
+  background: url(/images/lee_logo_w.svg) no-repeat;
+  opacity: 0.5;
+  float: left;
+  margin: 0 40px 0 0;
+}
+
+.footer_bottom address{
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer_bottom p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+

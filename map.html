@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/map.css" type="text/css">
+  <title>Leeum - 오시는길</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
+      <h2>메뉴소개</h2>
+      <ul>
+        <li><a href="/intro.html">미술관소개</a></li>
+        <li><a href="#">프로그램</a></li>
+        <li><a href="/place.html">편의시설</a></li>
+        <li><a href="/membership.html">멤버십안내</a></li>
+        <li><a href="#">자료실</a></li>
+        <li><a href="https://leeumstore.org/">리움스토어</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="quickbar">
+      <div class="quickbox">
+         <div class="quickright">
+         <ul>
+           <li class="bar1"><a href="#indexlogin">로그인</a></li>
+           <li class="bar2"><a href="/join01.html">회원가입</a></li>
+           <li class="bar3"><a href="#">마이페이지</a></li>
+           <li class="bar4"><a href="/map.html">오시는길</a></li>
+           <li class="bar5"><a href="#logo">top</a></li>
+         </ul>
+         </div>
+         <div class="quick_log" id="indexlogin">
+         <div class="quick_title">
+           <h3>LOG - IN</h3>
+           <p>리움미술관 홈페이지를 방문해주셔서 감사합니다.</p>
+         </div>
+         <div class="quick_form">
+           <table>
+             <tr>
+               <td>ID</td>
+               <td><input type="text" id="quicklogin" name="quickID" placeholder="아이디(이메일 주소)를 입력해주세요" autofocus></td>
+             </tr>
+             <tr>
+               <td>PW</td>
+               <td><input type="password" id="quickpassword" name="quickPW" placeholder="비밀번호를 입력해주세요"></td>
+             </tr>
+           </table>
+         </div>
+         <div class="quick_btn">
+           <button class="lockon">로그인</button>
+           <button class="forget">ID(아이디)찾기</button>
+           <button class="forget">PW(비밀번호)찾기</button>
+         </div>
+         <div class="joinmember">
+           <table width="275px">
+             <tr>
+               <td style="font-size: 15px;">아직 회원이 아니신가요?</td>
+               <td><button><a href="join01.html">회원가입하기</a></button></td>
+             </tr>
+           </table>
+         </div>
+         </div>
+      </div>
+     </section>
+
+    <section id="title">
+      <div class="title_text">
+      <h3>위치안내</h3>
+      <p>Way to come Leeum</p>
+      </div>
+    </section>
+
+    <section id="map">
+      <div class="map_text">
+        <table>
+          <tr>
+            <td colspan="3" class="icon">위치</td>
+            <td class="main_text">위치안내</td>
+            <td class="eng_text">Location Information</td>
+          </tr>
+        </table>
+      </div>
+      <div id="daumRoughmapContainer1632469614693" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+      <div class="infomation">
+        <table>
+          <tr>
+            <td class="table_box"><img src="/images/icon/pin.svg" width="25px">&nbsp;&nbsp;주소</td>
+            <td>삼성미술관 리움 서울특별시 용산구 이태원로55길 60-16 04348 (한남동, 삼성미술관 Leeum)</td>
+          </tr>
+          <tr>
+            <td class="table_box"><img src="/images/icon/tel.svg" width="60px">&nbsp;&nbsp;TEL</td>
+            <td>02-2014-6901</td>
+          </tr>
+          <tr>
+            <td class="table_box"><img src="/images/icon/train.svg" width="25px">&nbsp;&nbsp;대중교통</td>
+            <td>지하철 6호선 한강진역 1번출구에서 이태원 방향으로 100m 이동 후, 오른쪽 첫번째 골목에서 우회전하여<br>언덕길로 약 5분정도 올라옵니다.</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    
+
+    <section id="lobi">
+      <div class="lobi_text">
+        <table>
+          <tr>
+            <td colspan="3" class="icon">지도</td>
+            <td class="main_text">미술관 안내</td>
+            <td>Museum Map</td>
+          </tr>
+        </table>
+      </div>
+      <img src="./images/leeum_map.jpg" alt="leeum_map" width="1200">
+    </section>
+    
+    <section id="parking">
+      <div class="park_text">
+        <table>
+          <tr>
+            <td colspan="3" class="icon">주차</td>
+            <td class="parking_text">주차장 안내</td>
+            <td>Parkgin</td>
+          </tr>
+        </table>
+      </div>
+    <img src="/images/parking.jpg" alt="parking" width="1200">
+    <div class="parking_info">
+      <p>미술관 이용 시 주차 가능한 공간이 <strong>주차장 입구와 지하 3층</strong>에 마련되어있습니다.<br>
+      <strong>운영시간: 10:30~18:00 (미술관 운영시간 기준)</strong><br>
+      <Br>
+      ※ 주차공간이 협소하므로 대중교통을 이용을 권장합니다.</p>
+    </div>
+    </section>
+
+
+  </main>
+    <div class="clerfix"></div>
+  <section id="Subscribe">
+    <div class="subc_text">
+      <h3>Subscribe</h3>
+      <br>
+      <p>리움의 최신 정보를 받아보길 원하시면 이메일 주소를 남겨주세요!</p>
+      <br>
+      <ul>
+        <li>수집항목 : 이메일주소  |  보유기간 : 메일 수신거부 신청 시 까지</li> 
+        <li>수집목적 : 전시 및 프로그램 등 리움 관련 소식 메일 발송</li>
+      </ul>
+    </div>
+    <div class="subc_form">
+      <form action="#" method="POST">
+        <div class="email_form">
+            <label for="이메일">
+              <input type="email" class="email_form">
+            </label>
+        </div>
+        <br>
+        <label for="sub_btn">
+          <button type="submit" class="news_btn"><a href="#">등록하기</a></button>
+          <button type="submit" class="news_btn"><a href="#">해지하기</a></button>
+        </label>
+        <br>
+        <label for="agree">
+          <input type="checkbox">
+          <p>정보 안내를 위한 이메일 수집 및 광고성 메일 수신에 동의합니다.</p>
+        </label>
+      </form>
+    </div>
+
+  </section>
+ <footer id="footer" class="footer">
+        <div class="footer_top">
+            <h2>사이트 이용안내</h2>
+
+            <div class="term">
+                <h3 class="hide">약관 및 정책</h3>
+                <ul>
+                    <li><a href="map.html">오시는길</a></li>
+                    <li><a href="#">이메일문의</a></li>
+                    <li><a href="#">이메일 무단수집거부</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                </ul>
+            </div>
+            <div class="footer_b_box">
+                <div class="family_site">
+                    <h3>Family Site</h3>
+                    <ul>
+                        <li><a href="#">호암미술관</a></li>
+                        <li><a href="#">삼성문화재단</a></li>
+                        <li><a href="#">삼성아동교육문화센터</a></li>
+                        <li><a href="#">호암재단</a></li>
+                        <li><a href="#">삼성장학회</a></li>
+                        <li><a href="#">드림클래스</a></li>
+                    </ul>
+                </div>            
+            </div>
+
+            <div class="footer_bottom">
+               <div class="footer_b_bot">
+               </div>
+               <address>Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, Korea 04348</address>
+                <p>Copyright ⓒ Leeum 2011-2021, All Rights Reserved.</p>
+            </div>
+      </div>
+    </footer>   
+
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+<script src="/javascirpt/map.js"></script>
+
+
+  </body>
+  </html>

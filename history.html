@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/history.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="https://kit.fontawesome.com/911513e2e2.js" crossorigin="anonymous"></script>
+
+  <title>Leeum - 지난전시</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
+      <h2>메뉴소개</h2>
+      <ul>
+        <li><a href="/intro.html">미술관소개</a></li>
+        <li><a href="#">프로그램</a></li>
+        <li><a href="/place.html">편의시설</a></li>
+        <li><a href="/membership.html">멤버십안내</a></li>
+        <li><a href="#">자료실</a></li>
+        <li><a href="https://leeumstore.org/">리움스토어</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+
+    <section id="quickbar">
+      <div class="quickbox">
+         <div class="quickright">
+         <ul>
+          <li class="bar1"><a href="indexlogin">로그인</a></li>
+          <li class="bar2"><a href="join01.html">회원가입</a></li>
+          <li class="bar3"><a href="mypage.html">마이페이지</a></li>
+          <li class="bar4"><a href="map.html">오시는길</a></li>
+          <li class="bar5"><a href="#logo">top</a></li>
+         </ul>
+         </div>
+         <div class="quick_log" id="indexlogin">
+         <div class="quick_title">
+           <h3>LOG - IN</h3>
+           <p>리움미술관 홈페이지를 방문해주셔서 감사합니다.</p>
+         </div>
+         <div class="quick_form">
+           <table>
+             <tr>
+               <td>ID</td>
+               <td><input type="text" id="quicklogin" name="quickID" placeholder="아이디(이메일 주소)를 입력해주세요" autofocus></td>
+             </tr>
+             <tr>
+               <td>PW</td>
+               <td><input type="password" id="quickpassword" name="quickPW" placeholder="비밀번호를 입력해주세요"></td>
+             </tr>
+           </table>
+         </div>
+         <div class="quick_btn">
+           <button class="lockon">로그인</button>
+           <button class="forget">ID(아이디)찾기</button>
+           <button class="forget">PW(비밀번호)찾기</button>
+         </div>
+         <div class="joinmember">
+           <table width="275px">
+             <tr>
+               <td style="font-size: 15px;">아직 회원이 아니신가요?</td>
+               <td><button><a href="join01.html">회원가입하기</a></button></td>
+             </tr>
+           </table>
+         </div>
+         </div>
+      </div>
+     </section>
+
+    <section id="title">
+      <div class="title_text">
+      <h3>지난 전시</h3>
+      <p>Exhibition Leeum</p>
+      </div>
+    </section>
+
+    <div class="menu_wrap">
+      <ul class="dep1">
+        <li>
+          <a href="m1.html">M1 - 고미술</a>
+          <ul class="dep2">
+            <li><a href="#f1">1F 권위와 신앙, 화려함의 세계</a></li>
+            <li><a href="#f2">2F 감상과 취향</a></li>
+            <li><a href="#f3">3F 흰빛의 여정</a></li>
+            <li><a href="#f4">4F 푸른빛 문양 한점</a></li>
+          </ul>
+        </li>
+        <li><a href="m2.html">M2 - 현대미술</a>
+          <ul class="dep2">
+            <li><a href="#b1">B1 이상한 행성</a></li>
+            <li><a href="#curf1">1F 중력의 역방향</a></li>
+            <li><a href="#curf2">2F 검은 공백</a></li>
+          </ul>
+        </li>
+        <li><a href="mainevent.html">인간, 일곱개의 질문</a></li>
+        <li><a href="history.html">지난전시</a></li>
+      </ul>
+    </div>
+
+    
+
+    <section id="m_intro">
+      <h2>지난 전시</h2>
+      <p>지난 전시 항목을 조회하실 수 있습니다.</p>
+      <div class="search">
+        <input type="text">
+        <button type="button">검색하기</button>
+      </div>
+    </section>
+    <div class="filter">
+      <div class="filterbox">
+      <p>연도별</p>
+      <div class="prev"><i class="fas fa-chevron-left"></i></div>
+      <ul>
+        <li><input type="radio">2021</li>
+        <li><input type="radio">2020</li>
+        <li><input type="radio">2019</li>
+        <li><input type="radio">2018</li>
+        <li><input type="radio">2017</li>
+        <li><input type="radio">2016</li>
+        <li><input type="radio">2015</li>
+        <li><input type="radio">2014</li>
+        <li><input type="radio">2014</li>
+        <li><input type="radio">2014</li>
+      </ul>
+      <div class="next"><i class="fas fa-chevron-right"></i></div>
+    </div>
+    </div>
+    <section id="thumbnail"> 
+      <div class="topnail">
+        <div class="nail01">
+          <h3 class="nail_img">
+            올라퍼 엘리아슨 세상의 모든 가능성
+          </h3>
+          <div class="nail_text">
+            <p class="nail_title">
+              <span class="maintext">올라퍼 엘리아슨<br>세상의 모든 가능성</span>
+              <br>
+
+            </p> 
+          </div>
+          <div class="daysbox">
+            <p class="days">
+              기획전시장<br>
+              2016.09.28 – 2017.02.26</p> 
+            <button type="button" class="gopage">More View</button>
+          </div>  
+        </div>
+
+        <div class="nail02">
+          <h3 class="nail_img">
+            산수, 이상향의 재현
+          </h3>
+          <div class="nail_text">
+            <p class="nail_title">
+              <span class="maintext">산수, 이상향의 재현</span>
+              <br>
+            </p> 
+          </div>
+          <div class="daysbox">
+            <p class="days">
+              M1 - 2F<br>
+              2016.08.09 – 2017.02.12</p> 
+            <button type="button" class="gopage">More View</button>
+          </div>  
+        </div>
+
+        <div class="nail03">
+          <h3 class="nail_img">
+            분청사기, 무늬에 깃든 마음
+          </h3>
+          <div class="nail_text">
+            <p class="nail_title">
+              <span class="maintext">분청사기, 무늬에 깃든 마음</span>
+              <br>
+            </p> 
+          </div>
+          <div class="daysbox">
+            <p class="days">
+              M1 - 3F<br>
+              2016.03.22 – 2016.08.07
+            </p> 
+            <button type="button" class="gopage">More View</button>
+          </div>  
+        </div>
+
+        <div class="nail04">
+          <h3 class="nail_img">
+            아트스펙트럼 2016
+          </h3>
+          <div class="nail_text">
+            <p class="nail_title">
+              <span class="maintext">아트스펙트럼 2016</span>
+              <br>
+            </p> 
+          </div>
+          <div class="daysbox">
+            <p class="days">2013.03.28 - 2013.06.09</p> 
+            <button type="button" class="gopage">More View</button>
+          </div>  
+        </div>
+      </div>
+
+      <div class="topnail">
+        <div class="nail05">
+          <h3 class="nail_img">
+            아니쉬 카
+          </h3>
+          <div class="nail_text">
+            <p class="nail_title">
+              <span class="maintext">아니쉬 카푸어</span>
+              <br>
+            </p> 
+          </div>
+          <div class="daysbox">
+            <p class="days">2012.10.25 - 2013.02.08</p> 
+            <button type="button" class="gopage">More View</button>
+          </div>  
+        </div>
+
+        <div class="nail06">
+          <h3 class="nail_img">
+            피필로티 리스트 : 하늘로 오르다
+          </h3>
+          <div class="nail_text">
+            <p class="nail_title">
+              <span class="maintext">피필로티 리스트 : <br> 하늘로 오르다
+              </span>
+              <br>
+             
+            </p> 
+          </div>
+          <div class="daysbox">
+            <p class="days">2012.07.19 - 2012.09.16</p> 
+            <button type="button" class="gopage">More View</button>
+          </div>  
+        </div>
+
+        <div class="nail07">
+          <h3 class="nail_img">
+            조선화원대전
+          </h3>
+          <div class="nail_text">
+            <p class="nail_title">
+              <span class="maintext">조선화원대전</span>
+              <br>
+              
+            </p> 
+          </div>
+          <div class="daysbox">
+            <p class="days">2013.12.05 - 2014.03.23</p> 
+            <button type="button" class="gopage">More View</button>
+          </div>  
+        </div>
+
+        <div class="nail08">
+          <h3 class="nail_img">
+            미장센-연출된 장면들
+          </h3>
+          <div class="nail_text">
+            <p class="nail_title">
+              <span class="maintext">미장센 - 연출된 장면들</span>
+              <br>
+              <span>MISE-EN-SCENE</span>
+            </p> 
+          </div>
+          <div class="daysbox">
+            <p class="days">2013.03.28 - 2013.06.09</p> 
+            <button type="button" class="gopage">More View</button>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <section class="pages">
+      <ul>
+        <li>prev</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>next</li>
+      </ul>
+    </section>
+
+  </main>
+
+    <div class="clerfix"></div>
+  <section id="Subscribe">
+    <div class="subc_text">
+      <h3>Subscribe</h3>
+      <br>
+      <p>리움의 최신 정보를 받아보길 원하시면 이메일 주소를 남겨주세요!</p>
+      <br>
+      <ul>
+        <li>수집항목 : 이메일주소  |  보유기간 : 메일 수신거부 신청 시 까지</li> 
+        <li>수집목적 : 전시 및 프로그램 등 리움 관련 소식 메일 발송</li>
+      </ul>
+    </div>
+    <div class="subc_form">
+      <form action="#" method="POST">
+        <div class="email_form">
+            <label for="이메일">
+              <input type="email" class="email_form">
+            </label>
+        </div>
+        <br>
+        <label for="sub_btn">
+          <button type="submit" class="news_btn"><a href="#">등록하기</a></button>
+          <button type="submit" class="news_btn"><a href="#">해지하기</a></button>
+        </label>
+        <br>
+        <label for="agree">
+          <input type="checkbox">
+          <p>정보 안내를 위한 이메일 수집 및 광고성 메일 수신에 동의합니다.</p>
+        </label>
+      </form>
+    </div>
+
+  </section>
+ <footer id="footer" class="footer">
+        <div class="footer_top">
+            <h2>사이트 이용안내</h2>
+
+            <div class="term">
+                <h3 class="hide">약관 및 정책</h3>
+                <ul>
+                    <li><a href="map.html">오시는길</a></li>
+                    <li><a href="#">이메일문의</a></li>
+                    <li><a href="#">이메일 무단수집거부</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                </ul>
+            </div>
+            <div class="footer_b_box">
+                <div class="family_site">
+                    <h3>Family Site</h3>
+                    <ul>
+                        <li><a href="#">호암미술관</a></li>
+                        <li><a href="#">삼성문화재단</a></li>
+                        <li><a href="#">삼성아동교육문화센터</a></li>
+                        <li><a href="#">호암재단</a></li>
+                        <li><a href="#">삼성장학회</a></li>
+                        <li><a href="#">드림클래스</a></li>
+                    </ul>
+                </div>            
+            </div>
+
+            <div class="footer_bottom">
+               <div class="footer_b_bot">
+               </div>
+               <address>Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, Korea 04348</address>
+                <p>Copyright ⓒ Leeum 2011-2021, All Rights Reserved.</p>
+            </div>
+      </div>
+    </footer>   
+
+    <script>
+      $(document).ready(function () {
+        $('.slider').bxSlider();
+      });
+    </script>
+
+
+  </body>
+  </html>

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/jean.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <style>
+    .bx-wrapper {
+      border: none;
+      box-shadow: none;
+      margin-top: 50px;
+    }
+
+    .bx-wrapper .bx-controls .bx-next {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_right.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+
+    .bx-wrapper .bx-controls .bx-prev {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_left.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+  </style>
+  <title>Leeum - 건축 / 장 누벨</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
+      <h2>메뉴소개</h2>
+      <ul>
+        <li><a href="/intro.html">미술관소개</a></li>
+        <li><a href="#">프로그램</a></li>
+        <li><a href="/place.html">편의시설</a></li>
+        <li><a href="/membership.html">멤버십안내</a></li>
+        <li><a href="#">자료실</a></li>
+        <li><a href="https://leeumstore.org/">리움스토어</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="quickbar">
+      <div class="quickbox">
+        <div class="quickright">
+          <ul>
+            <li class="bar1"><a href="#indexlogin">로그인</a></li>
+            <li class="bar2"><a href="/join01.html">회원가입</a></li>
+            <li class="bar3"><a href="#">마이페이지</a></li>
+            <li class="bar4"><a href="/map.html">오시는길</a></li>
+            <li class="bar5"><a href="#logo">top</a></li>
+          </ul>
+        </div>
+        <div class="quick_log" id="indexlogin">
+          <div class="quick_title">
+            <h3>LOG - IN</h3>
+            <p>리움미술관 홈페이지를 방문해주셔서 감사합니다.</p>
+          </div>
+          <div class="quick_form">
+            <table>
+              <tr>
+                <td>ID</td>
+                <td><input type="text" id="quicklogin" name="quickID" placeholder="아이디(이메일 주소)를 입력해주세요" autofocus></td>
+              </tr>
+              <tr>
+                <td>PW</td>
+                <td><input type="password" id="quickpassword" name="quickPW" placeholder="비밀번호를 입력해주세요"></td>
+              </tr>
+            </table>
+          </div>
+          <div class="quick_btn">
+            <button class="lockon">로그인</button>
+            <button class="forget">ID(아이디)찾기</button>
+            <button class="forget">PW(비밀번호)찾기</button>
+          </div>
+          <div class="joinmember">
+            <table width="275px">
+              <tr>
+                <td style="font-size: 15px;">아직 회원이 아니신가요?</td>
+                <td><button><a href="join01.html">회원가입하기</a></button></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="title">
+      <div class="title_text">
+        <h3>리움미술관 건축인터뷰 - 장 누벨</h3>
+        <p>Architect Interview Leeum with Jean Nouvel</p>
+      </div>
+    </section>
+
+    <div class="menu_wrap">
+      <ul class="dep1">
+        <li>
+          <a href="mario.html">마리오보타 - Mario Botta</a>
+          <ul class="dep2">
+            <li><a href="#museum1">MUSEUM 1</a></li>
+            <li><a href="#texture">Architect Tour</a></li>
+            <li><a href="#mario">Mario Botta</a></li>
+            <li><a href="#interview">Interview</a></li>
+          </ul>
+        </li>
+        <li><a href="jean.html">장 누벨 - Jean Nouvel</a>
+          <ul class="dep2">
+            <li><a href="#museum2">MUSEUM 2</a></li>
+            <li><a href="#texture">Architect Tour</a></li>
+            <li><a href="#jean">Jean Nouvel</a></li>
+            <li><a href="#interview">interview</a></li>
+          </ul>
+        </li>
+        <li><a href="rem.html">렘 쿨하스 - Rem Koolhaas</a>
+          <ul class="dep2">
+            <li><a href="">삼성아동교육문화센터</a></li>
+            <li><a href="">Architect Tour</a></li>
+            <li><a href="">Rem Koolhaas</a></li>
+            <li><a href="">interview</a></li>
+          </ul>
+        </li>
+       
+      </ul>
+    </div>
+
+    <section id="museum2">
+      <h2>첨단기술과 현대 예술이 만들어내는 감각적 이미지 - MUSEUM 2</h2>
+      <div class="slider">
+        <div><img src="/images/jean/slide_page_1.jpg" alt="page1"></div>
+        <div><img src="/images/jean/slide_page_2.jpg" alt="page2"></div>
+        <div><img src="/images/jean/slide_page_3.jpg" alt="page3"></div>
+        <div><img src="/images/jean/slide_page_4.jpg" alt="page4"></div>
+        <div><img src="/images/jean/slide_page_5.jpg" alt="page5"></div>
+        <div><img src="/images/jean/slide_page_6.jpg" alt="page6"></div>
+        <div><img src="/images/jean/slide_page_7.jpg" alt="page7"></div>
+        <div><img src="/images/jean/slide_page_8.jpg" alt="page8"></div>
+        <div><img src="/images/jean/slide_page_9.jpg" alt="page9"></div>
+        <div><img src="/images/jean/slide_page_10.jpg" alt="page10"></div>
+        <div><img src="/images/jean/slide_page_11.jpg" alt="page11"></div>
+        <div><img src="/images/jean/slide_page_12.jpg" alt="page12"></div>
+        <div><img src="/images/jean/slide_page_13.jpg" alt="page13"></div>
+      </div>
+
+      <div class="introbox">
+        <p>
+          첨단 테크놀로지로 구현되는 기술 미학과 현대 예술이 교차하는 접점에서 건축 디자인에 임해온 장 누벨은 건축을 
+          "공간을 구성하는 기술일 뿐만 아니라 이미지를 생산하는 작업"이라고 규정합니다. 삼성미술관 Leeum의 MUSEUM 2는 그러한 장 누벨의 디자인 프로세스가 
+          가장 잘 구현된 작품입니다.<br><br>
+
+          움푹 패인 대지 속에서 육중하게 솟아난 장 누벨의 MUSEUM 2는 대지 위로 자라난 나무들과 함께 그 형상 자체가 계속 생성되고 있는 현대 미술을 상징하는 듯합니다. 
+          지상으로 올라온 상층부는 유리로 된 외벽과 다양한 크기의 직육면체‘전시박스(cube)’를 주 요소로 삼고 있습니다 자유분방하게 배치되는 이 전시박스들은 건물 내부로는 
+          관람객들에게 새로운 전시 공간을 체험하게 하며, 동시에 건물의 외부 형태를 역동적으로 만들어 줍니다.<br><br>MUSEUM 2는 삼성미술관 Leeum의 한국 근·현대미술가뿐 아니라 
+          도널드 저드(Donald Judd), 데미안 허스트(Damien Hirst) 등 세계 정상의 현대 미술가들을 망라하는 상설 전시 공간으로 사용됩니다. 
+          관람객들은 로비를 통해 진입하게 됩니다.
+
+          전시박스의 재료는 세계 최초로 시도되는 부식 스테인레스 스틸입니다. 녹이 슬지 않도록 처리된 스테인레스 스틸에 녹을 슬게 한다는 이 역설적 발상을 구현하기 위하여 
+          수많은 견본 검토와 테스트를 거쳐야 했습니다. 사물을 역설적으로 바라봄으로써 새로운 의미를 생성해내는 현대미술처럼 MUSEUM 2는 기존의 생각을 뛰어넘는 재료와 
+          공간을 통해 건물 자체를 도시의 대지 위에 들어선 하나의 거대한 미술품으로 승화시켜 냅니다.
+        </p>
+        <table>
+          <tr>
+            <td class="title">건축가</td>
+            <td>Jean Nouvel (장 누벨)</td>
+            <td class="title">대지면적</td>
+            <td>1,787㎡</td>
+          </tr>
+          <tr>
+            <td class="title">연면적</td>
+            <td>5,167㎡</td>
+            <td class="title">규모</td>
+            <td>지상 2층, 지하 3층</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="arch" id="texture">
+        <h3 class="arch_title">Architect Tour</h3>
+        <div class="arch1">
+          <div class="arch_img">
+            <img src="/images/jean/jean_step01.jpg" alt="건축재질">
+          </div>
+          <div class="arch_text">
+            <h3>건축재질 - 부식 스테인레스 철판과 투명한 유리의 극적인 대비</h3>
+            <br>
+            <p>
+              MUSEUM 2는 극도이 투명도를 추구한 저철분 유리와 
+              부식 스테인레스 철판을 주재료로 사용했습니다.
+
+              유리면으로부터 돌출되어 자유분방하게 배치되어 있는 전시 박스들은 
+              부식 스테인레스 철판으로 인해 둔중하면서도 예리한 감각을 느끼게 합니다.<br><br>
+
+              Leeum 프로젝트의 건축 설계사는 스테인레스 철판이 녹슬 수 있는지를 밝히기 위해 미국의 
+              부식 전문가 마크 퀀란과 함께 수많은 실험을 거쳐, 마침내 세계 최초로 
+              '흑화 피막을 지닌 스테인레스 스틸', 일명 '블랙 파티나'를 개발했습니다.
+              이 블랙 파티나로 감싸인 전시 박스들은 내부에서는 불규칙한 기하학적 라인을 형성하는 동시에 
+              작품의 전시 공간을 확보하는 역할을 하며, 외부에서 보았을 때는 금속 고유의 묵직한 질량감으로 
+              인해 건물이 대지를 파고들며 내려앉다 다시 솟아오르는 듯한 인상을 강화시켜 줍니다.
+              
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="arch2">
+          <div class="arch_img">
+            <img src="/images/jean/jean_step02.jpg" alt="로비">
+          </div>
+          <div class="arch_text">
+            <h3>개비온 월과 썬큰가든 - 건축 대지에서 나온 재료로<br>자연의 
+              흔적과 표정</h3>
+            <br>
+            <p>
+              MUSEUM 2 디자인의 특징은 건물을 앉히기 위해 대지를 파들어 갈 때 자연적으로 발생한 
+              지하 벽면의 형태를 그대로 살려 형상화했다는 점입니다.<br><br>
+
+              즉 땅을 파헤칠 때 형성된 지하 테두리에서 건물을 한 발짝 뒤로 물러나게 함으로써, 건축물을 
+              땅과 마주보며 서 있게 한 것입니다. 지하 벽면과 건물 사이의 공간은 정원 
+              [썬큰 가든 (sunken garden) : 상부로 열려져 있어 지상과 동일하게 빛이 들어 오는, 지면보다 
+              낮은 정원]으로 활용했고,<br><br>지하 벽면의 외장은 기초 공사를 하면서 나온 암반석을 잘게 쪼개어 
+              철제 프레임에 담은 '개비온(gabion, 돌망태)'을 쌓아올려 만들었습니다.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="arch3">
+          <div class="arch_img">
+            <img src="/images/jean/jean_step03.jpg" alt="전시공간">
+          </div>
+          <div class="arch_text">
+            <h3>전시공간 - 현대미술의 특성을 살린 '자유로이 유동하는 공간'</h3>
+            <br>
+            <p>
+              주 전시홀은 포스트 텐션(post-tension)구조 공법을 도입해 전시장 내에<br>기둥이 없는 
+              열린 공간을 구현했습니다.
+              <br><Br>
+              현대미술의 특성을 살린 전시를 위한 '자유로이 유동하는' 공간을 만든 것입니다.
+              또한 어두운 전시 박스는 천장의 틈새를 통해 빛이 새어나오게 함으로써 빛과 어둠이 
+              함께 어우러진 공간을 연출해 냅니다. 그리고 지하 1층에서 볼 수 있는 지상 1층의 돌출된 
+              발코니 공간 두 층과의 사이에 설치된 중간층 공간은 비디오상영과 매체 전시를 위해
+              사용됩니다.
+              <br><br>
+              이렇게 빛과 공간을 적절히 조절하여 전시 기획 의도에 따라 유연한 공간 연출을 할 수 있게 한
+              MUSEUM 2는 관람객에게 새로운 전시 공간을<br>체험하게 할 것입니다.
+            </p>
+          </div>
+        </div>
+
+       
+    </section>
+
+    <section id="jean">
+      <div class="jean_intro">
+        <div class="jeantext">
+          <h2>나는 건축 안에 예술을 넣고 도시 안에 건축을 넣는다.</h2>
+          <h3>이미지 건축으로 미래의 시를 쓰는 예술가, 장 누벨</h3>
+          <p>
+            프랑스 출신의 건축가 장 누벨은 건축계뿐만 아니라 문화 예술계 전반에<br>걸쳐 
+            국제적으로 그 이름이 널리 알려진 인물입니다. 1945년 생으로,<br>파리 국립 고등 예술학교 
+            에콜 데 보자르를 수석 입학할 정도로<br>일찍이 그 천재성을 드러냈습니다.
+            <br><br>
+            장 누벨은 1976년 프랑스의 건축 운동 ‘Mars 1976’을 주도하고, 1980년에는 
+            파리의 건축 비엔날레 예술 부분의 기획을 맡는 등 전방위적 활동을 펼쳐 왔으며, 
+            1983년 예술가와 문학가에게 주어지는 기사 작위를<br>수여받은 바 있습니다.
+            <br><br>
+            1987년 완공된 파리의 아랍 문화원은 아랍과 유럽 문화의 관계, 전통과 현대의 충돌을 
+            축적으로 표현해 극찬을 받은 그의 대표작입니다. 
+          </p>
+          <button><a href="http://www.jeannouvel.com/">Visit Web Site</a></button>
+        </div>
+        <div class="profile">건축가 장누벨</div>
+      </div>
+      <div class="jean_intro2">
+        <div class="work"><img src="/images/jean/jean_work.jpg" alt="work"></div>
+        <div class="jeantext2">
+          그 밖에 파리의 카르티에 재단, 리옹 오페라 하우스, 최근 완공된 프라하의 안델 빌딩 등을 
+          꼽을 수 있으며, 가우디의 사그라다 파밀리아와 함께 바르셀로나의 새로운 랜드마크가 될 
+          아그바 타워가<br>완공을 기다리고 있습니다.
+          <br><br>
+          장 누벨은 여러 작품을 통해서 현대적이며 미래지향적인 도시적 감성을 표현해 왔습니다. 
+          유리, 철 등의 차가운 재료를 즐겨 사용하여 예리하고 세련된 이미지를 창출하는 
+          장 누벨의 건축은 하나의 거대한<br>예술품으로 비유되곤 합니다.<br><br> 
+
+          건축을 시적 차원으로 승화시켜야 한다고 주장하는 장 누벨은 예술가들처럼 직관적인 
+          영감에 따라 설계에 임합니다. 첨단의 테크놀로지와 현대 예술의 미감이 교차하는 
+          접점 위에서 발현되어 온 그의 건축은 급진적이고 도전적입니다.<br><br>
+
+          장 누벨이 왜 직관에 따라 건축 디자인을 하며, 그의 건축이 왜 시적 이미지로 
+          가득 차 있는지는 다음과 같은 말에서 확인할 수 있습니다.
+        </div>
+      </div>
+    </section>
+
+    <section id="jean02">
+      <div class="text">
+        <div class="textbox">
+          <p>
+            좋은 건축은 우리에게 현대의 문제점을 일깨워주고,<br>
+            현대가 진부한 시대로 전락하지 않도록 저항하게 하는 도구입니다.<br>
+            건축은 인간을 훨씬 능가하는 수명을 가지고 있습니다.
+            <br><br>
+            그것은 우리 시대 감성과 감수성의 척도이자,<br>
+            동시에 과거를 증언하는, 흔치 않은 인간 행위입니다.
+          </p>
+          <p class="saying">나무의 가지와 뿌리처럼 다양한 공간의 이야기를 들어 보십시오.</p>
+          <img src="/images/jean/jean_sign_w.svg" alt="signature" width="230px">
+        </div>
+        
+      
+      </div>
+    </section>
+    <section id="interview">
+      <iframe width="1200" height="675" src="https://www.youtube.com/embed/DKpuXPbJzlk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <div class="qanda">
+        <h3>장 누벨 (Jean Nouvel) - 인터뷰 전문</h3>
+        <div class="q01">
+          <div class="question"><span>Q</span>
+            <p>Leeum 프로젝트를 맡았을 때 소감은 어떠셨습니까? 그리고 프로젝트의 주된 컨셉트는 무엇입니까?</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              오래 전에 이 프로젝트에 착수했는데 당시 건축 부지에는 여러 다른 건물들도 있었습니다.<br> 
+              초기에 제 관심사는 지형과의 관계를 염두에 두고 건물을 해당 공간의 굴곡 가운데 일부로 자리 잡게 하는 것이었습니다.<br>
+              백지 상태의 공간이 아니라 도시 속에서 오랜 흔적을 지닌 굴곡 말입니다.<br><br>그러던 것이 프로젝트가 구체화되자 건물이 공간에 편입되려면 
+              그 육중한 땅으로부터솟아 나와야 한다는 생각에 도달했습니다. 미술관의 방문객들은 깊은 곳에서 건물이 빠져나온 듯한 느낌을 받게 될 것입니다. 
+              나무들도 건물 입구 높이에 심는 것이 아니라 10에서 15m 정도 낮은 곳에 심습니다.<br><br>
+              수평과 굴곡의 대비를 보여주는 건축이라 할 수 있지요. 
+              그리고 굴곡진 땅에서 솟아난 형태로 땅을 닮은 다양한 볼륨을 보여주게 됩니다. 다소 자의적으로 보일 수도 있겠지만 그 차이와 방향에 따라 
+              다양한 가능성을 지닌 내부 공간이 창조됩니다.
+            </p>
+          </div>
+        </div>
+        <hr class="interview_line">
+
+        <div class="q02">
+          <div class="question"><span>Q</span>
+            <p>부식 스테인레스 스틸이라는 독특한 재료를 사용하셨는데, 어떤 의도에서 그런 재료를 선택하게 되었는지 말씀해 주십시오.</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              MUSEUM 2는 철과 유리로 된 건물입니다.<br>
+              여기에 사용된 철제는 매우 모호한 성격을 띠고 있습니다. 흔히 볼 수 있는 산화성 금속이 아니거든요.<br>이미 녹슨 금속도 아니고 부식되어 가는 금속도 아니지요. 
+              윤이 나는 짙은 회색 돌처럼 보이기도 하고요.<br>빛을 받아들이면서도 동시에 어두운 빛을 띠고 있습니다. 다양한 특질들을 한번에 보여 주는 소재, 
+              존재하는 동시에<br>부재하는 듯한 소재입니다.<br><br>녹슨 금속을 특별히 즐겨 사용하는 것은 아닙니다. 암석이나 지형의 느낌을 암시하는 소재를 찾았지요. 
+              또 하나 중요한 것은 이 볼륨들이 주는 금속 고유의 덩어리감입니다. 이 전시 박스들 사이에는 유리가 있습니다. 
+
+              유리가 암시하는 부재감은 금속 상자의 덩어리감과 강한 대비를 이룹니다. 금속 상자의 각진 형태는 유리창을 거치면서 부드러워집니다. 
+              기계적인 느낌이 들지 않도록 한 것입니다. 저에게 건축은 존재감과 부재감 사이에 이루어지는 대화라고 할 수 있습니다.
+            </p>
+          </div>
+        </div>
+        <hr class="interview_line">
+
+        <div class="q03">
+          <div class="question"><span>Q</span>
+            <p>건물 바깥으로 보이는 회색의 금속 상자(전시박스)들이 아름답고 인상적인데요. 어떻게 이런 독창적 구상을 하게 되었습니까?<br>
+              또 이 디자인과 미술관 전시물 사이엔 어떤 관련이 있는지요.</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              전시박스들은 상당히 추상적인 형태를 지니고 있는데다 서로 다른 방향을 향하고 있어 매우 표현적으로 느껴집니다.
+              <br><br>
+            제가 추구한 것은 이 상자들이 어떤 내용을 상징하도록 하는 것이었습니다. 미술관 내부의 다양한 전시 공간 등이 그 내용을 구현하게 됩니다.
+            이는 건물의 고정된 부분에 해당됩니다. 그런데 건물 안으로 들어가면 이 기하학적인 형태의 고정된 부분에 동적인 요소가 덧붙여집니다.<br><br>
+            전시물의 성격에 따라 벽이나 임시 가설물을 활용해서 내부 공간의 개념을 완전히 바꿀 수 있거든요. 다양한 모습으로 미술관을 꾸밀 수 있습니다. 
+
+            상자 몇 개를 폐쇄함으로써 전시실 하나를 어둡게 만들 수도 있습니다. 흥미로운 부분은 빛의 대조 효과입니다. 
+            어두운 상자 속에 놓인 작품들 위로 틈새를 통해 햇빛이 들어오면 음영이 어우러진 공간이 마련되지요.<br><br>빛과 어둠이 함께 존재하게 됩니다. 
+
+            저는 빛의 투과를 적절히 활용하는 공간을 좋아합니다. 이것은 미술관의 일반적 성향과는 거리가 있는 측면이지요. 보통 미술관에선 빛을 통제하려 하니까요. 
+            하지만 고대의 건축에서 발견할 수 있는 것처럼 자연광과 그림자 사이에 대비를 두려 했어요. 물론 인공 조명과 버티칼로 두 공간을 상쇄할 수도 있지만요.
+            </p>
+          </div>
+        </div>
+
+        <hr class="interview_line">
+
+        <div class="q04">
+          <div class="question"><span>Q</span>
+            <p>땅을 굴착하면서 열린 공간을 그대로 두길 원하셨다고 하던데요. 어떤 의도에서 비롯한 건가요?</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              건물이 마치 땅 속에서 솟은 바위처럼 항상 그 자리에 자리 잡고 있었던 듯한 느낌을 주려 했습니다.
+
+미술관을 방문한 관람객은 커다란 구덩이를 만나게 됩니다. 한 번 들여다보겠죠.<br><br>땅 속으로 향한 구덩이를요. 
+그저 땅 위에 놓인 건물과는 확연히 달라집니다. 뿌리가 느껴지니까요. 이와 같은 지형 굴곡의 활용이 제 관심사였습니다. 
+
+건물의 절반은 땅 위로 솟아 있고 절반은 땅 속에 묻힌 듯한, 대조적인 인상을 받게 될 테니까요. <br><br>하지만 이 두 부분은 서로 합해져 하나의 스케일을 이룹니다. 
+건물이 땅을 관통하는 듯한 느낌이 바로 이 건물을 독특하게 만드는 점이지요.
+            </p>
+          </div>
+        </div>
+        <hr class="interview_line">
+
+        
+        <div class="q05">
+          <div class="question"><span>Q</span>
+            <p>미술관의 세 건물이 모두 대 건축가에 의해 지어졌고 서로 매우 다른 성격을 띠고 있는데요,<br>이들 사이에 어떤 관계가 있다고 보십니까?</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              하나의 이야기가 있다고 봅니다. 건물 사이의 관계를 파악하려면 이 이야기를 알아야 하지요.
+              미술관의 고유한 이야기, 소장품들의 이야기이면서 결국 컬렉션으로서의 건축물의 이야기이기도 합니다.<br><br>
+              이 같은 주제에 대해 건축가 각자가 다른 건물을 염두에 두고 나름의 방식을 모색했지요. 제 경우, 건물을 최대한 깊이 뿌리내리게 하는 데 초점을 맞추었습니다. 
+              마리오 보타는 볼륨의 등장을 중시했고, 렘 쿨하스는 숨겨진 부분을 드러내는 발판 구실을 하고 있어서 훌륭한 상호 보완 관계를 형성하고 있습니다. 
+              <br><br>
+              물론 건축 양식은 서로 아주 다르지요. 그러나 주변의 조경이며 건물 사이의 공간이 연결 고리를 만들어 줄 것이라고 생각합니다.
+            </p>
+          </div>
+        </div>
+        <hr class="interview_line">
+
+        <div class="q06">
+          <div class="question"><span>Q</span>
+            <p>Leeum의 앞날에 대해 특별한 바람이 있으시다면요?</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              물론 작품 중 일부는 상설 전시되겠지만 저는 이 미술관을 일종의 기획 전시관처럼 생각하고 구상했습니다.
+
+                제가 추구한 것은 전통적 의미의 유연성과는 다른 새로운 의미의 유연성이에요. 다양한 예술작품을 대상으로 하는 미술관은 
+                단순 분류 차원의 전시를 넘어선 공간이어야 합니다.<br><br>
+
+                작품들을 수집해 두는 공간이 아니라 작품 간의 관계가 형성되는 공간, 동시대 예술에 사용되는 다양한 표현 방식과 매체를 수용할 수 있는 
+                공간을 만들고자 했습니다. 미술관 건축은 제겐 하나의 모험입니다. 전 고유성을 중시하는데 이번 작품에서도 역시 유일한 건축물을 만들고자 했죠. 
+
+                제가 원한 건 아주 독특한 건축물, 비슷한 걸 찾아볼 수 없는 새로운 모습의 미술관, 존재하지 않는 유형의 건물을 짓는 거였죠. <br><br>이 곳에서 관람객들은 
+                미술관 공간을 실제보다 크게 느낄 겁니다. 단순한 사각형 공간이 아니라 복잡한 미로처럼 끝이 보이지 않는 공간이지요. 
+
+                삼성미술관 Leeum에 바라는 것이 있다면 큐레이터가 공간에 구애받지 않고 다양한 전시를 자유롭게 시도하는 것입니다. 
+                그것이 바로 유연성이자 다기능성 이니까요.
+            </p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+  </main>
+  <div class="clerfix"></div>
+  <section id="Subscribe">
+    <div class="subc_text">
+      <h3>Subscribe</h3>
+      <br>
+      <p>리움의 최신 정보를 받아보길 원하시면 이메일 주소를 남겨주세요!</p>
+      <br>
+      <ul>
+        <li>수집항목 : 이메일주소 | 보유기간 : 메일 수신거부 신청 시 까지</li>
+        <li>수집목적 : 전시 및 프로그램 등 리움 관련 소식 메일 발송</li>
+      </ul>
+    </div>
+    <div class="subc_form">
+      <form action="#" method="POST">
+        <div class="email_form">
+          <label for="이메일">
+            <input type="email" class="email_form">
+          </label>
+        </div>
+        <br>
+        <label for="sub_btn">
+          <button type="submit" class="news_btn"><a href="#">등록하기</a></button>
+          <button type="submit" class="news_btn"><a href="#">해지하기</a></button>
+        </label>
+        <br>
+        <label for="agree">
+          <input type="checkbox">
+          <p>정보 안내를 위한 이메일 수집 및 광고성 메일 수신에 동의합니다.</p>
+        </label>
+      </form>
+    </div>
+
+  </section>
+  <footer id="footer" class="footer">
+    <div class="footer_top">
+      <h2>사이트 이용안내</h2>
+
+      <div class="term">
+        <h3 class="hide">약관 및 정책</h3>
+        <ul>
+          <li><a href="map.html">오시는길</a></li>
+          <li><a href="#">이메일문의</a></li>
+          <li><a href="#">이메일 무단수집거부</a></li>
+          <li><a href="#">개인정보 처리방침</a></li>
+        </ul>
+      </div>
+      <div class="footer_b_box">
+        <div class="family_site">
+          <h3>Family Site</h3>
+          <ul>
+            <li><a href="#">호암미술관</a></li>
+            <li><a href="#">삼성문화재단</a></li>
+            <li><a href="#">삼성아동교육문화센터</a></li>
+            <li><a href="#">호암재단</a></li>
+            <li><a href="#">삼성장학회</a></li>
+            <li><a href="#">드림클래스</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer_bottom">
+        <div class="footer_b_bot">
+        </div>
+        <address>Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, Korea 04348</address>
+        <p>Copyright ⓒ Leeum 2011-2021, All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    $(document).ready(function () {
+      $('.slider').bxSlider();
+    });
+  </script>
+</body>
+
+</html>

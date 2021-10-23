@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/rem.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <style>
+    .bx-wrapper {
+      border: none;
+      box-shadow: none;
+      margin-top: 50px;
+    }
+
+    .bx-wrapper .bx-controls .bx-next {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_right.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+
+    .bx-wrapper .bx-controls .bx-prev {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_left.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+  </style>
+  <title>Leeum - 건축 / 렘쿨하스</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
+      <h2>메뉴소개</h2>
+      <ul>
+        <li><a href="/intro.html">미술관소개</a></li>
+        <li><a href="#">프로그램</a></li>
+        <li><a href="/place.html">편의시설</a></li>
+        <li><a href="/membership.html">멤버십안내</a></li>
+        <li><a href="#">자료실</a></li>
+        <li><a href="https://leeumstore.org/">리움스토어</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="quickbar">
+      <div class="quickbox">
+        <div class="quickright">
+          <ul>
+            <li class="bar1"><a href="#indexlogin">로그인</a></li>
+            <li class="bar2"><a href="/join01.html">회원가입</a></li>
+            <li class="bar3"><a href="#">마이페이지</a></li>
+            <li class="bar4"><a href="/map.html">오시는길</a></li>
+            <li class="bar5"><a href="#logo">top</a></li>
+          </ul>
+        </div>
+        <div class="quick_log" id="indexlogin">
+          <div class="quick_title">
+            <h3>LOG - IN</h3>
+            <p>리움미술관 홈페이지를 방문해주셔서 감사합니다.</p>
+          </div>
+          <div class="quick_form">
+            <table>
+              <tr>
+                <td>ID</td>
+                <td><input type="text" id="quicklogin" name="quickID" placeholder="아이디(이메일 주소)를 입력해주세요" autofocus></td>
+              </tr>
+              <tr>
+                <td>PW</td>
+                <td><input type="password" id="quickpassword" name="quickPW" placeholder="비밀번호를 입력해주세요"></td>
+              </tr>
+            </table>
+          </div>
+          <div class="quick_btn">
+            <button class="lockon">로그인</button>
+            <button class="forget">ID(아이디)찾기</button>
+            <button class="forget">PW(비밀번호)찾기</button>
+          </div>
+          <div class="joinmember">
+            <table width="275px">
+              <tr>
+                <td style="font-size: 15px;">아직 회원이 아니신가요?</td>
+                <td><button><a href="join01.html">회원가입하기</a></button></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="title">
+      <div class="title_text">
+        <h3>리움미술관 건축인터뷰 - 렘 쿨하스</h3>
+        <p>Architect Interview Leeum with Rem Koolhaas</p>
+      </div>
+    </section>
+
+    <div class="menu_wrap">
+      <ul class="dep1">
+        <li>
+          <a href="mario.html">마리오보타 - Mario Botta</a>
+          <ul class="dep2">
+            <li><a href="#museum1">MUSEUM 1</a></li>
+            <li><a href="#textture">Architect Tour</a></li>
+            <li><a href="#mario">Mario Botta</a></li>
+            <li><a href="#interview">Interview</a></li>
+          </ul>
+        </li>
+        <li><a href="jean.html">장 누벨 - Jean Nouvel</a>
+          <ul class="dep2">
+            <li><a href="#museum2">MUSEUM 2</a></li>
+            <li><a href="#texture">Architect Tour</a></li>
+            <li><a href="#jean">Jean Nouvel</a></li>
+            <li><a href="#interview">interview</a></li>
+          </ul>
+        </li>
+        <li><a href="rem.html">렘 쿨하스 - Rem Koolhaas</a>
+          <ul class="dep2">
+            <li><a href="#child">삼성아동교육문화센터</a></li>
+            <li><a href="#texture">Architect Tour</a></li>
+            <li><a href="#rem">Rem Koolhaas</a></li>
+            <li><a href="#interview">interview</a></li>
+          </ul>
+        </li>
+       
+      </ul>
+    </div>
+
+    <section id="child">
+      <h2>자신을 숨기고 자신을 드러낸 공간의 오디세이 - 삼성아동교육문화센터</h2>
+      <div class="slider">
+        <div><img src="/images/rem/slide_page_1.jpg" alt="page1"></div>
+        <div><img src="/images/rem/slide_page_2.jpg" alt="page2"></div>
+        <div><img src="/images/rem/slide_page_3.jpg" alt="page3"></div>
+        <div><img src="/images/rem/slide_page_4.jpg" alt="page4"></div>
+        <div><img src="/images/rem/slide_page_5.jpg" alt="page5"></div>
+        <div><img src="/images/rem/slide_page_6.jpg" alt="page6"></div>
+        <div><img src="/images/rem/slide_page_7.jpg" alt="page7"></div>
+        <div><img src="/images/rem/slide_page_8.jpg" alt="page8"></div>
+        <div><img src="/images/rem/slide_page_9.jpg" alt="page9"></div>
+        <div><img src="/images/rem/slide_page_10.jpg" alt="page10"></div>
+        <div><img src="/images/rem/slide_page_11.jpg" alt="page11"></div>
+        
+      </div>
+
+      <div class="introbox">
+        <p>
+          미술관 건축은 "과거에 종교 건축이 했던 역할, 즉 경건함과 숭고함을 불러일으키는 역할을 해야 한다"고 역설해 온 마리오 보타는<br>
+          삼성미술관 Leeum의 MUSEUM 1에서도 그러한 자신의 건축 철학을 유감없이 형상화합니다.<br>
+          <br>
+          건축이 드러나지 않는 건축, 이것이 가능할 것인가? 이 물음에 대한 대답을 꾸준히 시도해온 현대 건축의 아방가르드,렘 쿨하스는<br>
+        "나는 건축이 어떻게 이벤트의 흐름을 보내고, 강화시키고, 유연하게 하고, 투명하게 하는지에 관심이 있다"고합니다. 이렇게 건축의 흐름 즉 도시로 파악한 
+        렘 쿨하스의 디자인을 삼성미술관 Leeum의 마스터 플랜과 삼성아동교육문화센터에서 확인할 수 있습니다.
+        <br><br>
+        렘 쿨하스의 디자인에서 건축가의 의도와 표정은 최소화됩니다. 그는 삼성아동교육문화센터의 설계를 맡아 개별 건물들이 유기적으로 연결되는 동선을 제안 하였습니다. 
+        대지의 경계면을 따라 삼성아동교육문화센터와 주차 공간의 유리 벽면이 자연스럽게 흐르게 했을 뿐이라고 그는 말합니다. 
+        그러나 그 무덤덤한 흐름 안에는 미래의 공간이 강력한 에너지를 품은 채 진동하고 있습니다.<br><br>
+        유리를 통해 보이는 거대한 블랙박스와 그 블랙박스를 품은 높이 17m의 유연한 공간은 동선과 시점마다 서로 다른 공감각적 체험을 하게 하는 건축의 모험입니다. 렘 쿨하스는 또한 MUSEUM 1, MUSEUM 2로 이루어지는 삼성미술관 Leeum과 
+        삼성아동교육문화센터가 전체적으로 조화를 이루기 위해 어떻게 대지를 포용하고 조절할 것인가 하는 근본적 문제에도 적극 참여했습니다.
+        <br><br>
+        자신의 건물을 지나치게 드러나지 않게 함으로써 자신의 건축을 표현하고자 한 렘 쿨하스의 의지는, 이 건축 단지를 내부순환이 이상적으로 이루어지는 조화로운 도시의 모델로 
+        승화시키고 있습니다. “건축은 통찰력과 주위 여건의 부딪힘이다”라는 렘 쿨하스의 언명을 가장 잘 나타내는 공간 계획 가운데 하나가 바로 아동교육문화센터가 될 것입니다.
+        </p>
+        <table>
+          <tr>
+            <td class="title">건축가</td>
+            <td>Rem Koolhaas (렘 쿨하스)</td>
+            <td class="title">대지면적</td>
+            <td>3,980㎡</td>
+          </tr>
+          <tr>
+            <td class="title">연면적</td>
+            <td>13,254㎡</td>
+            <td class="title">규모</td>
+            <td>지상 2층, 지하 3층</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="arch" id="texture">
+        <h3 class="arch_title">Architect Tour</h3>
+        <div class="arch1">
+          <div class="arch_img">
+            <img src="/images/rem/rem_step01.jpg" alt="">
+          </div>
+          <div class="arch_text">
+            <h3>건축공정 - 건축가와 건축주, 설계시공사의 조화가 만들어낸 
+              <br>Leeum 프로젝트</h3>
+            <br>
+            <p>
+              1995년 처음 착수된 삼성미술관 Leeum 프로젝트의 전개 과정을 돌이켜보면 서울이라는 
+              도시의 기존 상황을 개선하기 위한 논의들이 전체 배치 계획에 영향을 미쳤다는 것을 
+              알 수 있습니다.
+              <br><br>
+              야심찬 계획과 공사 일정은 1997년 아시아 경제 위기로 지연되지 않을 수 없었습니다.
+              2002년 공사가 재개되면서 그 간의 시간 손실을 최소화하기 위해 '프로그램을 만들어 가면서 
+              설계와 공사를 수행하는' 패스트-트랙(fast-track)방식으로 진행되었습니다.
+              이는 참여자 모두가 적극적으로 협력해야만 가능한 프로세스였습니다.
+              공간 사용이 진화하고 일관된 컨셉트를 유지하면서 건축주의 요구를 충족시키는 디자인을 
+              도출하기 위해 국내 측 설계사인 삼우설계는 램 쿨하스의 OMA와 협력하게 됩니다.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="arch2">
+          <div class="arch_img">
+            <img src="/images/rem/rem_step02.jpg" alt="로비">
+          </div>
+          <div class="arch_text">
+            <h3>블랙박스 - 서로 다른 감각을 관통하는 공간 경험</h3>
+            <br>
+            <p>
+              모든 전시 공간의 중심은 개념적으로 전체 공간 내에 떠 있으면서 미래 예술의 가능성을 
+              의미하는 '블랙박스' 입니다. 블랙박스는 이름 그대로 빛이 들어가지 않고 인공적 조작과 통제가 
+              가능한 공간으로, 회화, 조각 뿐 아니라 다양한 멀티미디어 작품을 소개할 수 있습니다.
+              <br><br>
+              블랙박스가 들어서면서 전체 공간은 천정고 6.1m의 지하 2층 전시 공간과, 천정고 5.1m의 
+              미디어 전시 공간(블랙박스), 천정고 3m의 최상층 공간으로 나누어 집니다.
+
+              지하 2층과 블랙박스를 연결시킬 뿐만 아니라 시각적 포인트가 되기도 하는 2개의 
+              에스컬레이터는 서로 성격이 다른 두 전시 공간을 의도적으로 관통하는 오브제 입니다. 
+              “전시 공간은 독립적으로 닫혀 있어야 한다” 는 고정 관념을 허물어 뜨리고 흥미 있는 
+              시각적 경험을 하게 하는 동시에 블랙 콘크리트의 질감을 체험할 수 있는 다양한 시점들을 
+              제공합니다.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="arch3">
+          <div class="arch_img">
+            <img src="/images/rem/rem_step03.jpg" alt="로툰다">
+          </div>
+          <div class="arch_text">
+            <h3>램프와 필로티 - 전통적인 필로티, 인간적인 램프,<br>
+              서로 끌어들이는 동선</h3>
+            <br>
+            <p>
+              램 쿨하스는 세 건축물이 어색함이 없이 하나의 유기체로 연계될 수 있도록<br>유도하면서, 문화 단지 전체의 주진입로 역할을 하는 자신의 건물에 필로티<br>(건물 전체 또는 일부를 
+              기둥으로 올렸을 때 만들어지는 공간 또는 그 기둥 부분)<br>개념을 채용했습니다.
+              <br><br>
+              즉 MUSEUM 1의 로비로 직접 연결되는 램프를 만들어 관람객들의<br>주동선을 해결할 것을 
+              제안한 것입니다.
+
+              이 접근 방식은 노인, 장애자,<br>어린이의 접근성을 더욱 쉽게 하는 장점이 있으며, 누각 아래로 
+              주진입부를 두는 한국 전통 건축을 연상시키기도 합니다.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="arch4">
+          <div class="arch_img">
+            <img src="/images/rem/rem_step04.jpg" alt="로툰다">
+          </div>
+          <div class="arch_text">
+            <h3>데크 - 건축적 사고의 실험장에서 사색의 공간으로</h3>
+            <br>
+            <p>
+              주차장 위의 데크는 야외 조각 정원으로 쓰입니다.<br>
+              원래 램 쿨하스의 계획안은 두 상설 전시 공간(MUSEUM 1, MUSEUM 2)<br>앞에 놓여진 
+              고원(高原)과 같은 평평한 '데크 공간' 이었습니다.
+              <br><br>
+              자기 건물의 존재를 의도적으로 말소함으로써 건축을 표현하겠다는 건축적 사고의 
+              실험이었던 것입니다. 이 개념은 여러 차례의 절충을 거치면서,<br>두 미술관을 조망하게 하는 
+              넓은 시야는 확보한 가운데 부지 활용을 극대화하는 행복한 공존을 이루어냈습니다.
+              <br><br>
+              현재 삼성아동교육문화센터 옆의 주차장 위로 형성된 데크 공간은 삼성미술관 Leeum의 
+              내부 산책로이자 사색적 공간으로 기능합니다. 이 곳에서 관람객들은 도시의 '혼잡'으로부터 
+              평안을 느낄 기회를 누릴 수 있을 것입니다.
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <section id="rem">
+      <div class="rem_intro">
+        <div class="remtext">
+          <h2>보이지 않는 건축을 표현하고 싶습니다.</h2>
+          <h3>도시와 건축을 접근하는 새로운 패러다임,<br>렘 쿨하스 & OMA</h3>
+          <p>1943년 스위스 멘드리소 - 티치노에서 태어난 마리오 보타는<br>
+            티치노 지방을 중심으로 활동하면서, 지역적 아이덴티티를 강하게 살려<br>
+            세계적으로 명성을 얻은 건축가입니다.
+            <br><br>
+            이탈리아 밀라노와 베니스에서 건축을 공부한 후,<br>르 코르뷔지에와 루이스 칸의
+            설계사무소에서 경험을 쌓았고,<br>이탈리아 건축가 카를로 스카르파에게도 배웠습니다.<br>
+            이후 지금까지 티치노의 중심 도시 루가노에<br>자신의 사무실(Mario Botta Architetto)
+            을 열고 활동하고 있습니다.
+            <br><br>
+            1980년대 이후 그가 설계한 티치노 지방의 건축물들은<br>세계적 화제를 불러일으키며,
+            그에게 수많은 수상의<br>기회와 명성을 안겨 주었습니다.
+          </p>
+          <button><a href="https://www.oma.com/">Visit Web Site</a></button>
+        </div>
+        <div class="profile">건축가 렘쿨하스</div>
+      </div>
+      <div class="rem_intro2">
+        <div class="work"><img src="/images/rem/rem_work.jpg" alt="work"></div>
+        <div class="remtext2">
+          보르도 하우스, 로스엔젤레스 박물관, 로테르담의 네덜란드국립미술관(Kunsthal), 
+          헤이그에 있는 네덜란드국립무용극장, 후쿠오카의 집합주택 넥서스 월드, 
+          프랑스 릴의 콩그레스포, 최근에 개관한 시애틀 공공 도서관 등을 설계한 렘 쿨하스는 
+          최근에도 북경의 중국국영방송본사(CCTV)사옥 설계를 맡아 
+          세계적으로 주목을 받고 있습니다. 
+          <br><br>
+          국내에서는 인천 신도시 계획 현상 공모전에서 당선된 바 있으며, 서울대학교 미술관이
+          현재 건립 중에 있습니다.
+
+          렘 쿨하스는 속박으로부터의 자유, 구조로부터의 자유, 정형화된 모델로부터의 자유, 
+          이데올로기로부터의 자유, 질서로부터의 자유, 프로그램으로부터의 자유, 계통이나 
+          계보로부터의 자유를 주장합니다.<br><br> 이러한 생각을 지니고 있기에 그의 작품은 
+          어느 한 가지 방향으로만 치닫지 않습니다. 그래서 때로는 점잖은 건축으로, 
+          때로는 종난해한 건축으로 표현되기도 하는 것입니다.
+
+          여러 현상 설계에 당선되었음에도 불구하고 지어진 건물보다 실현되지 않은 계획이 
+          더 많다는 사실에서도 그의 아방가르드적 면모를 확인할 수 있습니다.
+        </div>
+      </div>
+    </section>
+
+    <section id="rem02">
+      <div class="text">
+        <p>
+          건축가 프랭크 게리는 “도시에 대한 희망적인 존재인 동시에 건축에 대해<br>
+          가장 폭넓게 사고하는 건축가”라고 평한 바 있습니다.
+          <br><br>
+          오늘날 수많은 문제를 발생시키고 있는 도시에 대한 대안을 끊임없이 모색하는<br>
+          그는 모더니즘적 질서로 통제되는 도시의 허상에서 벗어나라고 주장하며,<br> 
+          자유와 휴머니즘을 강조합니다. 
+        </p>
+        <p class="saying">누군가 도시를 지나다 신비한 모습에 이끌려 리움에 오겠지요.</p>
+        <img src="/images/rem/rem_sign.png" alt="signature" width="230px">
+      </div>
+    </section>
+    <section id="interview">
+      <iframe width="1200" height="675" src="https://www.youtube.com/embed/XHVeWzgtprw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+
+      <div class="qanda">
+        <h3>렘 쿨하스 (Rem Koolhaas) - 인터뷰 전문</h3>
+        <div class="q01">
+          <div class="question"><span>Q</span>
+            <p>선생님은 두 건축가와 함께 작업하면서 이번 프로젝트를 이끈 것으로 아는데요, Leeum 프로젝트에 대해 어떻게 생각하십니까?</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              글쎄요, 제가 이 프로젝트를 이끌었다는 표현이 적절할지 어떨지 모르겠습니다.
+              <br>
+              우리는 이 프로젝트를 위해 Leeum에 모였고, 합의를 통해 일을 진행해 왔습니다. 공동 작업은 오늘날 건축계에서 흔한 일인데, 
+              건축 공간이 작을수록 효과를 발하지요. 그리고 의견의 다양성이 존재할 때 디자인도 살아납니다.
+              또한 이번 경우는 보다 큰 규모의 이상 실현, 즉 문화에 관한 큰 투자라는 면에서도 보아야 합니다. <br><br>삼성이 문화 시설을 짓기 위해 
+              전 세계에서 다양한 건축가를 초대했다는 것만으로도 충분한 이상 실현이라고 봅니다. 
+
+              세계 어디에도 이런 예는 없으니까요. 게다가 삼성측이 설계 과정에 주체로 참여했습니다. 우리는 함께 아이디어를 만들고 디자인해 갔어요. 
+              Leeum 프로젝트를 규정짓고 있는 이 다양한 만남들은 우리에겐 도전적이면서도 영감을 주는 과제였습니다.
+            </p>
+          </div>
+        </div>
+        <hr class="interview_line">
+
+        <div class="q02">
+          <div class="question"><span>Q</span>
+            <p>부지를 처음 보았을 때 소감은 어떠셨습니까? 서울의 도시적 특성과 연관하여 말씀해 주십시오.</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              처음 서울을 보았을 때 저를 가장 놀라게 한 것은 그 복잡함과 거대함이었어요.
+              <br><br>
+              동시에 그 구성 요소들은 섬세하고 작다는 것이었지요. 지형적으로 굴곡이 많아서 도시가 확장되기는 어렵지만 바로 그런 까닭이 
+              적절한 긴장감을 주고 있었습니다. 
+              <br><br>
+              평평한 도시였다면 특별할 것이 없었겠지만 서울의 지형은 하나의 장관을 이루며 매력을 발산하지요.<br>미술관의 부지 역시 좁은 편인데다 언덕도 있었어요. 
+              처음의 구상은 지금과는 달리 경사면을 이용해서 지으려고 했지요.<br>그런데 이미 놀라운 특색을 지니고 있는 서울의 성격을 이 건물을 통해 바꾸려는 것은 
+              바람직하지 않다는 생각이 들었습니다. 
+              <br><br>
+              그래서 이 건물을 기존의 느낌을 그대로 활용하면서 보다 간결하게 지음으로서 너무 튀지 않고 자연스럽게 동화되도록 하고자 노력했습니다. 
+              우연적인 요소를 살려서 설계했는데 그 즉흥성이 더욱 에너지를 느끼게 한답니다.
+            </p>
+          </div>
+        </div>
+        <hr class="interview_line">
+
+        <div class="q03">
+          <div class="question"><span>Q</span>
+            <p>이미 언론에서도 많은 흥미를 보이고 있는 블랙박스는 이번 설계에서 가장 핵심이 되는 부분일 것입니다.<br>블랙박스는 어떤 의미를 지닙니까?</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              블랙박스는 이 건물에서 완벽한 독립체입니다.
+              <br><br>
+              블랙박스는 의미 그대로 빛이 들어가지 않고 인공적 조작과 통제가 가능하며 외부 세계와 단절되어 있는 곳이지요. 
+              이 프로젝트에서 특히 흥미로웠던 점은 블랙박스라는 완전한 인공과, 자연적인 요소 사이에 변증법적 관계가 성립된다는 겁니다. 
+              이 공간에 그림도, 조각도 전시할 수 있을 것입니다. 이 블랙박스는 콘크리트로 만들었습니다. 
+              <br><br>
+              물론 검은 고무, 검은 강철 같은 재질도 시도해 보았습니다. 제가 원래 콘크리트를 좋아하기도 하지만 검은 콘크리트에서는 다른 재질엔 없는 
+              고급스러움이 느껴졌습니다. 콘크리트는 그 자체만으로 어떤 공간을 생성시킬 수 있지요. 다른 재질에서는 이런 중후함이나 힘을 느낄 수 없었을 것입니다.
+            </p>
+          </div>
+        </div>
+
+        <hr class="interview_line">
+
+        <div class="q04">
+          <div class="question"><span>Q</span>
+            <p>이 건물의 외벽은 불규칙한 윤곽선을 채용해 역동적으로 표현했습니다. 어떤 개념을 반영한 것인가요?</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              저는 원래의 공간을 많이 바꾸는 것을 좋아하지 않습니다.
+              <br><br>
+              특히 모든 것이 빠른 속도로 바뀌는 아시아에서는 있는 그대로를 살린다는 것이 더욱 흥미로운 작업이지요.<br> 
+              이 프로젝트도 그런 방향으로 진행되었는데 마리오 보타가 기하학의 거장이기 때문에 제 건물은 특정한 모양이 없는 것이<br>낫겠다고 판단했어요. 
+              저는 건물의 윤곽을 열린 공간으로 보이게 처리함으로써 ‘공공의 공간’을 표현하고 싶었습니다. 
+              <br><br>
+              서울에서는 모든 것이 너무나 밀집해 있기 때문이지요. 유럽이나 미국에서는 공공 공간도 폐쇄적으로 지어지는 추세인데 
+              저는 이 곳에서야말로 진정한 공공의 공간을 지을 수 있는 기회를 발견했습니다. 나아가 대중을 위한 공간, 마치 동네 행사가 열리는 듯한 
+              친숙한 공간의 이미지를 생각했습니다.
+            </p>
+          </div>
+        </div>
+        <hr class="interview_line">
+
+        <div class="q05">
+          <div class="question"><span>Q</span>
+            <p>프로젝트를 진행하시면서 재미있는 일은 없으셨나요?</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              가장 재미있는 일은 프로젝트 자체입니다.
+              <br>
+                이 프로젝트가 언제 시작했는지 아세요? 1995년, 8년 전입니다. 세상이 생각보다 안정적이라는 것을, 또한 건축에 오랜 시간이 필요하다는 사실을 보여줍니다.<br> 
+                세상의 빠른 움직임과 건축의 느림은 항상 충돌하며 그 때마다 계획이 무산되곤 해요. 또한 지난 20년 동안 세계는 시장 경제의 영향을 많이 받았고, 
+                그로 인해 건축가로서 하나의 철학을 지닌다는 것이 비생산적인 일이 되어버렸지요. 
+                <br><br>
+                변화하는 사회에서 철학은 거치적거리는 듯 보이기도 하니까요. 건축이란 그 속성상 항상 누군가의 제안을 받아야만 일을 시작할 수 있습니다. 
+                저는 그 상황을 바꾸고 싶어서 제 설계사무실 안에 건축과 관련된 다양한 주제들을 연구하는 AMO라는 팀을 만들기도 했습니다. 
+                그러면서 작업 영역을 확대할 수 있었던 것은 다행이라고 생각합니다. 우리는 중국, 아프리카, 그리고 유럽 연합에 대해서 연구하면서 
+                모든 건축에 이미 도시공학적 요소가 들어 있다는 사실을 깨달았습니다. 
+                <br><br>
+                그래서 현지의 상황을 정확하게 파악하고 그 곳의 역사성을 반영함으로써 주변의 맥락 안에서 자연스럽게 도출되는 건축을 하려고 애써 왔습니다. 
+                이번 프로젝트도 그런 생각으로 작업했고요. Leeum 역시 단순한 건축이라기보다는 도시공학적 성격을 지니고 있지요. 
+                특이하게도 이번 프로젝트에서는 경제 위기가 오히려 긍정적인 영향을 끼친 것 같아요.
+            </p>
+          </div>
+        </div>
+        <hr class="interview_line">
+        
+        <div class="q06">
+          <div class="question"><span>Q</span>
+            <p>미술관으로서 Leeum의 가장 중요한 특성은 무엇입니까. 또 선생님이 생각하는 미래의 미술관은 어떤 것입니까?</p>
+          </div>
+          <div class="anwser">
+            <span>A</span>
+            <p>
+              다양함입니다.
+              <br><br>
+              이 프로젝트는 하나의 미술관이라기보다는 건물이 컬렉션의 일부를 이룬다는 개념을 지니고 있습니다. 건물마다 공간 설정이 모두 다르니까요. 
+              이 건물이 예술가와 큐레이터에게 친근한 건물이 되었으면 좋겠습니다. 미래의 미술관은 복합적인 모습을 띨 것이라고 봅니다. 이동 속도나 지형 조건이 
+              지금까지의 통념과 아주 다른 박물관 말입니다. 특히 영상 전시는 보다 더 실험적인 방향으로 향할 것이고 아시아에선 그 쪽에 관심이 많은 듯합니다. 
+              그런 실험적 프로젝트에 계속해서 참여하고 싶습니다.
+            </p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+  </main>
+  <div class="clerfix"></div>
+  <section id="Subscribe">
+    <div class="subc_text">
+      <h3>Subscribe</h3>
+      <br>
+      <p>리움의 최신 정보를 받아보길 원하시면 이메일 주소를 남겨주세요!</p>
+      <br>
+      <ul>
+        <li>수집항목 : 이메일주소 | 보유기간 : 메일 수신거부 신청 시 까지</li>
+        <li>수집목적 : 전시 및 프로그램 등 리움 관련 소식 메일 발송</li>
+      </ul>
+    </div>
+    <div class="subc_form">
+      <form action="#" method="POST">
+        <div class="email_form">
+          <label for="이메일">
+            <input type="email" class="email_form">
+          </label>
+        </div>
+        <br>
+        <label for="sub_btn">
+          <button type="submit" class="news_btn"><a href="#">등록하기</a></button>
+          <button type="submit" class="news_btn"><a href="#">해지하기</a></button>
+        </label>
+        <br>
+        <label for="agree">
+          <input type="checkbox">
+          <p>정보 안내를 위한 이메일 수집 및 광고성 메일 수신에 동의합니다.</p>
+        </label>
+      </form>
+    </div>
+
+  </section>
+  <footer id="footer" class="footer">
+    <div class="footer_top">
+      <h2>사이트 이용안내</h2>
+
+      <div class="term">
+        <h3 class="hide">약관 및 정책</h3>
+        <ul>
+          <li><a href="map.html">오시는길</a></li>
+          <li><a href="#">이메일문의</a></li>
+          <li><a href="#">이메일 무단수집거부</a></li>
+          <li><a href="#">개인정보 처리방침</a></li>
+        </ul>
+      </div>
+      <div class="footer_b_box">
+        <div class="family_site">
+          <h3>Family Site</h3>
+          <ul>
+            <li><a href="#">호암미술관</a></li>
+            <li><a href="#">삼성문화재단</a></li>
+            <li><a href="#">삼성아동교육문화센터</a></li>
+            <li><a href="#">호암재단</a></li>
+            <li><a href="#">삼성장학회</a></li>
+            <li><a href="#">드림클래스</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer_bottom">
+        <div class="footer_b_bot">
+        </div>
+        <address>Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, Korea 04348</address>
+        <p>Copyright ⓒ Leeum 2011-2021, All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    $(document).ready(function () {
+      $('.slider').bxSlider();
+    });
+  </script>
+</body>
+
+</html>

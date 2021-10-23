@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/place.css" type="text/css">
+  <title>Leeum - 편의시설</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
+      <h2>메뉴소개</h2>
+      <ul>
+        <li><a href="/intro.html">미술관소개</a></li>
+        <li><a href="#">프로그램</a></li>
+        <li><a href="/place.html">편의시설</a></li>
+        <li><a href="/membership.html">멤버십안내</a></li>
+        <li><a href="#">자료실</a></li>
+        <li><a href="https://leeumstore.org/">리움스토어</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+
+    <section id="quickbar">
+      <div class="quickbox">
+         <div class="quickright">
+         <ul>
+          <li class="bar1"><a href="indexlogin">로그인</a></li>
+          <li class="bar2"><a href="join01.html">회원가입</a></li>
+          <li class="bar3"><a href="mypage.html">마이페이지</a></li>
+          <li class="bar4"><a href="map.html">오시는길</a></li>
+          <li class="bar5"><a href="#logo">top</a></li>
+         </ul>
+         </div>
+         <div class="quick_log" id="indexlogin">
+         <div class="quick_title">
+           <h3>LOG - IN</h3>
+           <p>리움미술관 홈페이지를 방문해주셔서 감사합니다.</p>
+         </div>
+         <div class="quick_form">
+           <table>
+             <tr>
+               <td>ID</td>
+               <td><input type="text" id="quicklogin" name="quickID" placeholder="아이디(이메일 주소)를 입력해주세요" autofocus></td>
+             </tr>
+             <tr>
+               <td>PW</td>
+               <td><input type="password" id="quickpassword" name="quickPW" placeholder="비밀번호를 입력해주세요"></td>
+             </tr>
+           </table>
+         </div>
+         <div class="quick_btn">
+           <button class="lockon">로그인</button>
+           <button class="forget">ID(아이디)찾기</button>
+           <button class="forget">PW(비밀번호)찾기</button>
+         </div>
+         <div class="joinmember">
+           <table width="275px">
+             <tr>
+               <td style="font-size: 15px;">아직 회원이 아니신가요?</td>
+               <td><button><a href="join01.html">회원가입하기</a></button></td>
+             </tr>
+           </table>
+         </div>
+         </div>
+      </div>
+     </section>
+
+    <section id="title">
+      <div class="title_text">
+      <h3>편의시설</h3>
+      <p>Facilities</p>
+      </div>
+    </section>
+
+    <section id="place_box">
+      <!-- 장소1 -->
+        <!-- 리움샵 -->
+        <div class="shop">
+          <h3>리움샵</h3>
+          <br>
+          <table>
+            <tr>
+              <td class="largetextshop">리움샵</td>
+              <td>Leeum shop</td>
+            </tr>
+          </table>
+          <br>
+          <p>
+            전시연계 상품, 도록 및 기타 서적, 의류, 디자인 상품, 전통 공예품 등<br> 
+            다양한 상품을 구입하실 수 있습니다.<br><br>
+            대량 구매 및 주문제작의 경우 아래의 번호로 문의 주시길 바랍니다.
+          </p>
+          <table class="info">
+            <tr>
+              <td class="icon"><img src="/images/icon/tel.svg" alt="phonenumber" width="40px"></td>
+              <td>상품 주문 및 문의 전화 : 02-792-6982</td>
+              <td class="btn"><button><a href="https://leeumstore.org/">리움샵 둘러보기</a></button></td>
+            </tr>
+          </table>
+        </div>
+        <!-- 카페 -->
+        <div class="cafe">
+          <h3>카페</h3>
+          <br>
+          <table>
+            <tr>
+              <td class="largetextcafe">카페</td>
+              <td>Cafe</td>
+            </tr>
+          </table>
+          <br>
+          <p>
+            2014년 리움 10주년을 기념하여 리암 길릭(Liam Gillick)이<br>
+            디자인한 공간에서 자유로움과 편안함, 삶의 여유를 추구하는 <br>
+            유러피안 라이프 스타일 카페인 아티제의 음료와 다과를<br>즐기실 수 있습니다.
+          </p>
+          <table class="info">
+            <tr>
+              <td class="icon"><img src="/images/icon/tel.svg" alt="phonenumber" width="40px"></td>
+              <td>문의 전화 : 02-2014-6757</td>
+            </tr>
+          </table>
+        </div>
+  
+        <div class="cloak">
+          <h3>물품보관소</h3>
+          <br>
+          <table>
+            <tr>
+              <td class="largetextcloak">물품보관소</td>
+              <td>Cloak room</td>
+            </tr>
+          </table>
+          <br>
+          <p>
+            쾌적한 관람을 위해 가방, 외투 등의<br>
+            소지품을 맡길 수 있는 물품보관소가 마련되어있습니다.
+            <br>
+            <span>
+              ※ 귀중품이나 파손 위험이 있는 물품을 안전하게 보관하실 수 있습니다.<br>
+              ※ 파손위험이 있는 물품은 미리 말씀해 주시기 바랍니다.
+            </span>
+          </p>
+        </div>
+        <div class="locker">
+          <h3>개인물품보관소</h3>
+          <br>
+          <table>
+            <tr>
+              <td class="largetextlocker">개인물품보관소</td>
+              <td>locker</td>
+            </tr>
+          </table>
+          <br>
+          <p>
+            자율적으로 개인물품을 보관할 수 있는 전자식 잠금 장치가 부착된<br>
+            물품보관함이 준비되어있습니다.
+            <br>
+            <span>
+              ※ 전시장 내에는 A4사이즈 보다 큰 크기의 가방 반입이 제한됩니다.<br>
+              ※ 물품보관함 크기: 40 x 40 x 50cm
+            </span>
+          </p>
+        </div>
+ 
+          <div class="nursing">
+            <br>
+            <h3>영아수유실</h3>
+            <table>
+              <tr>
+                <td class="largetextnusring">영아수유실</td>
+                <td>Nursing room</td>
+              </tr>
+            </table>
+            <br>
+            <p>
+              영아와 함께 휴식이 필요한 분들을 위해 소파, 아기침대, 수유쿠션 등이<br>비치된 수유실이 로비층에 마련되어있으며<br>
+              디지털가이드 데스크에서 안내 받으실 수 있습니다.
+              <br><br>
+              또한 유모차 및 휠체어 무료 대여를 희망하시는 분은 매표소에서<br>안내 받을 수 있습니다.
+            </p>
+          </div>
+        </div>        
+    </section>
+  
+  </main>
+    <div class="clerfix"></div>
+  <section id="Subscribe">
+    <div class="subc_text">
+      <h3>Subscribe</h3>
+      <br>
+      <p>리움의 최신 정보를 받아보길 원하시면 이메일 주소를 남겨주세요!</p>
+      <br>
+      <ul>
+        <li>수집항목 : 이메일주소  |  보유기간 : 메일 수신거부 신청 시 까지</li> 
+        <li>수집목적 : 전시 및 프로그램 등 리움 관련 소식 메일 발송</li>
+      </ul>
+    </div>
+    <div class="subc_form">
+      <form action="#" method="POST">
+        <div class="email_form">
+            <label for="이메일">
+              <input type="email" class="email_form">
+            </label>
+        </div>
+        <br>
+        <label for="sub_btn">
+          <button type="submit" class="news_btn"><a href="#">등록하기</a></button>
+          <button type="submit" class="news_btn"><a href="#">해지하기</a></button>
+        </label>
+        <br>
+        <label for="agree">
+          <input type="checkbox">
+          <p>정보 안내를 위한 이메일 수집 및 광고성 메일 수신에 동의합니다.</p>
+        </label>
+      </form>
+    </div>
+
+  </section>
+ <footer id="footer" class="footer">
+        <div class="footer_top">
+            <h2>사이트 이용안내</h2>
+
+            <div class="term">
+                <h3 class="hide">약관 및 정책</h3>
+                <ul>
+                    <li><a href="map.html">오시는길</a></li>
+                    <li><a href="#">이메일문의</a></li>
+                    <li><a href="#">이메일 무단수집거부</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                </ul>
+            </div>
+            <div class="footer_b_box">
+                <div class="family_site">
+                    <h3>Family Site</h3>
+                    <ul>
+                        <li><a href="#">호암미술관</a></li>
+                        <li><a href="#">삼성문화재단</a></li>
+                        <li><a href="#">삼성아동교육문화센터</a></li>
+                        <li><a href="#">호암재단</a></li>
+                        <li><a href="#">삼성장학회</a></li>
+                        <li><a href="#">드림클래스</a></li>
+                    </ul>
+                </div>            
+            </div>
+
+            <div class="footer_bottom">
+               <div class="footer_b_bot">
+               </div>
+               <address>Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, Korea 04348</address>
+                <p>Copyright ⓒ Leeum 2011-2021, All Rights Reserved.</p>
+            </div>
+      </div>
+    </footer>   
+
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+<script src="/javascirpt/map.js"></script>
+
+
+  </body>
+  </html>

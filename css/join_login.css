@@ -1,0 +1,596 @@
+body{
+  font-size: 20px;
+}
+
+li::marker{
+  color: #8a7a67;
+}
+.clearfix:before, .clearfix:after {
+  display: block;
+  content: '';
+  line-height: 0;
+}
+
+
+.clearfix:after {
+  clear:both;
+}
+
+/* 메뉴항목 */
+
+header{
+  width: 100%;
+  height: 120px;
+  background-color: #000;
+}
+
+header h2{text-indent: -999px;}
+
+header nav{
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  color: white;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li{
+  display: flex;
+  justify-content: center;
+  width: calc(1000px / 7);
+  line-height: 60px;
+  text-align: center;
+}
+
+header nav #logo{
+  float: left;
+  margin-top: 40px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul li a:hover{
+  height: 120px;
+  background: #fff;
+  color: #000;
+  transition:  0.3s ease 0s, left 0.3s ease 0s;
+  padding: 10px;
+  font-family: 'GmarketSansMedium';
+  height: 30px;
+  line-height: 35px;
+}
+
+
+/* 메인이미지 영역 */
+#title{
+  width: 100%;
+  background: url(/images/login_mypage.jpg);
+  background-size: cover;
+  height: 328px;
+  position: relative;
+}
+
+
+#title .title_text{
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  line-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+#title .title_text h3{
+  font-size: 50px;
+}
+
+
+/* 오른쪽 quick bar 영역 */
+
+.quickbar{
+  width: 80px;
+  height: 400px;
+  float: right;
+  position: relative;
+  z-index: 9999px;
+  bottom: 750px;
+  right: 0;
+}
+
+.quickbar ul{
+  position: fixed;
+  z-index: 9999;
+}
+
+.quickbar ul li{
+  width: 80px;
+  height: 90px;
+}
+
+.quickbar ul li a{
+  width: 80px;
+  height: 90px;
+  display: block;
+}
+
+.quickbar ul .quick01{
+  background: url(/images/quick_01.jpg);
+  text-indent: -9999px;
+}
+
+.quickbar ul .quick02{
+  background: url(/images/quick_02.jpg);
+  text-indent: -9999px;
+}
+
+.quickbar ul .quick03{
+  background: url(/images/quick_03.jpg);
+  text-indent: -9999px;
+}
+
+.quickbar ul .quick04{
+  background: url(/images/quick_04.jpg);
+  text-indent: -9999px;
+}
+
+.quickbar ul .quick05{
+  background: url(/images/quick_05.jpg);
+  text-indent: -9999px;
+  height: 42px;
+}
+
+.quickbar ul .quick01:hover{
+  background: url(/images/hover_01.jpg);
+  transition:  0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.quickbar ul .quick02:hover{
+  background: url(/images/hover_02.jpg);
+  transition:  0.3s ease 0s, left 0.3s ease 0s;
+}
+
+
+.quickbar ul .quick03:hover{
+  background: url(/images/hover_03.jpg);
+  transition:  0.3s ease 0s, left 0.3s ease 0s;
+}
+
+
+.quickbar ul .quick04:hover{
+  background: url(/images/hover_04.jpg);
+  transition:  0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.quickbar .loginform{
+  width: 354px;
+  height: 400px;
+  background: #fff;
+  position: fixed;
+  z-index: 9999;
+  right: 80px;
+  border: 1px solid #ccc;
+}
+
+.quickbar .loginform .message{
+  width: 254px;
+  height: 258px;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.quickbar .loginform .message h3{
+  font-size: 40px;
+}
+
+.quickbar .loginform .message p{
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.quickbar .loginform .message legend{
+  text-indent: -9999px;
+}
+
+.quickbar .loginform .message fieldset table{
+  width: 254px;
+  height: 80px;
+}
+
+.quickbar .loginform .message fieldset table tr{
+  margin-bottom: 5px;
+}
+
+.quickbar .loginform .message fieldset table td input{
+  width: 200px;
+  height: 25px;
+  border: 1px solid #ccc;
+}
+
+.quickbar .loginform .message fieldset .key{
+  width: 254px;
+  background-color: #3d3326;
+  color: white;
+  font-family:'GmarketSansMedium';
+  font-size: 18px;
+  border:none;
+  padding: 10px 0 10px 0;
+}
+
+.quickbar .loginform .message fieldset .forget button{
+  width: 123px;
+  height: 30px;
+  margin-top: 10px;
+  background: #8a7a67;
+  border: none;
+  color: white;
+}
+
+main #login_bg{
+  width: 1200px;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  border: 1px solid #ccc;
+}
+
+#login_page{
+  width: 1200px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#login_page .logInlogo{
+  text-align: center;
+}
+
+#login_page .logInform{
+  width: 530px;
+  height: 600px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#login_page .logInform tr{
+  height: 80px;
+}
+
+#login_page .logInform tr td{
+  width: 530px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#login_page .logInform tr td span{
+  vertical-align: middle;
+}
+
+#login_page .logInform tr td input{
+  width: 470px;
+  height: 50px;
+  float: right;
+  font-size: 18px;
+  font-family: 'Gmarketsanslight';
+}
+
+#login_page .logInform .main_btn{
+  width: 530px;
+  height: 65px;
+  background-color: #3d3326;
+  font-size: 25px;
+  border: none;
+  color: white;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+#login_page .logInform .forget button{
+  width: calc(515px / 2);
+  height: 50px;
+  float: left;
+  margin: 20px 0 0 0;
+  background-color: #8a7a67;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-family: 'Gmarketsanslight';
+  cursor: pointer;
+}
+
+#login_page .logInform .forget .right{
+  float: right;
+}
+
+#login_page .sns_login{
+  width: 530px;
+  margin: auto;
+  position: relative;
+  bottom: 200px;
+}
+
+#login_page .sns_login button{
+  width: 530px;
+  height: 50px;
+  margin: 20px 0 0 0;
+  cursor: pointer;
+}
+
+#login_page .sns_login .naver{
+  background-color: #03cf5d;
+  border: none;
+  font-size: 18px;
+  font-family: 'Gmarketsansmedium';
+  color: white;
+}
+
+#login_page .sns_login .kakao{
+  background-color: #fae301;
+  border: none;
+  font-size: 18px;
+  font-family: 'Gmarketsansmedium';
+  color: #391b1b;
+}
+
+#login_page .sns_login .google{
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 18px;
+  font-family: 'Gmarketsansmedium';
+  color: #391b1b;
+}
+
+#login_page .join{
+  width: 530px;
+  position: relative;
+  bottom: 150px;
+  margin: auto;
+  text-align: center;
+}
+
+#login_page .join button{
+  width: 126px;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+  background-color: #3d3326;
+  color: #fff;
+}
+
+#login_page .join button a{
+  text-decoration: none;
+  color:white;
+  display: block;
+}
+
+
+
+
+
+
+ 
+
+
+
+/* 뉴스레터구독 */
+#Subscribe{
+  z-index: -9999px;
+  width: 1200px;
+  height: 245px;
+  margin: auto;
+  position: relative;
+  bottom: 50px;
+  margin-bottom: 200px;
+  background: #141414;
+}
+
+.subc_text{
+  color: white;
+  height: 140px;
+  z-index: 9999;
+  padding: 50px 0px 50px 50px;
+  float: left;
+}
+
+.subc_text h3{
+  font-size: 50px;
+  color: #bfa37b;
+}
+
+.subc_text ul li{
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.subc_form{
+  width: 500px;
+  height: 140px;
+  float: right;
+  padding: 50px 50px 50px 0px;
+}
+
+.subc_form .email_form input{
+  width: 489px;
+  height: 50px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.subc_form .news_btn{
+  width: 246px;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border: none;
+  background: #8a7a67;
+}
+
+.subc_form .news_btn:hover{
+  background: #3d3326;
+}
+
+.subc_form .news_btn a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 246px;
+  line-height: 35px;
+  height: 40px;
+}
+
+.subc_form label input{
+  width: 15px;
+  height: 15px;
+  float: left;
+  border: none;
+  margin-right: 15px;
+}
+
+.subc_form label p{
+  line-height: 25px;
+  font-size: 15px;
+  color: white;
+}
+
+/* footer */
+
+.footer{
+  background:#8a7a67;
+  color:#fff;
+  width:100%;
+  height: 226px;
+  display: flex;
+  justify-content: center;
+  z-index: -50;
+}
+.footer a{
+  color:#fff
+}
+
+.footer_top{
+  height: 80px;
+  width: 100%;
+  position:relative;
+  background-color: #141414;
+  bottom: 80px;
+}
+
+.footer h2{
+  text-indent:-9999px;
+}
+
+.footer .hide{
+  text-indent:-9999px;
+}
+
+.footer_top .term{
+  width: 1200px;
+  margin: auto;
+}
+
+.footer_top .term ul{
+  position: relative;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_top .term ul li{
+  margin: 1rem;
+  text-align: center;
+  text-align: center;
+  float: left;
+}
+
+.footer_top .term ul li a{
+  text-decoration: none;
+}
+
+.footer_top .term ul li a:hover{
+  font-family: 'GmarketsansMedium';
+}
+
+.footer_b_box{
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.family_site{
+  clear: both;
+  width: 230px;
+  background-color: white;
+  float: right;
+  position: relative;
+}
+
+.family_site h3{
+  width: 190px;
+  height: 40px;
+  color: #000;
+  font-size: 18px;
+  font-family: 'GmarketsansMedium';
+  padding: 10px;
+  background: url(/images/drop.png) no-repeat;
+  background-position: right;
+  line-height: 40px;
+}
+
+.family_site ul{
+  position: absolute;
+  overflow: hidden;
+  width: 230px;
+  box-sizing: border-box;
+}
+
+.family_site ul li{
+  line-height: 25px;
+  font-size: 15px;
+  padding-left: 10px;
+  position: absolute;
+}
+
+
+.family_site ul li a{
+  color: #000;
+  text-decoration: none;
+}
+
+.footer_bottom{
+  width: 1200px;
+  margin: auto;
+}
+
+.footer_b_bot{
+  width: 174px;
+  height: 130px;
+  background: url(/images/lee_logo_w.svg) no-repeat;
+  opacity: 0.5;
+  float: left;
+  margin: 0 40px 0 0;
+}
+
+.footer_bottom address{
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer_bottom p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/mainevent.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <title>Leeum - 인간, 일곱개의질문</title>
+  <style>
+    .bx-wrapper {
+      border: none;
+      box-shadow: none;
+      margin-top: 50px;
+    }
+
+    .bx-wrapper .bx-controls .bx-next {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_right.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+
+    .bx-wrapper .bx-controls .bx-prev {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_left.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
+      <h2>메뉴소개</h2>
+      <ul>
+        <li><a href="/intro.html">미술관소개</a></li>
+        <li><a href="#">프로그램</a></li>
+        <li><a href="/place.html">편의시설</a></li>
+        <li><a href="/membership.html">멤버십안내</a></li>
+        <li><a href="#">자료실</a></li>
+        <li><a href="https://leeumstore.org/">리움스토어</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+
+    <section id="quickbar">
+      <div class="quickbox">
+         <div class="quickright">
+         <ul>
+          <li class="bar1"><a href="indexlogin">로그인</a></li>
+          <li class="bar2"><a href="join01.html">회원가입</a></li>
+          <li class="bar3"><a href="mypage.html">마이페이지</a></li>
+          <li class="bar4"><a href="map.html">오시는길</a></li>
+          <li class="bar5"><a href="#logo">top</a></li>
+         </ul>
+         </div>
+         <div class="quick_log" id="indexlogin">
+         <div class="quick_title">
+           <h3>LOG - IN</h3>
+           <p>리움미술관 홈페이지를 방문해주셔서 감사합니다.</p>
+         </div>
+         <div class="quick_form">
+           <table>
+             <tr>
+               <td>ID</td>
+               <td><input type="text" id="quicklogin" name="quickID" placeholder="아이디(이메일 주소)를 입력해주세요" autofocus></td>
+             </tr>
+             <tr>
+               <td>PW</td>
+               <td><input type="password" id="quickpassword" name="quickPW" placeholder="비밀번호를 입력해주세요"></td>
+             </tr>
+           </table>
+         </div>
+         <div class="quick_btn">
+           <button class="lockon">로그인</button>
+           <button class="forget">ID(아이디)찾기</button>
+           <button class="forget">PW(비밀번호)찾기</button>
+         </div>
+         <div class="joinmember">
+           <table width="275px">
+             <tr>
+               <td style="font-size: 15px;">아직 회원이 아니신가요?</td>
+               <td><button><a href="join01.html">회원가입하기</a></button></td>
+             </tr>
+           </table>
+         </div>
+         </div>
+      </div>
+     </section>
+
+    <section id="title">
+      <div class="title_text">
+      <h3>전시 - 인간, 일곱개의 질문</h3>
+      <p>Human, 7 questions</p>
+      </div>
+    </section>
+
+    <div class="menu_wrap">
+      <ul class="dep1">
+        <li>
+          <a href="m1.html">M1 - 고미술</a>
+          <ul class="dep2">
+            <li><a href="#f1">1F 권위와 신앙, 화려함의 세계</a></li>
+            <li><a href="#f2">2F 감상과 취향</a></li>
+            <li><a href="#f3">3F 흰빛의 여정</a></li>
+            <li><a href="#f4">4F 푸른빛 문양 한점</a></li>
+          </ul>
+        </li>
+        <li><a href="m2.html">M2 - 현대미술</a>
+          <ul class="dep2">
+            <li><a href="">B1 이상한 행성</a></li>
+            <li><a href="">1F 중력의 역방향</a></li>
+            <li><a href="">2F 검은 공백</a></li>
+          </ul>
+        </li>
+        <li><a href="mainevent.html">인간, 일곱개의 질문</a></li>
+        <li><a href="">지난전시</a></li>
+      </ul>
+    </div>
+
+    
+
+    <section id="m_intro">
+      <h2>전시개요</h2>
+      <br><br>
+      <p>
+        인간은 늘 스스로가 어떤 존재인지 정의하기 위해 노력해왔습니다. 인간을 의미하는 ‘호모(homo)’의 수많은 수식어들은 이를 증명합니다.<br>
+        지난 수백 년간 슬기롭고 이성적인 존재라 여겨졌던 인간은 신으로부터 벗어나 세계를 변화시킬 수 있을 거란 믿음으로 가득 차 있었고,<br>
+        실제로 과학기술의 놀라운 발전은 인류문명에 믿기지 않는 변화들을 가져왔습니다. 인간은 스스로의 한계를 초월하는 도전을 지속하고<br>
+        있지만, 다른 한편으로는 일상을 뒤흔드는 통제불가능한 재해들을 경험하고 있기도 합니다.
+        <br><br>
+        이 낯설고 새로운 상황과 급변하는 환경 속에서 우리는 다시 인간에 대해 질문을 던지게 되었습니다. 이러한 자각에서<br>
+        리움은《인간, 일곱 개의 질문(Human, 7 questions)》展을 통해 인간으로 존재하는 것의 의미를 고찰하고 미래를 가늠해보고자 합니다.<br>
+        전시는 인간에 대한 일곱 개의 질문을 던지는 형식으로 구성되며, 인간 실존에 대한 성찰이 확산된 20세기 중반의 전후(戰後) 미술을<br>
+        필두로, 휴머니즘의 위기 및 포스트휴먼 논의와 더불어 등장한 국내외 50여 명의 작가와 130여 점의 작품을 선보입니다.
+        <br><br>
+        이를 통해 마음과 몸, 이성과 비이성, 나와 공동체, 실재와 가상, 인간과 비인간의 경계를 넘나드는 다양한 인간상을 조명하고,<br>
+        지금까지 당연시해 온 인간적 가치들에 대해 재고해보고자 합니다. 인간이란 무엇인가? 인간다움을 규정짓는 조건은 무엇인가?<br>
+        나와 타자와 세계 사이의 경계는 어떻게 변화하는가? 우리는 인간 너머의 낯선 존재들과 함께 할 준비가 되어 있는가?
+        <br><br><br><br>
+        <h2>작품소개 - 전시 도입부 전경</h2>
+    </section>
+    <br>
+    <section id="f1">
+      <img src="/images/exhibition/human.jpg" alt="human_img" width="1200px">
+      <br><br>
+      <h3>프로그램</h3>
+      <br>
+      <table border="1" class="human_info">
+        <tbody>
+          <tr>
+            <td class="info_title">영상</td>
+            <td>
+              전시가 다루고 있는 ‘인간’에 대한 여러 논의들을 관람객들이 쉽게 사유해 볼 수 있도록 다양한 영상 콘텐츠를
+              마련했습니다. 큐레이터의 전시소개 영상을 비롯하여, 국내외 석학들에게 인간에 대해 묻는 인터뷰 시리즈,
+              전시작품을 재해석한 퍼포먼스 영상 등 총 8개의 영상이 순차적으로 공개됩니다.
+            </td>
+          </tr>
+          <tr>
+            <td class="info_title">강연</td>
+            <td>인간이라는 존재를 둘러싼 여러 담론들을 개괄하며 앞으로의 인간에 대해 상상해보고, 전시작품들을 중심으로
+              인간에 대해 질문해왔던 예술에 대해 생각해보는 강연이 진행됩니다.</td>
+          </tr>
+          <tr>
+            <td class="info_title">자료공간</td>
+            <td>전시의 면면들을 심화하여 살펴볼 수 있는 도서들과 전시와 연계하여 제작된 영상들을 상시 상영하는 공간이
+              그라운드 갤러리 전시 말미에 마련되어 있습니다.</td>
+          </tr>
+        </tbody>
+      </table>
+      <table border="1" class="timetable">
+        <tbody>
+          <tr>
+            <td rowspan="3" class="box">전시안내</td>
+            <td>관람시간</td>
+            <td>화요일 - 일요일 > 10:00 - 18:00 (입장마감 17 : 30)</td>
+          </tr>
+          <tr>
+            <td>입장요금</td>
+            <td>무료 - 디지털 가이드(똑또기)무료</td>
+          </tr>
+        </tbody>
+        
+      </table>
+    </section>
+
+    
+  </main>
+
+    <div class="clerfix"></div>
+  <section id="Subscribe">
+    <div class="subc_text">
+      <h3>Subscribe</h3>
+      <br>
+      <p>리움의 최신 정보를 받아보길 원하시면 이메일 주소를 남겨주세요!</p>
+      <br>
+      <ul>
+        <li>수집항목 : 이메일주소  |  보유기간 : 메일 수신거부 신청 시 까지</li> 
+        <li>수집목적 : 전시 및 프로그램 등 리움 관련 소식 메일 발송</li>
+      </ul>
+    </div>
+    <div class="subc_form">
+      <form action="#" method="POST">
+        <div class="email_form">
+            <label for="이메일">
+              <input type="email" class="email_form">
+            </label>
+        </div>
+        <br>
+        <label for="sub_btn">
+          <button type="submit" class="news_btn"><a href="#">등록하기</a></button>
+          <button type="submit" class="news_btn"><a href="#">해지하기</a></button>
+        </label>
+        <br>
+        <label for="agree">
+          <input type="checkbox">
+          <p>정보 안내를 위한 이메일 수집 및 광고성 메일 수신에 동의합니다.</p>
+        </label>
+      </form>
+    </div>
+
+  </section>
+ <footer id="footer" class="footer">
+        <div class="footer_top">
+            <h2>사이트 이용안내</h2>
+
+            <div class="term">
+                <h3 class="hide">약관 및 정책</h3>
+                <ul>
+                    <li><a href="map.html">오시는길</a></li>
+                    <li><a href="#">이메일문의</a></li>
+                    <li><a href="#">이메일 무단수집거부</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                </ul>
+            </div>
+            <div class="footer_b_box">
+                <div class="family_site">
+                    <h3>Family Site</h3>
+                    <ul>
+                        <li><a href="#">호암미술관</a></li>
+                        <li><a href="#">삼성문화재단</a></li>
+                        <li><a href="#">삼성아동교육문화센터</a></li>
+                        <li><a href="#">호암재단</a></li>
+                        <li><a href="#">삼성장학회</a></li>
+                        <li><a href="#">드림클래스</a></li>
+                    </ul>
+                </div>            
+            </div>
+
+            <div class="footer_bottom">
+               <div class="footer_b_bot">
+               </div>
+               <address>Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, Korea 04348</address>
+                <p>Copyright ⓒ Leeum 2011-2021, All Rights Reserved.</p>
+            </div>
+      </div>
+    </footer>   
+
+    <script>
+      $(document).ready(function () {
+        $('.slider').bxSlider();
+      });
+    </script>
+
+
+  </body>
+  </html>

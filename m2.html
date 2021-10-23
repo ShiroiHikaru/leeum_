@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/m2.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <title>Leeum - 전시(현대미술)</title>
+  <style>
+    .bx-wrapper {
+      border: none;
+      box-shadow: none;
+      margin-top: 50px;
+    }
+
+    .bx-wrapper .bx-controls .bx-next {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_right.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+
+    .bx-wrapper .bx-controls .bx-prev {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_left.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
+      <h2>메뉴소개</h2>
+      <ul>
+        <li><a href="/intro.html">미술관소개</a></li>
+        <li><a href="#">프로그램</a></li>
+        <li><a href="/place.html">편의시설</a></li>
+        <li><a href="/membership.html">멤버십안내</a></li>
+        <li><a href="#">자료실</a></li>
+        <li><a href="https://leeumstore.org/">리움스토어</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+
+    <section id="quickbar">
+      <div class="quickbox">
+         <div class="quickright">
+         <ul>
+          <li class="bar1"><a href="indexlogin">로그인</a></li>
+          <li class="bar2"><a href="join01.html">회원가입</a></li>
+          <li class="bar3"><a href="mypage.html">마이페이지</a></li>
+          <li class="bar4"><a href="map.html">오시는길</a></li>
+          <li class="bar5"><a href="#logo">top</a></li>
+         </ul>
+         </div>
+         <div class="quick_log" id="indexlogin">
+         <div class="quick_title">
+           <h3>LOG - IN</h3>
+           <p>리움미술관 홈페이지를 방문해주셔서 감사합니다.</p>
+         </div>
+         <div class="quick_form">
+           <table>
+             <tr>
+               <td>ID</td>
+               <td><input type="text" id="quicklogin" name="quickID" placeholder="아이디(이메일 주소)를 입력해주세요" autofocus></td>
+             </tr>
+             <tr>
+               <td>PW</td>
+               <td><input type="password" id="quickpassword" name="quickPW" placeholder="비밀번호를 입력해주세요"></td>
+             </tr>
+           </table>
+         </div>
+         <div class="quick_btn">
+           <button class="lockon">로그인</button>
+           <button class="forget">ID(아이디)찾기</button>
+           <button class="forget">PW(비밀번호)찾기</button>
+         </div>
+         <div class="joinmember">
+           <table width="275px">
+             <tr>
+               <td style="font-size: 15px;">아직 회원이 아니신가요?</td>
+               <td><button><a href="join01.html">회원가입하기</a></button></td>
+             </tr>
+           </table>
+         </div>
+         </div>
+      </div>
+     </section>
+
+    <section id="title">
+      <div class="title_text">
+      <h3>전시 - 현대미술</h3>
+      <p>Exhibition Leeum</p>
+      </div>
+    </section>
+
+    <div class="menu_wrap">
+      <ul class="dep1">
+        <li>
+          <a href="m1.html">M1 - 고미술</a>
+          <ul class="dep2">
+            <li><a href="#f1">1F 권위와 신앙, 화려함의 세계</a></li>
+            <li><a href="#f2">2F 감상과 취향</a></li>
+            <li><a href="#f3">3F 흰빛의 여정</a></li>
+            <li><a href="#f4">4F 푸른빛 문양 한점</a></li>
+          </ul>
+        </li>
+        <li><a href="m2.html">M2 - 현대미술</a>
+          <ul class="dep2">
+            <li><a href="#b1">B1 이상한 행성</a></li>
+            <li><a href="#curf1">1F 중력의 역방향</a></li>
+            <li><a href="#curf2">2F 검은 공백</a></li>
+          </ul>
+        </li>
+        <li><a href="mainevent.html">인간, 일곱개의 질문</a></li>
+        <li><a href="">지난전시</a></li>
+      </ul>
+    </div>
+
+    
+
+    <section id="m_intro">
+      <h2>리움미술관 현대미술 소장품</h2>
+      <br><br>
+      <p>
+        리움미술관은 1910년대 이후의 한국 근현대미술부터 동시대 국제미술까지 다양한 현대미술품을 소장하고 있습니다.<br>
+        서양미술의 유입 이후 한국 근현대미술은 전통을 계승하는 한편 혁신적 변화로 현대화를 꾀하며 복잡다단한 한 세기를 지나왔습니다.<br>
+        리움의 한국미술 소장품은 그 역사를 이뤄온 수많은 작가들의 작품으로 이루어져 있으며, 한국미술의 미래를 이끌 젊은 작가들의 작품까지 폭넓고 다양하게 구성되어 있습니다.<br><br>
+        1980년대 후반부터 본격화한 외국 작품 수집은 1945년 이후의 미술에 중점을 두고 있습니다. 전후의 시대정신과 미술 형식의 전개를<br>
+        두루 살펴볼 수 있을 만큼 시대별로 중요한 작가들의 작품을 소장하고 있으며, 특히 전후 추상표현주의와 미니멀리즘 작가들의 작품은<br>
+        뛰어난 수준을 자랑합니다.<br><br>
+        2004년 리움의 개관 이후에는 동시대 주요 작가들과의 다양한 전시와 협업을 통해 컬렉션의 규모를 더욱 확장해 왔습니다.<br>
+        앞으로도 리움은 미술의 의미 있는 발전을 이끄는 국내외 작가들의 작품을 지속적으로 수집하며 작가를 지원하고 전시를 통해<br>대중과 나눌 것입니다.
+      </p>
+      <br><br>
+      <h2>M2</h2>
+      <br>
+      <p>
+        현대미술 상설관인 M2가 리움 개관 이래 가장 새로운 모습으로 탈바꿈했습니다.<br>
+        연대기적인 배열 대신 세 가지의 독특한 주제로 펼쳐지는 전시는 그 어느때보다 다양하고 특색 있는 소장품들을 선보입니다.<br>
+        먼저 2층의 <strong>&#91;검은 공백&#93;</strong>전은 우리의 삶과 예술 전반에 투영된 검정색의 깊고 풍부한 의미를 살펴보는 전시로,<br>
+        검은 철판이 특징인 M2의 건축적 환경과 어우러지는 전시입니다.<br><br> 
+        이어서 <strong>&#91;중력의 역방향&#93;</strong>이라는 은유적 주제의 1층 전시는 빛과 움직임 등 비물질의 영역으로 확장된 작품들을 소개합니다.<br>
+        마지막으로, 무한한 상상력으로 가시적 현실 너머를 표현한 작품들이 전시된 지하1층의 <strong>&#91;이상한 행성&#93;</strong>전은 예술을 통한 자유로운 상상과<br>
+        사유의 시간으로 우리를 인도하며 다채로운 현대미술의 세계를 체험할 수 있게 할 것입니다.
+      </p>
+    </section>
+
+    <section id="b1">
+      <div class="slider">
+        <div><img src="/images/exhibition/cur1.jpg" alt="f1_img_01"></div>
+        <div><img src="/images/exhibition/cur2.jpg" alt="f1_img_02"></div>
+        <div><img src="/images/exhibition/cur3.jpg" alt="f1_img_03"></div>
+        <div><img src="/images/exhibition/cur4.jpg" alt="f1_img_04"></div>
+      </div>
+      <h3>B1층 이상한 행성</h3>
+      <br>
+      <p>
+        미술은 우리를 깊은 사색에 잠기게 하기도, 기이한 상상의 세계로 데려가기도 합니다.<br>
+        환상적인 풍경이 펼쳐지고 괴물, 기계 생명체와 같은 생경한 존재들이 부유하는 이 전시의 제목은 <strong>&#91;이상한 행성&#93;</strong>입니다.<br>
+        전시된 작품들은 인간과 그를 둘러싼 주변 환경, 그리고 공존하는 존재들에 대한 탐구를 보여줍니다.<br><br>
+        마치 낯선 행성에 불시착한 듯한 인상을 주는 이 전시실에서는 생태와 환경, 기계와 인간, 의식과 무의식 등 다양한 논의를<br>
+        작품을 통해 읽어봅니다.
+      </p>
+    </section>
+
+    <section id="curf1">
+      <div class="slider">
+        <div><img src="/images/exhibition/cur9.jpg" alt="f1_img_01"></div>
+        <div><img src="/images/exhibition/cur10.jpg" alt="f1_img_02"></div>
+        <div><img src="/images/exhibition/cur11.jpg" alt="f1_img_03"></div>
+      </div>
+      <h3>1층 중력의 역방향</h3>
+      <br>
+      <p>
+        이 전시실은 미술에 있어서 물질과 비물질의 경계를 생각해보게 하는 작품들로 구성되어 있습니다.<br>
+        유리나 금속, 아크릴 등으로 제작된 이 작품들은 재료 본래의 물성을 갖고 있으나, 작품이 가진 투명성이나 빛, 움직임 등의 특징 때문에<br>마치 시간을 초월하거나
+        무중력 공간에 존재하는 듯한 초현실적 감각을 자아냅니다.<br><br>
+        이 투명한 공간 속에서 시시각각 변화하는 관람객의 움직임과 주변 환경은 작품과 늘 새로운 관계를 만들어 나갑니다.<br>
+        위층의 <strong>&#91;검은 공백&#93;</strong>과 아래층의 <strong>&#91;이상한 행성&#93;</strong> 사이에 위치한 이 전시는 
+        두 공간을 연결하는 전환의 공간이기도 합니다.
+      </p>
+    </section>
+
+    <section id="curf2">
+      <div class="slider">
+        <div><img src="/images/exhibition/cur5.jpg" alt="f1_img_01"></div>
+        <div><img src="/images/exhibition/cur6.jpg" alt="f1_img_02"></div>
+        <div><img src="/images/exhibition/cur7.jpg" alt="f1_img_03"></div>
+        <div><img src="/images/exhibition/cur8.jpg" alt="f1_img_04"></div>
+      </div>
+      <h3>2층 검은 공백</h3>
+      <br>
+      <p>
+        전통 수묵화부터 현대 추상화에 이르기까지 우리는 많은 미술작품에서 검은색을 볼 수 있습니다.<br>
+        검정은 흔히 죽음과 절망, 어둠, 저항, 미지의 세계 등을 상징하고 동양에서는 물과 북방을 의미하기도 합니다. 현대미술,<br>
+        특히 추상미술에서 검정은 극단적 간결미를 드러내거나 초월적이고 절대적인 세계를 그리는 색이기도 했습니다.
+        <br><br>
+        모든 빛이 흡수되어 사라져버린 검정에는 이처럼 긍정과 부정을 넘나드는 폭넓은 상징과 의미가 가득합니다.<br>이 전시에서는 그 검은 공백이 품고 있는 다양한 이야기들을 소장품을 통해 살펴보고자 합니다.
+      </p>
+    </section>
+
+    
+  
+  </main>
+
+    <div class="clerfix"></div>
+  <section id="Subscribe">
+    <div class="subc_text">
+      <h3>Subscribe</h3>
+      <br>
+      <p>리움의 최신 정보를 받아보길 원하시면 이메일 주소를 남겨주세요!</p>
+      <br>
+      <ul>
+        <li>수집항목 : 이메일주소  |  보유기간 : 메일 수신거부 신청 시 까지</li> 
+        <li>수집목적 : 전시 및 프로그램 등 리움 관련 소식 메일 발송</li>
+      </ul>
+    </div>
+    <div class="subc_form">
+      <form action="#" method="POST">
+        <div class="email_form">
+            <label for="이메일">
+              <input type="email" class="email_form">
+            </label>
+        </div>
+        <br>
+        <label for="sub_btn">
+          <button type="submit" class="news_btn"><a href="#">등록하기</a></button>
+          <button type="submit" class="news_btn"><a href="#">해지하기</a></button>
+        </label>
+        <br>
+        <label for="agree">
+          <input type="checkbox">
+          <p>정보 안내를 위한 이메일 수집 및 광고성 메일 수신에 동의합니다.</p>
+        </label>
+      </form>
+    </div>
+
+  </section>
+ <footer id="footer" class="footer">
+        <div class="footer_top">
+            <h2>사이트 이용안내</h2>
+
+            <div class="term">
+                <h3 class="hide">약관 및 정책</h3>
+                <ul>
+                    <li><a href="map.html">오시는길</a></li>
+                    <li><a href="#">이메일문의</a></li>
+                    <li><a href="#">이메일 무단수집거부</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                </ul>
+            </div>
+            <div class="footer_b_box">
+                <div class="family_site">
+                    <h3>Family Site</h3>
+                    <ul>
+                        <li><a href="#">호암미술관</a></li>
+                        <li><a href="#">삼성문화재단</a></li>
+                        <li><a href="#">삼성아동교육문화센터</a></li>
+                        <li><a href="#">호암재단</a></li>
+                        <li><a href="#">삼성장학회</a></li>
+                        <li><a href="#">드림클래스</a></li>
+                    </ul>
+                </div>            
+            </div>
+
+            <div class="footer_bottom">
+               <div class="footer_b_bot">
+               </div>
+               <address>Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, Korea 04348</address>
+                <p>Copyright ⓒ Leeum 2011-2021, All Rights Reserved.</p>
+            </div>
+      </div>
+    </footer>   
+
+    <script>
+      $(document).ready(function () {
+        $('.slider').bxSlider();
+      });
+    </script>
+
+
+  </body>
+  </html>

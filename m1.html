@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/m1.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <title>Leeum - 전시(고미술)</title>
+  <style>
+    .bx-wrapper {
+      border: none;
+      box-shadow: none;
+      margin-top: 50px;
+    }
+
+    .bx-wrapper .bx-controls .bx-next {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_right.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+
+    .bx-wrapper .bx-controls .bx-prev {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_left.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
+      <h2>메뉴소개</h2>
+      <ul>
+        <li><a href="/intro.html">미술관소개</a></li>
+        <li><a href="#">프로그램</a></li>
+        <li><a href="/place.html">편의시설</a></li>
+        <li><a href="/membership.html">멤버십안내</a></li>
+        <li><a href="#">자료실</a></li>
+        <li><a href="https://leeumstore.org/">리움스토어</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+
+    <section id="quickbar">
+      <div class="quickbox">
+         <div class="quickright">
+         <ul>
+          <li class="bar1"><a href="indexlogin">로그인</a></li>
+          <li class="bar2"><a href="join01.html">회원가입</a></li>
+          <li class="bar3"><a href="mypage.html">마이페이지</a></li>
+          <li class="bar4"><a href="map.html">오시는길</a></li>
+          <li class="bar5"><a href="#logo">top</a></li>
+         </ul>
+         </div>
+         <div class="quick_log" id="indexlogin">
+         <div class="quick_title">
+           <h3>LOG - IN</h3>
+           <p>리움미술관 홈페이지를 방문해주셔서 감사합니다.</p>
+         </div>
+         <div class="quick_form">
+           <table>
+             <tr>
+               <td>ID</td>
+               <td><input type="text" id="quicklogin" name="quickID" placeholder="아이디(이메일 주소)를 입력해주세요" autofocus></td>
+             </tr>
+             <tr>
+               <td>PW</td>
+               <td><input type="password" id="quickpassword" name="quickPW" placeholder="비밀번호를 입력해주세요"></td>
+             </tr>
+           </table>
+         </div>
+         <div class="quick_btn">
+           <button class="lockon">로그인</button>
+           <button class="forget">ID(아이디)찾기</button>
+           <button class="forget">PW(비밀번호)찾기</button>
+         </div>
+         <div class="joinmember">
+           <table width="275px">
+             <tr>
+               <td style="font-size: 15px;">아직 회원이 아니신가요?</td>
+               <td><button><a href="join01.html">회원가입하기</a></button></td>
+             </tr>
+           </table>
+         </div>
+         </div>
+      </div>
+     </section>
+
+    <section id="title">
+      <div class="title_text">
+      <h3>전시 - 고미술</h3>
+      <p>Exhibition Leeum</p>
+      </div>
+    </section>
+
+    <div class="menu_wrap">
+      <ul class="dep1">
+        <li>
+          <a href="m1.html">M1 - 고미술</a>
+          <ul class="dep2">
+            <li><a href="#f1">1F 권위와 신앙, 화려함의 세계</a></li>
+            <li><a href="#f2">2F 감상과 취향</a></li>
+            <li><a href="#f3">3F 흰빛의 여정</a></li>
+            <li><a href="#f4">4F 푸른빛 문양 한점</a></li>
+          </ul>
+        </li>
+        <li><a href="m2.html">M2 - 현대미술</a>
+          <ul class="dep2">
+            <li><a href="">B1 이상한 행성</a></li>
+            <li><a href="">1F 중력의 역방향</a></li>
+            <li><a href="">2F 검은 공백</a></li>
+          </ul>
+        </li>
+        <li><a href="">인간, 일곱개의 질문</a></li>
+        <li><a href="">지난전시</a></li>
+      </ul>
+    </div>
+
+    
+
+    <section id="m_intro">
+      <h2>리움미술관 고미술 소장품</h2>
+      <br><br>
+      <p>
+        리움미술관은 선사시대부터 조선시대에 이르기까지 긴 역사 속에 찬란하게 꽃피운 한국 전통미술을 연구하고,<br>
+        우리의 귀중한 문화유산을 보존, 전승하기 위해 노력해 왔습니다.<br>이러한 노력의 결과로, 한국을 대표하는 미술 작품들과 학술적 가치가 높은 연구 자료들을 여러 분야에 걸쳐 소장하게 되었습니다. 
+        <br><br>
+        리움의 고미술 소장품은 도자기, 서화, 금속공예, 불교미술부터 목가구, 민화, 민속품, 전적에 이르기까지<br>한국 전통미술의 모든 분야를 망라합니다.<br><br>
+        특히 청자, 분청사기, 백자 등의 도자기류는 소장품 중에서 가장 큰 비중을 차지하며, 리움을 대표하는 명품들입니다.<br>고서화 소장품은 겸재 정선과 단원 김홍도의 작품들을 비롯해 다양한 시기와 주제를 아우릅니다.
+        불교미술품인 고려불화 역시<br>빼놓을 수 없는 회화 소장품의 백미입니다.<br>또한 청동기시대부터 조선후기에 이르기까지 각 시대를 대표하는 금속공예품, 한국 조각사에 명작으로 남을 만한 불상과 불구 등은 고미술 소장품 구성에 다채로움을 더해 줍니다.
+      </p>
+      <br><br>
+      <h2>M1</h2>
+      <br>
+      <p>
+        고미술 상설관인 M1에는 4층부터 1층까지 각 층별 주제에 맞춰 엄선한 120여 점의 작품이 전시되어 있습니다.<br>4층에는 ‘푸른빛 문양 한 점’이라는 주제로 고려시대 청자의 세계가 펼쳐집니다.<br><br> ‘흰빛의 여정’을 주제로 꾸민 3층은 조선시대 분청사기와 백자를 감상할 수 있는 공간입니다. 2층 ‘감상과 취향’에서는 다양한 기법과 주제의 고서화를 볼 수 있습니다. ‘권위와 신앙, 화려함의 세계’를 주제로 한 1층에서는 불교미술, 금속공예, 나전칠기 등에 구현된 선조들의 정신세계와 미감을 느껴보십시오. 더불어, 각 층마다 고미술 작품과 함께 전시된 현대미술 작품들 사이를 거닐며 시대를 초월한 예술의 교감을 확인할 수 있습니다.
+      </p>
+    </section>
+
+    <section id="f1">
+      <div class="slider">
+        <div><img src="/images/exhibition/old1.jpg" alt="f1_img_01"></div>
+        <div><img src="/images/exhibition/old2.jpg" alt="f1_img_02"></div>
+        <div><img src="/images/exhibition/old3.jpg" alt="f1_img_03"></div>
+        <div><img src="/images/exhibition/old4.jpg" alt="f1_img_04"></div>
+        <div><img src="/images/exhibition/old5.jpg" alt="f1_img_05"></div>
+      </div>
+      <h3>1층 권위와 신앙, 화려함의 세계</h3>
+      <br>
+      <p>
+        인도에서 발원한 불교는 삼국시대인 4세기에 중국을 거쳐 이 땅에 처음 전래되었습니다.<br>
+        그 후 오늘날에 이르기까지 불교는 오랫동안 문화와 미술에 큰 영향을 끼쳐 왔습니다.<br>
+        신앙의 대상으로서 만들어진 불상에서는 인체를 통해 신성(神性)을 표현해낸 뛰어난 예술성을 확인할 수 있습니다.<br>
+        고려시대의 불화는 동시기 중국이나 일본의 불화와 뚜렷이 구별되는데, 섬세한 표현과 독자적인 미감에서 차이를 보여줍니다.<br>
+        공덕을 쌓기 위해 불교 경전을 손으로 베껴 쓴 사경에서는 당시 사람들의 간절한 발원과 깊은 신앙심을 느낄 수 있습니다.<br>
+        함께 전시된 현대 조각은 인간 세계의 번민에서 벗어나 숭고함에 도달하고자 하는 불교미술의 주제와 어우러집니다.
+        <br><br>
+        불교미술이 화려하게 꽃필 수 있었던 배경으로, 불교 전래 이전부터 발전했던 쇠를 다루는 야금의 전통이 있었습니다.<br>
+        청동기시대부터 삼국시대에 이르기까지 사람들은 현세의 삶이 내세로 이어진다고 믿었기에,
+        무기와 금관을 비롯해 각종 금속제 장식품과 토기들을 무덤 속에 함께 묻었습니다. 화려하게 장식한 큰 칼과 금으로 만든 다양한 장신구들은 당시 지배 세력의 미적 취향과 권위를 잘 보여줍니다. 한편, 통일신라시대와 고려시대에 일상생활을 위해 만들어진 금속공예품에서는 다채로운 장식 기법과 정성이 돋보이는<br>세밀한 표현을 만나볼 수 있습니다.
+      </p>
+    </section>
+
+    <section id="f2">
+      <div class="slider">
+        <div><img src="/images/exhibition/old6.jpg" alt="f1_img_01"></div>
+        <div><img src="/images/exhibition/old7.jpg" alt="f1_img_02"></div>
+        <div><img src="/images/exhibition/old8.jpg" alt="f1_img_03"></div>
+        <div><img src="/images/exhibition/old9.jpg" alt="f1_img_04"></div>
+        <div><img src="/images/exhibition/old10.jpg" alt="f1_img_05"></div>
+      </div>
+      <h3>2층 감상과 취향</h3>
+      <br>
+      <p>
+        서화는 실생활에 사용하기 위해 만들어진 도자기나, 예배를 위해 만들어진 불교미술품과는 달리 오롯이 감상을 위해<br>만들어진 예술품이었습니다.
+        2층에는 우리나라 예술사에 커다란 자취를 남긴 겸재 정선(謙齋 鄭敾), 단원 김홍도(檀園 金弘道),<br>추사 김정희(秋史 金正喜), 오원 장승업(吾園 張承業) 등의 작품을 중심으로 조선시대 화단을 대표하는 여러 화가들의<br>
+        그림과 글씨가 전시되어 있습니다.
+        <br><br>
+        우리나라의 고서화는 중국이나 일본 그림에 비해 과장이 적고, 자연스러운 조화를 추구하는 것이 가장 큰 특징입니다.<br>이러한 작품을 감상할 때 중요한 기준은 ‘아름다움’과 ‘격조’입니다. 그림의 세부 표현이 서로 잘 어울려 구도상의 균형을 이루고 있는지,<br>
+        화면에 나타난 분위기가 한눈에 들어와 산만하지 않고 일관된 느낌을 주는지, 사물을 묘사한 선과 화면의 여백을 통해 운치 있는 세련미가 표현되었는지를 주의 깊게 살펴본다면 감상하는 데 도움이 될 것입니다. 아울러 전통을 토대로 새로운 미감을 보여주는 현대미술 작품을 함께 전시하고 있어, 전통과 현대의 조화를 느낄 수 있습니다.
+      </p>
+    </section>
+
+    <section id="f3">
+      <div class="slider">
+        <div><img src="/images/exhibition/old11.jpg" alt="f1_img_01"></div>
+        <div><img src="/images/exhibition/old12.jpg" alt="f1_img_02"></div>
+        <div><img src="/images/exhibition/old13.jpg" alt="f1_img_03"></div>
+        <div><img src="/images/exhibition/old14.jpg" alt="f1_img_04"></div>
+        <div><img src="/images/exhibition/old15.jpg" alt="f1_img_05"></div>
+      </div>
+      <h3>3층 흰빛의 여정</h3>
+      <br>
+      <p>
+        분청사기는 15-16세기에 우리나라에서만 제작된 독특한 자기로, 한국미의 원형을 보여준다는 평가를 받습니다. 고려 말 상감청자의 전통을 바탕으로 조선초기부터 본격적으로 제작되었는데, 그 형태와 장식이 점차 다양해지고 각 지방의 각 지방의 정서에 어울리는 특색이 가미되었습니다. 이렇게 여러 세기에 걸쳐 다양한 지역과 계층 사이에서 만들어지는 동안 깔끔한 형태에 정교한 무늬를 새겨 넣은 작품이 있는가 하면, 거칠고 투박한 모양에 단순한 무늬가 자유롭게 표현된 작품도 있습니다. 이러한 과정을 거쳐 오면서 분청사기는 지금 우리에게 익숙한 질박하고도 자연스러운 분위기를 갖게 되었습니다.
+
+        조선은 절제된 형태와 순백의 유색, 정결한 장식이 더해진 격조 높은 백자문화도 발전시켰습니다. 백자는 순백의 흙으로 형태를 빚어 단정하게 다듬고 그 위에 빛깔이 있는 안료로 그림을 장식한 후 표면에 맑고 투명한 유약을 입혀 구워냅니다. 이렇게 완성된 백자에는 온유하면서도 엄정한 기품이 담겨 있습니다. 초기에는 왕실 등 지배층의 취향에 맞게 만들어졌지만, 점차 사용이 확대되어 조선시대를 대표하는 자기로 자리를 굳혔습니다. 백자는 전국 각지에서 생산되었지만, 경기도 광주 관요에서 왕실용으로 제작된 백자를 최고로 꼽습니다. 이처럼 흙을 재료로 이룩해낸 공예 예술은 오늘날 한국 현대미술의 추상성과 맞닿아 특별한 울림을 선사합니다.        
+      </p>
+    </section>
+
+    <section id="f4">
+      <div class="slider">
+        <div><img src="/images/exhibition/old16.jpg" alt="f1_img_01"></div>
+        <div><img src="/images/exhibition/old17.jpg" alt="f1_img_02"></div>
+        <div><img src="/images/exhibition/old18.jpg" alt="f1_img_03"></div>
+        <div><img src="/images/exhibition/old19.jpg" alt="f1_img_04"></div>
+        <div><img src="/images/exhibition/old20.jpg" alt="f1_img_05"></div>
+      </div>
+      <h3>4층 푸른빛 문양 한 점</h3>
+      <br>
+      <p>
+        청자는 전 세계에서 중국과 한국 등 극소수의 나라에서만 제작되던 매우 특별한 자기입니다. 깨끗하게 걸러낸 점토로 그릇을 만들고<br>
+        그 위에 푸른색의 투명한 유약을 씌워 구워내는데, 전라남도 강진과 전라북도 부안에서 집중적으로 생산되었습니다.
+        <br><br>
+        특히 12세기부터 13세기 전반에 걸쳐 가장 우수한 청자들이 만들어졌습니다.
+        그 무엇보다도 우리를 사로잡는 청자의 가장 큰 특징은<br>우아하고 세련된 형태와 은은하고 신비로운 푸른빛입니다.<br><br>
+        청자의 푸른빛을 고려 사람들은 비색(翡色)이라 표현하며 각별히 여겼는데, 그중에서도 은은한 기품이 느껴지는 것을<br>최상급으로 꼽았습니다.
+        청자의 비색에서 영감을 받아 제작한 현대 유화를 통해서도 청자의 미묘한 색감 변화를 느껴 볼 수 있습니다.
+        <br>여기에 다양한 장식 기법이 더해지면서 청자는 더욱 다채로운 모습으로 발전했습니다. 고려 사람들의 창의성이 유감없이 발휘된<br>상감청자는 경탄을 자아낼 만큼 아름다워, 가장 자랑할만한 우리 문화재이기도 합니다.
+      </p>
+    </section>
+
+    
+  
+  </main>
+
+    <div class="clerfix"></div>
+  <section id="Subscribe">
+    <div class="subc_text">
+      <h3>Subscribe</h3>
+      <br>
+      <p>리움의 최신 정보를 받아보길 원하시면 이메일 주소를 남겨주세요!</p>
+      <br>
+      <ul>
+        <li>수집항목 : 이메일주소  |  보유기간 : 메일 수신거부 신청 시 까지</li> 
+        <li>수집목적 : 전시 및 프로그램 등 리움 관련 소식 메일 발송</li>
+      </ul>
+    </div>
+    <div class="subc_form">
+      <form action="#" method="POST">
+        <div class="email_form">
+            <label for="이메일">
+              <input type="email" class="email_form">
+            </label>
+        </div>
+        <br>
+        <label for="sub_btn">
+          <button type="submit" class="news_btn"><a href="#">등록하기</a></button>
+          <button type="submit" class="news_btn"><a href="#">해지하기</a></button>
+        </label>
+        <br>
+        <label for="agree">
+          <input type="checkbox">
+          <p>정보 안내를 위한 이메일 수집 및 광고성 메일 수신에 동의합니다.</p>
+        </label>
+      </form>
+    </div>
+
+  </section>
+ <footer id="footer" class="footer">
+        <div class="footer_top">
+            <h2>사이트 이용안내</h2>
+
+            <div class="term">
+                <h3 class="hide">약관 및 정책</h3>
+                <ul>
+                    <li><a href="map.html">오시는길</a></li>
+                    <li><a href="#">이메일문의</a></li>
+                    <li><a href="#">이메일 무단수집거부</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                </ul>
+            </div>
+            <div class="footer_b_box">
+                <div class="family_site">
+                    <h3>Family Site</h3>
+                    <ul>
+                        <li><a href="#">호암미술관</a></li>
+                        <li><a href="#">삼성문화재단</a></li>
+                        <li><a href="#">삼성아동교육문화센터</a></li>
+                        <li><a href="#">호암재단</a></li>
+                        <li><a href="#">삼성장학회</a></li>
+                        <li><a href="#">드림클래스</a></li>
+                    </ul>
+                </div>            
+            </div>
+
+            <div class="footer_bottom">
+               <div class="footer_b_bot">
+               </div>
+               <address>Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, Korea 04348</address>
+                <p>Copyright ⓒ Leeum 2011-2021, All Rights Reserved.</p>
+            </div>
+      </div>
+    </footer>   
+
+    <script>
+      $(document).ready(function () {
+        $('.slider').bxSlider();
+      });
+    </script>
+
+
+  </body>
+  </html>
