@@ -738,55 +738,23 @@ main{
   bottom: 160px;
 }
 
-.list_tap{
+#list_tap{
+  clear: both;
   width: 1200px;
   margin: auto;
-  margin-top: 200px;
-  margin-bottom: 110px
+  border: 1px solid red;
 }
 
-.list_tap ul{
-  position: relative;
-  bottom: 125px;
-  margin-bottom: 50px;
-}
-
-.list_tap ul li{
+#list_tap ul li{
   float: left;
-  width: calc(1200px / 5);
-  height: 50px;
-  text-indent: -9999px;
 }
 
-.list_tap ul li a{
-  display: block;
-  width: 230px;
-  height: 50px;
-  cursor: pointer;
-}
 
-.list_tap ul .list_btn01{
-  background: url(/images/list_btn1.jpg) no-repeat;
-}
 
-.list_tap ul .list_btn02{
-  background: url(/images/list_btn2.jpg) no-repeat;
-}
-
-.list_tap ul .list_btn03{
-  background: url(/images/list_btn3.jpg) no-repeat;
-}
-
-.list_tap ul .list_btn04{
-  background: url(/images/list_btn4.jpg) no-repeat;
-}
-
-.list_tap ul .list_btn05{
-  background: url(/images/list_btn5.jpg) no-repeat;
-}
 
 /* 뉴스레터구독 */
 #Subscribe{
+  clear: both;
   z-index: 99px;
   width: 1200px;
   height: 245px;
