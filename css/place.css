@@ -284,7 +284,7 @@ header nav ul li a:hover{
 }
 
 .shop h3{
-  background: url(/images/place01.jpg);
+  background: url(/images/place01.jpg) no-repeat center;
   width: 580px;
   height: 350px;
   text-indent: -9999px;
@@ -366,7 +366,7 @@ header nav ul li a:hover{
 }
 
 .cafe h3{
- background: url(/images/place02.jpg);
+ background: url(/images/place02.jpg) no-repeat center;
  width: 580px;
  height: 350px;
  text-indent: -9999px;
@@ -401,7 +401,7 @@ header nav ul li a:hover{
   width: 50px;
 }
 
-.cloak{
+.order{
   width: 580px;
   height: 568px;
   float: left;
@@ -409,24 +409,24 @@ header nav ul li a:hover{
   margin-top: 150px;
 }
 
-.cloak h3{
-  background: url(/images/place03.jpg);
+.order h3{
+  background: url(/images/place03.jpg) no-repeat center;
   width: 580px;
   height: 350px;
   text-indent: -9999px;
 }
 
-.cloak table{
+.order table{
   width: 580px;
 }
 
 
-.cloak p{
+.order p{
   line-height: 25px;
   height: 100px;
 }
 
-.cloak table tr .largetextcloak{
+.order table tr .largetextorder{
   font-size: 30px;
   width: 160px;
   font-family: 'GmarketSansMedium';
@@ -442,7 +442,7 @@ header nav ul li a:hover{
 }
 
 .locker h3{
-  background: url(/images/place04.jpg);
+  background: url(/images/place04.jpg) no-repeat center;
   width: 580px;
   height: 350px;
   text-indent: -9999px;
