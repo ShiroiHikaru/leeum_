@@ -738,15 +738,66 @@ main{
   bottom: 160px;
 }
 
+/* 링크탭 영역 */
+
 #list_tap{
   clear: both;
   width: 1200px;
+  height: 50px;
   margin: auto;
-  border: 1px solid red;
+  margin-bottom: 150px;
+  position: relative;
+  bottom: 50px;
+}
+
+#list_tap ul{
+  position: absolute;
+  width: 1180px;
+  height: 50px;
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-around;
 }
 
 #list_tap ul li{
   float: left;
+  height: 50px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#list_tap ul .list_btn1, .list_btn2, .list_btn3{
+  background-color: #8a7a67;
+}
+
+#list_tap ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  height: 50px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#list_tap ul .list_btn4, .list_btn5, .list_btn6{
+  text-indent: -9999px;
+}
+
+#list_tap ul .list_btn4{
+  background-image: url(/images/list_btn3.jpg);
+}
+
+#list_tap ul .list_btn5{
+  background-image: url(/images/list_btn4.jpg);
+}
+
+
+#list_tap ul .list_btn6{
+  background-image: url(/images/list_btn5.jpg);
 }
 
 
