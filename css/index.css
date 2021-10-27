@@ -769,8 +769,10 @@ main{
 }
 
 #list_tap ul .list_btn1, .list_btn2, .list_btn3{
-  background-color: #8a7a67;
+  background-color: #3d3326;
 }
+
+
 
 #list_tap ul li a{
   text-decoration: none;
