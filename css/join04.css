@@ -385,6 +385,16 @@ header nav ul li a:hover{
   color: white;
 }
 
+.next_btn button a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 
