@@ -315,70 +315,57 @@ header nav ul li a:hover{
 }
 
 .agebox .join_info{
+  width: 1100px;
+  margin: auto;
+}
+
+.agebox .join_info form fieldset legend{
+  text-indent: -9999px;
+}
+
+.agebox .join_info form fieldset table{
+  margin: auto;
   width: 900px;
-  margin: auto;
 }
 
-.agebox .join_info table{
-  margin: auto;
-  margin-top: 50px;
-}
-
-.agebox .join_info table tr td{
-  height: 100px;
+.agebox .join_info form fieldset table tr td{
+  height: 70px;
   vertical-align: middle;
 }
-.agebox .join_info table tr td span{
+
+.agebox .join_info form fieldset table tr .leftcell{
+  width: 180px;
+}
+
+
+.agebox .join_info form fieldset table tr .leftcell .star{
   color: red;
-  font-size: 15px;
 }
 
-.agebox .join_info table tr .join_text{
-  width: calc(900px - 700px);
+.agebox .join_info form fieldset table tr td input{
+  height: 35px;
 }
 
-.agebox .join_info table tr .home input{
-  margin-bottom: 0.7rem;
+
+.agebox .join_info form fieldset table tr td select{
+  height: 40px;
+  width: 200px;
   font-size: 18px;
 }
 
-.agebox .join_info table tr .write{
-  font-size: 15px;
-}
-
-.agebox .join_info table tr .write input{
-  width: 450px;
+.agebox .join_info form fieldset table tr td button{
   height: 40px;
-  border: 1px solid #ccc;
-  font-size: 18px;
-}
-
-.agebox .join_info table tr td button{
-  margin: 0 0 0 10px;
-  width: 155px;
-  height: 40px;
-  background-color: #3d3326;
-  color: white;
+  background: #3d3326;
   border: none;
-  font-size: 20px;
-  font-family: 'GmarketSanslight';
-}
-
-.agebox .join_info table tr td .gender{
-  width: calc(900px / 2 / 2);
-  float: left;
-}
-
-.agebox .join_info table tr .phone input{
-  width: 185px;
-  height: 40px;
-  border: 1px solid #ccc;
   font-size: 18px;
+  color: white;
 }
 
-.agebox .join_info table tr .adclick{
-  font-size: 15px;
+.agebox .join_info form fieldset table tr .input_box input{
+  width: 500px;
 }
+
+
 
 .next_btn{
   width: 1100px;
@@ -394,16 +381,11 @@ header nav ul li a:hover{
   border: none;
   font-size: 25px;
   font-family: 'GmarketSansMedium';
+  cursor: pointer;
+  color: white;
 }
 
-.next_btn button a{
-  text-decoration: none;
-  color: white;
-  display: block;
-  width: 355px;
-  height: 60px;
-  line-height: 65px;
-}
+
 
 
 
