@@ -340,6 +340,7 @@ a{
 #f1{
   width: 1200px;
   margin: auto;
+  margin-bottom: 150px;
 }
 
 #f1 p{
@@ -352,6 +353,12 @@ a{
 
 #f1 .human_info tbody tr .info_title{
   width: 150px;
+}
+
+
+#f1 table tr td{
+  padding: 15px 0;
+  line-height: 25px;
 }
 
 /* 뉴스레터구독 */
