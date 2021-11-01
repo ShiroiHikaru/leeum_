@@ -104,7 +104,7 @@ header nav ul li a:hover{
   position: fixed;
   right: 0;
   top: 300px;
-  z-index: 9998;
+  z-index: 9999;
   float: right;
 }
 
@@ -279,22 +279,31 @@ a{
   margin-top: 100px;
 }
 
+.menu_wrap .dep1{
+  display: table;
+}
+
 
 .menu_wrap .dep1 > li{
   display: inline-block;
-  width: 1200px;
+  width: 400px;
+  float: left;
+  height: 95px;
   border-bottom: 1px solid #fff;
   background-color: #141414;
   color: white;
   font-size: 20px;
+  line-height: 30px;
+  display: table-cell;
   text-align: center;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .menu_wrap .dep1 > li > a{
   display: block;
   border-left: 1px solid white;
   padding: 15px 0;
+  height: 70px;
 }
 
 .menu_wrap .dep1 > li > a:hover{
@@ -302,33 +311,14 @@ a{
   color: #000;
   font-family: 'GmarketsansMedium';
   transition: 0.3s;
-}
 
-
-.menu_wrap .dep1 > li:hover > .dep2{
-  display: block;
-}
-
-.menu_wrap .dep2{
-  display: none;
-  background-color: #8a7a67;
-}
-
-
-.menu_wrap .dep2 a{
-  display: block;
-  padding: 15px 0;
-  border-bottom: 1px solid rgba(61, 51, 38, 0.5);
-} 
-
-.menu_wrap .dep2 a:hover{
-  background-color: #3d3326;
-  transition: 0.3s;
 }
 
 
 
-/* 마리오보타 시작 */
+
+
+/* 정구호 시작 */
 #museum1{
   width: 1200px;
   margin: auto;
@@ -343,581 +333,47 @@ a{
   font-family: 'Gmarketsansmedium';
 }
 
-#museum1 .introbox table{
-  width: 1200px;
-  border: 1px solid #ccc;
-  margin-top: 50px;
-}
 
-#museum1 .introbox p{
-  line-height: 25px;
-}
-
-#museum1 .introbox table tr td{
-  border: 1px solid #ccc;
-  height: 50px;
-  vertical-align: middle;
-  text-align: center;
-}
-
-#museum1 .introbox table tr .title{
-  background: #8a7a67;
-  color: white;
-}
-
-
-#museum1 .arch .arch_title{
-  font-size: 40px;
-  font-family: 'Gmarketsansmedium';
-}
-
-
-#museum1 .arch{
-  width: 1200px;
-  height: 100%;
+/* jung page */
+#jung{
+  clear: both;
+  background: url(/images/jung/jung_back.png) no-repeat;
   margin-top: 150px;
+  width: 100%;
+  height: 873px;
 }
 
-
-/* arch1 */
-#museum1 .arch .arch1{
-  height: 349px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-
-
-#museum1 .arch .arch1 .arch_img img{
-  float: left;
-}
-
-
-#museum1 .arch .arch1 .arch_text{
-  height: 349px;
-  width: 636px;
-  float: left;
-  margin-left: 30px;
-  padding-top: 25px;
-}
-
-
-#museum1 .arch .arch1 .arch_text p{
-  line-height: 25px;
-  font-size: 18px;
-}
-
-#museum1 .arch .arch1 .arch_img img{
-  float: left;
-}
-
-/* arch2 */
-#museum1 .arch .arch2{
-  height: 349px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-
-
-#museum1 .arch .arch2 .arch_img img{
-  float: left;
-}
-
-
-#museum1 .arch .arch2 .arch_text{
-  height: 349px;
-  width: 636px;
-  float: left;
-  margin-left: 30px;
-  padding-top: 15px;
-}
-
-
-#museum1 .arch .arch2 .arch_text p{
-  line-height: 25px;
-  font-size: 18px;
-}
-
-#museum1 .arch .arch2 .arch_img img{
-  float: left;
-}
-
-/* arch3 */
-
-#museum1 .arch .arch3{
-  height: 349px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-
-
-#museum1 .arch .arch3 .arch_img img{
-  float: left;
-}
-
-
-#museum1 .arch .arch3 .arch_text{
-  height: 349px;
-  width: 636px;
-  float: left;
-  margin-left: 30px;
-  padding-top: 15px;
-}
-
-
-#museum1 .arch .arch3 .arch_text p{
-  line-height: 25px;
-  font-size: 18px;
-}
-
-#museum1 .arch .arch3 .arch_img img{
-  float: left;
-}
-
-/* arch4 */
-
-#museum1 .arch .arch4{
-  height: 349px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-
-
-#museum1 .arch .arch4 .arch_img img{
-  float: left;
-}
-
-
-#museum1 .arch .arch4 .arch_text{
-  height: 349px;
-  width: 636px;
-  float: left;
-  margin-left: 30px;
-  padding-top: 15px;
-}
-
-
-#museum1 .arch .arch4 .arch_text p{
-  line-height: 25px;
-  font-size: 18px;
-}
-
-#museum1 .arch .arch4 .arch_img img{
-  float: left;
-}
-
-
-/* mario page */
-#mario{
-  background: url(/images/mario/mario_back.jpg) no-repeat;
-  height: 100%;
-  margin-top: 150px;
-  margin-bottom: 150px;
-}
-
-#mario .mario_intro{
+#jung .title{
   width: 1200px;
   margin: auto;
-  height: 664px;
-  padding-top: 150px;
 }
 
-#mario .mario_intro .mariotext{
-  float: left;
-}
-
-#mario .mario_intro .profile{
-  background: url(/images/mario/mario_profile.jpg) no-repeat;
-  width: 543px;
-  height: 664px;
+#jung .title h3{
+  background: url(/images/jung/jung_title_w.png) no-repeat;
+  height: 200px;
+  width: 700px;
+  margin-top: 80px;
   float: right;
   text-indent: -9999px;
 }
 
-#mario .mario_intro .mariotext h2{
-  background: url(/images/mario/mario_saying.png) no-repeat;
-  width: 435px;
-  height: 179px;
-  margin-bottom: 50px;
-  text-indent: -9999px;
-}
-
-#mario .mario_intro .mariotext h3{
-  margin-bottom: 30px;
-  font-weight: bold;
-}
-
-#mario .mario_intro .mariotext{
-  height: 664px;
-  width: calc(1200px - 600px);
-}
-
-#mario .mario_intro .mariotext p{
-  font-size: 18px;
-  line-height: 25px;
-}
-
-#mario .mario_intro .mariotext button{
-  width: 179px;
-  height: 40px;
-  margin-top: 18px;
-  background-color: #3d3326;
-  border: none;
-  font-size: 18px;
-}
-
-#mario .mario_intro .mariotext button a{
+#jung .title p{
+  clear: both;
   color: white;
-  text-decoration: none;
-  display: block;
-  height: 35px;
+  width: 700px;
+  float: right;
+  padding: 20px 0px;
+}
+
+#jung .title .prize{
+  color: white;
+  clear: both;
+  width: 700px;
+  float: right;
+  padding: 30px 0;
   line-height: 35px;
-}
-
-#mario .mario_intro2{
-  padding-top: 100px;
-  width: 1200px;
-  margin: auto;
-  height: 471px;
-}
-
-#mario .mario_intro2 .work{
-  float: left;
-}
-
-#mario .mario_intro2 .mariotext2{
-  float: right;
-  width: 600px;
-  line-height: 25px;
-  padding-top: 15px;
-}
-
-#mario02{
-  background: url(/images/mario/mario_back2.jpg) no-repeat;
-  height: 688px; 
-}
-
-#mario02 .text{
-  width: 1200px;
-  margin: auto;
-  color: white;
-  padding-top: 150px;
-  line-height: 25px;
-}
-
-#mario02 .text .saying{
-  background:url(/images/mario/mario_saying02.png) no-repeat;
-  width: 563px;
-  height: 116px;
-  margin-top: 50px;
-  text-indent: -9999px;
-}
-
-#interview {
-  margin: auto;
-  width: 1200px;
-  margin-top: 150px;
-}
-
-#interview .qanda{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 1200px;
-  height: 2500px;
-  border: 1px solid #8a7a67;
-}
-
-#interview .qanda h3{
-  text-align: center;
-  background-color: #8a7a67;
-  color: white;
-  padding: 15px 0 15px 0;
-}
-
-/* 질문1 */
-
-#interview .qanda .q01{
-  margin-top: 50px;
-  font-size: 18px;
-  width: 1100px;
-  margin: auto;
-  margin-top: 50px;
-}
-
-#interview .qanda .q01 .question span{
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  background: url(/images/icon/question.svg) no-repeat;
-  text-indent: -9999px;
-  float: left;
-  margin-right: 20px;
-}
-
-#interview .qanda .q01 .question p{
-  line-height: 25px;
   font-weight: bold;
 }
-
-#interview .qanda .q01 .anwser{
-  clear: both;
-  margin-top: 50px;
-}
-
-#interview .qanda .q01 .anwser span{
-  background: url(/images/icon/anwser.svg) no-repeat;
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  margin-right: 20px;
-  text-indent: -9999px;
-  float: left;
-}
-
-#interview .qanda .q01 .anwser p{
-  width: 1000px;
-  float: left;
-  margin-bottom: 50px;
-  line-height: 25px;
-}
-
-/* 질문2 */
-
-#interview .qanda .q02{
-  margin-top: 50px;
-  font-size: 18px;
-  width: 1100px;
-  margin: auto;
-  margin-top: 50px;
-}
-
-#interview .qanda .q02 .question span{
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  background: url(/images/icon/question.svg) no-repeat;
-  text-indent: -9999px;
-  float: left;
-  margin-right: 20px;
-}
-
-#interview .qanda .q02 .question p{
-  line-height: 25px;
-  font-weight: bold;
-}
-
-#interview .qanda .q02 .anwser{
-  clear: both;
-  margin-top: 50px;
-}
-
-#interview .qanda .q02 .anwser span{
-  background: url(/images/icon/anwser.svg) no-repeat;
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  margin-right: 20px;
-  text-indent: -9999px;
-  float: left;
-}
-
-#interview .qanda .q02 .anwser p{
-  width: 1000px;
-  float: left;
-  margin-bottom: 50px;
-  line-height: 25px;
-}
-
-/* 질문 3 */
-
-#interview .qanda .q03{
-  margin-top: 50px;
-  font-size: 18px;
-  width: 1100px;
-  margin: auto;
-  margin-top: 50px;
-}
-
-#interview .qanda .q03 .question span{
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  background: url(/images/icon/question.svg) no-repeat;
-  text-indent: -9999px;
-  float: left;
-  margin-right: 20px;
-}
-
-#interview .qanda .q03 .question p{
-  line-height: 25px;
-  font-weight: bold;
-}
-
-#interview .qanda .q03 .anwser{
-  clear: both;
-  margin-top: 50px;
-}
-
-#interview .qanda .q03 .anwser span{
-  background: url(/images/icon/anwser.svg) no-repeat;
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  margin-right: 20px;
-  text-indent: -9999px;
-  float: left;
-}
-
-#interview .qanda .q03 .anwser p{
-  width: 1000px;
-  float: left;
-  margin-bottom: 50px;
-  line-height: 25px;
-}
-
-/* 질문 4 */
-
-#interview .qanda .q04{
-  margin-top: 50px;
-  font-size: 18px;
-  width: 1100px;
-  margin: auto;
-  margin-top: 50px;
-}
-
-#interview .qanda .q04 .question span{
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  background: url(/images/icon/question.svg) no-repeat;
-  text-indent: -9999px;
-  float: left;
-  margin-right: 20px;
-}
-
-#interview .qanda .q04 .question p{
-  line-height: 25px;
-  font-weight: bold;
-}
-
-#interview .qanda .q04 .anwser{
-  clear: both;
-  margin-top: 50px;
-}
-
-#interview .qanda .q04 .anwser span{
-  background: url(/images/icon/anwser.svg) no-repeat;
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  margin-right: 20px;
-  text-indent: -9999px;
-  float: left;
-}
-
-#interview .qanda .q04 .anwser p{
-  width: 1000px;
-  float: left;
-  margin-bottom: 50px;
-  line-height: 25px;
-}
-
-/* 질문 5 */
-
-
-#interview .qanda .q05{
-  margin-top: 50px;
-  font-size: 18px;
-  width: 1100px;
-  margin: auto;
-  margin-top: 50px;
-}
-
-#interview .qanda .q05 .question span{
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  background: url(/images/icon/question.svg) no-repeat;
-  text-indent: -9999px;
-  float: left;
-  margin-right: 20px;
-}
-
-#interview .qanda .q05 .question p{
-  line-height: 25px;
-  font-weight: bold;
-}
-
-#interview .qanda .q05 .anwser{
-  clear: both;
-  margin-top: 50px;
-}
-
-#interview .qanda .q05 .anwser span{
-  background: url(/images/icon/anwser.svg) no-repeat;
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  margin-right: 20px;
-  text-indent: -9999px;
-  float: left;
-}
-
-#interview .qanda .q05 .anwser p{
-  width: 1000px;
-  float: left;
-  margin-bottom: 50px;
-  line-height: 25px;
-}
-
-/* 질문 6 */
-
-#interview .qanda .q06{
-  margin-top: 50px;
-  font-size: 18px;
-  width: 1100px;
-  margin: auto;
-  margin-top: 50px;
-}
-
-#interview .qanda .q06 .question span{
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  background: url(/images/icon/question.svg) no-repeat;
-  text-indent: -9999px;
-  float: left;
-  margin-right: 20px;
-}
-
-#interview .qanda .q06 .question p{
-  line-height: 25px;
-  font-weight: bold;
-}
-
-#interview .qanda .q06 .anwser{
-  clear: both;
-  margin-top: 50px;
-}
-
-#interview .qanda .q06 .anwser span{
-  background: url(/images/icon/anwser.svg) no-repeat;
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  margin-right: 20px;
-  text-indent: -9999px;
-  float: left;
-}
-
-#interview .qanda .q06 .anwser p{
-  width: 1000px;
-  float: left;
-  margin-bottom: 50px;
-  line-height: 25px;
-}
-
-
-
 
 
 
@@ -925,7 +381,7 @@ a{
 
 /* 뉴스레터구독 */
 #Subscribe{
-  z-index: 9999;
+  z-index: 8000;
   width: 1200px;
   height: 245px;
   margin: auto;
