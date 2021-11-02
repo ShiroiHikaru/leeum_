@@ -279,9 +279,7 @@ a{
   margin-top: 100px;
 }
 
-.menu_wrap .dep1{
-  display: table;
-}
+
 
 
 .menu_wrap .dep1 > li{
@@ -294,9 +292,15 @@ a{
   color: white;
   font-size: 20px;
   line-height: 30px;
-  display: table-cell;
   text-align: center;
-  vertical-align: middle;
+}
+
+.menu_wrap .dep1 > .list01{
+  line-height: 70px;
+}
+
+.menu_wrap .dep1 > .list06{
+  line-height: 70px;
 }
 
 .menu_wrap .dep1 > li > a{
@@ -322,7 +326,8 @@ a{
 #museum1{
   width: 1200px;
   margin: auto;
-  margin-top: 150px;
+  padding-top: 100px;
+  clear: both;
 }
 
 #museum1 .introbox{
