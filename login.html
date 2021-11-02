@@ -24,46 +24,47 @@
     </nav>
   </header>
   
-  <div class="quickbar">
-    <ul>
-        <li class="quick01"><a href="/login.html">로그인</a></li>
-        <li class="quick02"><a href="#">회원가입</a></li>
-        <li class="quick03"><a>마이페이지</a></li>
-        <li class="quick04"><a href="/map.html">오시는길</a></li>
-        <li class="quick05"><a href="#logo">top</a></li>
-    </ul>
-    <div class="loginform">
-      <div class="message">
-        <h3>LOG - IN</h3>
-        <p>리움미술관 홈페이지를<br>방문해주셔서 감사합니다.</p>
-        <div class="login">
-          <form action="#" method="POST">
-            <fieldset>
-              <legend>로그인</legend>
-              <table>
-                <tbody>
-                  <tr>
-                    <td style="font-size: 15px;">ID</td>
-                    <td><label for="id"><input type="text" placeholder="아이디(이메일)을 입력해주세요"></label></td>
-                  </tr>
-                  <tr>
-                    <td style="font-size: 15px;">PW</td>
-                    <td><label for="pw"><input type="password" placeholder="비밀번호를 입력해주세요"></label></td>
-                  </tr>
-                </tbody>
-              </table>
-              <button class="key">로그인</button>
-              <div class="forget">
-                <button>아이디 찾기</button>
-                <button>비밀번호 찾기</button>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
   <main>
+
+    <section id="quickbar">
+      <div class="quickbtn">
+        <ul>
+          <li><button type="button" class="b01">로그인</button></li>
+          <li><button type="button" class="b02"><a href="join01.html">회원가입</a></button></li>
+          <li><button type="button" class="b03"><a href="reference.html">마이페이지</a></button></li>
+          <li><button type="button" class="b04"><a href="map.html">오시는길</a></button></li>
+          <li><button type="button" class="top"><a href="#logo">top</a></button></li>
+        </ul>
+      </div>
+      <div class="quickform">
+        <h3>LOG-IN</h3>
+        <p>리움미술관 홈페이지를 방문해주셔서 감사합니다.</p>
+        <form action="" name="quicklogin" id="quicklogin" method="post">
+          <fieldset>
+            <legend>퀵바로그인</legend>
+            <table>
+              <tr>
+                <td><label for="idCell">ID</label></td>
+                <td><input type="text" id="user_id" name="user_id"></td>
+              </tr>
+              <tr>
+                <td><label for="pwCell">PW</label></td>
+                <td><input type="password" id="user_pw" name="user_pw"></td>
+              </tr>
+            </table>
+            <button type="submit" class="mainbtn">로그인</button>
+            <table>
+              <tr>
+                <td><button type="submit" class="forget1">ID(아이디)찾기</button></td>
+                <td><button type="submit" class="forget2">PW(비밀번호)찾기</button></td>
+              </tr>
+            </table>
+            <p>아직 회원이 아니신가요? <button type="button"><a href="join01.html">회원가입</a></button></p>
+          </fieldset>
+        </form>
+      </div>
+    </section>
 
     <section id="title">
       <div class="title_text">
