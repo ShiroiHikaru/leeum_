@@ -95,174 +95,145 @@ header nav ul li a:hover{
 }
 
 
-/* quick 키워드 */
 
+/* quickbar 시작 */
 #quickbar{
-  font-size: 18px;
   position: fixed;
+  float: right;
   right: 0;
-  top: 300px;
-  z-index: 9998;
+  top: 200px;
+  z-index: 9999;
+}
+
+/* quick 키워드 */
+#quickbar .quickbtn{
   float: right;
 }
 
-#quickbar .quickright{
-  float: right;
+#quickbar .quickbtn ul li button{
   width: 80px;
-  height: 400px;
-}
-
-#quickbar .quickright ul li{
+  height: 90px;
   text-indent: -9999px;
-  height: 90px;
+  border: none;
+  cursor: pointer;
 }
 
-#quickbar .quickright ul li a{
-  display: block;
-  height: 90px;
-}
-
-#quickbar .quickright ul .bar5 a{
-  height: 40px;
-}
-
-#quickbar .quickright ul .bar1{
+#quickbar .quickbtn ul li .b01{
   background-image: url(/images/quick_01.jpg);
 }
 
-#quickbar .quickright ul .bar1:hover{
-  background-image: url(/images/hover_01.jpg);
-  transition: 0.3s;
-}
-
-#quickbar .quickright ul .bar2{
+#quickbar .quickbtn ul li .b02{
   background-image: url(/images/quick_02.jpg);
 }
 
-#quickbar .quickright ul .bar2:hover{
-  background-image: url(/images/hover_02.jpg);
-  transition: 0.3s;
-}
-
-#quickbar .quickright ul .bar3{
+#quickbar .quickbtn ul li .b03{
   background-image: url(/images/quick_03.jpg);
 }
 
-#quickbar .quickright ul .bar3:hover{
-  background-image: url(/images/hover_03.jpg);
-  transition: 0.3s;
-}
-
-#quickbar .quickright ul .bar4{
+#quickbar .quickbtn ul li .b04{
   background-image: url(/images/quick_04.jpg);
 }
 
-#quickbar .quickright ul .bar4:hover{
-  background-image: url(/images/hover_04.jpg);
-  transition: 0.3s;
+#quickbar .quickbtn ul li .top{
+  height: 41px;
+  border: none;
+  background: url(/images/quick_05.jpg);
 }
 
-
-#quickbar .quickright ul .bar5{
-  background: url(/images/quick_05.jpg) no-repeat;
-  height: 40px;
-}
-
-/* quick 로그인 항목*/
-#quickbar .quick_log{
+/* quickform 시작 */
+#quickbar .quickform{
+  width: 372px;
   height: 400px;
-  width: 370px;
+  background: #fff;
+  margin-right: 80px;
   border: 1px solid #ccc;
-  position: absolute;
-  right: 80px;
-  background-color: #fff;
 }
 
-#quickbar .quick_log .quick_title{
+#quickbar .quickform h3{
   text-align: center;
-  margin-top: 50px;
-}
-
-#quickbar .quick_log .quick_title h3{
   font-size: 40px;
+  padding-top: 40px;
 }
 
-#quickbar .quick_log .quick_title p{
+#quickbar .quickform p{
   font-size: 15px;
-  line-height: 30px;
+  text-align: center;
 }
 
-#quickbar .quick_log .quick_form table{
-  width: 275px;
+#quickbar .quickform form{
+  width: 300px;
   margin: auto;
 }
 
-#quickbar .quick_log .quick_form table tr td{
-  height: 40px;
+#quickbar .quickform form fieldset legend{
+  text-indent: -9999px;
+}
+
+#quickbar .quickform form fieldset table{
+  width: 300px;
+}
+
+#quickbar .quickform form fieldset table td{
+  height: 30px;
+  padding: 5px 0;
   vertical-align: middle;
 }
 
 
-#quickbar .quick_log .quick_form table tr td input{
-  height: 30px;
-  width: 209px;
-  float: right;
-  border: 1px solid #ccc;
-  border-radius: 0;
-  font-family: 'GmarketSanslight';
+#quickbar .quickform form fieldset table td input{
+  width: 240px;
+  height: 25px;
+  float: right;;
 }
 
-#quickbar .quick_log .quick_btn{
-  width: 275px;
-  margin: auto;
-}
-
-#quickbar .quick_log .quick_btn .lockon{
-  width: 275px;
-  height: 45px;
-  margin-top: 15px;
-  background-color: #3d3326;
-  border: none;
-  font-family: 'GmarketSansMedium';
+#quickbar .quickform form fieldset .mainbtn{
+  width: 300px;
+  height: 40px;
+  margin: 10px 0 0 0;
+  background: #3d3326;
   font-size: 18px;
   color: white;
+  border: none;
+  cursor: pointer;
 }
 
-#quickbar .quick_log .quick_btn .forget{
-  width: calc(268px / 2);
-  height: 30px;
-  margin-top: 10px;
+#quickbar .quickform form fieldset .forget1, .forget2{
+  width: 140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 35px;
+  background-color: #8a7a67;
+  border: none;
+  font-size: 15px;
+  font-family: 'gmarketsanslight';
+  color: white;
+}
+
+#quickbar .quickform form fieldset .forget1{
+  float: left;
+}
+#quickbar .quickform form fieldset p{
+  margin-top: 20px
+}
+
+#quickbar .quickform form fieldset p button{
+  width: 100px;
   background: #8a7a67;
-  border: none;
+  border:none;
   color: white;
-  font-family: 'GmarketSanslight';
 }
 
-#quickbar .quick_log .joinmember{
-  width: 275px;
-  margin-top: 50px;
-  margin: auto;
-}
-
-#quickbar .quick_log .joinmember table{
-  margin-top: 10px;
-}
-
-
-#quickbar .quick_log .joinmember table tr td{
-  vertical-align: middle;
-}
-
-#quickbar .quick_log .joinmember table tr td button{
-  background: #3d3326;
-  float: right;
-  border: none;
-}
-
-#quickbar .quick_log .joinmember table tr td button a{
-  color: white;
+#quickbar .quickform form fieldset p button a{
   text-decoration: none;
+  color: white;
 }
+
+
+#quickbar .quickform form fieldset .forget2{
+  float: right;
+}
+
 
 /* 메인 css 시작 */
 #copy{
