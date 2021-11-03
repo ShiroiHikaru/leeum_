@@ -2,8 +2,6 @@ body{
   font-size: 20px;
 }
 
-
-
 li::marker{
   color: #8a7a67;
 }
@@ -74,7 +72,7 @@ header nav ul li a:hover{
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/mario/mario_top.jpg);
+  background: url(/images/republic.jpg);
   background-size: cover;
   height: 328px;
   position: relative;
