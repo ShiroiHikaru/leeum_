@@ -86,7 +86,7 @@ main{
   width: 100%;
   height: 950px;
   position: relative;
-  z-index: -1;
+  z-index: -100;
 }
 
 #main_Slide h2{
@@ -290,154 +290,41 @@ main{
 }
 
 
+/* 티켓배너 시작 */
 
-
-
-
-
-/* 티켓예매 항목 */
 #ticket{
   width: 1200px;
-  height: 690px;
-  background: #f1f1f1;
-  margin: auto;
-  margin-bottom: 100px;
-}
-
-#ticket .ticket_box .ticket_title{
-  width: 1200px;
-  height: 60px;
-  background: #141414;
-  color: white;
-  font-weight: bold;
-  line-height: 62px;
-}
-
-#ticket .ticket_box .ticket_title table{
-  height: 45px;
-  width: 250px;
-  margin: auto;
-}
-#ticket .ticket_box .ticket_title table tr .icon img{
-  vertical-align: middle;
-}
-
-#ticket .ticket_box .ticket_title table tr td{
-  vertical-align: middle;
-  text-align: center;
-}
-
-#ticket .ticket_box .group{
-  width: 1100px;
   height: 200px;
   margin: auto;
-  margin-top: 40px;
+  background: url(/images/ticket_banner.jpg);
+  margin-bottom: 150px;
 }
 
-#ticket .ticket_box .group .box1, .box2, .box3{
-  float: left;
-  width: calc(1100px / 3);
-  height: 200px;
-}
-
-#ticket .ticket_box .group .box1 table{
-  width: calc(1100px / 3);
-  height: 150px;
-}
-
-#ticket .ticket_box .group .box1 table tr td{
-  height: 65px;
-  font-weight: bold;
-}
-
-#ticket .ticket_box .group .box1 table tr .leftbox{
-  width: 80px;
-}
-
-#ticket .ticket_box .group .box1 table tr td input{
-  width: 250px;
-  height: 30px;
-  border: 1px solid #ccc;
-  display: flex;
-}
-
-#ticket .ticket_box .group .box2 table{
+#ticket .text{
+  width: 600px;
+  float: right;
+  padding: 20px;
   margin-top: 20px;
 }
 
+#ticket .text  h3{font-size: 40px; color: #bfa37b;}
 
-#ticket .ticket_box .group .box2 table tr td{
-  height: 50px;
-  font-size: 18px;
-  font-weight: bold;
-}
+#ticket .text  span{font-size: 30px;}
 
-#ticket .ticket_box .group .box2 table tr .leftbox2{
-  width: 120px;
-}
+#ticket .text  p{margin-top: 15px; color: white;}
 
-#ticket .ticket_box .group .box3 table{
-  margin-top: 20px;
-}
+#ticket .text a{text-decoration: none; display: inline-block;}
 
-#ticket .ticket_box .group .box3 table tr td{
-  height: 50px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-#ticket .ticket_box .group .box3 table tr .leftbox{
-  width: 80px;
-}
-
-#ticket .ticket_box .ticketbtn{
-  width: 1100px;
-  margin: auto;
-  margin-top: 10px;
-}
-#ticket .ticket_box .ticketbtn button{
-  width: 1100px;
-  height: 45px;
-  background: #8a7a67;
-  border: none;
-  font-size: 18px;
-  font-weight: bold;
+#ticket .text  .ticketbtn a{
   color: white;
 }
 
-#ticket .ticket_box .ticketbtn button:hover{
-  background: #141414;
-  transition: 0.3s;
-}
-
-#ticket .notice{
-  width: 1100px;
-  margin: auto;
-  margin-top: 20px;
-}
-
-#ticket  .notice .notice01{
-  float: left;
-  width: 550px;
-}
-
-#ticket  .notice .notice02{
-  float: left;
-  width: 550px;
-}
-
-#ticket  .notice .notice01 li{
-  font-size: 15px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-}
-
-#ticket  .notice .notice02 li{
-  font-size: 15px;
-  height: 50px;
-  display: flex;
-  align-items: center;
+#ticket .text  .ticketbtn a:hover{
+  transition: 0.5s;
+  background: #fff;
+  color: #000;
+  padding: 0 15px;
+  font-weight: bold;
 }
 
 
