@@ -119,6 +119,11 @@ header nav ul li a:hover{
   cursor: pointer;
 }
 
+#quickbar .quickbtn ul li a{
+  width: 80px;
+  height: 90px;
+}
+
 #quickbar .quickbtn ul li .b01{
   background-image: url(/images/quick_01.jpg);
 }
