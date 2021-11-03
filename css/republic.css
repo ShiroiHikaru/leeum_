@@ -261,7 +261,7 @@ a{
 .menu_wrap .dep1 > li{
   display: inline-block;
   width: 400px;
-
+  float: left;
   height: 95px;
   border-bottom: 1px solid #fff;
   background-color: #141414;
