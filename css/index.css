@@ -355,6 +355,7 @@ main{
   height: 400px;
   background: url(/images/banner1.jpg) no-repeat;
   text-indent: -9999px;
+  position: absolute;
 }
 
 #banner .bannerBox .box1 .titleText{

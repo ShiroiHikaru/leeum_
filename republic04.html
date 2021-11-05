@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/republic.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="/js/quick_toggle.js"></script>
+  <style>
+    .bx-wrapper {
+      border: none;
+      box-shadow: none;
+      margin-top: 50px;
+    }
+
+    .bx-wrapper .bx-controls .bx-next {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_right.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+
+    .bx-wrapper .bx-controls .bx-prev {
+      position: absolute;
+      background: url(./bxslider-4-4.2.12/src/images/arrow_left.png) no-repeat;
+      z-index: 500;
+      width: 64px;
+      height: 126px;
+    }
+  </style>
+  <title>Leeum - 공용공간 리뉴얼</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
+      <h2>메뉴소개</h2>
+      <ul>
+        <li><a href="/intro.html">미술관소개</a></li>
+        <li><a href="#">프로그램</a></li>
+        <li><a href="/place.html">편의시설</a></li>
+        <li><a href="/membership.html">멤버십안내</a></li>
+        <li><a href="#">자료실</a></li>
+        <li><a href="https://leeumstore.org/">리움스토어</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="quickbar">
+      <div class="quickbtn">
+        <ul>
+          <li><button type="button" class="b01">로그인</button></li>
+          <li><button type="button" class="b02"><a href="join01.html">회원가입</a></button></li>
+          <li><button type="button" class="b03"><a href="reference.html">마이페이지</a></button></li>
+          <li><button type="button" class="b04"><a href="map.html">오시는길</a></button></li>
+          <li><button type="button" class="top"><a href="#logo">top</a></button></li>
+        </ul>
+      </div>
+      <div class="quickform">
+        <h3>LOG-IN</h3>
+        <p>리움미술관 홈페이지를 방문해주셔서 감사합니다.</p>
+        <form action="" name="quicklogin" id="quicklogin" method="post">
+          <fieldset>
+            <legend>퀵바로그인</legend>
+            <table>
+              <tr>
+                <td><label for="idCell">ID</label></td>
+                <td><input type="text" id="user_id" name="user_id"></td>
+              </tr>
+              <tr>
+                <td><label for="pwCell">PW</label></td>
+                <td><input type="password" id="user_pw" name="user_pw"></td>
+              </tr>
+            </table>
+            <button type="submit" class="mainbtn">로그인</button>
+            <table>
+              <tr>
+                <td><button type="submit" class="forget1">ID(아이디)찾기</button></td>
+                <td><button type="submit" class="forget2">PW(비밀번호)찾기</button></td>
+              </tr>
+            </table>
+            <p>아직 회원이 아니신가요? <button type="button"><a href="join01.html">회원가입</a></button></p>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+
+
+    <section id="title">
+      <div class="title_text">
+        <h3>공용공간 리뉴얼</h3>
+        <p>Renewal of public space</p>
+      </div>
+    </section>
+
+    <div class="menu_wrap">
+      <ul class="dep1">
+        <li class="list01"><a href="republic01.html">MI & Wolff Olins</a></li>
+        <li><a href="republic02.html">로비 & 건축사사무소 노션<br>(NOTION ARTCHITECTURE)</a></li>
+        <li><a href="republic03.html">조명 & 비츠로<br>(bitzro)</a></li>
+        <li><a href="republic04.html">샵 & 스튜디오 라이터스<br>(STUDIO WRITERS)</a></li>
+        <li><a href="republic05.html">MI Application System & 오디너리피플(ORDINARY PEOPLE)</a></li>
+        <li class="list06"><a href="republic06.html">블랙박스 라운지 & 김용관</a></li>
+      </ul>
+    </div>
+    <section id="museum1">
+      <h2>샵 & 스튜디오 라이터스(STUDIO WRITERS)</h2>
+      <br><br>
+      <iframe width="1200" height="675" src="https://www.youtube.com/embed/DyVQxf_I-fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="introbox">
+        <p>
+          조명은 공간의 분위기를 좌우할 만큼 실내건축의 중요한 시각 요소이며, 보는 이의 동선을 유도해 주는 기능적인 역할도 합니다.<br>
+          블랙 & 화이트로 새단장을 한 리움의 로비가 어딘지 모르게 편안하고 부드러워 보인다면, 이는 건축 자재와 디테 일들을 비춰주는<br>
+          실내 조명의 효과적인 설계와 연출 덕분일 것입니다.
+          <br><br>
+          이번 로비 인테리어 레노베이션의 조명 설계를 맡은 조명 디자인 회사 '비츠로'의 고기영 대표는 건축가 마리오 보타가 설계한<br>
+          로비 중앙의 로툰다 천장으로부터 쏟아져 들어오는 자연 채광이 실내의 인공조명과 조화를 이룰 수 있도록 자연스러운 빛의 환경을<br>
+          조성하는 것에서부터 기획을 시작했다고 합니다. 야외로부터 들어 와 시시각각 변하는 자연광의 느낌을 보전하면서도, 그 빛이 드리워진<br>
+          공간 과 주변의 경계는 최대한 눈에 띄지 않도록, LED의 색온도를 활용하여 인공조명의 채도와 밝기를 조절하였습니다.
+          <br><br>
+          또한, 그 자체로도 하나의 예술작품이라고 할 수 있는 리움 로비의 모습이 부각되게끔, 전체적으로는 밝은 조도를 연출하였으나,<br>
+          인테리어의 포인트이자 관람객이 가장 먼저 찾는 매표 카운터의 숯 작품 쪽 에는 엑센트 조명Accent Lighting을 설치하여 미술관 입장 시 동선을 고려하였습니다. 
+          이어서 관람객이 어두운 전시장으로 진입하기 전에 지나는 통로의 넓고 긴 벽면 위에는 벽을 쓸어 내리는 듯한 은은한 "wall-washer" 
+          조명을 설치함으로써, 관객이 이동하면서 조도 변화에 자연스럽게 적응할 수 있도록 빛의 기능적인 역할에도 유념하였습니다.
+          <br><br>
+          밖으로 노출돼 있던 등기구들은 천장의 목재 사이사이로 숨겨 넣어, 조명 기구들이 건축 디테일로부터 관객의 시선을 빼앗지 않도록 배치하였으며, 관람객이 건축과 조명이 서로 조화롭게 어우러진 가운데 심리적으로는 안정감을 느끼고, 경험적으로는 작품 감상에 심취할 수 있는 단아하면서도 효과적인 환경을 연출했습니다.
+
+        </p>
+        <br><br>
+        <img src="/images/jb.jpg" alt="bitzro" width="1200">
+        <br><br>
+        <p>
+          “빛을 사용한다”는 순 우리말 “빛으로”를 소리나는 대로 표기하여 상호를 지은 건축조명 디자인 회사 ‘비츠로(bitzro)’는<br>
+          건축, 실내, 조경 등의 조명 디자인 외에도, 미디어 컨텐츠 디자인, 라이팅 설치예술 등 빛을 기반으로 한 다양한 프로젝트를 장르의<br>
+          구분 없이 작업에 확장시켜 나가고 있습니다.<br><br>
+          
+          좋아하는 예술가 혹은 작품에 대해 질문하자 베토벤(Beethoven)의 ‘월광,’ 르 코르뷔지에(Le Corbusier)의 ‘롱샹교회’를 언급한 고기영 대표의 대답에서 음악, 건축 등 장르를 불문하고 ‘빛’이라는 공통주제를 깊이 파고 든 작업에 대한 ‘비츠로’의 관심과 열정을 확인할 수 있었습니다.
+          비츠로는 국립중앙박물관, 서울스퀘어의 경관 및 실내조명을 디자인하였으며, JW 메리어트 서울 호텔, 트리니티 C.C. 등을 포함한 다수의 사이트의 조명 설계를 맡은 바 있습니다.
+        </p>
+      </div>
+    </section>
+
+    
+
+   
+  </main>
+  <div class="clerfix"></div>
+  <section id="Subscribe">
+    <div class="subc_text">
+      <h3>Subscribe</h3>
+      <br>
+      <p>리움의 최신 정보를 받아보길 원하시면 이메일 주소를 남겨주세요!</p>
+      <br>
+      <ul>
+        <li>수집항목 : 이메일주소 | 보유기간 : 메일 수신거부 신청 시 까지</li>
+        <li>수집목적 : 전시 및 프로그램 등 리움 관련 소식 메일 발송</li>
+      </ul>
+    </div>
+    <div class="subc_form">
+      <form action="#" method="POST">
+        <div class="email_form">
+          <label for="이메일">
+            <input type="email" class="email_form">
+          </label>
+        </div>
+        <br>
+        <label for="sub_btn">
+          <button type="submit" class="news_btn"><a href="#">등록하기</a></button>
+          <button type="submit" class="news_btn"><a href="#">해지하기</a></button>
+        </label>
+        <br>
+        <label for="agree">
+          <input type="checkbox">
+          <p>정보 안내를 위한 이메일 수집 및 광고성 메일 수신에 동의합니다.</p>
+        </label>
+      </form>
+    </div>
+
+  </section>
+  <footer id="footer" class="footer">
+    <div class="footer_top">
+      <h2>사이트 이용안내</h2>
+
+      <div class="term">
+        <h3 class="hide">약관 및 정책</h3>
+        <ul>
+          <li><a href="map.html">오시는길</a></li>
+          <li><a href="#">이메일문의</a></li>
+          <li><a href="#">이메일 무단수집거부</a></li>
+          <li><a href="#">개인정보 처리방침</a></li>
+        </ul>
+      </div>
+      <div class="footer_b_box">
+        <div class="family_site">
+          <h3>Family Site</h3>
+          <ul>
+            <li><a href="#">호암미술관</a></li>
+            <li><a href="#">삼성문화재단</a></li>
+            <li><a href="#">삼성아동교육문화센터</a></li>
+            <li><a href="#">호암재단</a></li>
+            <li><a href="#">삼성장학회</a></li>
+            <li><a href="#">드림클래스</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer_bottom">
+        <div class="footer_b_bot">
+        </div>
+        <address>Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, Korea 04348</address>
+        <p>Copyright ⓒ Leeum 2011-2021, All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    $(document).ready(function () {
+      $('.slider').bxSlider();
+    });
+  </script>
+</body>
+
+</html>
