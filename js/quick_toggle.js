@@ -4,5 +4,6 @@ $(document).ready(function(){
     $(".quickform").toggle(500);
   });
 
- 
+  $('.slider').bxSlider();
+  
 });
