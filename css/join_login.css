@@ -254,6 +254,10 @@ main #login_bg{
   margin-top: 150px;
 }
 
+#login_page form legend{
+  text-indent: -9999px;
+}
+
 #login_page .logInlogo{
   text-align: center;
 }

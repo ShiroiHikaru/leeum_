@@ -4,6 +4,8 @@ $(document).ready(function(){
     $(".quickform").toggle(500);
   });
 
-  $('.slider').bxSlider();
-  
+  $(".slider").bxSlider();
+
+  $(".family_list").hide();
+    $(".sitebox").click()
 });
