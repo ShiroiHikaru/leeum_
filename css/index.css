@@ -826,10 +826,17 @@ main{
   text-indent: -9999px;
 }
 
-.footer_bottom .bottom_info p{
+.footer_bottom .bottom_info .leeum_add{
   border: 1px solid red;
   width: 650px;
   float: left;
+  line-height: 25px;
+  position: absolute;
+  left: 550px;
+}
+
+.footer_bottom .bottom_info .leeum_add .copyright{
+  font-size: 15px;
 }
 
 .footer_bottom .family{
@@ -864,7 +871,6 @@ main{
   clear: both;
   background: #fff;
   position: absolute;
-  bottom: 30px;
   border: 1px solid #ccc;
 
 }

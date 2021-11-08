@@ -6,6 +6,7 @@ $(document).ready(function(){
 
   $(".slider").bxSlider();
 
-  $(".family_list").hide();
-    $(".sitebox").click()
+  $(".sitebox").click(function(){
+    $(".family_list").slideToggle()
+  });
 });
