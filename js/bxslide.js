@@ -1,1 +1,3 @@
-$(".slider").bxSlider();
+$(document).ready(function(){
+  $(".slider").bxSlider();
+});
