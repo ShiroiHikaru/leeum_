@@ -683,7 +683,7 @@ main{
   height: 245px;
   margin: auto;
   position: relative;
-  bottom: 150px;
+  bottom: 100px;
   margin-bottom: 100px;
   background: #141414;
 }
@@ -758,134 +758,104 @@ main{
 }
 
 /* footer */
-
-#footer{
-  background:#8a7a67;
-  color:#fff;
-  width:100%;
-  height: 226px;
-  display: flex;
-  justify-content: center;
-  z-index: -50;
-}
-#footer a{
-  color:#fff;
-  text-decoration: none;
-}
-
-/* footer top */
-
-.footer_top{
-  height: 80px;
+footer{
   width: 100%;
-  position:relative;
-  background-color: #141414;
-  bottom: 80px;
+  height: 220px;
+  background: #8a7a67;
 }
 
-.footer_top h2{text-indent: -9999px;}
-
-.footer_top .term{
-  width: 1200px;
-  height: 80px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+footer .footer_top{
+  background: #141414;
+  height: 60px;
   position: relative;
-  bottom: 30px;
 }
 
-.footer_top .term h3{text-indent: -9999px;}
-
-.footer_top .term ul{
-  width: calc(1200px - 400px);
-  margin: auto;
-  display: flex;
-  
-}
-
-.footer_top .term ul li{
-  float: left;
-  width: 260px;
-  text-align: center;
-}
-
-.footer_bottom{
-  width: 1200px;
-  border: 1px solid red;
-  height: 150px;
-  margin: auto;
-}
-
-.footer_bottom .bottom_info span{
-  float: left;
-  background: url(/images/lee_logo_w.svg) no-repeat;
-  width: 173px;
-  height: 40px;
+footer .footer_top h3, .footer_terms{
   text-indent: -9999px;
 }
 
-.footer_bottom .bottom_info .leeum_add{
-  border: 1px solid red;
-  width: 650px;
+footer .footer_top .sub_top{
+  width: 605px;
+  position: relative;
+  margin: auto;
+  bottom: 25px;
+}
+
+footer .footer_top .sub_top li{
   float: left;
-  line-height: 25px;
-  position: absolute;
-  left: 550px;
+  margin-right: 20px;
 }
 
-.footer_bottom .bottom_info .leeum_add .copyright{
-  font-size: 15px;
+footer .footer_top .sub_top li a{
+  color: white;
+  text-decoration: none;
 }
 
-.footer_bottom .family{
-  float: right;
-  width: 280px;
-  position: absolute;
-  right: 350px;
-  top: 110px;
+footer .footer_top .sub_top li a:hover{
+  font-weight: bold;
 }
 
-.footer_bottom .family .drop{
-  float: left;
-}
-
-.footer_bottom .family h3{
-  height: 30px;
-  float: left;color: #000;
-  font-size: 18px;
-  margin-left: 5px;
-  line-height: 30px;
-}
-
-.footer_bottom .family .sitebox{
-  width: 280px;
-  height: 30px;
-  border: 1px solid #ccc;
-  background: #fff;
-}
-
-
-.footer_bottom .family .family_list{
+footer .footer_bottom{
   clear: both;
-  background: #fff;
-  position: absolute;
-  border: 1px solid #ccc;
-
+  width: 1200px;
+  height: 100px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid red;
 }
 
-.footer_bottom .family .family_list li{
-  padding: 5px;
+footer .footer_bottom .foot_logo{
+  float: left;
+  background: url(/images/lee_logo_w.svg) no-repeat;
+  background-size: contain;
+  width: 173px;
+  height: 60px;
+  text-indent: -9999px;
+}
+
+footer .footer_bottom .leeum_add{
+  float: left;
+  width: 750px;
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #fff;
+  border: 1px solid red;
+}
+
+footer .footer_bottom .leeum_add .copyright{
   font-size: 15px;
-  width: 270px;
 }
 
 
+footer .footer_bottom .sitelink h3{
+  font-size: 18px;
+  float: right;
+  width: 200px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: absolute;
+  right: 360px;
+}
 
+footer .footer_bottom .sitelink .site_list ul{
+  width: 200px;
+  float: right;
+  position: relative;
+  right: 9px;
+  bottom: 120px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
 
+footer .footer_bottom .sitelink .site_list ul li{
+  font-size: 15px;
+  line-height: 20px;
+}
 
-
-
-
-
+footer .footer_bottom .sitelink .site_list ul li a{
+  color: #000;
+  text-decoration: none;
+}

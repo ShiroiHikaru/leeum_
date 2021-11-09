@@ -4,9 +4,9 @@ $(document).ready(function(){
     $(".quickform").toggle(500);
   });
 
-  $(".slider").bxSlider();
 
-  $(".sitebox").click(function(){
-    $(".family_list").slideToggle()
-  });
+
+ $(".sitelink h3").click(function(){
+  $(".site_list ul").toggle("slow");
+ });
 });
