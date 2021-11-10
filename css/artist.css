@@ -1,0 +1,1018 @@
+body{
+  font-size: 20px;
+}
+
+
+li::marker{
+  color: #8a7a67;
+}
+.clearfix:before, .clearfix:after {
+  display: block;
+  content: '';
+  line-height: 0;
+}
+
+
+.clearfix:after {
+  clear:both;
+}
+
+/* 메뉴항목 */
+
+header{
+  width: 100%;
+  height: 120px;
+  background-color: #000;
+}
+
+header h2{text-indent: -999px;}
+
+header nav{
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  color: white;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li{
+  display: flex;
+  justify-content: center;
+  width: calc(1000px / 7);
+  line-height: 60px;
+  text-align: center;
+}
+
+header nav #logo{
+  float: left;
+  margin-top: 40px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul li a:hover{
+  height: 120px;
+  background: #fff;
+  color: #000;
+  transition:  0.3s ease 0s, left 0.3s ease 0s;
+  padding: 10px;
+  font-family: 'GmarketSansMedium';
+  height: 30px;
+  line-height: 35px;
+}
+
+
+/* 메인이미지 영역 */
+#title{
+  width: 100%;
+  background: url(/images/old_top.jpg);
+  background-size: cover;
+  height: 328px;
+  position: relative;
+}
+
+
+#title .title_text{
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  line-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+#title .title_text h3{
+  font-size: 50px;
+}
+
+
+/* quickbar 시작 */
+#quickbar{
+  position: fixed;
+  float: right;
+  right: 0;
+  top: 200px;
+  z-index: 9999;
+}
+
+/* quick 키워드 */
+#quickbar .quickbtn{
+  float: right;
+}
+
+#quickbar .quickbtn ul li button{
+  width: 80px;
+  height: 90px;
+  text-indent: -9999px;
+  border: none;
+  cursor: pointer;
+}
+
+#quickbar .quickbtn ul li a{
+  width: 80px;
+  height: 90px;
+}
+
+#quickbar .quickbtn ul li .b01{
+  background-image: url(/images/quick_01.jpg);
+}
+
+#quickbar .quickbtn ul li .b02{
+  background-image: url(/images/quick_02.jpg);
+}
+
+#quickbar .quickbtn ul li .b03{
+  background-image: url(/images/quick_03.jpg);
+}
+
+#quickbar .quickbtn ul li .b04{
+  background-image: url(/images/quick_04.jpg);
+}
+
+#quickbar .quickbtn ul li .top{
+  height: 41px;
+  border: none;
+  background: url(/images/quick_05.jpg);
+}
+
+/* quickform 시작 */
+#quickbar .quickform{
+  width: 372px;
+  height: 400px;
+  background: #fff;
+  margin-right: 80px;
+  border: 1px solid #ccc;
+}
+
+#quickbar .quickform h3{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+#quickbar .quickform p{
+  font-size: 15px;
+  text-align: center;
+}
+
+#quickbar .quickform form{
+  width: 300px;
+  margin: auto;
+}
+
+#quickbar .quickform form fieldset legend{
+  text-indent: -9999px;
+}
+
+#quickbar .quickform form fieldset table{
+  width: 300px;
+}
+
+#quickbar .quickform form fieldset table td{
+  height: 30px;
+  padding: 5px 0;
+  vertical-align: middle;
+}
+
+
+#quickbar .quickform form fieldset table td input{
+  width: 240px;
+  height: 25px;
+  float: right;;
+}
+
+#quickbar .quickform form fieldset .mainbtn{
+  width: 300px;
+  height: 40px;
+  margin: 10px 0 0 0;
+  background: #3d3326;
+  font-size: 18px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#quickbar .quickform form fieldset .forget1, .forget2{
+  width: 140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 35px;
+  background-color: #8a7a67;
+  border: none;
+  font-size: 15px;
+  font-family: 'gmarketsanslight';
+  color: white;
+}
+
+#quickbar .quickform form fieldset .forget1{
+  float: left;
+}
+#quickbar .quickform form fieldset p{
+  margin-top: 20px
+}
+
+#quickbar .quickform form fieldset p button{
+  width: 100px;
+  background: #8a7a67;
+  border:none;
+  color: white;
+}
+
+#quickbar .quickform form fieldset p button a{
+  text-decoration: none;
+  color: white;
+}
+
+
+#quickbar .quickform form fieldset .forget2{
+  float: right;
+}
+
+
+
+/* 카테고리버튼 */
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.menu_wrap{
+  margin: auto;
+  width: 1200px;
+  margin-top: 100px;
+}
+
+.menu_wrap .dep1{
+  font-size: 0;
+}
+
+.menu_wrap .dep1 > li{
+  display: inline-block;
+  width: calc(1200px / 4);
+  background-color: #141414;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.menu_wrap .dep1 > li > a{
+  display: block;
+  border-left: 1px solid white;
+  padding: 15px 0;
+}
+
+.menu_wrap .dep1 > li > a:hover{
+  background-color: wheat;
+  color: #000;
+  font-family: 'GmarketsansMedium';
+  transition: 0.3s;
+}
+
+
+.menu_wrap .dep1 > li:hover > .dep2{
+  display: block;
+}
+
+.menu_wrap .dep2{
+  display: none;
+  background-color: #8a7a67;
+}
+
+
+.menu_wrap .dep2 a{
+  display: block;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(61, 51, 38, 0.5);
+} 
+
+.menu_wrap .dep2 a:hover{
+  background-color: #3d3326;
+  transition: 0.3s;
+}
+
+/* 영역 시작 */
+
+#m_intro{
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#m_intro h2{
+  font-family: 'gmarketsansmedium';
+  font-size: 35px;
+}
+
+#m_intro p{
+  margin-bottom: 30px;
+  padding: 15px 0;
+}
+
+#m_intro .search{
+  width: 700px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+#m_intro .search input{
+  width: 650px;
+  border: 3px solid #3d3326;
+  font-size: 18px;
+  font-family: 'gmarketsanslight';
+  border-radius: none;
+}
+
+.filter{
+  margin: auto;
+  height: 50px;
+  border: 1px solid #ccc;
+  background: #eee;
+  width: 1200px;
+  margin-top: 30px;
+}
+
+.filter p{
+  float: left;
+}
+
+.filter .filterbox{
+  margin: auto;
+  width: 1100px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.filter p{
+  width: calc(1100px - 950px);
+}
+
+
+.filter ul{
+  float: left;
+  width: 900px;
+  height: 30px;
+}
+
+.filter ul li{
+  float: left;
+  padding: 5px;
+}
+
+.filter ul li a{
+  display: block;
+  text-decoration: none;
+  color: #000;
+  width: 50px;
+  text-align: center;
+}
+
+
+#m_intro .search button{
+  text-indent: -9999px;
+  width: 50px;
+  background: url(/images/search_btn.jpg) no-repeat center;
+  border: none;
+  cursor: pointer;
+}
+
+#thumbnail{
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#thumbnail .topnail{
+  height: 300px;
+  width: 1190px;
+  padding: 15px;
+}
+
+
+
+#thumbnail .topnail .nail01, .nail02, .nail03 , .nail04, .nail05,
+.nail06, .nail07, .nail08{
+  width: 270px;
+  height: 200px;
+  border: 1px solid #ccc;
+  position: relative;
+  float: left;
+  margin-right: 25px;
+}
+
+/* nail 01 */
+
+#thumbnail .topnail .nail01 .nail_img{
+  text-indent: -9999px;
+  background: url(/images/exhibition/thumbnai01.jpg) no-repeat center;
+  height: 156px;
+}
+
+
+#thumbnail .topnail .nail01 .nail_text{
+  padding: 10px 10px;
+}
+
+#thumbnail .topnail .nail01 .nail_text .nail_title .maintext{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#thumbnail .topnail .nail01 .nail_text p span{
+  font-size: 15px;
+}
+
+#thumbnail .topnail .nail01 button{
+  width: 100px;
+  height: 24px;
+  background: #3d3326;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#thumbnail .topnail .nail01 .daysbox{
+  position: absolute;
+  padding: 10px;
+  bottom: 15px;
+}
+
+#thumbnail .topnail .nail01 .daysbox .days{
+  font-size: 15px;
+}
+
+/* nail 02 */
+
+#thumbnail .topnail .nail02 .nail_img{
+  text-indent: -9999px;
+  background: url(/images/exhibition/thumbnai02.jpg) no-repeat center;
+  height: 156px;
+}
+
+
+#thumbnail .topnail .nail02 .nail_text{
+  padding: 10px 10px;
+}
+
+#thumbnail .topnail .nail02 .nail_text .nail_title .maintext{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#thumbnail .topnail .nail02 .nail_text p span{
+  font-size: 15px;
+}
+
+#thumbnail .topnail .nail02 button{
+  width: 100px;
+  height: 24px;
+  background: #3d3326;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#thumbnail .topnail .nail02 .daysbox{
+  position: absolute;
+  padding: 10px;
+  bottom: 15px;
+}
+
+#thumbnail .topnail .nail02 .daysbox .days{
+  font-size: 15px;
+}
+
+
+/* nail 03 */
+
+#thumbnail .topnail .nail03 .nail_img{
+  text-indent: -9999px;
+  background: url(/images/exhibition/thumbnai03.jpg) no-repeat center;
+  height: 156px;
+}
+
+
+#thumbnail .topnail .nail03 .nail_text{
+  padding: 10px 10px;
+}
+
+#thumbnail .topnail .nail03 .nail_text .nail_title .maintext{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#thumbnail .topnail .nail03 .nail_text p span{
+  font-size: 15px;
+}
+
+#thumbnail .topnail .nail03 button{
+  width: 100px;
+  height: 24px;
+  background: #3d3326;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#thumbnail .topnail .nail03 .daysbox{
+  position: absolute;
+  padding: 10px;
+  bottom: 15px;
+}
+
+#thumbnail .topnail .nail03 .daysbox .days{
+  font-size: 15px;
+}
+
+/* nail 04 */
+
+#thumbnail .topnail .nail04 .nail_img{
+  text-indent: -9999px;
+  background: url(/images/exhibition/thumbnai04.jpg) no-repeat center;
+  height: 156px;
+}
+
+
+#thumbnail .topnail .nail04 .nail_text{
+  padding: 10px 10px;
+}
+
+#thumbnail .topnail .nail04 .nail_text .nail_title .maintext{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#thumbnail .topnail .nail04 .nail_text p span{
+  font-size: 15px;
+}
+
+#thumbnail .topnail .nail04 button{
+  width: 100px;
+  height: 24px;
+  background: #3d3326;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#thumbnail .topnail .nail04 .daysbox{
+  position: absolute;
+  padding: 10px;
+  bottom: 15px;
+}
+
+#thumbnail .topnail .nail04 .daysbox .days{
+  font-size: 15px;
+}
+
+/* nail 05 */
+
+#thumbnail .topnail .nail05 .nail_img{
+  text-indent: -9999px;
+  background: url(/images/exhibition/thumbnai05.jpg) no-repeat center;
+  height: 156px;
+}
+
+
+#thumbnail .topnail .nail05 .nail_text{
+  padding: 10px 10px;
+}
+
+#thumbnail .topnail .nail05 .nail_text .nail_title .maintext{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#thumbnail .topnail .nail05 .nail_text p span{
+  font-size: 15px;
+}
+
+#thumbnail .topnail .nail05 button{
+  width: 100px;
+  height: 24px;
+  background: #3d3326;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#thumbnail .topnail .nail05 .daysbox{
+  position: absolute;
+  padding: 10px;
+  bottom: 15px;
+}
+
+#thumbnail .topnail .nail05 .daysbox .days{
+  font-size: 15px;
+}
+
+/* nail 06 */
+
+#thumbnail .topnail .nail06 .nail_img{
+  text-indent: -9999px;
+  background: url(/images/exhibition/thumbnai06.jpg) no-repeat center;
+  height: 156px;
+}
+
+
+#thumbnail .topnail .nail06 .nail_text{
+  padding: 10px 10px;
+}
+
+#thumbnail .topnail .nail06 .nail_text .nail_title .maintext{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#thumbnail .topnail .nail06 .nail_text p span{
+  font-size: 15px;
+}
+
+#thumbnail .topnail .nail06 button{
+  width: 100px;
+  height: 24px;
+  background: #3d3326;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#thumbnail .topnail .nail06 .daysbox{
+  position: absolute;
+  padding: 10px;
+  bottom: 15px;
+}
+
+#thumbnail .topnail .nail06 .daysbox .days{
+  font-size: 15px;
+}
+
+/* nail 07 */
+
+#thumbnail .topnail .nail07 .nail_img{
+  text-indent: -9999px;
+  background: url(/images/exhibition/thumbnai07.jpg) no-repeat center;
+  height: 156px;
+}
+
+
+#thumbnail .topnail .nail07 .nail_text{
+  padding: 10px 10px;
+}
+
+#thumbnail .topnail .nail07 .nail_text .nail_title .maintext{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#thumbnail .topnail .nail07 .nail_text p span{
+  font-size: 15px;
+}
+
+#thumbnail .topnail .nail07 button{
+  width: 100px;
+  height: 24px;
+  background: #3d3326;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#thumbnail .topnail .nail07 .daysbox{
+  position: absolute;
+  padding: 10px;
+  bottom: 15px;
+}
+
+#thumbnail .topnail .nail07 .daysbox .days{
+  font-size: 15px;
+}
+
+/* nail 08 */
+
+#thumbnail .topnail .nail08 .nail_img{
+  text-indent: -9999px;
+  background: url(/images/exhibition/thumbnai08.jpg) no-repeat center;
+  height: 156px;
+}
+
+
+#thumbnail .topnail .nail08 .nail_text{
+  padding: 10px 10px;
+}
+
+#thumbnail .topnail .nail08 .nail_text .nail_title .maintext{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#thumbnail .topnail .nail08 .nail_text p span{
+  font-size: 15px;
+}
+
+#thumbnail .topnail .nail08 button{
+  width: 100px;
+  height: 24px;
+  background: #3d3326;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#thumbnail .topnail .nail08 .daysbox{
+  position: absolute;
+  padding: 10px;
+  bottom: 15px;
+}
+
+#thumbnail .topnail .nail08 .daysbox .days{
+  font-size: 15px;
+}
+
+/* 페이지버튼 영역 */
+
+.pages{
+  width: 1200px;
+  margin: auto;
+  height: 50px;
+  margin-bottom: 150px;
+}
+
+.pages .pagebox ul{
+  height: 30px;
+  width: 259px;
+  margin: auto;
+}
+
+.pages .pagebox ul li{
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px 0 0;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages .pagebox ul li a{
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev, .next{
+  text-indent: -9999px;
+}
+
+.prev{
+  background-image: url(/images/page_left.jpg);
+}
+
+.next{
+  background-image: url(/images/page_right.jpg);
+}
+
+
+/* 뉴스레터구독 */
+#Subscribe{
+  z-index: -9999px;
+  width: 1200px;
+  height: 245px;
+  margin: auto;
+  position: relative;
+  bottom: 50px;
+  margin-bottom: 200px;
+  background: #141414;
+  clear: both;
+}
+
+.subc_text{
+  color: white;
+  height: 140px;
+  z-index: 9999;
+  padding: 50px 0px 50px 50px;
+  float: left;
+}
+
+.subc_text h3{
+  font-size: 50px;
+  color: #bfa37b;
+}
+
+.subc_text ul li{
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.subc_form{
+  width: 500px;
+  height: 140px;
+  float: right;
+  padding: 50px 50px 50px 0px;
+}
+
+.subc_form .email_form input{
+  width: 489px;
+  height: 50px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.subc_form .news_btn{
+  width: 246px;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border: none;
+  background: #8a7a67;
+}
+
+.subc_form .news_btn:hover{
+  background: #3d3326;
+}
+
+.subc_form .news_btn a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 246px;
+  line-height: 35px;
+  height: 40px;
+}
+
+.subc_form label input{
+  width: 15px;
+  height: 15px;
+  float: left;
+  border: none;
+  margin-right: 15px;
+}
+
+.subc_form label p{
+  line-height: 25px;
+  font-size: 15px;
+  color: white;
+}
+
+/* footer */
+
+.footer{
+  background:#8a7a67;
+  color:#fff;
+  width:100%;
+  height: 226px;
+  display: flex;
+  justify-content: center;
+  z-index: -50;
+}
+.footer a{
+  color:#fff
+}
+
+.footer_top{
+  height: 80px;
+  width: 100%;
+  position:relative;
+  background-color: #141414;
+  bottom: 80px;
+}
+
+.footer h2{
+  text-indent:-9999px;
+}
+
+.footer .hide{
+  text-indent:-9999px;
+}
+
+.footer_top .term{
+  width: 1200px;
+  margin: auto;
+}
+
+.footer_top .term ul{
+  position: relative;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_top .term ul li{
+  margin: 1rem;
+  text-align: center;
+  text-align: center;
+  float: left;
+}
+
+.footer_top .term ul li a{
+  text-decoration: none;
+}
+
+.footer_top .term ul li a:hover{
+  font-family: 'GmarketsansMedium';
+}
+
+.footer_b_box{
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.family_site{
+  clear: both;
+  width: 230px;
+  background-color: white;
+  float: right;
+  position: relative;
+}
+
+.family_site h3{
+  width: 190px;
+  height: 40px;
+  color: #000;
+  font-size: 18px;
+  font-family: 'GmarketsansMedium';
+  padding: 10px;
+  background: url(/images/drop.png) no-repeat;
+  background-position: right;
+  line-height: 40px;
+}
+
+.family_site ul{
+  position: absolute;
+  overflow: hidden;
+  width: 230px;
+  box-sizing: border-box;
+}
+
+.family_site ul li{
+  line-height: 25px;
+  font-size: 15px;
+  padding-left: 10px;
+  position: absolute;
+}
+
+
+.family_site ul li a{
+  color: #000;
+  text-decoration: none;
+}
+
+.footer_bottom{
+  width: 1200px;
+  margin: auto;
+}
+
+.footer_b_bot{
+  width: 174px;
+  height: 130px;
+  background: url(/images/lee_logo_w.svg) no-repeat;
+  opacity: 0.5;
+  float: left;
+  margin: 0 40px 0 0;
+}
+
+.footer_bottom address{
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer_bottom p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+
