@@ -801,7 +801,6 @@ footer .footer_bottom{
   height: 100px;
   margin: auto;
   padding: 20px;
-  border: 1px solid red;
 }
 
 footer .footer_bottom .foot_logo{
@@ -820,7 +819,6 @@ footer .footer_bottom .leeum_add{
   font-size: 20px;
   line-height: 25px;
   color: #fff;
-  border: 1px solid red;
 }
 
 footer .footer_bottom .leeum_add .copyright{
@@ -831,7 +829,7 @@ footer .footer_bottom .leeum_add .copyright{
 footer .footer_bottom .sitelink h3{
   font-size: 18px;
   float: right;
-  width: 200px;
+  width: 160px;
   background: #fff;
   border: 1px solid #ccc;
   padding: 10px;
@@ -840,7 +838,7 @@ footer .footer_bottom .sitelink h3{
 }
 
 footer .footer_bottom .sitelink .site_list ul{
-  width: 200px;
+  width: 160px;
   float: right;
   position: relative;
   right: 9px;
