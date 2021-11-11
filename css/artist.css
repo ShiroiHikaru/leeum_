@@ -392,365 +392,61 @@ a{
   cursor: pointer;
 }
 
-#thumbnail{
+/* 작가페이지 */
+#artist{
   width: 1200px;
+  height: 100%;
   margin: auto;
+  border: 1px solid green;
   margin-top: 50px;
 }
 
-#thumbnail .topnail{
-  height: 250px;
-  width: 1190px;
-  padding: 15px;
+#artist .line01, .line02, .line03{
+  width: 1200px;
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
 
-
-
-#thumbnail .topnail .nail01, .nail02, .nail03 , .nail04, .nail05,
-.nail06, .nail07, .nail08{
-  width: 270px;
-  height: 200px;
+#artist .line01 .no1, .no2 , .no3, .no4{
+  width: 280px;
+  height: 163px;
   border: 1px solid #ccc;
-  position: relative;
-  float: left;
-  margin-right: 25px;
+  margin: 5px;
 }
 
-/* nail 01 */
-
-#thumbnail .topnail .nail01 .nail_img{
+#artist .line01 .no1 h3{
+  background: url(/images/artist/1/artist_kang.jpg) no-repeat;
+  height: 163px;
   text-indent: -9999px;
-  background: url(/images/artist/artist_kang.jpg) no-repeat center;
-  height: 156px;
 }
 
-
-#thumbnail .topnail .nail01 .nail_text{
-  padding: 10px 10px;
-}
-
-#thumbnail .topnail .nail01 .nail_text .nail_title .maintext{
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#thumbnail .topnail .nail01 .nail_text p span{
-  font-size: 15px;
-}
-
-#thumbnail .topnail .nail01 button{
-  width: 100px;
-  height: 24px;
-  background: #3d3326;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 5px;
-}
-
-#thumbnail .topnail .nail01 .daysbox{
-  position: absolute;
-  padding: 10px;
-  bottom: 15px;
-}
-
-#thumbnail .topnail .nail01 .daysbox .days{
-  font-size: 15px;
-}
-
-/* nail 02 */
-
-#thumbnail .topnail .nail02 .nail_img{
+#artist .line01 .no2 h3{
+  background: url(/images/artist/1/artist_kang.jpg) no-repeat;
+  height: 163px;
   text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai02.jpg) no-repeat center;
-  height: 156px;
 }
 
 
-#thumbnail .topnail .nail02 .nail_text{
-  padding: 10px 10px;
+#artist .line01 .no1 p:hover{
+  top: 0px;
+  transition: top 0.5;
 }
 
-#thumbnail .topnail .nail02 .nail_text .nail_title .maintext{
-  font-size: 20px;
-  font-weight: bold;
+#artist .line02 .no1, .no2 , .no3, .no4{
+  width: 280px;
+  height: 220px;
+  border: 1px solid red;
+  margin: 5px;
 }
 
-#thumbnail .topnail .nail02 .nail_text p span{
-  font-size: 15px;
-}
-
-#thumbnail .topnail .nail02 button{
-  width: 100px;
-  height: 24px;
-  background: #3d3326;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 5px;
-}
-
-#thumbnail .topnail .nail02 .daysbox{
-  position: absolute;
-  padding: 10px;
-  bottom: 15px;
-}
-
-#thumbnail .topnail .nail02 .daysbox .days{
-  font-size: 15px;
-}
-
-
-/* nail 03 */
-
-#thumbnail .topnail .nail03 .nail_img{
-  text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai03.jpg) no-repeat center;
-  height: 156px;
-}
-
-
-#thumbnail .topnail .nail03 .nail_text{
-  padding: 10px 10px;
-}
-
-#thumbnail .topnail .nail03 .nail_text .nail_title .maintext{
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#thumbnail .topnail .nail03 .nail_text p span{
-  font-size: 15px;
-}
-
-#thumbnail .topnail .nail03 button{
-  width: 100px;
-  height: 24px;
-  background: #3d3326;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 5px;
-}
-
-#thumbnail .topnail .nail03 .daysbox{
-  position: absolute;
-  padding: 10px;
-  bottom: 15px;
-}
-
-#thumbnail .topnail .nail03 .daysbox .days{
-  font-size: 15px;
-}
-
-/* nail 04 */
-
-#thumbnail .topnail .nail04 .nail_img{
-  text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai04.jpg) no-repeat center;
-  height: 156px;
-}
-
-
-#thumbnail .topnail .nail04 .nail_text{
-  padding: 10px 10px;
-}
-
-#thumbnail .topnail .nail04 .nail_text .nail_title .maintext{
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#thumbnail .topnail .nail04 .nail_text p span{
-  font-size: 15px;
-}
-
-#thumbnail .topnail .nail04 button{
-  width: 100px;
-  height: 24px;
-  background: #3d3326;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 5px;
-}
-
-#thumbnail .topnail .nail04 .daysbox{
-  position: absolute;
-  padding: 10px;
-  bottom: 15px;
-}
-
-#thumbnail .topnail .nail04 .daysbox .days{
-  font-size: 15px;
-}
-
-/* nail 05 */
-
-#thumbnail .topnail .nail05 .nail_img{
-  text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai05.jpg) no-repeat center;
-  height: 156px;
-}
-
-
-#thumbnail .topnail .nail05 .nail_text{
-  padding: 10px 10px;
-}
-
-#thumbnail .topnail .nail05 .nail_text .nail_title .maintext{
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#thumbnail .topnail .nail05 .nail_text p span{
-  font-size: 15px;
-}
-
-#thumbnail .topnail .nail05 button{
-  width: 100px;
-  height: 24px;
-  background: #3d3326;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 5px;
-}
-
-#thumbnail .topnail .nail05 .daysbox{
-  position: absolute;
-  padding: 10px;
-  bottom: 15px;
-}
-
-#thumbnail .topnail .nail05 .daysbox .days{
-  font-size: 15px;
-}
-
-/* nail 06 */
-
-#thumbnail .topnail .nail06 .nail_img{
-  text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai06.jpg) no-repeat center;
-  height: 156px;
-}
-
-
-#thumbnail .topnail .nail06 .nail_text{
-  padding: 10px 10px;
-}
-
-#thumbnail .topnail .nail06 .nail_text .nail_title .maintext{
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#thumbnail .topnail .nail06 .nail_text p span{
-  font-size: 15px;
-}
-
-#thumbnail .topnail .nail06 button{
-  width: 100px;
-  height: 24px;
-  background: #3d3326;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 5px;
-}
-
-#thumbnail .topnail .nail06 .daysbox{
-  position: absolute;
-  padding: 10px;
-  bottom: 15px;
-}
-
-#thumbnail .topnail .nail06 .daysbox .days{
-  font-size: 15px;
-}
-
-/* nail 07 */
-
-#thumbnail .topnail .nail07 .nail_img{
-  text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai07.jpg) no-repeat center;
-  height: 156px;
-}
-
-
-#thumbnail .topnail .nail07 .nail_text{
-  padding: 10px 10px;
-}
-
-#thumbnail .topnail .nail07 .nail_text .nail_title .maintext{
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#thumbnail .topnail .nail07 .nail_text p span{
-  font-size: 15px;
-}
-
-#thumbnail .topnail .nail07 button{
-  width: 100px;
-  height: 24px;
-  background: #3d3326;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 5px;
-}
-
-#thumbnail .topnail .nail07 .daysbox{
-  position: absolute;
-  padding: 10px;
-  bottom: 15px;
-}
-
-#thumbnail .topnail .nail07 .daysbox .days{
-  font-size: 15px;
-}
-
-/* nail 08 */
-
-#thumbnail .topnail .nail08 .nail_img{
-  text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai08.jpg) no-repeat center;
-  height: 156px;
-}
-
-
-#thumbnail .topnail .nail08 .nail_text{
-  padding: 10px 10px;
-}
-
-#thumbnail .topnail .nail08 .nail_text .nail_title .maintext{
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#thumbnail .topnail .nail08 .nail_text p span{
-  font-size: 15px;
-}
-
-#thumbnail .topnail .nail08 button{
-  width: 100px;
-  height: 24px;
-  background: #3d3326;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 5px;
-}
-
-#thumbnail .topnail .nail08 .daysbox{
-  position: absolute;
-  padding: 10px;
-  bottom: 15px;
-}
-
-#thumbnail .topnail .nail08 .daysbox .days{
-  font-size: 15px;
+#artist .line03 .no1, .no2 , .no3, .no4{
+  width: 280px;
+  height: 220px;
+  border: 1px solid red;
+  margin: 5px;
 }
 
 /* 페이지버튼 영역 */
