@@ -378,6 +378,13 @@ a{
   color: #000;
 }
 
+.filter .filterbox .slider div p a:hover{
+  background: #8a7a67;
+  color: #fff;
+  padding: 10px;
+  transition: 0.2s;
+}
+
 .filter .filterbox .slider p{
   width: 50px;
 }
