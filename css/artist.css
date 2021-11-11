@@ -399,7 +399,7 @@ a{
 }
 
 #thumbnail .topnail{
-  height: 300px;
+  height: 250px;
   width: 1190px;
   padding: 15px;
 }
@@ -420,7 +420,7 @@ a{
 
 #thumbnail .topnail .nail01 .nail_img{
   text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai01.jpg) no-repeat center;
+  background: url(/images/artist/artist_kang.jpg) no-repeat center;
   height: 156px;
 }
 
