@@ -362,6 +362,7 @@ a{
 
 .filter .filterbox .slider div{
   width: 600px;
+  margin-top: 5px;
   height: 100%;
   display: flex;
   justify-content: space-around;
