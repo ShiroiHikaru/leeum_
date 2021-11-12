@@ -342,8 +342,8 @@ a{
   margin-top: 50px;
 }
 
-#artist .line01, .line02, .line03, .line07, .line09{
-  width: 1200px;
+#artist .line01, .line02, .line03, .line07, .line09, .line10 
+{ width: 1200px;
   height: 180px;
   display: flex;
   justify-content: space-around;
@@ -416,6 +416,13 @@ a{
 }
 
 #artist .line09 .no26, .no27, .no28, .no29{
+  width: 280px;
+  height: 163px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+#artist .line10 .no30, .no31, .no32, .no33, .no34, .no35, .no36, .no37{
   width: 280px;
   height: 163px;
   border: 1px solid #ccc;

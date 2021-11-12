@@ -744,3 +744,237 @@
 #artist .line08 .no25:hover p{
   bottom: 0; transition: 0.5s;
 }
+
+/* 페이드 영역 : 작가명 > ㅅ */
+/* 서헌강 */
+#artist .line09 .no26{
+  background: url(/images/artist/5/artist_seo.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line09 .no26 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line09 .no26:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 신미경 */
+#artist .line09 .no27{
+  background: url(/images/artist/5/artist_shin.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line09 .no27 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line09 .no27:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 신학철 */
+#artist .line09 .no28{
+  background: url(/images/artist/5/artist_hak.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line09 .no28 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line09 .no28:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 심래정 */
+#artist .line09 .no29{
+  background: url(/images/artist/5/artist_jung.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line09 .no29 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line09 .no29:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 페이드 영역 : 작가명 > ㅇ */
+/* 안규철 */
+#artist .line10 .no30{
+  background: url(/images/artist/6/artist_ahn.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line10 .no30 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line10 .no30:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 육명심 */
+#artist .line10 .no31{
+  background: url(/images/artist/6/artist_Yuk.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line10 .no31 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line10 .no31:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 윤석남 */
+#artist .line10 .no32{
+  background: url(/images/artist/6/artist_seoknam.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line10 .no32 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line10 .no32:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 이강소 */
+#artist .line10 .no33{
+  background: url(/images/artist/6/artist_lee.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line10 .no33 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line10 .no33:hover p{
+  bottom: 0; transition: 0.5s;
+}
