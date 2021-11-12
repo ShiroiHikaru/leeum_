@@ -342,7 +342,7 @@ a{
   margin-top: 50px;
 }
 
-#artist .line01, .line02, .line03, .line07, .line09, .line10 
+#artist .line01, .line02, .line03, .line07, .line09, .line10, .line12  
 { width: 1200px;
   height: 180px;
   display: flex;
@@ -350,14 +350,10 @@ a{
   margin-bottom: 50px;
 }
 
-#artist .line04{
-  display: flex;
-
-}
-
-#artist .line06, .line08{
+#artist .line04, .line06, .line08, .line11{
   display: flex;
 }
+
 
 #artist .line01 .no1, .no2 , .no3, .no4{
   width: 280px;
@@ -422,7 +418,22 @@ a{
   margin: 5px;
 }
 
-#artist .line10 .no30, .no31, .no32, .no33, .no34, .no35, .no36, .no37{
+#artist .line10 .no30, .no31, .no32, .no33, .no34, .no35, .no36, 
+.no37, .no38, .no39, .no40, .no41{
+  width: 280px;
+  height: 163px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+#artist .line11 .no42, .no43{
+  width: 280px;
+  height: 163px;
+  border: 1px solid #ccc;
+  margin: 5px 15px 5px 5px;
+}
+
+#artist .line12 .no44, .no45 , .no46, .no47{
   width: 280px;
   height: 163px;
   border: 1px solid #ccc;

@@ -978,3 +978,324 @@
 #artist .line10 .no33:hover p{
   bottom: 0; transition: 0.5s;
 }
+
+/* 이건용 */
+#artist .line10 .no34{
+  background: url(/images/artist/6/artist_kun.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line10 .no34 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line10 .no34:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+/* 이동기 */
+#artist .line10 .no35{
+  background: url(/images/artist/6/artist_dong.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line10 .no35 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line10 .no35:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 이동욱 */
+#artist .line10 .no36{
+  background: url(/images/artist/6/artist_du.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line10 .no36 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line10 .no36:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 이배 */
+#artist .line10 .no37{
+  background: url(/images/artist/6/artist_bae.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line10 .no37 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line10 .no37:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 이불 */
+#artist .line10 .no38{
+  background: url(/images/artist/6/artist_bul.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line10 .no38 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line10 .no38:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+/* 이승택 */
+#artist .line10 .no39{
+  background: url(/images/artist/6/artist_sungtek.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line10 .no39 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line10 .no39:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 이완 */
+#artist .line10 .no40{
+  background: url(/images/artist/6/artist_wan.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line10 .no40 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line10 .no40:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 이은실 */
+#artist .line10 .no41{
+  background: url(/images/artist/6/artist_ensil.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line10 .no41 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line10 .no41:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 임옥상 */
+#artist .line11 .no42{
+  background: url(/images/artist/6/artist_ohksang.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line11 .no42 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line11 .no42:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 임자혁 */
+#artist .line11 .no43{
+  background: url(/images/artist/6/artist_jahyuk.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line11 .no43 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line11 .no43:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 정광호 */
+#artist .line11 .no43{
+  background: url(/images/artist/6/artist_jahyuk.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line11 .no43 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line11 .no43:hover p{
+  bottom: 0; transition: 0.5s;
+}
