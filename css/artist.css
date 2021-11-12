@@ -290,10 +290,6 @@ a{
   margin-top: 30px;
 }
 
-.filter p{
-  float: left;
-}
-
 .filter .filterbox{
   margin: auto;
   width: 1100px;
@@ -303,6 +299,8 @@ a{
 
 .filter p{
   width: calc(1100px - 950px);
+  float: left;
+  padding: 3px;
 }
 
 
@@ -339,11 +337,12 @@ a{
   width: 1200px;
   height: 100%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 #artist .line01, .line02, .line03, .line07, .line09, .line10, .line12  
-{ width: 1200px;
+, .line14, .line15{ width: 1200px;
   height: 180px;
   display: flex;
   justify-content: space-around;
@@ -445,6 +444,20 @@ a{
   height: 163px;
   border: 1px solid #ccc;
   margin: 5px 15px 5px 5px;
+}
+
+#artist .line14 .no51, .no52 , .no53, .no54{
+  width: 280px;
+  height: 163px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+#artist .line15 .no55, .no56 , .no57, .no58{
+  width: 280px;
+  height: 163px;
+  border: 1px solid #ccc;
+  margin: 5px;
 }
 
 
