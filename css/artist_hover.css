@@ -15,7 +15,7 @@
   height: 163px;
   position: absolute;
   left: 0;
-  top: 163px;
+  bottom: 163px;
   background: rgba(0, 0, 0, 0.7);
   color: white;
   display: flex;
@@ -26,7 +26,7 @@
 }
 
 #artist .line01 .no1:hover p{
-  top: 0; transition: 0.5s;
+  bottom: 0; transition: 0.5s;
 }
 
 /* 구본창 */
@@ -44,7 +44,7 @@
   height: 163px;
   position: absolute;
   left: 0;
-  top: 163px;
+  bottom: 163px;
   background: rgba(0, 0, 0, 0.7);
   color: white;
   display: flex;
@@ -55,7 +55,7 @@
 }
 
 #artist .line01 .no2:hover p{
-  top: 0; transition: 0.5s;
+  bottom: 0; transition: 0.5s;
 }
 
 /* 권오상 */
@@ -73,7 +73,7 @@
   height: 163px;
   position: absolute;
   left: 0;
-  top: 163px;
+  bottom: 163px;
   background: rgba(0, 0, 0, 0.7);
   color: white;
   display: flex;
@@ -84,7 +84,7 @@
 }
 
 #artist .line01 .no3:hover p{
-  top: 0; transition: 0.5s;
+  bottom: 0; transition: 0.5s;
 }
 
 /* 김도균 */
@@ -102,7 +102,7 @@
   height: 163px;
   position: absolute;
   left: 0;
-  top: 163px;
+  bottom: 163px;
   background: rgba(0, 0, 0, 0.7);
   color: white;
   display: flex;
@@ -113,5 +113,429 @@
 }
 
 #artist .line01 .no4:hover p{
-  top: 0; transition: 0.5s;
+  bottom: 0; transition: 0.5s;
 }
+
+
+/* 김민애 */
+#artist .line02 .no5{
+  background: url(/images/artist/1/artist_min.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line02 .no5 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line02 .no5:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 김상길 */
+#artist .line02 .no6{
+  background: url(/images/artist/1/artist_sang.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line02 .no6 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line02 .no6:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+
+/* 김성환 */
+#artist .line02 .no7{
+  background: url(/images/artist/1/artist_hwan.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line02 .no7 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line02 .no7:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+
+/* 김수자 */
+#artist .line02 .no8{
+  background: url(/images/artist/1/artist_soo.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line02 .no8 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line02 .no8:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+/* 김아영 */
+#artist .line03 .no9{
+  background: url(/images/artist/1/artist_young.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line03 .no9 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line03 .no9:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 김옥선 */
+#artist .line03 .no10{
+  background: url(/images/artist/1/artist_ohk.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line03 .no10 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line03 .no10:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+/* 김지원 */
+#artist .line03 .no11{
+  background: url(/images/artist/1/artist_won.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line03 .no11 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line03 .no11:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+/* 김홍석 */
+#artist .line03 .no12{
+  background: url(/images/artist/1/artist_hong.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line03 .no12 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line03 .no12:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+
+/* 김홍주 */
+#artist .line04 .no13{
+  background: url(/images/artist/1/artist_joo.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line04 .no13 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line04 .no13:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+
+/* 김희천 */
+#artist .line04 .no14{
+  background: url(/images/artist/1/artist_hee.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line04 .no14 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line04 .no14:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 페이드 영역 : 작가명 > ㄴ */
+
+/* 노상균 */
+#artist .line05 .no15{
+  background: url(/images/artist/2/artist_No.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line05 .no15 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line05 .no15:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 페이드 영역 : 작가명 > ㅁ */
+/* 문경원 / 전준호 */
+#artist .line06 .no16{
+  background: url(/images/artist/3/artist_Moonjun.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line06 .no16 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line06 .no16:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 문범 */
+#artist .line06 .no17{
+  background: url(/images/artist/3/artist_bum.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line06 .no17 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line06 .no17:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 문성식 */
+#artist .line06 .no18{
+  background: url(/images/artist/3/artist_sik.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line06 .no18 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line06 .no18:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 페이드 영역 : 작가명 > ㅂ */
+/* 문경원 / 전준호 */
