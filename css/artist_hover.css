@@ -1272,8 +1272,8 @@
 }
 
 /* 정광호 */
-#artist .line11 .no43{
-  background: url(/images/artist/6/artist_jahyuk.jpg) no-repeat;
+#artist .line12 .no44{
+  background: url(/images/artist/7/artist_jung.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1281,7 +1281,7 @@
   overflow: hidden;
 }
 
-#artist .line11 .no43 p{
+#artist .line12 .no44 p{
   width: 280px;
   height: 163px;
   position: absolute;
@@ -1296,6 +1296,181 @@
   font-weight: bold;
 }
 
-#artist .line11 .no43:hover p{
+#artist .line12 .no44:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 정상화 */
+#artist .line12 .no45{
+  background: url(/images/artist/7/artist_sanghwa.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line12 .no45 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line12 .no45:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 정연두 */
+#artist .line12 .no46{
+  background: url(/images/artist/7/artist_yeondoo.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line12 .no46 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line12 .no46:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 정은영 */
+#artist .line12 .no47{
+  background: url(/images/artist/7/artist_eunyoung.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line12 .no47 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line12 .no47:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+/* 정희승 */
+#artist .line13 .no48{
+  background: url(/images/artist/7/artist_heeseong.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line13 .no48 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line13 .no48:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 주명덕 */
+#artist .line13 .no49{
+  background: url(/images/artist/7/artist_meongduk.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line13 .no49 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line13 .no49:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 지니서 */
+#artist .line13 .no50{
+  background: url(/images/artist/7/artist_jini.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line13 .no50 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line13 .no50:hover p{
   bottom: 0; transition: 0.5s;
 }

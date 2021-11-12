@@ -350,7 +350,7 @@ a{
   margin-bottom: 50px;
 }
 
-#artist .line04, .line06, .line08, .line11{
+#artist .line04, .line06, .line08, .line11, .line13{
   display: flex;
 }
 
@@ -438,6 +438,13 @@ a{
   height: 163px;
   border: 1px solid #ccc;
   margin: 5px;
+}
+
+#artist .line13 .no48, .no49, .no50{
+  width: 280px;
+  height: 163px;
+  border: 1px solid #ccc;
+  margin: 5px 15px 5px 5px;
 }
 
 
