@@ -16,7 +16,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -45,7 +45,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -74,7 +74,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -103,7 +103,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -133,7 +133,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -162,7 +162,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -193,7 +193,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -224,7 +224,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -254,7 +254,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -283,7 +283,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -313,7 +313,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -343,7 +343,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -374,7 +374,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -405,7 +405,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -436,7 +436,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -466,7 +466,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -495,7 +495,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -524,7 +524,7 @@
   position: absolute;
   left: 0;
   bottom: 163px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -538,4 +538,209 @@
 }
 
 /* 페이드 영역 : 작가명 > ㅂ */
-/* 문경원 / 전준호 */
+/* 박경근 */
+#artist .line07 .no19{
+  background: url(/images/artist/4/artist_park.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line07 .no19 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line07 .no19:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 박미나 */
+#artist .line07 .no20{
+  background: url(/images/artist/4/artist_mina.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line07 .no20 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line07 .no20:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+/* 박민하 */
+#artist .line07 .no21{
+  background: url(/images/artist/4/artist_minha.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line07 .no21 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line07 .no21:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+/* 박서보 */
+#artist .line07 .no22{
+  background: url(/images/artist/4/artist_seobo.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line07 .no22 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line07 .no22:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+/* 박진아 */
+#artist .line08 .no23{
+  background: url(/images/artist/4/artist_jina.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line08 .no23 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line08 .no23:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+/* 백현진 */
+#artist .line08 .no24{
+  background: url(/images/artist/4/artist_beak.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line08 .no24 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line08 .no24:hover p{
+  bottom: 0; transition: 0.5s;
+}
+
+
+/* 블라인드니스 */
+#artist .line08 .no25{
+  background: url(/images/artist/4/artist_nis.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line08 .no25 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 163px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line08 .no25:hover p{
+  bottom: 0; transition: 0.5s;
+}
