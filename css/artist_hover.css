@@ -1,0 +1,117 @@
+/* 페이드 영역 : 작가명 > ㄱ */
+
+/* 강서경 */
+#artist .line01 .no1{
+  background: url(/images/artist/1/artist_kang.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line01 .no1 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  top: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line01 .no1:hover p{
+  top: 0; transition: 0.5s;
+}
+
+/* 구본창 */
+#artist .line01 .no2{
+  background: url(/images/artist/1/artist_koo.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line01 .no2 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  top: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line01 .no2:hover p{
+  top: 0; transition: 0.5s;
+}
+
+/* 권오상 */
+#artist .line01 .no3{
+  background: url(/images/artist/1/artist_kwon.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line01 .no3 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  top: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line01 .no3:hover p{
+  top: 0; transition: 0.5s;
+}
+
+/* 김도균 */
+#artist .line01 .no4{
+  background: url(/images/artist/1/artist_kim.jpg) no-repeat;
+  height: 163px;
+  position: relative;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#artist .line01 .no4 p{
+  width: 280px;
+  height: 163px;
+  position: absolute;
+  left: 0;
+  top: 163px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#artist .line01 .no4:hover p{
+  top: 0; transition: 0.5s;
+}

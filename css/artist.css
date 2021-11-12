@@ -403,7 +403,7 @@ a{
 
 #artist .line01, .line02, .line03{
   width: 1200px;
-  height: 100%;
+  height: 180px;
   border: 1px solid red;
   display: flex;
   justify-content: space-around;
@@ -417,37 +417,7 @@ a{
   margin: 5px;
 }
 
-#artist .line01 .no1 h3{
-  background: url(/images/artist/1/artist_kang.jpg) no-repeat;
-  height: 163px;
-  text-indent: -9999px;
-}
 
-#artist .line01 .no2 h3{
-  background: url(/images/artist/1/artist_kang.jpg) no-repeat;
-  height: 163px;
-  text-indent: -9999px;
-}
-
-
-#artist .line01 .no1 p:hover{
-  top: 0px;
-  transition: top 0.5;
-}
-
-#artist .line02 .no1, .no2 , .no3, .no4{
-  width: 280px;
-  height: 220px;
-  border: 1px solid red;
-  margin: 5px;
-}
-
-#artist .line03 .no1, .no2 , .no3, .no4{
-  width: 280px;
-  height: 220px;
-  border: 1px solid red;
-  margin: 5px;
-}
 
 /* 페이지버튼 영역 */
 
