@@ -23,7 +23,7 @@ ul.bxslider {
 }
 .bx-viewport {
   /*fix other elements on the page moving (on Chrome)*/
-  -webkit-transform: translatez(0);
+  transform: translatez(0);
 }
 /** THEME
 ===================================*/
