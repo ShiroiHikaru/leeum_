@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="css/artist.css" type="text/css">
   <link rel="stylesheet" href="css/artist_hover.css" type="text/css">
   <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-  <script type="text/javascript" src="/js/quick_toggle.js"></script>
-
+  <script type="text/javascript" src="js/quick_toggle.js"></script>
+  <script type="text/javascript" src="js/tab.js"></script>
   <title>Leeum - 작가</title>
 </head>
 <body>
@@ -29,7 +29,6 @@
   </header>
   
   <main>
-
     <section id="quickbar">
       <div class="quickbtn">
         <ul>
@@ -77,9 +76,6 @@
       </div>
     </section>
 
-
-    
-
     <section id="m_intro">
       <h2>작가 인터뷰 By Leeum</h2>
       <p>『리움, 작가를 만나다』 는 회화, 사진, 조각, 설치, 영상, 공예, 디자인 등 현대미술의 다양한 분야에서<br>
@@ -93,29 +89,28 @@
     <div class="filter">
       <div class="filterbox">
       <p>자음필터</p>
-      
       <ul>
-        <li><a href="">전체</a></li>
-        <li><a href="">ㄱ</a></li>
-        <li><a href="">ㄴ</a></li>
+        <li><a href="#line01">ㄱ</a></li>
+        <li><a href="#line05">ㄴ</a></li>
         <li><a href="">ㄷ</a></li>
-        <li><a href="">ㅁ</a></li>
-        <li><a href="">ㅂ</a></li>
-        <li><a href="">ㅅ</a></li>
-        <li><a href="">ㅇ</a></li>
-        <li><a href="">ㅈ</a></li>
-        <li><a href="">ㅊ</a></li>
+        <li><a href="">ㄹ</a></li>
+        <li><a href="#line06">ㅁ</a></li>
+        <li><a href="#line07">ㅂ</a></li>
+        <li><a href="#line09">ㅅ</a></li>
+        <li><a href="#line10">ㅇ</a></li>
+        <li><a href="#line12">ㅈ</a></li>
+        <li><a href="#line14">ㅊ</a></li>
         <li><a href="">ㅋ</a></li>
         <li><a href="">ㅌ</a></li>
         <li><a href="">ㅍ</a></li>
-        <li><a href="">ㅎ</a></li>
+        <li><a href="#line15">ㅎ</a></li>
       </ul>
     </div>
     </div>
     
     <section id="artist">
       <!-- 아티스트 명 : ㄱ -->
-        <div class="line01">
+        <div class="line01" id="line01">
           <div class="no1">
             <a href=""><p>강서경</p></a>
           </div>
@@ -129,7 +124,7 @@
             <a href=""><p>김도균</p></a>
           </div>
         </div>
-        <div class="line02">
+        <div class="line02" id="line02">
           <div class="no5">
             <a href=""><p>김민애</p></a>
           </div>
@@ -143,7 +138,7 @@
             <a href=""><p>김수자</p></a>
           </div>
         </div>
-      <div class="line03">
+      <div class="line03" id="line03">
         <div class="no9">
           <a href=""><p>김아영</p></a>
         </div>
@@ -157,7 +152,7 @@
           <a href=""><p>김홍석</p></a>
         </div>
       </div>
-      <div class="line04">
+      <div class="line04" id="line04">
         <div class="no13" style="margin-left: 10px;">
           <p><a href=""><p>김홍주</p></a></p>
         </div>
@@ -167,14 +162,14 @@
       </div>
       <hr>
       <!-- 아티스트 명 : ㄴ -->
-      <div class="line05">
+      <div class="line05" id="line05">
         <div class="no15">
           <p><a href=""><p>노상균</p></a></p>
         </div>
       </div>
       <hr>
       <!-- 아티스트 명 : ㅁ -->
-      <div class="line06">
+      <div class="line06" id="line06">
         <div class="no16">
           <p><a href=""><p>문경원 / 전준호</p></a></p>
         </div>
@@ -187,7 +182,7 @@
       </div>
       <hr>
       <!-- 아티스트 명 : ㅂ -->
-      <div class="line07">
+      <div class="line07" id="line07">
         <div class="no19">
           <p><a href=""><p>박경근</p></a></p>
         </div>
@@ -201,7 +196,7 @@
           <p><a href=""><p>박서보</p></a></p>
         </div>
       </div>
-      <div class="line08">
+      <div class="line08" id="line08">
         <div class="no23">
           <p><a href=""><p>박진아</p></a></p>
         </div>
@@ -214,7 +209,7 @@
       </div>
       <hr>
       <!-- 아티스트 명 : ㅅ -->
-      <div class="line09">
+      <div class="line09" id="line09">
         <div class="no26">
           <p><a href=""><p>서헌강</p></a></p>
         </div>
@@ -231,7 +226,7 @@
       <hr>
       <!-- 아티스트 명 : ㅇ -->
       
-      <div class="line10">
+      <div class="line10" id="line10">
         <div class="no30">
           <p><a href=""><p>안규철</p></a></p>
         </div>
@@ -273,7 +268,7 @@
           <p><a href=""><p>이은실</p></a></p>
         </div>
       </div>  
-      <div class="line11">
+      <div class="line11" id="line11">
         <div class="no42" style="margin-left: 10px;">
           <p><a href=""><p>임옥상</p></a></p>
         </div>
@@ -283,7 +278,7 @@
       </div>
       <hr>
       <!-- 아티스트 명 : ㅈ -->
-      <div class="line12">
+      <div class="line12" id="line12">
         <div class="no44">
           <p><a href=""><p>정광호</p></a></p>
         </div>
@@ -297,7 +292,7 @@
           <p><a href=""><p>정은영</p></a></p>
         </div>
       </div>
-      <div class="line13">
+      <div class="line13" id="line13">
         <div class="no48">
           <p><a href=""><p>정희승</p></a></p>
         </div>
@@ -310,7 +305,7 @@
       </div>
       <hr>
       <!-- 아티스트 명 : ㅊ -->  
-      <div class="line14">
+      <div class="line14" id="line14">
         <div class="no51">
           <a href=""><p>최우람</p></a>
         </div>
@@ -326,7 +321,7 @@
       </div>
       <hr>
       <!-- 아티스트 명 : ㅎ -->  
-      <div class="line15">
+      <div class="line15" id="line15">
         <div class="no55">
           <a href=""><p>하종현</p></a>
         </div>
