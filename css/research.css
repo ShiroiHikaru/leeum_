@@ -252,6 +252,16 @@ a{
   margin-top: 150px;
 }
 
+#study_intro .slider{
+  width: 1200px;
+}
+
+
+#study_intro .intro_text{
+  float: left;
+  line-height: 25px;
+}
+
 /* 뉴스레터구독 */
 #Subscribe{
   z-index: -9999px;
