@@ -247,6 +247,7 @@ a{
 /* 메인 시작 */
 #study_intro{
   width: 1200px;
+  height: 2500px;
   border: 1px solid red;
   margin: auto;
   margin-top: 150px;
@@ -261,6 +262,167 @@ a{
   float: left;
   line-height: 25px;
 }
+
+.categori01{
+  width: 1200px;
+  border: 1px solid red;
+}
+
+#study_intro .categori01{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  margin-right: 14px;
+}
+
+#study_intro .categori02{
+  display: flex;
+}
+
+
+#study_intro .categori01 .no1, .no2, .no3, .no4{
+  width: 280px;
+  height: 163px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#study_intro .categori02 .no5, .no6, .no7{
+  width: 280px;
+  height: 163px;
+  overflow: hidden;
+  margin: 0px 27px 0px 0px;
+}
+
+/* no1 */
+#study_intro .categori01 .no1 img{
+  width: 280px;
+  height: 163px;
+  overflow: hidden;
+  position: relative;
+}
+
+#study_intro .categori01 .no1 img:hover{
+  transform: scale(1.1, 1.1);
+  transition: transform 0.5s;
+}
+
+
+/* no2 */
+#study_intro .categori01 .no2 img{
+  width: 280px;
+  height: 163px;
+  overflow: hidden;
+  position: relative;
+}
+
+#study_intro .categori01 .no2 img:hover{
+  transform: scale(1.1, 1.1);
+  transition: transform 0.5s;
+}
+
+
+/* no3 */
+#study_intro .categori01 .no3 img{
+  width: 280px;
+  height: 163px;
+  overflow: hidden;
+  position: relative;
+}
+
+#study_intro .categori01 .no3 img:hover{
+  transform: scale(1.1, 1.1);
+  transition: transform 0.5s;
+}
+
+/* no4 */
+#study_intro .categori01 .no4 img{
+  width: 280px;
+  height: 163px;
+  overflow: hidden;
+  position: relative;
+}
+
+#study_intro .categori01 .no4 img:hover{
+  transform: scale(1.1, 1.1);
+  transition: transform 0.5s;
+}
+
+/* no5 */
+#study_intro .categori02 .no5 img{
+  width: 280px;
+  height: 163px;
+  overflow: hidden;
+  position: relative;
+}
+
+#study_intro .categori02 .no5 img:hover{
+  transform: scale(1.1, 1.1);
+  transition: transform 0.5s;
+}
+
+/* no6 */
+#study_intro .categori02 .no6 img{
+  width: 280px;
+  height: 163px;
+  overflow: hidden;
+  position: relative;
+}
+
+#study_intro .categori02 .no6 img:hover{
+  transform: scale(1.1, 1.1);
+  transition: transform 0.5s;
+}
+
+/* no7 */
+#study_intro .categori02 .no7 img{
+  width: 280px;
+  height: 163px;
+  overflow: hidden;
+  position: relative;
+}
+
+#study_intro .categori02 .no7 img:hover{
+  transform: scale(1.1, 1.1);
+  transition: transform 0.5s;
+}
+
+#study_intro .activity .in_activity .act01, .act02{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#study_intro .activity .in_activity .act01 .act_list01{
+  position: relative;
+}
+
+#study_intro .activity .in_activity .act01 .act_list01 p{
+  width: 590px;
+  height: 353px;
+  position: absolute;
+  border: 1px solid red;
+  bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  line-height: 35px;
+  font-weight: bold;
+}
+
+
+#study_intro .activity .in_activity .act01 .act_list02 p{
+  width: 590px;
+  height: 353px;
+  border: 1px solid orange;
+  position: absolute;
+  bottom: -20px;
+}
+
 
 /* 뉴스레터구독 */
 #Subscribe{
