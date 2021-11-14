@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   overflow-x: hidden;
 }
@@ -46,7 +46,7 @@ header nav .menu{
   background: beige;
   width: 100vw;
   top: 70px;
-  display: none;
+  z-index: 500;
 }
 
 header nav .menu li{
@@ -58,6 +58,23 @@ header nav .menu li{
 header nav .menu li a{
   color: black;
   text-decoration: none;
+}
+
+/* main */
+
+main{
+  width: 100vw;
+  position: relative;
+}
+
+#mainslider .slider{
+  position: absolute;
+  z-index: 9999px;
+}
+
+#mainslider .slider div{
+  width: 100vw;
+  position: absolute;
 }
 
 
