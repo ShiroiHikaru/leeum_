@@ -252,6 +252,17 @@ a{
   margin-top: 150px;
 }
 
+#study_intro > h3{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#activity > h3{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
 #study_intro .slider div{
   width: 1200px;
 }
@@ -290,14 +301,24 @@ a{
 #study_intro .textbox{
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
+  margin-bottom: 20px;
 }
 
 #study_intro .textbox p{
-  border: 1px solid green;
   width: 268px;
   padding: 5px;
   font-weight: bold;
+}
+
+#study_intro .textbox2{
+  display: flex;
+}
+
+#study_intro .textbox2 p{
+  width: 268px;
+  padding: 5px;
+  font-weight: bold;
+  margin-right: 27px;
 }
 
 #study_intro .categori02 .no5, .no6, .no7{
