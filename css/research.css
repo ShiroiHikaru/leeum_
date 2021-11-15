@@ -245,12 +245,9 @@ a{
 }
 
 /* 메인 시작 */
-main{
-  background: linear-gradient(0deg,#fff 30%, rgb(160, 160, 160) 40%, #fff 30%);
-}
+
 #study_intro{
   width: 1200px;
-  border: 1px solid red;
   margin: auto;
   margin-top: 150px;
 }
@@ -265,13 +262,14 @@ main{
   line-height: 25px;
 }
 
-.categori01{
+.categori01, .categori02, #activity, #question{
   width: 1200px;
-  border: 1px solid red;
+  margin: auto;
 }
 
 #study_intro .categori01{
   display: flex;
+  height: 163px;
   justify-content: space-between;
   padding-top: 100px;
   margin-right: 14px;
@@ -287,6 +285,19 @@ main{
   height: 163px;
   overflow: hidden;
   margin-bottom: 20px;
+}
+
+#study_intro .textbox{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+#study_intro .textbox p{
+  border: 1px solid green;
+  width: 268px;
+  padding: 5px;
+  font-weight: bold;
 }
 
 #study_intro .categori02 .no5, .no6, .no7{
@@ -392,7 +403,6 @@ main{
 /* 연구활동 */
 
 #activity{
-  width: 1200px;
   margin: auto;
   margin-top: 80px;
   position: relative;
@@ -447,8 +457,6 @@ main{
 }
 
 #question{
-  width: 1200px;
-  margin: auto;
   margin-bottom: 150px;
 }
 
