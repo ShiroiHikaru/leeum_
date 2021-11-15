@@ -245,15 +245,17 @@ a{
 }
 
 /* 메인 시작 */
+main{
+  background: linear-gradient(0deg,#fff 30%, rgb(160, 160, 160) 40%, #fff 30%);
+}
 #study_intro{
   width: 1200px;
-  height: 2500px;
   border: 1px solid red;
   margin: auto;
   margin-top: 150px;
 }
 
-#study_intro .slider{
+#study_intro .slider div{
   width: 1200px;
 }
 
@@ -387,41 +389,121 @@ a{
   transition: transform 0.5s;
 }
 
-#study_intro .activity .in_activity .act01, .act02{
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
+/* 연구활동 */
 
-#study_intro .activity .in_activity .act01 .act_list01{
+#activity{
+  width: 1200px;
+  margin: auto;
+  margin-top: 80px;
   position: relative;
 }
 
-#study_intro .activity .in_activity .act01 .act_list01 p{
+#activity .act01, .act02{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#activity .act01_txt{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 385px;
+}
+
+#activity .act02_txt{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 6px;
+}
+
+#activity .act01_txt > .baek, .totem{
   width: 590px;
   height: 353px;
-  position: absolute;
-  border: 1px solid red;
-  bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  line-height: 30px;
   color: white;
-  line-height: 35px;
-  font-weight: bold;
+  font-size: 25px;
 }
 
-
-#study_intro .activity .in_activity .act01 .act_list02 p{
+#activity .act02_txt p{
   width: 590px;
   height: 353px;
-  border: 1px solid orange;
-  position: absolute;
-  bottom: -20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  font-size: 25px;
 }
+
+#question{
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+#question .qna1, .qna2, .qna3, .qna4{
+  padding: 30px 0 30px 0;
+}
+
+#question .qna1 h3{
+  padding: 20px;
+  background-color: #3d3326;
+  color: white;
+}
+
+#question .qna1 p{
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #3d3326;
+}
+
+#question .qna2 h3{
+  padding: 20px;
+  background-color: #3d3326;
+  color: white;
+}
+
+#question .qna2 p{
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #3d3326;
+}
+
+#question .qna3 h3{
+  padding: 20px;
+  background-color: #3d3326;
+  color: white;
+}
+
+#question .qna3 p{
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #3d3326;
+}
+
+#question .qna4 h3{
+  padding: 20px;
+  background-color: #3d3326;
+  color: white;
+}
+
+#question .qna4 p{
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #3d3326;
+}
+
 
 
 /* 뉴스레터구독 */

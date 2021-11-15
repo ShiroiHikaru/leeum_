@@ -1,5 +1,6 @@
 .bx-wrapper{
   position:relative;
+  width: 1200px;
   margin-bottom:60px;
   padding:0;
   -ms-touch-action:pan-y;
