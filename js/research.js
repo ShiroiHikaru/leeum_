@@ -1,4 +1,8 @@
 $(document).ready(function(){
+  $("act01_txt .baek").hide();
+  $("act01 .act_img01").mouseenter(function(){
+
+  });
   $(".qna1 h3").click(function(){
     $(".qna1 p").not($(this).next()).slideUp("fast");
     $(this).next().slideToggle("fast");
