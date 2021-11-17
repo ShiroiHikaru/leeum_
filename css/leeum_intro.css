@@ -457,7 +457,7 @@ header nav ul li a:hover{
 
 
 
-#interview .artist .artistbox .mario .arttext{
+#interview .artist .artistbox .mario .arttext1{
   position: absolute;
   bottom: 0px;
   width: 377px;
@@ -472,12 +472,12 @@ header nav ul li a:hover{
   line-height: 30px;
 }
 
-#interview .artist .artistbox .mario .arttext h3{
+#interview .artist .artistbox .mario .arttext1 h3{
   font-weight: bold;
 }
 
 
-#interview .artist .artistbox .mario .arttext button{
+#interview .artist .artistbox .mario .arttext1 button{
   width: 150px;
   height: 40px;
   font-size: 18px;
@@ -501,7 +501,7 @@ header nav ul li a:hover{
   text-indent: -9999px;
 }
 
-#interview .artist .artistbox .jean .arttext{
+#interview .artist .artistbox .jean .arttext2{
   position: absolute;
   bottom: 0px;
   width: 377px;
@@ -516,12 +516,12 @@ header nav ul li a:hover{
   line-height: 30px;
 }
 
-#interview .artist .artistbox .jean .arttext h3{
+#interview .artist .artistbox .jean .arttext2 h3{
   font-weight: bold;
 }
 
 
-#interview .artist .artistbox .jean .arttext button{
+#interview .artist .artistbox .jean .arttext2 button{
   width: 150px;
   height: 40px;
   font-size: 18px;
@@ -532,7 +532,7 @@ header nav ul li a:hover{
   color: white;
 }
 
-#interview .artist .artistbox .jean .arttext p{
+#interview .artist .artistbox .jean .arttext2 p{
   margin-top: 20px;
 }
 
@@ -550,7 +550,7 @@ header nav ul li a:hover{
 }
 
 
-#interview .artist .artistbox .rem .arttext{
+#interview .artist .artistbox .rem .arttext3{
   position: absolute;
   bottom: 0px;
   width: 377px;
@@ -565,12 +565,12 @@ header nav ul li a:hover{
   line-height: 30px;
 }
 
-#interview .artist .artistbox .rem .arttext h3{
+#interview .artist .artistbox .rem .arttext3 h3{
   font-weight: bold;
 }
 
 
-#interview .artist .artistbox .rem .arttext button{
+#interview .artist .artistbox .rem .arttext3 button{
   width: 150px;
   height: 40px;
   font-size: 18px;
@@ -580,16 +580,6 @@ header nav ul li a:hover{
   background: rgba(255, 255, 255, 0);
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* 뉴스레터구독 */
