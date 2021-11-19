@@ -784,6 +784,7 @@ footer .footer_top .sub_top{
 footer .footer_top .sub_top li{
   float: left;
   margin-right: 20px;
+  font-size: 18px;
 }
 
 footer .footer_top .sub_top li a{
@@ -798,17 +799,18 @@ footer .footer_top .sub_top li a:hover{
 footer .footer_bottom{
   clear: both;
   width: 1200px;
-  height: 100px;
+  height: 65px;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
 }
 
 footer .footer_bottom .foot_logo{
   float: left;
   background: url(/images/lee_logo_w.svg) no-repeat;
   background-size: contain;
-  width: 173px;
+  width: 160px;
   height: 60px;
+  opacity: 0.5;
   text-indent: -9999px;
 }
 
@@ -816,7 +818,8 @@ footer .footer_bottom .leeum_add{
   float: left;
   width: 750px;
   padding-left: 20px;
-  font-size: 20px;
+  font-size: 15px;
+  margin-left: 35px;
   line-height: 25px;
   color: #fff;
 }

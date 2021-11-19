@@ -2,5 +2,16 @@
 
 #program_area{
   width: 1200px;
+  margin: auto;
+}
+
+#program_area .wrapbox{
+  margin-top: 100px;
+  width: 1200px;
   border: 1px solid red;
 }
+
+#program_area .wrapbox .program_title{
+  font-size: 35px;
+}
+
