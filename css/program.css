@@ -448,6 +448,78 @@ border: 1px solid #ccc;
   color: #141414;
 }
 
+/* 텍스트 영역 3 - t1 */
+#program_area .area2 .program1 h3{
+  height: 60px;
+  width: 590px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+#program_area .area2 .program1 .views{
+  width: 590px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  background: #141414;
+  margin-top: 20px;
+}
+
+#program_area .area2 .program1 .views a{
+  display: block;
+  width: 580px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#program_area .area2 .program1 .views:hover{
+  background: wheat;
+  color: #141414;
+  transition: 0.3s;
+}
+
+#program_area .area2 .program1 .views a:hover{
+  color: #141414;
+}
+
+/* 텍스트 영역 3 - t2 */
+#program_area .area2 .program2 h3{
+  height: 60px;
+  width: 590px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+#program_area .area2 .program2 .views{
+  width: 590px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  background: #141414;
+  margin-top: 20px;
+}
+
+#program_area .area2 .program2 .views a{
+  display: block;
+  width: 580px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#program_area .area2 .program2 .views:hover{
+  background: wheat;
+  color: #141414;
+  transition: 0.3s;
+}
+
+#program_area .area2 .program2 .views a:hover{
+  color: #141414;
+}
+
 
 /* 뉴스레터구독 */
 #Subscribe{
