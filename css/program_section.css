@@ -5,13 +5,39 @@
   margin: auto;
 }
 
+#program_area img{
+  border: 1px solid #ccc;
+}
+
 #program_area .wrapbox{
   margin-top: 100px;
   width: 1200px;
   border: 1px solid red;
 }
 
-#program_area .wrapbox .program_title{
-  font-size: 35px;
+#program_area .wrapbox .area01{
+  margin-top: 50px;
 }
 
+#program_area .wrapbox .main_program{
+  display: flex;
+}
+
+
+#program_area .wrapbox .main_program .textbox{
+  padding: 15px;
+  height: 310px;
+}
+
+#program_area .wrapbox .program_title{
+  font-size: 24px;
+}
+
+#program_area .wrapbox .main_program .program_intro{
+  font-size: 16px;
+}
+
+#program_area .wrapbox .main_program .program_intro .sub_title{
+  font-size: 18px;
+  font-weight: bold;
+}
