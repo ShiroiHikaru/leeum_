@@ -60,6 +60,7 @@ p{
 #program_area .wrapbox .area01{
   display: flex;
   justify-content: space-between;
+  border: 1px solid red;
 }
 
 #program_area .wrapbox .area01 
