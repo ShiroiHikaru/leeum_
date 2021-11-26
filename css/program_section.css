@@ -36,7 +36,7 @@ p{
 }
 
 #program_area .wrapbox .main_area .program_text .views{
-  width: 100%;
+  width: 50%;
   height: 40px;
   font-size: 18px;
   margin-top: 20px;
