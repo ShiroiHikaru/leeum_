@@ -93,3 +93,40 @@ p{
 #program_area .wrapbox .area01 span{
   font-weight: lighter;
 }
+
+
+#page{
+  width: 200px;
+  margin: auto;
+}
+
+#page ul{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#page ul li{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+#page ul li a{
+  color: #000;
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+#page ul li a:hover{
+  background: #141414;
+  color: #fff;
+  transition: 0.2s;
+}
