@@ -6,6 +6,6 @@ $(document).ready(function(){
 
   $(".site_list").hide();
   $(".sitelink h3").click(function(){
-    $(".site_list").slideToggle("fast");
+    $(".site_list").toggle("fast");
   });
 });
