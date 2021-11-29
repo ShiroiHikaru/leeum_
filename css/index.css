@@ -410,24 +410,19 @@ main{
 
 .textbox .text1, .text2, .text3, .text4{
   width: 290px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 170px;
+  color:#fff;
+  border: 1px solid red;
 }
 
-.textbox a{
-  display: block;
-  width: 290px;
-  color: #fff;
-  text-decoration: none;
-}
 
-.textbox a .maintext{
-  font-size: 25px;
-  line-height: 20px;
-}
+
+
+
 
 
 #event{
