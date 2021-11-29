@@ -1,8 +1,6 @@
 $(document).ready(function(){
-  $(".slider").bxSlider({
-    video : true,
-    auto : true,
-    autoStart : true,
+  $(".slidewrap .slider").bxSlider({
+    // auto : true,
     autocontrols : true
   });
 });
