@@ -37,10 +37,11 @@ ul.bxslider {
 
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
-  left: 350px;
+  left: 275px;
   position: absolute;
-  bottom: -30px;
-  width: 1200px;
+  bottom: -100px;
+  width: 200px;
+
 }
 /* LOADER */
 .bx-wrapper .bx-loading {
@@ -61,10 +62,10 @@ ul.bxslider {
   font-weight: bold;
   color: #666;
   position: absolute;
-  bottom: 140px;
+  bottom: 200px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: #8a7a67;
+  background: #aaaaaa;
   text-indent: -9999px;
   display: block;
   width: 10px;
@@ -78,7 +79,7 @@ ul.bxslider {
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background: #777777;
+  background: #8a7a67;
 }
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {

@@ -442,13 +442,13 @@ main{
   justify-content: space-between;
   position: absolute;
   left: 350px;
-  bottom: 180px;
+  bottom: 230px;
 }
 
 #event .slider .eventbox1 .subbox1{
   width: 550px;
+  height: 332px;
   color: #fff;
-  margin-top: 30px;
 }
 
 #event .slider .eventbox1 .subbox1 h3{
@@ -467,6 +467,8 @@ main{
   border-radius: 50px;
   background: rgba(0, 0, 0, 0);
   border: 1px solid white;
+  position: absolute;
+  bottom: 0px;
 }
 
 #event .slider .eventbox1 .subbox1 button a{
