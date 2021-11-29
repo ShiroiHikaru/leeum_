@@ -3,7 +3,6 @@
 /** RESET AND LAYOUT
 ===================================*/
 .bx-wrapper {
-  width: 100%;
   position: relative;
   margin-bottom: 60px;
   padding: 0;
@@ -28,13 +27,20 @@ ul.bxslider {
 }
 /** THEME
 ===================================*/
-
+/* .bx-wrapper {
+  -moz-box-shadow: 0 0 5px #ccc;
+  -webkit-box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
+  border: 5px solid #fff;
+  background: #fff; 
+}*/
 
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
+  left: 350px;
   position: absolute;
   bottom: -30px;
-  width: 100%;
+  width: 1200px;
 }
 /* LOADER */
 .bx-wrapper .bx-loading {
@@ -48,11 +54,31 @@ ul.bxslider {
   z-index: 2000;
 }
 /* PAGER */
-
+.bx-wrapper .bx-pager {
+  text-align: center;
+  font-size: .85em;
+  font-family: Arial;
+  font-weight: bold;
+  color: #666;
+  position: absolute;
+  bottom: 140px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #8a7a67;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background: #000;
+  background: #777777;
 }
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
@@ -67,38 +93,30 @@ ul.bxslider {
 }
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
-  width: 1200px;
-  left: 360px;
-  background: url('/images/arrow_left.png') no-repeat;
-  z-index: 9999;
+  left: 260px;
+  background: url('../images/arrow_left.png') no-repeat;
 }
 .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-prev:focus {
   background-position: 0 0;
 }
 .bx-wrapper .bx-next {
-  right: 360px;
-  background: url('/images/arrow_right.png') no-repeat;
-  z-index: 9999px;
-  position: absolute;
+  right: 260px;
+  background: url('../images/arrow_right.png') no-repeat;
 }
 .bx-wrapper .bx-next:hover,
 .bx-wrapper .bx-next:focus {
   background-position: -43px 0;
 }
-.bx-wrapper .bx-controls-direction a{
+.bx-wrapper .bx-controls-direction a {
   position: absolute;
-  top: 30%;
+  top: 45%;
+  margin-top: -16px;
   outline: 0;
   width: 64px;
-  height: 126px;
+  height: 128px;
   text-indent: -9999px;
   z-index: 9998;
-}
-
-.bx-wrapper .bx-controls-direction a:hover{
-  background: rgba(80, 80, 80, 0.75);
-  transition: 0.5s;
 }
 .bx-wrapper .bx-controls-direction a.disabled {
   display: none;

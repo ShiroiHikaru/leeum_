@@ -395,7 +395,7 @@ main{
   position: relative;
 }
 
-#main_banner .bannerwrap .banner4 img:hover{
+#main_banner .bannerwrap .banner4 a img:hover{
   transform: scale(1.1, 1.1);
   transition: transform 0.5s;
 }
@@ -403,135 +403,79 @@ main{
 .textbox{
   width: 1200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   position: absolute;
   top: 1110px;
 }
 
 .textbox .text1, .text2, .text3, .text4{
-  width: 290px;
-  height: 200px;
+  width: 160px;
+  height: 100px;
   display: flex;
+  margin-top: 150px;
   justify-content: center;
   align-items: center;
   text-align: center;
   color:#fff;
-  border: 1px solid red;
+
 }
 
-
-
-
-
-
-
-#event{
-  margin-top: 120px;
-  background: url(/images/event_bg.jpg);
+.textbox p{
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 34px;
 }
-
-#event .slider{
-  width: 1200px;
-  margin: auto;
-  position: relative;
-  bottom: 200px;
-}
-
-#event .slider .event_01{
-  display: flex;
-}
-
-
 
  /* 전시이벤트 시작 */
 
- #event{
-   width: 100%;
-   height: 767px;
-   background-image: url(/images/event_bg.jpg);
-   background-size: cover;
-   clear: both;
-   position: relative;
-   z-index: -1;
-   top: 120px;
-   color: white;
- }
+#event{
+  margin-top: 120px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
 
- #event .eventBox{
-   width: 1200px;
-   margin: auto;
- }
+#event .slider .eventbox1{
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 350px;
+  bottom: 180px;
+}
 
- #event .eventPic .eveImg{
-   background: url(/images/event_img_01.jpg)no-repeat;
-   width: 514px;
-   height: 395px;
-   text-indent: -9999px;
-   float: left;
-   margin-top: 185px;
- }
+#event .slider .eventbox1 .subbox1{
+  width: 550px;
+  color: #fff;
+  margin-top: 30px;
+}
 
- #event .eventBox .eventPic .eventtext{
-  width: 630px;
-  float: right;
-  margin-top: 185px;
- }
+#event .slider .eventbox1 .subbox1 h3{
+  font-size: 30px;
+}
 
- #event .eventBox .eventPic .eventtext span{
-   font-size: 18px;
- }
+#event .slider .eventbox1 .subbox1 p{
+  font-size: 16px;
+}
 
- #event .eventBox .eventPic .eventtext p{
-   font-size: 18px;
-   line-height: 25px;
- }
+#event .slider .eventbox1 .subbox1 button{
+  width: 150px;
+  height: 35px;
+  font-size: 18px;
+  margin-top: 15px;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+}
 
- #event .eventBox .eventPic .eventtext button{
-   width: 145px;
-   height: 40px;
-   border-radius: 50px;
-   border: 2px solid white;
-   background: rgba(255, 255, 255, 0);
-   margin-top: 35px;
-   font-size: 18px;
-   color: white;
- }
-
- #event .eventBox .eventPic .eventtext button a:hover{
-   transition: 0.3s;
-   background: rgba(000, 000, 000, 0.5);
-   cursor: pointer;
- }
-
- #event .eventBox .eventPic .eventtext button a{
-   color: white;
-   text-decoration: none;
-   display: block;
-   border-radius: 50px;
-   padding: 5px;
-   width: 120spx;
-   text-align: center;
-   cursor: pointer;
- }
-
- #event .eventdott{
-   width: 1200px;
-   margin: auto;
- }
-
- #event .eventdott .dottbox{
-   width: 200px;
- }
-
- #event .eventdott .dottbox ul li{
-   float: left;
-   margin: 20px 20px 0 0;
-   text-indent: -9999px;
-   background: #ccc;
-   width: 13px;
-   height: 13px;
-   border-radius: 50px;
- }
+#event .slider .eventbox1 .subbox1 button a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  height: 30px;
+  line-height: 28px;
+}
 
 
 /* 공지사항 */
