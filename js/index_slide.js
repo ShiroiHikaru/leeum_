@@ -1,5 +1,8 @@
 $(document).ready(function(){
   $(".slider").bxSlider({
-    auto: true
+    video : true,
+    auto : true,
+    autoStart : true,
+    autocontrols : true
   });
 });
