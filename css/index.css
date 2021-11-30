@@ -503,6 +503,8 @@ main{
 
 #information .notice table tbody{
   height: 290px;
+  width: 100%;
+  text-overflow: clip;
 }
 
 #information .notice table tbody tr{
@@ -510,7 +512,6 @@ main{
 }
 
 #information .notice table tbody tr td{
-  width: 600px;
   vertical-align: middle;
 }
 
