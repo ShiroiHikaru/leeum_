@@ -492,18 +492,44 @@ main{
 
 #information .notice{
   width: 600px;
-  height: 320;
-  border: 1px solid green;
+  height: 315px;
 }
 
 #information .notice table{
-  border: 1px solid blue;
   width: 600px;
-  height: 320px;
+  height: 315px;
 }
 
 
-#information .notice table
+#information .notice table thead tr td{
+  height: 70px;
+  vertical-align: top;
+}
+#information .notice table tbody tr{
+  border-bottom: 1px solid #ccc;
+}
+
+#information .notice table tbody tr td{
+  width: 600px;
+  vertical-align: middle;
+}
+
+#information .notice table tr .noticetitle{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#information .notice table tr td a{
+  width: 140px;
+  color: #000;
+  padding-top: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  float: right;
+  background: none;
+  border: 1px solid red;
+}
 
 
 
