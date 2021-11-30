@@ -479,129 +479,31 @@ main{
   line-height: 28px;
 }
 
-
 /* 공지사항 */
-#noticeandmovie{
+#information{
   width: 1200px;
+  border: 1px solid red;
   margin: auto;
-  margin-top: 25px;
-}
-
-#noticeandmovie .notice{
-  width: 580px;
-  height: 395px;
-  position: relative;
-  top: 250px;
-  overflow: hidden;
-}
-
-#noticeandmovie .notice ul{
-  height: 308px;
-}
-
-#noticeandmovie .notice ul li{
-  line-height: 60px;
-  border-bottom: 1px solid #ccc;
-  text-overflow: clip;
-  white-space: nowrap;
-}
-
-#noticeandmovie .notice ul li a{
-  text-decoration: none;
-  color: #000;
-}
-
-#noticeandmovie h2{text-indent: -9999px;}
-
-#noticeandmovie h3{
-  float: left;
-  font-size: 30px;
-  font-family: 'GmarketSansMedium';
-  line-height: normal;
-}
-
-#noticeandmovie .noti{
-  float: right;
-  font-size: 18px;
-  font-family:'GmarketSansMedium';
-  border: none;
-  background-color: rgba(255, 255, 255, 0);
-
-}
-
-#noticeandmovie ul{
-  clear: both;
-}
-
-#noticeandmovie .mov{
-  float: right;
-  position: relative;
-  bottom: 160px;
-}
-
-/* 링크탭 영역 */
-
-#list_tap{
-  clear: both;
-  width: 1200px;
-  height: 50px;
-  margin: auto;
-  margin-bottom: 150px;
-  position: relative;
-  bottom: 50px;
-}
-
-#list_tap ul{
-  position: absolute;
-  width: 1180px;
-  height: 50px;
+  margin-top: 120px;
+  margin-bottom: 120px;
   display: flex;
-  margin-left: 10px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-#list_tap ul li{
-  float: left;
-  height: 50px;
-  width: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#information .notice{
+  width: 600px;
+  height: 320;
+  border: 1px solid green;
 }
 
-#list_tap ul .list_btn1, .list_btn2, .list_btn3{
-  background-color: #3d3326;
-}
-
-
-
-#list_tap ul li a{
-  text-decoration: none;
-  color: white;
-  display: block;
-  height: 50px;
-  width: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#list_tap ul .list_btn4, .list_btn5, .list_btn6{
-  text-indent: -9999px;
-}
-
-#list_tap ul .list_btn4{
-  background-image: url(/images/list_btn3.jpg);
-}
-
-#list_tap ul .list_btn5{
-  background-image: url(/images/list_btn4.jpg);
+#information .notice table{
+  border: 1px solid blue;
+  width: 600px;
+  height: 320px;
 }
 
 
-#list_tap ul .list_btn6{
-  background-image: url(/images/list_btn5.jpg);
-}
+#information .notice table
 
 
 
