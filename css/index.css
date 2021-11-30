@@ -71,11 +71,7 @@ header nav ul li a:hover{
 }
 
 
-
-
-
 /* 메인이미지 영역 */
-
 main{
   position: relative;
   bottom: 30px;
@@ -482,7 +478,6 @@ main{
 /* 공지사항 */
 #information{
   width: 1200px;
-  border: 1px solid red;
   margin: auto;
   margin-top: 120px;
   margin-bottom: 120px;
@@ -505,6 +500,11 @@ main{
   height: 70px;
   vertical-align: top;
 }
+
+#information .notice table tbody{
+  height: 290px;
+}
+
 #information .notice table tbody tr{
   border-bottom: 1px solid #ccc;
 }
@@ -522,16 +522,88 @@ main{
 #information .notice table tr td a{
   width: 140px;
   color: #000;
-  padding-top: 15px;
+  margin-top: 15px;
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
   float: right;
   background: none;
-  border: 1px solid red;
 }
 
+#information .notice table tr td a:hover{
+  transition: 0.5s;
+  background: #141414;
+  color: white;
+}
 
+#information .mov h3{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+#information .mov .youtubeplayer{
+  margin-top: 10px;
+}
+
+/*sns 링크*/
+#snslinks{
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  bottom: 50px;
+}
+
+#snslinks ul{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#snslinks ul li{
+  width: 180px;
+}
+
+#snslinks ul li a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 0 15px 0;;
+}
+
+#snslinks ul .question, .program, .renewal{
+  background: #141414;
+}
+
+#snslinks ul .program:hover{
+  background: #3d3326;
+  transition: 0.3s;
+}
+
+#snslinks ul .question:hover{
+  background: #3d3326;
+  transition: 0.3s;
+}
+
+#snslinks ul .renewal:hover{
+  background: #3d3326;
+  transition: 0.3s;
+}
+
+#snslinks ul .insta{
+  background-image: url(/images/list_btn3.jpg);
+  text-indent: -9999px;
+}
+
+#snslinks ul .face{
+  background-image: url(/images/list_btn4.jpg);
+  text-indent: -9999px;
+}
+
+#snslinks ul .youtube{
+  background-image: url(/images/list_btn5.jpg);
+  text-indent: -9999px;
+}
 
 
 /* 뉴스레터구독 */
@@ -542,7 +614,6 @@ main{
   height: 245px;
   margin: auto;
   position: relative;
-  bottom: 100px;
   margin-bottom: 100px;
   background: #141414;
 }
