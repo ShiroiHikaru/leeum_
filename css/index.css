@@ -491,12 +491,22 @@ main{
   bottom: 0px;
 }
 
+#event .slider .eventbox1 .subbox1 button:hover{
+  background: #fff;
+  transition: 0.5s;
+}
+
+
 #event .slider .eventbox1 .subbox1 button a{
   color: #fff;
   text-decoration: none;
   display: block;
   height: 30px;
   line-height: 28px;
+}
+
+#event .slider .eventbox1 .subbox1 button a:hover{
+  color: #000;
 }
 
 /* 공지사항 */
