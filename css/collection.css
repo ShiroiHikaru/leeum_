@@ -243,48 +243,6 @@ header nav ul li a:hover{
 }
 
 
-/* 검색항목 */
-#m_intro{
-  width: 1200px;
-  margin: auto;
-  text-align: center;
-  margin-top: 100px;
-}
-
-#m_intro h2{
-  font-family: 'gmarketsansmedium';
-  font-size: 35px;
-}
-
-#m_intro p{
-  margin-bottom: 30px;
-  padding: 15px 0;
-}
-
-#m_intro .search{
-  width: 700px;
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-}
-
-#m_intro .search input{
-  width: 650px;
-  border: 3px solid #3d3326;
-  font-size: 18px;
-  font-family: 'gmarketsanslight';
-  border-radius: none;
-}
-
-#m_intro .search button{
-  text-indent: -9999px;
-  width: 50px;
-  background: url(/images/search_btn.jpg) no-repeat center;
-  border: none;
-  cursor: pointer;
-}
-
 /* 카테고리 */
 a{
   text-decoration: none;
@@ -329,6 +287,8 @@ a{
 .menu_wrap .dep1 > li:hover > .dep2{
   display: block;
 }
+
+/* 콜렉션 영역 시작  */
 
 /* 뉴스레터구독 */
 #Subscribe{
