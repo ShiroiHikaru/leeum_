@@ -338,12 +338,16 @@ a{
   margin-top: 100px;
 }
 
-#collection .objet .ob_line_01{
+#collection .objet .ob_line{
   display: flex;
   justify-content: space-between;
 }
 
-#collection .objet .ob_line_01 .obbtn{
+#collection .objet .ob_line .ob_text{
+  margin-top: 10px;
+}
+
+#collection .objet .ob_line .obbtn{
   width: 280px;
   height: 30px;
   margin-top: 10px;
@@ -352,7 +356,7 @@ a{
   font-size: 18px;
 }
 
-#collection .objet .ob_line_01 .obbtn a{
+#collection .objet .ob_line .obbtn a{
   display: block;
   padding: 3px;
 }
