@@ -243,48 +243,6 @@ header nav ul li a:hover{
 }
 
 
-/* 검색항목 */
-#m_intro{
-  width: 1200px;
-  margin: auto;
-  text-align: center;
-  margin-top: 100px;
-}
-
-#m_intro h2{
-  font-family: 'gmarketsansmedium';
-  font-size: 35px;
-}
-
-#m_intro p{
-  margin-bottom: 30px;
-  padding: 15px 0;
-}
-
-#m_intro .search{
-  width: 700px;
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-}
-
-#m_intro .search input{
-  width: 650px;
-  border: 3px solid #3d3326;
-  font-size: 18px;
-  font-family: 'gmarketsanslight';
-  border-radius: none;
-}
-
-#m_intro .search button{
-  text-indent: -9999px;
-  width: 50px;
-  background: url(/images/search_btn.jpg) no-repeat center;
-  border: none;
-  cursor: pointer;
-}
-
 /* 카테고리 */
 a{
   text-decoration: none;
@@ -295,7 +253,7 @@ a{
 .menu_wrap{
   margin: auto;
   width: 1200px;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .menu_wrap .dep1{
@@ -319,8 +277,8 @@ a{
 }
 
 .menu_wrap .dep1 > li > a:hover{
-  background-color: wheat;
-  color: #000;
+  background-color: #3d3326;
+  color: #fff;
   font-family: 'GmarketsansMedium';
   transition: 0.3s;
 }
@@ -328,6 +286,75 @@ a{
 
 .menu_wrap .dep1 > li:hover > .dep2{
   display: block;
+}
+
+/* 콜렉션 영역 시작  */
+
+/* 필터박스 */
+#collection{
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.filterbox{
+  width: 1200px;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
+.filterbox .filterwrap{
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.filterbox .filterwrap ul{
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+}
+
+.filterbox .filterwrap h3{
+  line-height: 45px;
+}
+
+.filterbox .filterwrap ul li{
+  padding: 10px;
+  line-height: 30px;
+}
+
+.filterbox .filterwrap ul li:hover{
+  background: #141414;
+  color: white;
+  transition: 0.3s;
+}
+
+/* 콜렉션 항목 */
+
+#collection .objet{
+  margin-top: 100px;
+}
+
+#collection .objet .ob_line_01{
+  display: flex;
+  justify-content: space-between;
+}
+
+#collection .objet .ob_line_01 .obbtn{
+  width: 280px;
+  height: 30px;
+  margin-top: 10px;
+  background: #141414;
+  border: none;
+  font-size: 18px;
+}
+
+#collection .objet .ob_line_01 .obbtn a{
+  display: block;
+  padding: 3px;
 }
 
 /* 뉴스레터구독 */

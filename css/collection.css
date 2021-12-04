@@ -290,6 +290,10 @@ a{
 
 /* 콜렉션 영역 시작  */
 
+#collection{
+  width: 1200px;
+}
+
 /* 뉴스레터구독 */
 #Subscribe{
   z-index: -9999px;
