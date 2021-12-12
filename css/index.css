@@ -134,6 +134,7 @@ main{
 }
 
 #quickbar .quickbtn ul li a{
+  display: inline-block;
   width: 80px;
   height: 90px;
 }

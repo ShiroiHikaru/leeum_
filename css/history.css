@@ -91,6 +91,7 @@ header nav ul li a:hover{
 }
 
 
+
 /* quickbar 시작 */
 #quickbar{
   position: fixed;
@@ -114,6 +115,7 @@ header nav ul li a:hover{
 }
 
 #quickbar .quickbtn ul li a{
+  display: inline-block;
   width: 80px;
   height: 90px;
 }
@@ -134,11 +136,35 @@ header nav ul li a:hover{
   background-image: url(/images/quick_04.jpg);
 }
 
+
 #quickbar .quickbtn ul li .top{
   height: 41px;
   border: none;
   background: url(/images/quick_05.jpg);
 }
+
+/* quick hover */
+#quickbar .quickbtn ul li .b01:hover{
+  background-image: url(/images/hover_01.jpg);
+  transition: 0.3s;
+}
+
+#quickbar .quickbtn ul li .b02:hover{
+  background-image: url(/images/hover_02.jpg);
+  transition: 0.3s;
+}
+
+#quickbar .quickbtn ul li .b03:hover{
+  background-image: url(/images/hover_03.jpg);
+  transition: 0.3s;
+}
+
+#quickbar .quickbtn ul li .b04:hover{
+  background-image: url(/images/hover_04.jpg);
+  transition: 0.3s;
+}
+
+
 
 /* quickform 시작 */
 #quickbar .quickform{
@@ -233,7 +259,6 @@ header nav ul li a:hover{
 #quickbar .quickform form fieldset .forget2{
   float: right;
 }
-
 
 
 /* 카테고리버튼 */
