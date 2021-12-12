@@ -77,7 +77,6 @@ main{
 #main_Slide{
   width: 100%;
   height: 830px;
-  border: 1px solid red;
   position: relative;
   z-index: -100;
 }
@@ -110,174 +109,36 @@ main{
   float: right;
 }
 
+/* quick - bar 영역 */
 
-/* quickbar 시작 */
-#quickbar{
-  position: fixed;
-  float: right;
-  right: 0;
-  top: 200px;
+#quick{
+  width: 80px;
+  height: 401px;
+  position: absolute;
+  right: 0px;
+  top: 100px;
   z-index: 9999;
 }
 
-/* quick 키워드 */
-#quickbar .quickbtn{
-  float: right;
+#quick .quickcon{
+  position: fixed
 }
 
-#quickbar .quickbtn ul li button{
-  width: 80px;
-  height: 90px;
-  text-indent: -9999px;
-  border: none;
-  cursor: pointer;
+#quick ul li a{
+  position: absolute;
+  z-index: 9999;
 }
 
-#quickbar .quickbtn ul li a{
-  display: inline-block;
+
+#quick ul .btn1, .btn2, .btn3, .btn4{
   width: 80px;
   height: 90px;
 }
 
-#quickbar .quickbtn ul li .b01{
-  background-image: url(/images/quick_01.jpg);
-}
-
-#quickbar .quickbtn ul li .b02{
-  background-image: url(/images/quick_02.jpg);
-}
-
-#quickbar .quickbtn ul li .b03{
-  background-image: url(/images/quick_03.jpg);
-}
-
-#quickbar .quickbtn ul li .b04{
-  background-image: url(/images/quick_04.jpg);
-}
-
-
-#quickbar .quickbtn ul li .top{
+#quick ul .btn5 a{
   height: 41px;
-  border: none;
-  background: url(/images/quick_05.jpg);
 }
 
-/* quick hover */
-#quickbar .quickbtn ul li .b01:hover{
-  background-image: url(/images/hover_01.jpg);
-  transition: 0.3s;
-}
-
-#quickbar .quickbtn ul li .b02:hover{
-  background-image: url(/images/hover_02.jpg);
-  transition: 0.3s;
-}
-
-#quickbar .quickbtn ul li .b03:hover{
-  background-image: url(/images/hover_03.jpg);
-  transition: 0.3s;
-}
-
-#quickbar .quickbtn ul li .b04:hover{
-  background-image: url(/images/hover_04.jpg);
-  transition: 0.3s;
-}
-
-
-
-/* quickform 시작 */
-#quickbar .quickform{
-  width: 372px;
-  height: 400px;
-  background: #fff;
-  margin-right: 80px;
-  border: 1px solid #ccc;
-}
-
-#quickbar .quickform h3{
-  text-align: center;
-  font-size: 40px;
-  padding-top: 40px;
-}
-
-#quickbar .quickform p{
-  font-size: 15px;
-  text-align: center;
-}
-
-#quickbar .quickform form{
-  width: 300px;
-  margin: auto;
-}
-
-#quickbar .quickform form fieldset legend{
-  text-indent: -9999px;
-}
-
-#quickbar .quickform form fieldset table{
-  width: 300px;
-}
-
-#quickbar .quickform form fieldset table td{
-  height: 30px;
-  padding: 5px 0;
-  vertical-align: middle;
-}
-
-
-#quickbar .quickform form fieldset table td input{
-  width: 240px;
-  height: 25px;
-  float: right;;
-}
-
-#quickbar .quickform form fieldset .mainbtn{
-  width: 300px;
-  height: 40px;
-  margin: 10px 0 0 0;
-  background: #3d3326;
-  font-size: 18px;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-#quickbar .quickform form fieldset .forget1, .forget2{
-  width: 140px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 35px;
-  background-color: #8a7a67;
-  border: none;
-  font-size: 15px;
-  font-family: 'gmarketsanslight';
-  color: white;
-}
-
-#quickbar .quickform form fieldset .forget1{
-  float: left;
-}
-#quickbar .quickform form fieldset p{
-  margin-top: 20px
-}
-
-#quickbar .quickform form fieldset p button{
-  width: 100px;
-  background: #8a7a67;
-  border:none;
-  color: white;
-}
-
-#quickbar .quickform form fieldset p button a{
-  text-decoration: none;
-  color: white;
-}
-
-
-#quickbar .quickform form fieldset .forget2{
-  float: right;
-}
 
 #avi{
   width: 100%;
