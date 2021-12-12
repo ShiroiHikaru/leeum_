@@ -35,9 +35,12 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: 'GmarketSansLight';
-  overflow-x: hidden;
+  	overflow-x: hidden;
 	box-sizing: border-box;
+	font-size: 18px;
 }
+
+header{font-size: 20px;}
 
 ::selection{
   background-color: #8a7a67;
