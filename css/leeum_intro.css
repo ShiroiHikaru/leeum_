@@ -472,12 +472,41 @@ header nav ul li a:hover{
   font-weight: bold;
 }
 
+#interview .artist .artistbox .mario .arttext1 a{
+  display: inline-block;
+  width: 377px;
+  height: 474px;
+  padding-top: 125px;
+  color: #fff;
+  text-decoration: none;
+}
 
-#interview .artist .artistbox .mario .arttext1 button{
+#interview .artist .artistbox .jean .arttext2 a{
+  display: inline-block;
+  width: 377px;
+  height: 474px;
+  padding-top: 125px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+#interview .artist .artistbox .rem .arttext3 a{
+  display: inline-block;
+  width: 377px;
+  height: 474px;
+  padding-top: 125px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#interview .artist .artistbox .more{
+  position: absolute;
+  bottom: 80px;
   width: 150px;
   height: 40px;
   font-size: 18px;
-  margin-top: 50px;
+  margin-top: 65px;
   border: 2px solid white;
   border-radius: 50px;
   background: rgba(255, 255, 255, 0);
