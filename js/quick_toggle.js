@@ -1,9 +1,10 @@
 $(document).ready(function(){
-  $(".quickform").hide();
-  $(".b01").click(function(){
-    $(".quickform").Toggle(500);
+  $(".quicklogin").hide(function(){
+    $(".login").click(function(){
+      $(".quicklogin").toggle("300");
+    });
   });
-
+    
   $(".site_list").hide();
   $(".sitelink h3").click(function(){
     $(".site_list").slideToggle("fast");
