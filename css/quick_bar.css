@@ -71,16 +71,77 @@
 /* 로그인 영역 */
 
 #quick .quicklogin{
-    width: 400px;
-    height: 401px;
+    width: 350px;
+    height: 399px;
     position: absolute;
     right: 80px;
     top: 0px;
     border: 1px solid #ccc;
     background: #fff;
+    display: flex;
 }
 
-#quick .quicklogin .formbox{
-    width: 350px;
-    border: 1px solid red;
+#quick .quicklogin .loginbox{
+    width: 320px;
+    height: 290px;
+    margin: auto;
+}
+
+#quick .quicklogin .loginbox h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#quick .quicklogin .loginbox p{
+    font-size: 18px;
+    text-align: center;
+}
+
+#quick .quicklogin .formbox fieldset legend{
+    text-indent: -9999px;
+}
+
+#quick .quicklogin .formbox fieldset p{
+    margin-bottom: 10px;
+}
+
+#quick .quicklogin .formbox fieldset p label{
+    display: inline-block;
+    width: 50px;
+    text-align: left;
+}
+
+#quick .quicklogin .formbox fieldset p input{
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+}
+
+
+#quick .quicklogin .formbox fieldset .bwrap{
+    width: 260px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#quick .quicklogin .formbox fieldset .clear{
+    width: 258px;
+    height: 35px;
+    font-size: 18px;
+    background: #141414;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#quick .quicklogin .formbox fieldset .forget{
+    width: 126px;
+    height: 30px;
+    font-size: 15px;
+    background: #141414;
+    border: none;
+    color: #fff;
+    padding: 0px;
 }
