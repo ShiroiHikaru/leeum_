@@ -102,20 +102,29 @@
     text-indent: -9999px;
 }
 
+#quick .quicklogin .formbox fieldset .inputwrap{
+    width: 260px;
+    margin: auto;
+}
+
 #quick .quicklogin .formbox fieldset p{
+    width: 260px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #quick .quicklogin .formbox fieldset p label{
     display: inline-block;
-    width: 50px;
+    width: 30px;
     text-align: left;
 }
 
 #quick .quicklogin .formbox fieldset p input{
     border: 1px solid #ccc;
     display: inline-block;
-    width: 200px;
+    width: 210px;
     height: 30px;
 }
 
