@@ -346,7 +346,7 @@ a{
 , .line14, .line15{ width: 1200px;
   height: 180px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 

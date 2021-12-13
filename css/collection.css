@@ -275,13 +275,8 @@ a{
     transition: 0.3s;
   }
   
-  
-  
-
-
 
 /* 영역 시작 */
-
 #m_intro{
   width: 1200px;
   margin: auto;
@@ -381,7 +376,7 @@ a{
 , .line14, .line15{ width: 1200px;
   height: 180px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 

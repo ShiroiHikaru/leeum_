@@ -109,37 +109,6 @@ main{
   float: right;
 }
 
-/* quick - bar 영역 */
-
-#quick{
-  width: 80px;
-  height: 401px;
-  position: absolute;
-  right: 0px;
-  top: 100px;
-  z-index: 9999;
-}
-
-#quick .quickcon{
-  position: fixed
-}
-
-#quick ul li a{
-  position: absolute;
-  z-index: 9999;
-}
-
-
-#quick ul .btn1, .btn2, .btn3, .btn4{
-  width: 80px;
-  height: 90px;
-}
-
-#quick ul .btn5 a{
-  height: 41px;
-}
-
-
 #avi{
   width: 100%;
   height: 100%;
@@ -148,7 +117,6 @@ main{
 
 
 /* 티켓배너 시작 */
-
 #ticket{
   width: 1200px;
   height: 200px;
