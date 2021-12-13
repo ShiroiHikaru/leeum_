@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/reset.css" type="text/css">
   <link rel="stylesheet" href="css/index.css" type="text/css">
   <link rel="stylesheet" href="css/index.bxslider.css">
+  <link rel="stylesheet" href="css/quick_bar.css" type="text/css">
   <title>Leeum</title>
 </head>
 <body>
@@ -26,18 +27,46 @@
     </nav>
   </header>
   <main>
-
+    
     <section id="quick">
       <div class="quickcon">
-          <ul>
-            <li class="btn1"><a href="login.html"><img src="images/quick_01.jpg" alt="login"></a></li>
-            <li class="btn2"><a href="join01.html"><img src="images/quick_02.jpg" alt="join"></a></li>
-            <li class="btn3"><a href="mypage.html"><img src="images/quick_03.jpg" alt="mypage"></a></li>
-            <li class="btn4"><a href="map.html"><img src="images/quick_04.jpg" alt="map"></a></li>
-            <li class="btn5"><a href="#logo"><img src="images/quick_05.jpg" alt="top"></a></li>
-          </ul>
+        <ul>
+          <li class="btn1"><button type="button" class="login">로그인</button></li>
+          <li class="btn2"><a href="join01.html">회원가입</a></li>
+          <li class="btn3"><a href="mypage.html">마이페이지</a></li>
+          <li class="btn4"><a href="map.html">오시는길</a></li>
+          <li class="btn5"><a href="#logo">맨 위로</a></li>
+        </ul>
+      </div>
+      <div class="quicklogin">
+        <div class="loginbox">
+          <h3>LOG-IN</h3>
+          <p>리움미술관 홈페이지를 방문해주셔서 감사합니다.</p>
+            <div class="formbox">
+                <form action="leeum_login.php" method="post" onsubmit="">
+                  <fieldset>
+                    <legend>리움로그인</legend>
+                        <p>
+                          <label for="userid">ID</label>
+                          <input type="text" name="userid" id="userid" class="userid">
+                        </p>
+                        <p>
+                          <label for="userpw">PW</label>
+                          <input type="text" name="userpw" id="userpw" class="userpw">
+                        </p>
+                        <div class="bwrap">
+                            <button type="submit" name="clear" id="clear" class="clear">로그인</button>
+                            <br>
+                            <button>아이디 찾기</button>
+                            <button>비밀번호 찾기</button>
+                          </div>
+                      </fieldset>
+                </form>
+            </div>
+        </div>
       </div>
     </section>
+    
    
   
   <section id="avi">
