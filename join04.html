@@ -107,6 +107,7 @@
                     <div>
                       <label for="uID">아이디</label>
                       <input type="text" name="uID" id="uID" class="uID">
+                      <button type="button">아이디 중복확인</button>
                     </div>
                     <div>
                         <label for="birth">생년월일</label>
@@ -122,7 +123,7 @@
                   </div>
                   <div>
                       <label for="phone">연락처</label>
-                      <select name="firstNum" id="firstNum">
+                      <select name="firstNum" id="firstNum" class="firstNum">
                           <option value="010">010</option>
                           <option value="010">011</option>
                           <option value="010">016</option>
@@ -131,17 +132,26 @@
                           <option value="010">010</option>
                       </select>
                       -
-                      <input type="text" name="middleNum" id="middleNum">
+                      <input type="text" name="middleNum" id="middleNum" class="middleNum">
                       -
-                      <input type="text" name="lastNum" id="lastNum">
+                      <input type="text" name="lastNum" id="lastNum" class="lastNum">
                   </div>
                   <div>
+                      <label for="em">이메일</label>
                       <input type="text" name="emid" id="emid" class="emid">
                       @ <input type="text" name="emdm" id="emdm" class="emdm">
+                      <select name="emdmsel" id="emdmsel">
+                          <option value="">직접입력</option>
+                          <option value="naver.com">NAVER</option>
+                          <option value="gmail.com">GOOGLE</option>
+                          <option value="hanmail.net">DAUM</option>
+                          <option value="nate.com">NATE</option>
+                          <option value="kakao.com">kakao</option>
+                      </select>
                   </div>
                   <div>
                       <label for="addr">주소</label>
-                      <select name="firstADD" id="firstADD">
+                      <select name="firstADD" id="firstADD" class="firstADD">
                           <option value="seoul">서울특별시</option>
                           <option value="busan">부산광역시</option>
                           <option value="inchone">인천광역시</option>
@@ -161,7 +171,7 @@
                           <option value="chung2">충청북도</option>
                           <option value="other">기타</option>
                       </select>
-                      <select name="seoul_city" id="seoul_city">
+                      <select name="seoul_city" id="seoul_city" class="seoul_city">
                           <option value="gangnam">강남구</option>
                           <option value="gangdong">강동구</option>
                           <option value="gangbuk">강북구</option>
@@ -191,9 +201,8 @@
                   </div>
                   <div>
                       <label for="marketing">뉴스레터 수신동의</label>
-                      <input type="checkbox" name="agree" id="agree" class="agree">동의합니다.
-                      <input type="checkbox" name="Dagree" id="Dagree" class="Dagree">동의하지 않습니다.
-
+                      <input type="checkbox" name="agree" id="agree" class="agree"> 동의합니다.
+                      <input type="checkbox" name="Dagree" id="Dagree" class="Dagree"> 동의하지 않습니다.
                   </div>
                 </fieldset>
             </form>

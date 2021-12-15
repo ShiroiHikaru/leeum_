@@ -1,6 +1,9 @@
 li::marker{
   color: #8a7a67;
 }
+
+input{font-size: 18px;}
+
 .clearfix:before, .clearfix:after {
   display: block;
   content: '';
@@ -140,6 +143,47 @@ header nav ul li a:hover{
 .agebox .terms_title h3{
   font-size: 30px;
   margin-bottom: 20px;
+}
+
+
+.join form legend{
+  text-indent: -9999px;
+}
+
+.join form fieldset div{
+  width: 800px;
+  height: 50px;
+  border: 1px solid red;
+  margin: auto;
+}
+
+.join form fieldset div label{
+  display: inline-block;
+  width: 150px;
+  border: 1px solid green;
+}
+
+.join form fieldset div .uName, .uID, .pwd,
+.birth, .repwd{
+  width: 400px;
+  height: 30px;
+  border: 2px solid #ccc;
+}
+
+.join form fieldset div .firstNum, .middleNum, .lastNum{
+  width: 120px;
+  height: 30px;
+  border: 2px solid #ccc;
+}
+
+.join form fieldset div .firstNum{
+  height: 35px;
+}
+
+.join form fieldset div .firstADD, .seoul_city, .lastNum{
+  width: 200px;
+  height: 30px;
+  border: 2px solid #ccc;
 }
 
 /* 가입폼 영역 */
