@@ -142,58 +142,6 @@ header nav ul li a:hover{
   margin-bottom: 20px;
 }
 
-.agebox .join_info{
-  width: 1100px;
-  margin: auto;
-}
-
-.agebox .join_info form fieldset legend{
-  text-indent: -9999px;
-}
-
-.agebox .join_info form fieldset table{
-  margin: auto;
-  width: 900px;
-}
-
-.agebox .join_info form fieldset table tr td{
-  height: 70px;
-  vertical-align: middle;
-}
-
-.agebox .join_info form fieldset table tr .leftcell{
-  width: 180px;
-}
-
-
-.agebox .join_info form fieldset table tr .leftcell .star{
-  color: red;
-}
-
-.agebox .join_info form fieldset table tr td input{
-  height: 35px;
-}
-
-
-.agebox .join_info form fieldset table tr td select{
-  height: 40px;
-  width: 200px;
-  font-size: 18px;
-}
-
-.agebox .join_info form fieldset table tr td button{
-  height: 40px;
-  background: #3d3326;
-  border: none;
-  font-size: 18px;
-  color: white;
-}
-
-.agebox .join_info form fieldset table tr .input_box input{
-  width: 500px;
-}
-
-
 
 .next_btn{
   width: 1100px;
