@@ -100,6 +100,101 @@
             <form action="insert.php" method="post" id="leeum_join">
                 <fieldset>
                     <legend>리움미술관 회원가입</legend>
+                    <div>
+                      <label for="uName">이름</label>
+                      <input type="text" name="uName" id="uName" class="uName">
+                    </div>
+                    <div>
+                      <label for="uID">아이디</label>
+                      <input type="text" name="uID" id="uID" class="uID">
+                    </div>
+                    <div>
+                        <label for="birth">생년월일</label>
+                        <input type="text" name="birth" id="birth" class="birth">
+                    </div>
+                    <div>
+                        <label for="pwd">비밀번호</label>
+                        <input type="password" name="pwd" id="pwd" class="pwd">
+                    </div>
+                    <div>
+                      <label for="repwd">비밀번호 확인</label>
+                      <input type="password" name="repwd" id="repwd" class="repwd">
+                  </div>
+                  <div>
+                      <label for="phone">연락처</label>
+                      <select name="firstNum" id="firstNum">
+                          <option value="010">010</option>
+                          <option value="010">011</option>
+                          <option value="010">016</option>
+                          <option value="010">017</option>
+                          <option value="010">018</option>
+                          <option value="010">010</option>
+                      </select>
+                      -
+                      <input type="text" name="middleNum" id="middleNum">
+                      -
+                      <input type="text" name="lastNum" id="lastNum">
+                  </div>
+                  <div>
+                      <input type="text" name="emid" id="emid" class="emid">
+                      @ <input type="text" name="emdm" id="emdm" class="emdm">
+                  </div>
+                  <div>
+                      <label for="addr">주소</label>
+                      <select name="firstADD" id="firstADD">
+                          <option value="seoul">서울특별시</option>
+                          <option value="busan">부산광역시</option>
+                          <option value="inchone">인천광역시</option>
+                          <option value="ulsan">울산광역시</option>
+                          <option value="gwangju">광주광역시</option>
+                          <option value="deagu">대구광역시</option>
+                          <option value="daejeon">대전광역시</option>
+                          <option value="sejong">세종특별자치시</option>
+                          <option value="jeju">제주특별자치도</option>
+                          <option value="gyeonggi">경기도</option>
+                          <option value="gangwon">강원도</option>
+                          <option value="sang1">경상남도</option>
+                          <option value="sang2">경상북도</option>
+                          <option value="jeo1la1">전라남도</option>
+                          <option value="jeo1la2">전라북도</option>
+                          <option value="chung1">충청남도</option>
+                          <option value="chung2">충청북도</option>
+                          <option value="other">기타</option>
+                      </select>
+                      <select name="seoul_city" id="seoul_city">
+                          <option value="gangnam">강남구</option>
+                          <option value="gangdong">강동구</option>
+                          <option value="gangbuk">강북구</option>
+                          <option value="gangseo">강서구</option>
+                          <option value="gwanak">관악구</option>
+                          <option value="gwangjin">광진구</option>
+                          <option value="guro">구로구</option>
+                          <option value="geumcheon">금천구</option>
+                          <option value="nowon">노원구</option>
+                          <option value="dobong">도봉구</option>
+                          <option value="dongdaemun">동대문구</option>
+                          <option value="dongjak">동작구</option>
+                          <option value="mapo">마포구</option>
+                          <option value="seodaemun">서대문구</option>
+                          <option value="seocho">서초구</option>
+                          <option value="sungdong">성동구</option>
+                          <option value="sungbuk">성북구</option>
+                          <option value="seongpa">송파구</option>
+                          <option value="yangcheon">양천구</option>
+                          <option value="yeongdeungpo">영등포구</option>
+                          <option value="yongsan">용산구</option>
+                          <option value="eunpyeong">은평구</option>
+                          <option value="jongro">종로구</option>
+                          <option value="junggu">중구</option>
+                          <option value="jungrang">중랑구</option>
+                      </select>
+                  </div>
+                  <div>
+                      <label for="marketing">뉴스레터 수신동의</label>
+                      <input type="checkbox" name="agree" id="agree" class="agree">동의합니다.
+                      <input type="checkbox" name="Dagree" id="Dagree" class="Dagree">동의하지 않습니다.
+
+                  </div>
                 </fieldset>
             </form>
           </div>
