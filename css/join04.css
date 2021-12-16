@@ -153,14 +153,12 @@ header nav ul li a:hover{
 .join form fieldset div{
   width: 800px;
   height: 50px;
-  border: 1px solid red;
   margin: auto;
 }
 
 .join form fieldset div label{
   display: inline-block;
   width: 150px;
-  border: 1px solid green;
 }
 
 .join form fieldset div .uName, .uID, .pwd,
