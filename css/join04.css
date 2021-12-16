@@ -180,11 +180,13 @@ header nav ul li a:hover{
   height: 35px;
 }
 
-.join form fieldset div .firstADD, .seoul_city, .lastNum{
-  width: 200px;
-  height: 30px;
+.join form fieldset div .firstADD, .seoul_city, .lastNum, .emid, .emdm, select{
+  width: 180px;
+  height: 35px;
   border: 2px solid #ccc;
 }
+
+
 
 /* 가입폼 영역 */
 
