@@ -154,33 +154,63 @@ header nav ul li a:hover{
   width: 800px;
   height: 50px;
   margin: auto;
+  margin-top: 20px;
 }
 
 .join form fieldset div label{
   display: inline-block;
-  width: 150px;
+  width: 180px;
 }
 
 .join form fieldset div .uName, .uID, .pwd,
 .birth, .repwd{
-  width: 400px;
+  width: 380px;
   height: 30px;
   border: 2px solid #ccc;
 }
 
-.join form fieldset div .firstNum, .middleNum, .lastNum, select{
+.join form fieldset div .idbtn{
+  height: 35px;
+  border: none;
+  background: #1b1717;
+  font-size: 18px;
+  color: #fff;
+}
+
+.join form fieldset div .firstNum{
+  width: 120px;
+  height: 35px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+}
+
+.join form fieldset div .middleNum, .lastNum, select{
   width: 120px;
   height: 30px;
   border: 2px solid #ccc;
 }
 
 
-.join form fieldset div .firstADD, .seoul_city, .emid, .emdm{
+.join form fieldset div .sido1, .gugun1, .emid, .emdm{
   width: 180px;
   height: 30px;
   border: 2px solid #ccc;
+  font-size: 18px;
 }
 
+.join form fieldset div .emdmsel{
+  width: 180px;
+  height: 35px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+}
+
+.join form fieldset div .detalicityD{
+  width: 280px;
+  height: 30px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+}
 
 
 /* 가입폼 영역 */
@@ -196,7 +226,7 @@ header nav ul li a:hover{
 .next_btn button{
   width: 365px;
   height: 65px;
-  background-color: #3d3326;
+  background-color: #141414;
   border: none;
   font-size: 25px;
   font-family: 'GmarketSansMedium';
