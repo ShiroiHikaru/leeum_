@@ -168,19 +168,16 @@ header nav ul li a:hover{
   border: 2px solid #ccc;
 }
 
-.join form fieldset div .firstNum, .middleNum, .lastNum{
+.join form fieldset div .firstNum, .middleNum, .lastNum, select{
   width: 120px;
   height: 30px;
   border: 2px solid #ccc;
 }
 
-.join form fieldset div .firstNum{
-  height: 35px;
-}
 
-.join form fieldset div .firstADD, .seoul_city, .lastNum, .emid, .emdm, select{
+.join form fieldset div .firstADD, .seoul_city, .emid, .emdm{
   width: 180px;
-  height: 35px;
+  height: 30px;
   border: 2px solid #ccc;
 }
 
