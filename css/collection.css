@@ -219,7 +219,7 @@ a{
 }
 
 /* 작가페이지 */
-#artist{
+#collection{
   width: 1200px;
   height: 100%;
   margin: auto;
@@ -227,124 +227,78 @@ a{
   margin-bottom: 100px;
 }
 
-#artist .line01, .line02, .line03, .line07, .line09, .line10, .line12  
-, .line14, .line15{ width: 1200px;
+#collection .line01, .line02, .line03{ width: 1200px;
   height: 180px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
 }
 
-#artist .line04, .line06, .line08, .line11, .line13{
+#collection .subject{
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#collection .profile{
+  font-size: 15px;
+}
+
+
+#collection a{
+  display: inline-block;
+  height: 158px;
+}
+
+#collection .line01 .chapter1 a img:hover{
+  transform: scale(0.9, 0.9);
+  transition: transform 0.5s;
+  border: 1px solid red;
+}
+
+#collection .line02 .chapter2 a img:hover{
+  transform: scale(0.9, 0.9);
+  transition: transform 0.5s;
+
+}
+
+
+
+#page{
+  width: 200px;
+  margin: auto;
+}
+
+#page ul{
+  margin-top: 50px;
   display: flex;
+  justify-content: space-between;
 }
 
-
-#artist .line01 .no1, .no2 , .no3, .no4{
-  width: 280px;
-  height: 163px;
+#page ul li{
+  width: 30px;
+  height: 30px;
   border: 1px solid #ccc;
-  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
 }
 
-#artist .line02 .no5, .no6 , .no7, .no8{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px;
+#page ul li a{
+  color: #000;
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 33px;
 }
 
-#artist .line03 .no9, .no10 , .no11, .no12{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px;
+#page ul li a:hover{
+  background: #141414;
+  color: #fff;
+  transition: 0.2s;
 }
 
-#artist .line04 .no13, .no14{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px 15px 5px 5px;
-}
-
-#artist .line05 .no15{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px 15px 5px 5px;
-}
-
-#artist .line06 .no16, .no17, .no18{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px 15px 5px 5px;
-}
-
-#artist .line07 .no19, .no20 , .no21, .no22{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px;
-}
-
-#artist .line08 .no23, .no24, .no25{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px 15px 5px 5px;
-}
-
-#artist .line09 .no26, .no27, .no28, .no29{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px;
-}
-
-#artist .line10 .no30, .no31, .no32, .no33, .no34, .no35, .no36, 
-.no37, .no38, .no39, .no40, .no41{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px;
-}
-
-#artist .line11 .no42, .no43{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px 15px 5px 5px;
-}
-
-#artist .line12 .no44, .no45 , .no46, .no47{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px;
-}
-
-#artist .line13 .no48, .no49, .no50{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px 15px 5px 5px;
-}
-
-#artist .line14 .no51, .no52 , .no53, .no54{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px;
-}
-
-#artist .line15 .no55, .no56 , .no57, .no58{
-  width: 280px;
-  height: 163px;
-  border: 1px solid #ccc;
-  margin: 5px;
-}
 
 
 /* 뉴스레터구독 */
@@ -355,7 +309,8 @@ a{
   margin: auto;
   position: relative;
   bottom: 50px;
-  margin-bottom: 200px;
+  margin-top: 120px;
+  margin-bottom: 120px;
   background: #141414;
   clear: both;
 }
