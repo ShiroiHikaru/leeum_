@@ -227,7 +227,7 @@ a{
   margin-bottom: 100px;
 }
 
-#collection .line01, .line02, .line03, .line4{ width: 1200px;
+#collection .line01, .line02, .line03, .line04{ width: 1200px;
   height: 180px;
   display: flex;
   justify-content: space-between;
@@ -261,6 +261,11 @@ a{
 }
 
 #collection .line03 .chapter3 a img:hover{
+  transform: scale(0.9, 0.9);
+  transition: transform 0.5s;
+}
+
+#collection .line04 .chapter4 a img:hover{
   transform: scale(0.9, 0.9);
   transition: transform 0.5s;
 }
