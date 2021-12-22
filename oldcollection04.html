@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/collection.css" type="text/css">
+  <link rel="stylesheet" href="css/quick_bar.css" type="text/css">
+  <title>Leeum - 소장품</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
+      <h2>메뉴소개</h2>
+      <ul>
+        <li><a href="intro.html">미술관소개</a></li>
+        <li><a href="program.html">프로그램</a></li>
+        <li><a href="place.html">편의시설</a></li>
+        <li><a href="membership.html">멤버십안내</a></li>
+        <li><a href="research.html">보존연구</a></li>
+        <li><a href="https://leeumstore.org/">리움스토어</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="quick">
+      <div class="quickcon">
+        <ul>
+          <li class="btn1"><button type="button" class="login">로그인</button></li>
+          <li class="btn2"><a href="join01.html">회원가입</a></li>
+          <li class="btn3"><a href="mypage.html">마이페이지</a></li>
+          <li class="btn4"><a href="map.html">오시는길</a></li>
+          <li class="btn5"><a href="#logo">맨 위로</a></li>
+        </ul>
+      </div>
+      <div class="quicklogin">
+        <div class="loginbox">
+          <h3>LOG-IN</h3>
+          <p>리움미술관 홈페이지를<br>방문해주셔서 감사합니다.</p>
+            <div class="formbox">
+                <form action="leeum_login.php" method="post" onsubmit="">
+                  <fieldset>
+                    <legend>리움로그인</legend>
+                      <div class="inputwrap">
+                        <p>
+                          <label for="userid">ID</label>
+                          <input type="text" name="userid" id="userid" class="userid">
+                        </p>
+                        <p>
+                          <label for="userpw">PW</label>
+                          <input type="text" name="userpw" id="userpw" class="userpw">
+                        </p>
+                      </div>
+                        <div class="bwrap">
+                            <button type="submit" name="clear" id="clear" class="clear">로그인</button>
+                            <br>
+                            <button class="forget">아이디 찾기</button>
+                            <button class="forget">비밀번호 찾기</button>
+                          </div>
+                      </fieldset>
+                </form>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="title">
+      <div class="title_text">
+      <h3>리움 콜렉션</h3>
+      <p>Collection by Leeum</p>
+      </div>
+    </section>
+
+    <div class="menu_wrap">
+      <ul class="dep1">
+        <li><a href="m1.html">고미술</a></li>
+        <li><a href="m2.html">현대미술</a></li>
+      </ul>
+    </div>
+
+    <section id="m_intro">
+      <h2>Collection By Leeum - Antique art</h2>
+      <p>검색을 통해 원하시는 작품을 찾을 수 있습니다.</p>
+        <div class="search">
+        <input type="text">
+        <button type="button">검색하기</button>
+      </div>
+    </section>
+    <div class="filter">
+      <div class="filterbox">
+      <ul>
+        <li>현재 전시 중</li>
+        <li>도자기</li>
+        <li>서화</li>
+        <li>불교미술</li>
+        <li>금속 / 목공예</li>
+        <li>국보</li>
+        <li>보물</li>
+      </ul>
+    </div>
+    </div>
+    
+    <section id="collection">
+    <!-- line 01 -->
+        <div class="line01" id="line01">
+            <div class="chapter1">
+              <a href="#">
+                  <img src="images/collection/old/dojagi_(33).jpg" alt="collection1">
+              </a>
+              <p class="subject">분청사기철화 초문 병</p>
+              <p class="profile">
+                조선, 16세기 / 점토『粘土』 
+                <br>전시중 - [M1, 3F]
+              </p>
+            </div>
+            <div class="chapter1">
+              <a href="#">
+                  <img src="images/collection/old/dojagi_(34).jpg" alt="collection1">
+              </a>
+              <p class="subject">분청사기철화 초화문 장군</p>
+              <p class="profile">
+                조선, 16세기 / 점토『粘土』 
+                <br>전시중 - [M1, 3F]
+              </p>
+            </div>
+            <div class="chapter1">
+              <a href="">
+                  <img src="images/collection/old/dojagi_(35).jpg" alt="collection1">
+              </a>
+              <p class="subject">신발모양 토기</p>
+              <p class="profile">
+                가야, 4-5세기 / 점토『粘土』 / 보물
+                <br>전시중 - [M1, 1F]
+              </p>
+            </div>
+            <div class="chapter1">
+              <a href="">
+                  <img src="images/collection/old/dojagi_(36).jpg" alt="collection1">
+              </a>
+              <p class="subject">집모양 토기</p>
+              <p class="profile">
+                가야, 4-5세기 / 점토『粘土』
+                <br>전시중 - [M1, 1F]
+              </p>
+            </div>
+        </div>
+          <!-- line 02 -->  
+          <div class="line02" id="line02">
+            <div class="chapter2">
+              <a href="">
+                <img src="images/collection/old/dojagi_(37).jpg" alt="collection1" width="">
+              </a>
+              <p class="subject">청자 병</p>
+              <p class="profile">
+                고려, 11-12세기 / 점토『粘土』 
+                <br>전시중 - [M1, 4F]
+              </p>
+            </div>
+            <div class="chapter2">
+              <a href="">
+                <img src="images/collection/old/dojagi_(38).jpg" alt="collection1" width="">
+              </a>
+              <p class="subject">청자 유개주자</p>
+              <p class="profile">
+                고려, 12세기 / 점토『粘土』 
+                <br>전시중 - [M1, 4F]
+              </p>
+            </div>
+            <div class="chapter2">
+              <a href="">
+                <img src="images/collection/old/dojagi_(39).jpg" alt="collection1" width="">
+              </a>
+              <p class="subject">청자 이부호</p>
+              <p class="profile">
+                고려, 12세기 / 점토『粘土』 
+                <br>전시중 - [M1, 4F]
+              </p>
+            </div>
+            <div class="chapter2">
+              <a href="">
+                <img src="images/collection/old/dojagi_(40).jpg" alt="collection1" width="">
+              </a>
+              <p class="subject">청자 잔 / 잔탁</p>
+              <p class="profile">
+                고려, 11-12세기 / 점토『粘土』 
+                <br>전시중 - [M1, 4F]
+              </p>
+            </div>
+        </div> 
+        <!-- line 03 -->  
+        <div class="line03" id="line03">
+          <div class="chapter3">
+            <a href="">
+              <img src="images/collection/old/dojagi_(41).jpg" alt="collection1" width="">
+            </a>
+            <p class="subject">청자 장경병</p>
+              <p class="profile">
+                고려, 12세기 / 점토『粘土』 
+                <br>전시중 - [M1, 4F]
+              </p>
+          </div>
+          <div class="chapter3">
+            <a href="">
+              <img src="images/collection/old/dojagi_(42).jpg" alt="collection1" width="">
+            </a>
+            <p class="subject">청자 정병</p>
+              <p class="profile">
+                고려, 12세기 / 점토『粘土』 
+                <br>전시중 - [M1, 4F]
+              </p>
+          </div>
+          <div class="chapter3">
+            <a href="">
+              <img src="images/collection/old/dojagi_(43).jpg" alt="collection1" width="">
+            </a>
+            <p class="subject">청자동채 연화문 표형 주자</p>
+            <p class="profile">
+                고려, 13세기 / 점토『粘土』 / 국보 
+                <br>전시중 - [M1, 4F] 
+            </p>
+          </div>
+          <div class="chapter3">
+            <a href="">
+              <img src="images/collection/old/dojagi_(44).jpg" alt="collection1" width="">
+            </a>
+            <p class="subject">청자상감 국화모란문 호</p>
+            <p class="profile">
+                고려, 13세기 / 점토『粘土』
+                <br>전시중 - [M1, 4F] 
+            </p>
+          </div>
+      </div> 
+      <!-- line 04 -->  
+      <div class="line04" id="line04">
+        <div class="chapter4">
+          <a href="">
+            <img src="images/collection/old/dojagi_(45).jpg" alt="collection1" width="">
+          </a>
+          <p class="subject">청자상감 기사명 포류수금문 대접</p>
+          <p class="profile">
+            고려, 1329년 / 점토『粘土』
+            <br>전시중 - [M1, 4F] 
+          </p>
+        </div>
+        <div class="chapter4">
+          <a href="">
+            <img src="images/collection/old/dojagi_(46).jpg" alt="collection1" width="">
+          </a>
+          <p class="subject">청자상감 발원문명 골호</p>
+          <p class="profile">
+            고려, 12세기 / 점토『粘土』
+            <br>전시중 - [M1, 4F] 
+          </p>
+        </div>
+        <div class="chapter4">
+          <a href="">
+            <img src="images/collection/old/dojagi_(47).jpg" alt="collection1" width="">
+          </a>
+          <p class="subject">청자상감 보상화당초문 잔</p>
+          <p class="profile">
+            고려, 12세기 / 점토『粘土』
+            <br>전시중 - [M1, 4F] 
+          </p>
+        </div>
+        <div class="chapter4">
+          <a href="">
+            <img src="images/collection/old/dojagi_(48).jpg" alt="collection1" width="">
+          </a>
+          <p class="subject">청자상감 수복장경명 완</p>
+          <p class="profile">
+            고려, 12세기 / 점토『粘土』
+            <br>전시중 - [M1, 4F] 
+          </p>
+        </div>
+      </div> 
+  </section>
+
+  <section id="page">
+    <ul>
+      <li><a href="collection.html">1</a></li>
+      <li><a href="oldcollection02.html">2</a></li>
+      <li><a href="oldcollection03.html">3</a></li>
+      <li><a href="oldcollection04.html">4</a></li>
+      <li><a href="oldcollection05.html">5</a></li>
+      <li><a href="oldcollection06.html">6</a></li>
+    </ul>
+  </section>
+
+
+  <div class="clerfix"></div>
+      <section id="Subscribe">
+        <div class="subc_text">
+          <h3>Subscribe</h3>
+          <br>
+          <p>리움의 최신 정보를 받아보길 원하시면 이메일 주소를 남겨주세요!</p>
+          <br>
+          <ul>
+            <li>수집항목 : 이메일주소  |  보유기간 : 메일 수신거부 신청 시 까지</li> 
+            <li>수집목적 : 전시 및 프로그램 등 리움 관련 소식 메일 발송</li>
+          </ul>
+        </div>
+        <div class="subc_form">
+          <form action="#" method="POST">
+            <div class="email_form">
+                <label for="이메일">
+                  <input type="email" class="email_form">
+                </label>
+            </div>
+            <br>
+            <label for="sub_btn">
+              <button type="submit" class="news_btn"><a href="#">등록하기</a></button>
+              <button type="submit" class="news_btn"><a href="#">해지하기</a></button>
+            </label>
+            <br>
+            <label for="agree">
+              <input type="checkbox">
+              <p>정보 안내를 위한 이메일 수집 및 광고성 메일 수신에 동의합니다.</p>
+            </label>
+          </form>
+        </div>
+      </section>
+  </main>
+
+  <footer>
+    <div class="footer_top">
+      <h3>사이트 이용안내</h3>
+      <p class="footer_terms">약관 및 정책</p>
+      <ul class="sub_top">
+        <li><a href="map.html">오시는길</a></li>
+        <li><a href="">이메일문의</a></li>
+        <li><a href="">이메일 무단수집거부</a></li>
+        <li><a href="">개인정보 처리방침</a></li>
+      </ul>
+    </div>
+    <div class="footer_bottom">
+      <div class="foot_logo">리움미술관</div>
+      <div class="leeum_add">
+        리움미술관 : 서울 특별시 용산구 이태원로 55길 60-16 / 04348
+        <br>
+        Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yonsan-gu, Seoul, Korea
+        <br>
+        <span class="copyright">
+          Copyright &copy; Leeum 2021, All Rights Reserved.
+        </span>
+      </div>
+      <div class="sitelink">
+          <h3>Family Site</h3>
+          <div class="site_list">
+            <ul>
+              <li><a href="http://www.hoammuseum.org/html/main/index.asp">호암미술관</a></li>
+              <li><a href="http://www.samsungfoundation.org/index.asp#familyList">삼성문화재단</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/quicktoggle.js"></script>
+  <script type="text/javascript" src="js/tab.js"></script>
+  </body>
+  </html>
