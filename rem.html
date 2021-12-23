@@ -8,68 +8,15 @@
   <link rel="stylesheet" href="css/reset.css" type="text/css">
   <link rel="stylesheet" href="css/rem.css" type="text/css">
   <link rel="stylesheet" href="css/jquery.bxslider.css">
-  <link rel="stylesheet" href="css/quick_bar.css" type="text/css">
   <title>Leeum - 건축 / 렘쿨하스</title>
 </head>
 
 <body>
   <header>
-    <nav>
-      <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
-      <h2>메뉴소개</h2>
-      <ul>
-        <li><a href="intro.html">미술관소개</a></li>
-        <li><a href="program.html">프로그램</a></li>
-        <li><a href="place.html">편의시설</a></li>
-        <li><a href="membership.html">멤버십안내</a></li>
-        <li><a href="research.html">보존연구</a></li>
-        <li><a href="https://leeumstore.org/">리움스토어</a></li>
-      </ul>
-    </nav>
   </header>
 
   <main>
-    <section id="quick">
-      <div class="quickcon">
-        <ul>
-          <li class="btn1"><button type="button" class="login">로그인</button></li>
-          <li class="btn2"><a href="join01.html">회원가입</a></li>
-          <li class="btn3"><a href="mypage.html">마이페이지</a></li>
-          <li class="btn4"><a href="map.html">오시는길</a></li>
-          <li class="btn5"><a href="#logo">맨 위로</a></li>
-        </ul>
-      </div>
-      <div class="quicklogin">
-        <div class="loginbox">
-          <h3>LOG-IN</h3>
-          <p>리움미술관 홈페이지를<br>방문해주셔서 감사합니다.</p>
-            <div class="formbox">
-                <form action="leeum_login.php" method="post" onsubmit="">
-                  <fieldset>
-                    <legend>리움로그인</legend>
-                      <div class="inputwrap">
-                        <p>
-                          <label for="userid">ID</label>
-                          <input type="text" name="userid" id="userid" class="userid">
-                        </p>
-                        <p>
-                          <label for="userpw">PW</label>
-                          <input type="text" name="userpw" id="userpw" class="userpw">
-                        </p>
-                      </div>
-                        <div class="bwrap">
-                            <button type="submit" name="clear" id="clear" class="clear">로그인</button>
-                            <br>
-                            <button class="forget">아이디 찾기</button>
-                            <button class="forget">비밀번호 찾기</button>
-                          </div>
-                      </fieldset>
-                </form>
-            </div>
-        </div>
-      </div>
-    </section>
-
+    <section id="quick"></section>
 
 
     <section id="title">
@@ -489,42 +436,18 @@
 
   </section>
   <footer>
-    <div class="footer_top">
-      <h3>사이트 이용안내</h3>
-      <p class="footer_terms">약관 및 정책</p>
-      <ul class="sub_top">
-        <li><a href="map.html">오시는길</a></li>
-        <li><a href="">이메일문의</a></li>
-        <li><a href="">이메일 무단수집거부</a></li>
-        <li><a href="">개인정보 처리방침</a></li>
-      </ul>
-    </div>
-    <div class="footer_bottom">
-      <div class="foot_logo">리움미술관</div>
-      <div class="leeum_add">
-        리움미술관 : 서울 특별시 용산구 이태원로 55길 60-16 / 04348
-        <br>
-        Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yonsan-gu, Seoul, Korea
-        <br>
-        <span class="copyright">
-          Copyright &copy; Leeum 2021, All Rights Reserved.
-        </span>
-      </div>
-      <div class="sitelink">
-          <h3>Family Site</h3>
-          <div class="site_list">
-            <ul>
-              <li><a href="http://www.hoammuseum.org/html/main/index.asp">호암미술관</a></li>
-              <li><a href="http://www.samsungfoundation.org/index.asp#familyList">삼성문화재단</a></li>
-            </ul>
-          </div>
-      </div>
-    </div>
   </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
   <script type="text/javascript" src="js/quicktoggle.js"></script>
   <script type="text/javascript" src="js/bxslide.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("header").load("header.html");
+      $("#quick").load("quick.html");
+      $("footer").load("footer.html");
+    })
+  </script>
 </body>
 </html>
