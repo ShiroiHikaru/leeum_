@@ -15,6 +15,7 @@ li::marker{
 /* 메인이미지 영역 */
 #title{
   width: 100%;
+  margin-top: 30px;
   background: url(/images/old_top.jpg);
   background-size: cover;
   height: 328px;
