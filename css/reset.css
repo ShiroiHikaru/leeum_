@@ -67,3 +67,17 @@ p{
 	line-height: 25px;
 }
 
+li::marker{
+	color: #8a7a67;
+  }
+  .clearfix:before, .clearfix:after {
+	display: block;
+	content: '';
+	line-height: 0;
+  }
+  
+  
+  .clearfix:after {
+	clear:both;
+  }
+
