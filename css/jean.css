@@ -7,12 +7,15 @@ li::marker{
   line-height: 0;
 }
 
-
 .clearfix:after {
   clear:both;
 }
 
-.interview_line{clear: both; border: 1px solid #8a7a67;}
+.interview_line{
+  clear: both; 
+  border: 1px solid #8a7a67;
+  margin:50px 0px 50px 0px;
+}
 
 
 /* 메인이미지 영역 */
@@ -400,6 +403,70 @@ a{
   width: 1200px;
   margin-top: 120px;
 }
+
+#interview .interviewbox{
+  border: 1px solid #8a7a67;
+  margin-top: 50px;
+}
+
+#interview .interviewbox h3{
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  background: #8a7a67;
+  color: #fff;
+}
+
+#interview .interviewbox .interview01{
+  width: 1100px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+#interview .interviewbox .interview01 .quest .interviewtext{
+  width: 1000px;
+  display: inline-block;
+  border: 1px solid red;
+  position: relative;
+  left: 55px;
+}
+
+#interview .interviewbox .interview01 .quest .dottq{
+  background: url(/images/icon/question.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+  text-indent: -9999px;
+  position: absolute;
+}
+
+#interview .interviewbox .interview01 .anwser .dotta{
+  background: url(/images/icon/anwser.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+  text-indent: -9999px;
+  position: absolute;
+}
+
+#interview .interviewbox .interview01 .anwser .interviewtext{
+  width: 1000px;
+  display: inline-block;
+  border: 1px solid red;
+  position: relative;
+  left: 55px;
+}
+
+#interview .interviewbox .interview01 .quest{
+  font-weight: bold;
+}
+
+
+
+
 
 
 
