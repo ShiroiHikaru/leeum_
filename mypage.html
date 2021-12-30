@@ -5,110 +5,132 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css" type="text/css">
-  <link rel="stylesheet" href="css/mypage.css" type="text/css">
+  <link rel="stylesheet" href="css/join04.css" type="text/css">
+  <link rel="stylesheet" href="css/quick_bar.css" type="text/css">
   <title>Leeum - 회원가입</title>
 </head>
 <body>
-  <header>
-  </header>
+  <header></header>
   
   <main>
-    <section id="quick">
-    </section>
-    
+    <section id="quick"></section>
+
     <section id="title">
       <div class="title_text">
-      <h3>마이페이지</h3>
-      <p>My pages</p>
+      <h3>회원가입</h3>
+      <p>Join the Leeum Members</p>
       </div>
-    </section>
-    <section id="categori">
-      <ul>
-        <li><a href="mypage.html">개인정보 수정</a></li>
-        <li><a href="#">예약내역</a></li>
-        <li><a href="#">관람내역</a></li>
-        <li><a href="reference.html">자료실 열람신청</a></li>
-      </ul>
     </section>
     
     <section id="join">
+      <div class="line">
+          <ul class="line_tap top">
+            <li class="page1">d</li>
+            <li class="page2">d</li>
+            <li class="page3">d</li>
+            <li class="page4">d</li>
+            <li class="page5">d</li>
+          </ul>
+          <ul class="line_tap bottom">
+            <li>01. 가입유형</li>
+            <li>02. 중복확인</li>
+            <li>03. 약관동의</li>
+            <li>04. 정보등록</li>
+            <li>05. 가입완료</li>
+          </ul>
+      </div>
       <div class="agebox">
-        <div class="terms_title">
-          <h3>기본정보 수정</h3>
-          <p><span>*</span>표시 항목은 필수사항입니다.</p>
-        </div>
-        <div class="join_info">
-          <table>
-            <tr>
-              <td class="join_text"><span>*</span>이메일(아이디)</td>
-              <td class="write"><input type="text" name="myMail" id="leeumId"><button>중복확인</button></td>
-            </tr>
-            <tr>
-              <td class="join_text"><span>*</span>비밀번호</td>
-              <td class="write"><input type="password" name="myPassWord" id="leeumPW"></td>
-            </tr>
-            <tr>
-              <td class="join_text"><span>*</span>비밀번호 확인</td>
-              <td class="write"><input type="password" name="myPassWord" id="leeumPW"><br>
-                <br>9자~12자의 영문자, 숫자, 특수문자를 혼용하여야 합니다.
-              </td>
-              
-            </tr>
-            <tr>
-              <td class="join_text"><span>*</span>이름</td>
-              <td class="write"><input type="text" name="myMail" id="leeumId"></td>
-            </tr>
-            <tr>
-              <td class="join_text"><span>*</span>생년월일</td>
-              <td class="write"><input type="date" name="birth" id="birthday"></td>
-            </tr>
-            <tr>
-              <td class="join_text"><span>*</span>성별</td>
-              <td>
-                <div class="gender"><input type="checkbox" name="genderM" id="male">&nbsp;남성</div>
-                <div class="gender"><input type="checkbox" name="genderf" id="female">&nbsp;여성</div>
-              </td>
-            </tr>
-            <tr>
-              <td class="join_text"><span>*</span>주소</td>
-              <td class="write home"><input type="text" name="home" id="myhome"><button>주소검색</button><br>
-                <input type="text" name="home" id="myhome" style="width: 615px;"><br>
-                <input type="text" name="home" id="myhome" style="width: 615px;">
-              </td>
-            </tr>
-            <tr>
-              <td class="join_text"><span>*</span>전화번호</td>
-              <td class="phone"><input type="text">&nbsp;-&nbsp;<input type="text">&nbsp;-&nbsp;<input type="text"></td>
-            </tr>
-            <tr>
-              <td class="join_text"><span>*</span>휴대전화</td>
-              <td class="phone"><input type="text">&nbsp;-&nbsp;<input type="text">&nbsp;-&nbsp;<input type="text"></td>
-            </tr>
-            <tr>
-              <td class="join_text"><span>*</span>수신여부</td>
-              <td class="adclick">
-                <input type="radio" id="snscheck" name="SNSreception">SNS 수신
-                <input type="radio" id="emailcheck" name="Emailreception">이메일 수신
-                <input type="radio" id="newsletter" name="newsreception">웹진(뉴스레터)
-                <input type="radio" id="ad" name="adreception">(광고)전시/교육/행사 홍보<br><br>
-                <span>*SMS 수신 동의와 상관없이 교육 및 관람 예약(결제), 취소(환불) 등에 대한 내용은 발송됩니다.</span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="next_btn">
-          <button><a href="index.html">저장하기</a></button>
-        </div>
-       
+          <div class="terms_title">
+            <h3>정보등록</h3>
+            <p><span>*</span>표시 항목은 필수사항입니다.</p>
+          </div>
+          <div class="join">
+            <form action="insert.php" method="post" id="leeum_join">
+                <fieldset>
+                    <legend>리움미술관 회원가입</legend>
+                    <div>
+                      <label for="uName">이름</label>
+                      <input type="text" name="uName" id="uName" class="uName">
+                    </div>
+                    <div>
+                      <label for="uID">아이디</label>
+                      <input type="text" name="uID" id="uID" class="uID">
+                      <button type="button" name="idbtn" id="idbtn" class="idbtn">아이디 중복확인</button>
+                    </div>
+                    <div>
+                        <label for="birth">생년월일</label>
+                        <input type="text" name="birth" id="birth" class="birth">
+                    </div>
+                    <div>
+                        <label for="pwd">비밀번호</label>
+                        <input type="password" name="pwd" id="pwd" class="pwd">
+                    </div>
+                    <div>
+                      <label for="repwd">비밀번호 확인</label>
+                      <input type="password" name="repwd" id="repwd" class="repwd">
+                  </div>
+                  <div>
+                      <label for="phone">연락처</label>
+                      <select name="firstNum" id="firstNum" class="firstNum">
+                          <option value="010">010</option>
+                          <option value="010">011</option>
+                          <option value="010">016</option>
+                          <option value="010">017</option>
+                          <option value="010">018</option>
+                          <option value="010">010</option>
+                      </select>
+                      -
+                      <input type="text" name="middleNum" id="middleNum" class="middleNum">
+                      -
+                      <input type="text" name="lastNum" id="lastNum" class="lastNum">
+                  </div>
+                  <div>
+                      <label for="em">이메일</label>
+                      <input type="text" name="emid" id="emid" class="emid">
+                      @ <input type="text" name="emdm" id="emdm" class="emdm">
+                      <select name="emdmsel" id="emdmsel" class="emdmsel" onclick="change_em()">
+                          <option>직접입력</option>
+                          <option value="naver.com">NAVER</option>
+                          <option value="gmail.com">GOOGLE</option>
+                          <option value="hanmail.net">DAUM</option>
+                          <option value="nate.com">NATE</option>
+                          <option value="kakao.com">kakao</option>
+                      </select>
+                  </div>
+                  <div>
+                      <label for="addr">주소</label>
+                      <select name="sido1" id="sido1" class="sido1">
+                      </select>
+                      <select name="gugun1" id="gugun1" class="gugun1">
+                      </select>
+                  </div>
+                  <div>
+                    <label for="gender">성별</label>
+                    <input type="checkbox" name="man" id="man" class="man"> 남성
+                    <input type="checkbox" name="woman" id="woman" class="woman"> 여성
+                </div>
+                  <div>
+                      <label for="marketing">뉴스레터 수신동의</label>
+                      <input type="checkbox" name="agree" id="agree" class="agree"> 동의합니다.
+                      <input type="checkbox" name="Dagree" id="Dagree" class="Dagree"> 동의하지 않습니다.
+                  </div>
+                </fieldset>
+            </form>
+          </div>
+        
+          <div class="next_btn">
+            <button type="submit"><a href="join05.html">다음페이지로 넘어가기</a></button>
+          </div>    
       </div>
     </section>
+
     <div class="clerfix"></div>
   </main>
-  
-  <footer>
-  </footer>
+  <footer></footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/quicktoggle.js"></script>
+  <script type="text/javascript" src="js/addressselect.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
       $("header").load("header.html");
