@@ -24,7 +24,6 @@ li::marker{
   background: url(/images/jean/jean_top.jpg);
   background-size: cover;
   height: 328px;
-  margin-top: 30px;
   position: relative;
 }
 
@@ -401,7 +400,8 @@ a{
 #interview{
   margin: auto;
   width: 1200px;
-  margin-top: 120px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 #interview .interviewbox{
@@ -425,7 +425,6 @@ a{
 #interview .interviewbox .interview01 .quest .interviewtext{
   width: 1000px;
   display: inline-block;
-  border: 1px solid red;
   position: relative;
   left: 55px;
 }
@@ -455,7 +454,6 @@ a{
 #interview .interviewbox .interview01 .anwser .interviewtext{
   width: 1000px;
   display: inline-block;
-  border: 1px solid red;
   position: relative;
   left: 55px;
 }
