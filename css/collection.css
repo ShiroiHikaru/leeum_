@@ -204,7 +204,7 @@ a{
 #collection .line01 .chapter1 a img:hover{
   transform: scale(0.9, 0.9);
   transition: transform 0.5s;
-}
+} 
 
 #collection .line02 .chapter2 a img:hover{
   transform: scale(0.9, 0.9);
@@ -230,6 +230,7 @@ a{
 
 #page ul{
   margin-top: 50px;
+  margin-bottom: 120px;
   display: flex;
   justify-content: space-between;
 }
