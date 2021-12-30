@@ -22,7 +22,6 @@ li::marker{
   background: url(/images/republic.jpg);
   background-size: cover;
   height: 328px;
-  margin-top: 30px;
   position: relative;
 }
 

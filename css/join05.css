@@ -20,7 +20,6 @@ li::marker{
   background: url(/images/login_mypage.jpg);
   background-size: cover;
   height: 328px;
-  margin-top: 30px;
   position: relative;
 }
 
