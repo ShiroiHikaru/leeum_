@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/notice.css" type="text/css">
+  <title>Leeum - 공용공간 리뉴얼</title>
+</head>
+
+<body>
+  <header>
+  </header>
+
+  <main>
+    <section id="quick">
+    </section>
+
+    <section id="title">
+      <div class="title_text">
+        <h3>공지사항</h3>
+        <p>notice by Leeum</p>
+      </div>
+    </section>
+
+    <!-- <div class="menu_wrap">
+      <ul class="dep1">
+        <li class="list01"><a href="republic01.html">MI & Wolff Olins</a></li>
+        <li><a href="republic02.html">로비 & 건축사사무소 노션<br>(NOTION ARTCHITECTURE)</a></li>
+        <li><a href="republic03.html">조명 & 비츠로<br>(bitzro)</a></li>
+      </ul>
+      <ul class="dep2">
+        <li><a href="republic04.html">샵 & 스튜디오 라이터스<br>(STUDIO WRITERS)</a></li>
+        <li><a href="republic05.html">MI Application System & 오디너리피플(ORDINARY PEOPLE)</a></li>
+        <li class="list06"><a href="republic06.html">블랙박스 라운지 & 김용관</a></li>
+      </ul>
+    </div> -->
+    
+    <section id="notice">
+      <h2>공지사항</h2>
+      <div class="introbox">
+        <table> 
+            <thead>
+                <tr>
+                    <td>No.</td>
+                    <td>내용</td>
+                    <td>게시일</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="type">공지</td>
+                    <td class="title">[공지]미술관 코로나 19 방역패스 적용 안내(12.13 ~ )</td>
+                    <td class="upload">2021.12.13</td>
+                </tr>
+                <tr>
+                    <td class="type">공지</td>
+                    <td class="title">[공지]미술관 코로나 19 방역관련 안내(12.07 ~ )</td>
+                    <td class="upload">2021.12.07</td>
+                </tr>
+                <tr>
+                    <td class="type">공지</td>
+                    <td class="title">[공지]미술관 재개관 안내(10.8 ~ )</td>
+                    <td class="upload">2021.10.08</td>
+                </tr>
+                <tr>
+                    <td class="type">공지</td>
+                    <td class="title">리움의 친구가 되어 주세요.</td>
+                    <td class="upload">2021.10.05</td>
+                </tr>
+                <tr>
+                    <td class="type">공지</td>
+                    <td class="title">[공지] 도슨트 전시 해설 프로그램 잠정 중단(신종 코로나 바이러스 확산 방지)</td>
+                    <td class="upload">2020.01.29</td>
+                </tr>
+                <tr>
+                    <td class="type">68</td>
+                    <td class="title">삼성문화재단 경력사원 채용 공고</td>
+                    <td class="upload">2021.03.26</td>
+                </tr>
+                <tr>
+                  <td class="type">67</td>
+                  <td class="title">삼성문화재단, 2020년 파리국제예술공동체 입주작가 선정</td>
+                  <td class="upload">2020.04.07</td>
+                </tr>
+                <tr>
+                  <td class="type">66</td>
+                  <td class="title">삼성문화재단, 2020년 파리국제예술공동체 입주작가 선정</td>
+                  <td class="upload">2020.04.07</td>
+                </tr>
+                <tr>
+                  <td class="type">65</td>
+                  <td class="title">2020년 파리 국제 예술공동체 시테 레지던시 입주작가 공모</td>
+                  <td class="upload">2020.01.13</td>
+                </tr>
+                <tr>
+                  <td class="type">64</td>
+                  <td class="title">리움 들어서기 - 고서화 보존과 관리</td>
+                  <td class="upload">2019.12.16</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="page">
+      <ul>
+        <li class="prev"><a href=""><img src="images/page_left.jpg" alt="prev"></a></li>
+        <li><a href="collection.html">1</a></li>
+        <li><a href="oldcollection02.html">2</a></li>
+        <li><a href="oldcollection03.html">3</a></li>
+        <li><a href="oldcollection04.html">4</a></li>
+        <li><a href="oldcollection05.html">5</a></li>
+        <li class="next"><a href=""><img src="images/page_right.jpg" alt="next"></a></li>
+      </ul>
+    </section>
+    <div class="clerfix"></div>
+ 
+  </main>
+  
+  <footer>
+  </footer>
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/quicktoggle.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("header").load("header.html");
+      $("#quick").load("quick.html");
+      $("footer").load("footer.html");
+    })
+  </script>
+</body>
+</html>
