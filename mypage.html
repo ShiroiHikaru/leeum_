@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css" type="text/css">
-  <link rel="stylesheet" href="css/join04.css" type="text/css">
+  <link rel="stylesheet" href="css/mypage.css" type="text/css">
   <link rel="stylesheet" href="css/quick_bar.css" type="text/css">
-  <title>Leeum - 회원가입</title>
+  <title>Leeum - 마이페이지</title>
 </head>
 <body>
   <header></header>
@@ -17,31 +17,29 @@
 
     <section id="title">
       <div class="title_text">
-      <h3>회원가입</h3>
-      <p>Join the Leeum Members</p>
+      <h3>마이페이지</h3>
+      <p>My Page</p>
       </div>
     </section>
-    
-    <section id="join">
-      <div class="line">
-          <ul class="line_tap top">
-            <li class="page1">d</li>
-            <li class="page2">d</li>
-            <li class="page3">d</li>
-            <li class="page4">d</li>
-            <li class="page5">d</li>
-          </ul>
-          <ul class="line_tap bottom">
-            <li>01. 가입유형</li>
-            <li>02. 중복확인</li>
-            <li>03. 약관동의</li>
-            <li>04. 정보등록</li>
-            <li>05. 가입완료</li>
-          </ul>
+
+    <div class="menu_wrap">
+        <ul class="dep1">
+          <li>
+            <a href="program.html">개인정보 수정</a>
+          </li>
+          <li>
+            <a href="old_program.html">예약 및 관람내역</a>
+          </li>
+          <li>
+            <a href="old_program.html">자료실 열람내역</a>
+          </li>
+        </ul>
       </div>
+    
+    
       <div class="agebox">
           <div class="terms_title">
-            <h3>정보등록</h3>
+            <h3>개인정보 수정</h3>
             <p><span>*</span>표시 항목은 필수사항입니다.</p>
           </div>
           <div class="join">
@@ -49,28 +47,28 @@
                 <fieldset>
                     <legend>리움미술관 회원가입</legend>
                     <div>
-                      <label for="uName">이름</label>
+                      <label for="uName">*이름</label>
                       <input type="text" name="uName" id="uName" class="uName">
                     </div>
                     <div>
-                      <label for="uID">아이디</label>
+                      <label for="uID">*아이디</label>
                       <input type="text" name="uID" id="uID" class="uID">
                       <button type="button" name="idbtn" id="idbtn" class="idbtn">아이디 중복확인</button>
                     </div>
                     <div>
-                        <label for="birth">생년월일</label>
+                        <label for="birth">*생년월일</label>
                         <input type="text" name="birth" id="birth" class="birth">
                     </div>
                     <div>
-                        <label for="pwd">비밀번호</label>
+                        <label for="pwd">*비밀번호</label>
                         <input type="password" name="pwd" id="pwd" class="pwd">
                     </div>
                     <div>
-                      <label for="repwd">비밀번호 확인</label>
+                      <label for="repwd">*비밀번호 확인</label>
                       <input type="password" name="repwd" id="repwd" class="repwd">
                   </div>
                   <div>
-                      <label for="phone">연락처</label>
+                      <label for="phone">*연락처</label>
                       <select name="firstNum" id="firstNum" class="firstNum">
                           <option value="010">010</option>
                           <option value="010">011</option>
@@ -85,7 +83,7 @@
                       <input type="text" name="lastNum" id="lastNum" class="lastNum">
                   </div>
                   <div>
-                      <label for="em">이메일</label>
+                      <label for="em">*이메일</label>
                       <input type="text" name="emid" id="emid" class="emid">
                       @ <input type="text" name="emdm" id="emdm" class="emdm">
                       <select name="emdmsel" id="emdmsel" class="emdmsel" onclick="change_em()">
@@ -98,7 +96,7 @@
                       </select>
                   </div>
                   <div>
-                      <label for="addr">주소</label>
+                      <label for="addr">*주소</label>
                       <select name="sido1" id="sido1" class="sido1">
                       </select>
                       <select name="gugun1" id="gugun1" class="gugun1">
@@ -110,7 +108,7 @@
                     <input type="checkbox" name="woman" id="woman" class="woman"> 여성
                 </div>
                   <div>
-                      <label for="marketing">뉴스레터 수신동의</label>
+                      <label for="marketing">*뉴스레터 수신동의</label>
                       <input type="checkbox" name="agree" id="agree" class="agree"> 동의합니다.
                       <input type="checkbox" name="Dagree" id="Dagree" class="Dagree"> 동의하지 않습니다.
                   </div>

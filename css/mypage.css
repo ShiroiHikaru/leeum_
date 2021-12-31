@@ -1,8 +1,9 @@
-
-
 li::marker{
   color: #8a7a67;
 }
+
+input{font-size: 18px;}
+
 .clearfix:before, .clearfix:after {
   display: block;
   content: '';
@@ -13,6 +14,7 @@ li::marker{
 .clearfix:after {
   clear:both;
 }
+
 
 
 /* 메인이미지 영역 */
@@ -41,6 +43,53 @@ li::marker{
   font-size: 50px;
 }
 
+/* 메뉴 탭 */
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.menu_wrap{
+  margin: auto;
+  width: 1200px;
+  margin-top: 100px;
+}
+
+.menu_wrap .dep1{
+  font-size: 0;
+}
+
+.menu_wrap .dep1 > li{
+  display: inline-block;
+  width: calc(1200px / 3);
+  background-color: #141414;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.menu_wrap .dep1 > li > a{
+  display: block;
+  border-left: 1px solid white;
+  padding: 15px 0;
+}
+
+.menu_wrap .dep1 > li > a:hover{
+  background-color: #8a7a67;
+  color: rgb(255, 255, 255);
+  font-family: 'GmarketsansMedium';
+  transition: 0.3s;
+}
+
+
+.menu_wrap .dep1 > li:hover > .dep2{
+  display: block;
+}
+
+
 
 
 /* 가입 폼 영역 */
@@ -51,34 +100,26 @@ li::marker{
   margin-top: 150px;
 }
 
-#categori{
-  width: 1200px;
-  margin: auto;
-  margin-top: 150px;
-}
 
-#categori ul li{
+.line .line_tap li{
   float: left;
-  width: 298px;
-  height: 40px;
-  background-color: #8a7a67;
-  text-align: center;
-  line-height: 42px;
-  border-right: 1px solid white;
-  font-weight: bold;
+  width: 238px;
+  height: 30px;
 }
 
-#categori ul li a{
-  text-decoration: none;
-  color: white;
-  width: 299px;
-  height: 38px;
-  display: block;
+.line .top li{
+  background: url(/images/list_line.png) no-repeat;
+  text-indent: -9999px;
 }
 
-#categori ul li a:hover{
-  background-color: #3d3326;
-  transition: 0.3s;
+.line .top .page4{
+  background: url(/images/list_line_bold.png) no-repeat;
+}
+
+
+.line .bottom{
+  clear: both;
+  font-family: 'GmarketSansMedium';
 }
 
 .agebox{
@@ -88,7 +129,7 @@ li::marker{
   margin-top: 100px;
   padding: 100px 0 100px 0;
   margin-bottom: 200px;
-
+  border: 1px solid #ccc;
 }
 
 
@@ -101,71 +142,76 @@ li::marker{
   margin-bottom: 20px;
 }
 
-.agebox .join_info{
-  width: 900px;
+
+.join form legend{
+  text-indent: -9999px;
+}
+
+.join form fieldset div{
+  width: 800px;
+  height: 50px;
   margin: auto;
+  margin-top: 20px;
 }
 
-.agebox .join_info table{
-  margin: auto;
-  margin-top: 50px;
+.join form fieldset div label{
+  display: inline-block;
+  width: 180px;
 }
 
-.agebox .join_info table tr td{
-  height: 100px;
-  vertical-align: middle;
-}
-.agebox .join_info table tr td span{
-  color: red;
-  font-size: 15px;
+.join form fieldset div .uName, .uID, .pwd,
+.birth, .repwd{
+  width: 380px;
+  height: 30px;
+  border: 2px solid #ccc;
 }
 
-.agebox .join_info table tr .join_text{
-  width: calc(900px - 700px);
-}
-
-.agebox .join_info table tr .home input{
-  margin-bottom: 0.7rem;
-  font-size: 18px;
-}
-
-.agebox .join_info table tr .write{
-  font-size: 15px;
-}
-
-.agebox .join_info table tr .write input{
-  width: 450px;
-  height: 40px;
-  border: 1px solid #ccc;
-  font-size: 18px;
-}
-
-.agebox .join_info table tr td button{
-  margin: 0 0 0 10px;
-  width: 155px;
-  height: 40px;
-  background-color: #3d3326;
-  color: white;
+.join form fieldset div .idbtn{
+  height: 35px;
   border: none;
-  font-size: 20px;
-  font-family: 'GmarketSanslight';
+  background: #1b1717;
+  font-size: 18px;
+  color: #fff;
 }
 
-.agebox .join_info table tr td .gender{
-  width: calc(900px / 2 / 2);
-  float: left;
-}
-
-.agebox .join_info table tr .phone input{
-  width: 185px;
-  height: 40px;
-  border: 1px solid #ccc;
+.join form fieldset div .firstNum{
+  width: 120px;
+  height: 35px;
+  border: 2px solid #ccc;
   font-size: 18px;
 }
 
-.agebox .join_info table tr .adclick{
-  font-size: 15px;
+.join form fieldset div .middleNum, .lastNum, select{
+  width: 120px;
+  height: 30px;
+  border: 2px solid #ccc;
 }
+
+
+.join form fieldset div .sido1, .gugun1, .emid, .emdm{
+  width: 180px;
+  height: 30px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+}
+
+.join form fieldset div .emdmsel{
+  width: 180px;
+  height: 35px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+}
+
+.join form fieldset div .detalicityD{
+  width: 280px;
+  height: 30px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+}
+
+
+/* 가입폼 영역 */
+
 
 .next_btn{
   width: 1100px;
@@ -177,29 +223,22 @@ li::marker{
 .next_btn button{
   width: 365px;
   height: 65px;
-  background-color: #3d3326;
+  background-color: #141414;
   border: none;
   font-size: 25px;
   font-family: 'GmarketSansMedium';
+  cursor: pointer;
+  color: white;
 }
 
 .next_btn button a{
-  text-decoration: none;
   color: white;
+  text-decoration: none;
   display: block;
-  width: 355px;
   height: 60px;
-  line-height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
 
 
