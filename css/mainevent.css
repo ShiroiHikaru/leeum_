@@ -78,8 +78,8 @@ a{
 }
 
 .menu_wrap .dep1 > li > a:hover{
-  background-color: wheat;
-  color: #000;
+  background-color: #8a7a67;
+  color: #fff(255, 255, 255);
   font-family: 'GmarketsansMedium';
   transition: 0.3s;
 }

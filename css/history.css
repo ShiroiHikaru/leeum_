@@ -133,8 +133,8 @@ a{
 .menu_wrap .dep1 > li{
   display: inline-block;
   width: calc(1200px / 4);
-  background-color: #141414;
-  color: white;
+  background-color: #8a7a67;
+  color: #fff(255, 255, 255);
   font-size: 20px;
   text-align: center;
   vertical-align: top;
