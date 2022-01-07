@@ -48,7 +48,7 @@ footer{
   
   footer .footer_bottom .foot_logo{
     float: left;
-    background: url(/images/lee_logo_w.svg) no-repeat;
+    background: url(../images/lee_logo_w.svg) no-repeat;
     background-size: contain;
     width: 160px;
     height: 60px;
