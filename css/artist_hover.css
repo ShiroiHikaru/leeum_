@@ -240,7 +240,7 @@
 
 /* 김아영 */
 #artist .line03 .no9{
-  background: url(/images/artist/1/artist_young.jpg) no-repeat;
+  background: url(../images/artist_young.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -269,7 +269,7 @@
 
 /* 김옥선 */
 #artist .line03 .no10{
-  background: url(/images/artist/1/artist_ohk.jpg) no-repeat;
+  background: url(../images/artist_ohk.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -299,7 +299,7 @@
 
 /* 김지원 */
 #artist .line03 .no11{
-  background: url(/images/artist/1/artist_won.jpg) no-repeat;
+  background: url(../images/artist_won.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -329,7 +329,7 @@
 
 /* 김홍석 */
 #artist .line03 .no12{
-  background: url(/images/artist/1/artist_hong.jpg) no-repeat;
+  background: url(../images/artist_hong.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -360,7 +360,7 @@
 
 /* 김홍주 */
 #artist .line04 .no13{
-  background: url(/images/artist/1/artist_joo.jpg) no-repeat;
+  background: url(../images/artist_joo.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -391,7 +391,7 @@
 
 /* 김희천 */
 #artist .line04 .no14{
-  background: url(/images/artist/1/artist_hee.jpg) no-repeat;
+  background: url(../images/artist_hee.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -422,7 +422,7 @@
 
 /* 노상균 */
 #artist .line05 .no15{
-  background: url(/images/artist/2/artist_No.jpg) no-repeat;
+  background: url(../images/artist_No.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -452,7 +452,7 @@
 /* 페이드 영역 : 작가명 > ㅁ */
 /* 문경원 / 전준호 */
 #artist .line06 .no16{
-  background: url(/images/artist/3/artist_Moonjun.jpg) no-repeat;
+  background: url(../images/artist_Moonjun.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -481,7 +481,7 @@
 
 /* 문범 */
 #artist .line06 .no17{
-  background: url(/images/artist/3/artist_bum.jpg) no-repeat;
+  background: url(../images/artist_bum.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -510,7 +510,7 @@
 
 /* 문성식 */
 #artist .line06 .no18{
-  background: url(/images/artist/3/artist_sik.jpg) no-repeat;
+  background: url(../images/artist_sik.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -540,7 +540,7 @@
 /* 페이드 영역 : 작가명 > ㅂ */
 /* 박경근 */
 #artist .line07 .no19{
-  background: url(/images/artist/4/artist_park.jpg) no-repeat;
+  background: url(../images/artist_park.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -569,7 +569,7 @@
 
 /* 박미나 */
 #artist .line07 .no20{
-  background: url(/images/artist/4/artist_mina.jpg) no-repeat;
+  background: url(../images/artist_mina.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -599,7 +599,7 @@
 
 /* 박민하 */
 #artist .line07 .no21{
-  background: url(/images/artist/4/artist_minha.jpg) no-repeat;
+  background: url(../images/artist_minha.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -629,7 +629,7 @@
 
 /* 박서보 */
 #artist .line07 .no22{
-  background: url(/images/artist/4/artist_seobo.jpg) no-repeat;
+  background: url(../images/artist_seobo.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -659,7 +659,7 @@
 
 /* 박진아 */
 #artist .line08 .no23{
-  background: url(/images/artist/4/artist_jina.jpg) no-repeat;
+  background: url(../images/artist_jina.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -688,7 +688,7 @@
 
 /* 백현진 */
 #artist .line08 .no24{
-  background: url(/images/artist/4/artist_beak.jpg) no-repeat;
+  background: url(../images/artist_beak.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -718,7 +718,7 @@
 
 /* 블라인드니스 */
 #artist .line08 .no25{
-  background: url(/images/artist/4/artist_nis.jpg) no-repeat;
+  background: url(../images/artist_nis.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -748,7 +748,7 @@
 /* 페이드 영역 : 작가명 > ㅅ */
 /* 서헌강 */
 #artist .line09 .no26{
-  background: url(/images/artist/5/artist_seo.jpg) no-repeat;
+  background: url(../images/artist_seo.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -777,7 +777,7 @@
 
 /* 신미경 */
 #artist .line09 .no27{
-  background: url(/images/artist/5/artist_shin.jpg) no-repeat;
+  background: url(../images/artist_shin.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -806,7 +806,7 @@
 
 /* 신학철 */
 #artist .line09 .no28{
-  background: url(/images/artist/5/artist_hak.jpg) no-repeat;
+  background: url(../images/artist_hak.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -835,7 +835,7 @@
 
 /* 심래정 */
 #artist .line09 .no29{
-  background: url(/images/artist/5/artist_jung.jpg) no-repeat;
+  background: url(../images/artist_jung.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -865,7 +865,7 @@
 /* 페이드 영역 : 작가명 > ㅇ */
 /* 안규철 */
 #artist .line10 .no30{
-  background: url(/images/artist/6/artist_ahn.jpg) no-repeat;
+  background: url(../images/artist_ahn.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -894,7 +894,7 @@
 
 /* 육명심 */
 #artist .line10 .no31{
-  background: url(/images/artist/6/artist_Yuk.jpg) no-repeat;
+  background: url(../images/artist_Yuk.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -923,7 +923,7 @@
 
 /* 윤석남 */
 #artist .line10 .no32{
-  background: url(/images/artist/6/artist_seoknam.jpg) no-repeat;
+  background: url(../images/artist_seoknam.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -952,7 +952,7 @@
 
 /* 이강소 */
 #artist .line10 .no33{
-  background: url(/images/artist/6/artist_lee.jpg) no-repeat;
+  background: url(../images/artist_lee.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -981,7 +981,7 @@
 
 /* 이건용 */
 #artist .line10 .no34{
-  background: url(/images/artist/6/artist_kun.jpg) no-repeat;
+  background: url(../images/artist_kun.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1011,7 +1011,7 @@
 
 /* 이동기 */
 #artist .line10 .no35{
-  background: url(/images/artist/6/artist_dong.jpg) no-repeat;
+  background: url(../images/artist_dong.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1040,7 +1040,7 @@
 
 /* 이동욱 */
 #artist .line10 .no36{
-  background: url(/images/artist/6/artist_du.jpg) no-repeat;
+  background: url(../images/artist_du.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1069,7 +1069,7 @@
 
 /* 이배 */
 #artist .line10 .no37{
-  background: url(/images/artist/6/artist_bae.jpg) no-repeat;
+  background: url(../images/artist_bae.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1098,7 +1098,7 @@
 
 /* 이불 */
 #artist .line10 .no38{
-  background: url(/images/artist/6/artist_bul.jpg) no-repeat;
+  background: url(../images/artist_bul.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1128,7 +1128,7 @@
 
 /* 이승택 */
 #artist .line10 .no39{
-  background: url(/images/artist/6/artist_sungtek.jpg) no-repeat;
+  background: url(../images/artist_sungtek.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1157,7 +1157,7 @@
 
 /* 이완 */
 #artist .line10 .no40{
-  background: url(/images/artist/6/artist_wan.jpg) no-repeat;
+  background: url(../images/artist_wan.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1186,7 +1186,7 @@
 
 /* 이은실 */
 #artist .line10 .no41{
-  background: url(/images/artist/6/artist_ensil.jpg) no-repeat;
+  background: url(../images/artist_ensil.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1215,7 +1215,7 @@
 
 /* 임옥상 */
 #artist .line11 .no42{
-  background: url(/images/artist/6/artist_ohksang.jpg) no-repeat;
+  background: url(../images/artist_ohksang.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1244,7 +1244,7 @@
 
 /* 임자혁 */
 #artist .line11 .no43{
-  background: url(/images/artist/6/artist_jahyuk.jpg) no-repeat;
+  background: url(../images/artist_jahyuk.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1273,7 +1273,7 @@
 
 /* 정광호 */
 #artist .line12 .no44{
-  background: url(/images/artist/7/artist_jung.jpg) no-repeat;
+  background: url(../images/artist_jung2.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1302,7 +1302,7 @@
 
 /* 정상화 */
 #artist .line12 .no45{
-  background: url(/images/artist/7/artist_sanghwa.jpg) no-repeat;
+  background: url(../images/artist_sanghwa.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1331,7 +1331,7 @@
 
 /* 정연두 */
 #artist .line12 .no46{
-  background: url(/images/artist/7/artist_yeondoo.jpg) no-repeat;
+  background: url(../images/artist_yeondoo.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1360,7 +1360,7 @@
 
 /* 정은영 */
 #artist .line12 .no47{
-  background: url(/images/artist/7/artist_eunyoung.jpg) no-repeat;
+  background: url(../images/artist_eunyoung.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1390,7 +1390,7 @@
 
 /* 정희승 */
 #artist .line13 .no48{
-  background: url(/images/artist/7/artist_heeseong.jpg) no-repeat;
+  background: url(../images/artist_heeseong.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1419,7 +1419,7 @@
 
 /* 주명덕 */
 #artist .line13 .no49{
-  background: url(/images/artist/7/artist_meongduk.jpg) no-repeat;
+  background: url(../images/artist_meongduk.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1448,7 +1448,7 @@
 
 /* 지니서 */
 #artist .line13 .no50{
-  background: url(/images/artist/7/artist_jini.jpg) no-repeat;
+  background: url(../images/artist_jini.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1478,7 +1478,7 @@
 
 /* 최우람 */
 #artist .line14 .no51{
-  background: url(/images/artist/8/artist_choiuram.jpg) no-repeat;
+  background: url(../images/artist_choiuram.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1507,7 +1507,7 @@
 
 /* 최정화 */
 #artist .line14 .no52{
-  background: url(/images/artist/8/artist_jeonghwa.jpg) no-repeat;
+  background: url(../images/artist_jeonghwa.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1536,36 +1536,7 @@
 
 /* 최종태 */
 #artist .line14 .no53{
-  background: url(/images/artist/8/artist_jongtae.jpg) no-repeat;
-  height: 163px;
-  position: relative;
-  background-size: 100% 100%;
-  margin-bottom: 20px;
-  overflow: hidden;
-}
-
-#artist .line14 .no53 p{
-  width: 280px;
-  height: 163px;
-  position: absolute;
-  left: 0;
-  bottom: 163px;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-#artist .line14 .no53:hover p{
-  bottom: 0; transition: 0.5s;
-}
-
-/* 최종태 */
-#artist .line14 .no53{
-  background: url(/images/artist/8/artist_jongtae.jpg) no-repeat;
+  background: url(/images/artist/8/artist_tae.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1594,7 +1565,7 @@
 
 /* 최하늘 */
 #artist .line14 .no54{
-  background: url(/images/artist/8/artist_sky.jpg) no-repeat;
+  background: url(../images/artist_sky.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1624,7 +1595,7 @@
 
 /* 하종현 */
 #artist .line15 .no55{
-  background: url(/images/artist/9/artist_hajonghyun.jpg) no-repeat;
+  background: url(../images/artist_hajonghyun.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1654,7 +1625,7 @@
 
 /* 한경우 */
 #artist .line15 .no56{
-  background: url(/images/artist/9/artist_kyungwo.jpg) no-repeat;
+  background: url(../images/artist_kyungwo.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1683,7 +1654,7 @@
 
 /* 함경아 */
 #artist .line15 .no57{
-  background: url(/images/artist/9/artist_kyunga.jpg) no-repeat;
+  background: url(../images/artist_kyunga.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -1712,7 +1683,7 @@
 
 /* 홍승혜 */
 #artist .line15 .no58{
-  background: url(/images/artist/9/artist_sunghye.jpg) no-repeat;
+  background: url(../images/artist_sunghye.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
