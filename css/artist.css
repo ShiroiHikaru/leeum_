@@ -136,7 +136,7 @@ a{
 #m_intro .search button{
   text-indent: -9999px;
   width: 50px;
-  background: url(/images/search_btn.jpg) no-repeat center;
+  background: url(../images/search_btn.jpg) no-repeat center;
   border: none;
   cursor: pointer;
 }

@@ -68,7 +68,7 @@ main{
   height: 200px;
   margin: auto;
   margin-top: 120px;
-  background: url(/images/ticket_banner.jpg);
+  background: url(../images/ticket_banner.jpg);
   margin-bottom: 150px;
 }
 
@@ -398,17 +398,17 @@ main{
 }
 
 #snslinks ul .insta{
-  background-image: url(/images/list_btn3.jpg);
+  background-image: url(../images/list_btn3.jpg);
   text-indent: -9999px;
 }
 
 #snslinks ul .face{
-  background-image: url(/images/list_btn4.jpg);
+  background-image: url(../images/list_btn4.jpg);
   text-indent: -9999px;
 }
 
 #snslinks ul .youtube{
-  background-image: url(/images/list_btn5.jpg);
+  background-image: url(../images/list_btn5.jpg);
   text-indent: -9999px;
 }
 

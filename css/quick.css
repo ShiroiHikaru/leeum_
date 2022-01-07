@@ -24,44 +24,44 @@
 #quick .quickcon ul .btn1 .login{
     width: 80px;
     height: 90px;
-    background: url(/images/quick_01.jpg);
+    background: url(../images/quick_01.jpg);
     border: none;
     text-indent: -9999px;
 }
 
 #quick .quickcon ul .btn1 .login:hover{
-    background: url(/images/hover_01.jpg);
+    background: url(../images/hover_01.jpg);
 }
 
 #quick .quickcon ul .btn2{
-    background: url(/images/quick_02.jpg);
+    background: url(../images/quick_02.jpg);
 }
 
 #quick .quickcon ul .btn2:hover{
-    background: url(/images/hover_02.jpg);
+    background: url(../images/hover_02.jpg);
 }
 
 #quick .quickcon ul .btn3{
-    background: url(/images/quick_03.jpg);
+    background: url(../images/quick_03.jpg);
 }
 
 #quick .quickcon ul .btn3:hover{
-    background: url(/images/hover_03.jpg);
+    background: url(../images/hover_03.jpg);
 }
 
 #quick .quickcon ul .btn4{
-    background: url(/images/quick_04.jpg);
+    background: url(../images/quick_04.jpg);
 }
 
 #quick .quickcon ul .btn4:hover{
-    background: url(/images/hover_04.jpg);
+    background: url(../images/hover_04.jpg);
 }
 
 #quick .quickcon ul .btn5{
     width: 80px;
     height: 41px;
 
-    background: url(/images/quick_05.jpg);
+    background: url(../images/quick_05.jpg);
 }
 
 #quick .quickcon ul .btn5 a{
