@@ -2,7 +2,7 @@
 
 /* 강서경 */
 #artist .line01 .no1{
-  background: url(/images/artist/1/artist_kang.jpg) no-repeat;
+  background: url(../images/artist_kang.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -31,7 +31,7 @@
 
 /* 구본창 */
 #artist .line01 .no2{
-  background: url(/images/artist/1/artist_koo.jpg) no-repeat;
+  background: url(../images/artist_koo.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -60,7 +60,7 @@
 
 /* 권오상 */
 #artist .line01 .no3{
-  background: url(/images/artist/1/artist_kwon.jpg) no-repeat;
+  background: url(../images/artist_kwon.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -89,7 +89,7 @@
 
 /* 김도균 */
 #artist .line01 .no4{
-  background: url(/images/artist/1/artist_kim.jpg) no-repeat;
+  background: url(../images/artist_kim.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -119,7 +119,7 @@
 
 /* 김민애 */
 #artist .line02 .no5{
-  background: url(/images/artist/1/artist_min.jpg) no-repeat;
+  background: url(../images/artist_min.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -148,7 +148,7 @@
 
 /* 김상길 */
 #artist .line02 .no6{
-  background: url(/images/artist/1/artist_sang.jpg) no-repeat;
+  background: url(../images/artist_sang.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -179,7 +179,7 @@
 
 /* 김성환 */
 #artist .line02 .no7{
-  background: url(/images/artist/1/artist_hwan.jpg) no-repeat;
+  background: url(../images/artist_hwan.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
@@ -210,7 +210,7 @@
 
 /* 김수자 */
 #artist .line02 .no8{
-  background: url(/images/artist/1/artist_soo.jpg) no-repeat;
+  background: url(../images/artist_soo.jpg) no-repeat;
   height: 163px;
   position: relative;
   background-size: 100% 100%;
