@@ -16,7 +16,7 @@ li::marker{
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/leeum_view.jpg);
+  background: url(../images/leeum_view.jpg);
   background-size: cover;
   height: 328px;
   position: relative;
@@ -163,13 +163,13 @@ li::marker{
 }
 
 #mi .mi_img1 .img1{
-  background: url(/images/0_leeum_group03.png) no-repeat;
+  background: url(../images/0_leeum_group03.png) no-repeat;
   width: 570px;
   height: 357px;
 }
 
 #mi .mi_img1 .img2{
-  background: url(/images/0_leeum_logo03.png) no-repeat;
+  background: url(../images/0_leeum_logo03.png) no-repeat;
   float: right;
   width: 570px;
   height: 357px;
@@ -263,7 +263,7 @@ li::marker{
 }
 
 #interview .artist .artistbox .mario h2{
-  background: url(/images/mario.jpg);
+  background: url(../images/mario.jpg);
   height: 474px;
   text-indent: -9999px;
 }
@@ -338,7 +338,7 @@ li::marker{
 }
 
 #interview .artist .artistbox .jean h2{
-  background: url(/images/jean.jpg);
+  background: url(../images/jean.jpg);
   height: 474px;
   text-indent: -9999px;
 }
@@ -386,7 +386,7 @@ li::marker{
 }
 
 #interview .artist .artistbox .rem h2{
-  background: url(/images/rem.jpg);
+  background: url(../images/rem.jpg);
   height: 474px;
   text-indent: -9999px;
 }
