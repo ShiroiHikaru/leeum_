@@ -20,7 +20,7 @@ li::marker{
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/mario/mario_top.jpg);
+  background: url(../images/mario_top.jpg);
   background-size: cover;
   height: 328px;
   position: relative;
@@ -289,7 +289,7 @@ a{
 
 /* mario page */
 #mario{
-  background: url(/images/mario/mario_back.jpg) no-repeat;
+  background: url(../images/mario_back.jpg) no-repeat;
   height: 100%;
   margin-top: 150px;
   margin-bottom: 150px;
@@ -307,7 +307,7 @@ a{
 }
 
 #mario .mario_intro .profile{
-  background: url(/images/mario/mario_profile.jpg) no-repeat;
+  background: url(../images/mario_profile.jpg) no-repeat;
   width: 543px;
   height: 664px;
   float: right;
@@ -315,7 +315,7 @@ a{
 }
 
 #mario .mario_intro .mariotext h2{
-  background: url(/images/mario/mario_saying.png) no-repeat;
+  background: url(../images/mario_saying.png) no-repeat;
   width: 435px;
   height: 179px;
   margin-bottom: 50px;
@@ -373,7 +373,7 @@ a{
 }
 
 #mario02{
-  background: url(/images/mario/mario_back2.jpg) no-repeat;
+  background: url(../images/mario_back2.jpg) no-repeat;
   height: 688px; 
 }
 
@@ -386,7 +386,7 @@ a{
 }
 
 #mario02 .text .saying{
-  background:url(/images/mario/mario_saying02.png) no-repeat;
+  background:url(../images/mario_saying02.png) no-repeat;
   width: 563px;
   height: 116px;
   margin-top: 50px;
@@ -428,7 +428,7 @@ a{
   width: 20px;
   height: 20px;
   padding: 10px;
-  background: url(/images/icon/question.svg) no-repeat;
+  background: url(../images/question.svg) no-repeat;
   text-indent: -9999px;
   float: left;
   margin-right: 20px;
@@ -445,7 +445,7 @@ a{
 }
 
 #interview .qanda .q01 .anwser span{
-  background: url(/images/icon/anwser.svg) no-repeat;
+  background: url(../images/anwser.svg) no-repeat;
   width: 20px;
   height: 20px;
   padding: 10px;
@@ -475,7 +475,7 @@ a{
   width: 20px;
   height: 20px;
   padding: 10px;
-  background: url(/images/icon/question.svg) no-repeat;
+  background: url(../images/question.svg) no-repeat;
   text-indent: -9999px;
   float: left;
   margin-right: 20px;
@@ -492,7 +492,7 @@ a{
 }
 
 #interview .qanda .q02 .anwser span{
-  background: url(/images/icon/anwser.svg) no-repeat;
+  background: url(../images/anwser.svg) no-repeat;
   width: 20px;
   height: 20px;
   padding: 10px;
@@ -522,7 +522,7 @@ a{
   width: 20px;
   height: 20px;
   padding: 10px;
-  background: url(/images/icon/question.svg) no-repeat;
+  background: url(../images/question.svg) no-repeat;
   text-indent: -9999px;
   float: left;
   margin-right: 20px;
@@ -539,7 +539,7 @@ a{
 }
 
 #interview .qanda .q03 .anwser span{
-  background: url(/images/icon/anwser.svg) no-repeat;
+  background: url(../images/anwser.svg) no-repeat;
   width: 20px;
   height: 20px;
   padding: 10px;
@@ -569,7 +569,7 @@ a{
   width: 20px;
   height: 20px;
   padding: 10px;
-  background: url(/images/icon/question.svg) no-repeat;
+  background: url(../images/question.svg) no-repeat;
   text-indent: -9999px;
   float: left;
   margin-right: 20px;
@@ -586,7 +586,7 @@ a{
 }
 
 #interview .qanda .q04 .anwser span{
-  background: url(/images/icon/anwser.svg) no-repeat;
+  background: url(../images/anwser.svg) no-repeat;
   width: 20px;
   height: 20px;
   padding: 10px;
@@ -617,7 +617,7 @@ a{
   width: 20px;
   height: 20px;
   padding: 10px;
-  background: url(/images/icon/question.svg) no-repeat;
+  background: url(../images/question.svg) no-repeat;
   text-indent: -9999px;
   float: left;
   margin-right: 20px;
@@ -634,7 +634,7 @@ a{
 }
 
 #interview .qanda .q05 .anwser span{
-  background: url(/images/icon/anwser.svg) no-repeat;
+  background: url(../images/anwser.svg) no-repeat;
   width: 20px;
   height: 20px;
   padding: 10px;
@@ -664,7 +664,7 @@ a{
   width: 20px;
   height: 20px;
   padding: 10px;
-  background: url(/images/icon/question.svg) no-repeat;
+  background: url(../images/question.svg) no-repeat;
   text-indent: -9999px;
   float: left;
   margin-right: 20px;
@@ -681,7 +681,7 @@ a{
 }
 
 #interview .qanda .q06 .anwser span{
-  background: url(/images/icon/anwser.svg) no-repeat;
+  background: url(../images/anwser.svg) no-repeat;
   width: 20px;
   height: 20px;
   padding: 10px;
