@@ -15,7 +15,7 @@ li::marker{
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/old_top.jpg);
+  background: url(../images/old_top.jpg);
   background-size: cover;
   height: 328px;
   position: relative;
@@ -39,78 +39,6 @@ li::marker{
 }
 
 
-
-/* quickbar 시작 */
-#quickbar{
-  position: fixed;
-  float: right;
-  right: 0;
-  top: 200px;
-  z-index: 9999;
-}
-
-/* quick 키워드 */
-#quickbar .quickbtn{
-  float: right;
-}
-
-#quickbar .quickbtn ul li button{
-  width: 80px;
-  height: 90px;
-  text-indent: -9999px;
-  border: none;
-  cursor: pointer;
-}
-
-#quickbar .quickbtn ul li a{
-  display: inline-block;
-  width: 80px;
-  height: 90px;
-}
-
-#quickbar .quickbtn ul li .b01{
-  background-image: url(/images/quick_01.jpg);
-}
-
-#quickbar .quickbtn ul li .b02{
-  background-image: url(/images/quick_02.jpg);
-}
-
-#quickbar .quickbtn ul li .b03{
-  background-image: url(/images/quick_03.jpg);
-}
-
-#quickbar .quickbtn ul li .b04{
-  background-image: url(/images/quick_04.jpg);
-}
-
-
-#quickbar .quickbtn ul li .top{
-  height: 41px;
-  border: none;
-  background: url(/images/quick_05.jpg);
-}
-
-/* quick hover */
-#quickbar .quickbtn ul li .b01:hover{
-  background-image: url(/images/hover_01.jpg);
-  transition: 0.3s;
-}
-
-#quickbar .quickbtn ul li .b02:hover{
-  background-image: url(/images/hover_02.jpg);
-  transition: 0.3s;
-}
-
-#quickbar .quickbtn ul li .b03:hover{
-  background-image: url(/images/hover_03.jpg);
-  transition: 0.3s;
-}
-
-#quickbar .quickbtn ul li .b04:hover{
-  background-image: url(/images/hover_04.jpg);
-  transition: 0.3s;
-}
 
 /* 카테고리버튼 */
 
@@ -264,7 +192,7 @@ a{
 #m_intro .search button{
   text-indent: -9999px;
   width: 50px;
-  background: url(/images/search_btn.jpg) no-repeat center;
+  background: url(../images/search_btn.jpg) no-repeat center;
   border: none;
   cursor: pointer;
 }
@@ -300,7 +228,7 @@ a{
 
 #thumbnail .topnail .nail01 .nail_img{
   text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai01.jpg) no-repeat center;
+  background: url(../images/thumbnai01.jpg) no-repeat center;
   height: 156px;
 }
 
@@ -342,7 +270,7 @@ a{
 
 #thumbnail .topnail .nail02 .nail_img{
   text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai02.jpg) no-repeat center;
+  background: url(../images/thumbnai02.jpg) no-repeat center;
   height: 156px;
 }
 
@@ -385,7 +313,7 @@ a{
 
 #thumbnail .topnail .nail03 .nail_img{
   text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai03.jpg) no-repeat center;
+  background: url(../images/thumbnai03.jpg) no-repeat center;
   height: 156px;
 }
 
@@ -427,7 +355,7 @@ a{
 
 #thumbnail .topnail .nail04 .nail_img{
   text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai04.jpg) no-repeat center;
+  background: url(../images/thumbnai04.jpg) no-repeat center;
   height: 156px;
 }
 
@@ -469,7 +397,7 @@ a{
 
 #thumbnail .topnail .nail05 .nail_img{
   text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai05.jpg) no-repeat center;
+  background: url(../images/thumbnai05.jpg) no-repeat center;
   height: 156px;
 }
 
@@ -511,7 +439,7 @@ a{
 
 #thumbnail .topnail .nail06 .nail_img{
   text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai06.jpg) no-repeat center;
+  background: url(../images/thumbnai06.jpg) no-repeat center;
   height: 156px;
 }
 
@@ -553,7 +481,7 @@ a{
 
 #thumbnail .topnail .nail07 .nail_img{
   text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai07.jpg) no-repeat center;
+  background: url(../images/thumbnai07.jpg) no-repeat center;
   height: 156px;
 }
 
@@ -595,7 +523,7 @@ a{
 
 #thumbnail .topnail .nail08 .nail_img{
   text-indent: -9999px;
-  background: url(/images/exhibition/thumbnai08.jpg) no-repeat center;
+  background: url(../images/thumbnai08.jpg) no-repeat center;
   height: 156px;
 }
 
@@ -675,10 +603,10 @@ a{
 }
 
 .prev{
-  background-image: url(/images/page_left.jpg);
+  background-image: url(../images/page_left.jpg);
 }
 
 .next{
-  background-image: url(/images/page_right.jpg);
+  background-image: url(../images/page_right.jpg);
 }
 

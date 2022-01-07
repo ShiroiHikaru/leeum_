@@ -21,7 +21,7 @@ li::marker{
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/jean/jean_top.jpg);
+  background: url(../images/jean_top.jpg);
   background-size: cover;
   height: 328px;
   position: relative;
@@ -289,7 +289,7 @@ a{
 
 /* jean page */
 #jean{
-  background: url(/images/jean/jean_back.jpg) no-repeat;
+  background: url(../images/jean_back.jpg) no-repeat;
   height: 100%;
   margin-top: 150px;
   margin-bottom: 150px;
@@ -307,7 +307,7 @@ a{
 }
 
 #jean .jean_intro .profile{
-  background: url(/images/jean/jean_profile.jpg) no-repeat;
+  background: url(../images/jean_profile.jpg) no-repeat;
   width: 543px;
   height: 664px;
   float: right;
@@ -315,7 +315,7 @@ a{
 }
 
 #jean .jean_intro .jeantext h2{
-  background: url(/images/jean/jean_saying.png) no-repeat;
+  background: url(../images/jean_saying.png) no-repeat;
   width: 599px;
   height: 197px;
   margin-bottom: 50px;
@@ -373,7 +373,7 @@ a{
 }
 
 #jean02{
-  background: url(/images/jean/jean_back2.jpg) no-repeat;
+  background: url(../images/jean_back2.jpg) no-repeat;
   height: 688px; 
 }
 
@@ -430,7 +430,7 @@ a{
 }
 
 #interview .interviewbox .interview01 .quest .dottq{
-  background: url(/images/icon/question.svg) no-repeat;
+  background: url(../images/question.svg) no-repeat;
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -441,7 +441,7 @@ a{
 }
 
 #interview .interviewbox .interview01 .anwser .dotta{
-  background: url(/images/icon/anwser.svg) no-repeat;
+  background: url(../images/anwser.svg) no-repeat;
   width: 20px;
   height: 20px;
   display: inline-block;
