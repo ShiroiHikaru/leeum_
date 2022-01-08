@@ -18,7 +18,7 @@ li::marker{
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/place.jpg);
+  background: url(../images/place.jpg);
   background-size: cover;
   height: 328px;
   position: relative;
@@ -62,7 +62,7 @@ li::marker{
 }
 
 .shop h3{
-  background: url(/images/place01.jpg) no-repeat center;
+  background: url(../images/place01.jpg) no-repeat center;
   width: 580px;
   height: 350px;
   text-indent: -9999px;
@@ -144,7 +144,7 @@ li::marker{
 }
 
 .cafe h3{
- background: url(/images/place02.jpg) no-repeat center;
+ background: url(../images/place02.jpg) no-repeat center;
  width: 580px;
  height: 350px;
  text-indent: -9999px;
@@ -209,7 +209,7 @@ li::marker{
 }
 
 .order h3{
-  background: url(/images/place03.jpg) no-repeat center;
+  background: url(../images/place03.jpg) no-repeat center;
   width: 580px;
   height: 350px;
   text-indent: -9999px;
@@ -241,7 +241,7 @@ li::marker{
 }
 
 .locker h3{
-  background: url(/images/place04.jpg) no-repeat center;
+  background: url(../images/place04.jpg) no-repeat center;
   width: 580px;
   height: 350px;
   text-indent: -9999px;
@@ -290,7 +290,7 @@ li::marker{
 }
 
 .nursing h3{
-  background: url(/images/place05.jpg);
+  background: url(../images/place05.jpg);
   width: 580px;
   height: 350px;
   text-indent: -9999px;
