@@ -17,7 +17,7 @@ li::marker{
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/login_mypage.jpg);
+  background: url(../images/login_mypage.jpg);
   background-size: cover;
   height: 328px;
   position: relative;
