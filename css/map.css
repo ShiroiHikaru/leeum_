@@ -16,7 +16,7 @@
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/map_title.jpg);
+  background: url(../images/map_title.jpg);
   background-size: cover;
   height: 328px;
   position: relative;
@@ -71,7 +71,7 @@
 }
 
 #map .map_text tr .icon{
-  background: url(/images/icon/pin.svg) no-repeat;
+  background: url(../images/icon/pin.svg) no-repeat;
   width: 30px;
   text-indent: -9999px;
 }
@@ -134,7 +134,7 @@
 }
 
 #lobi .lobi_text tr .icon{
-  background: url(/images/icon/map.svg) no-repeat;
+  background: url(../images/icon/map.svg) no-repeat;
   width: 30px;
   text-indent: -9999px;
 }
@@ -171,7 +171,7 @@
 }
 
 #parking .park_text tr .icon{
-  background: url(/images/icon/parking.svg) no-repeat;
+  background: url(../images/icon/parking.svg) no-repeat;
   width: 15px;
   text-indent: -9999px;
 }

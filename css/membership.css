@@ -18,7 +18,7 @@ li::marker{
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/membership.jpg);
+  background: url(../images/membership.jpg);
   background-size: cover;
   height: 328px;
   position: relative;
@@ -73,7 +73,7 @@ li::marker{
 }
 
 #friend .friend_text tr .icon{
-  background: url(/images/icon/membership.svg) no-repeat;
+  background: url(../images/membership.svg) no-repeat;
   width: 30px;
   text-indent: -9999px;
 }
@@ -193,7 +193,7 @@ li::marker{
 }
 
 #family .family_text tr .icon{
-  background: url(/images/icon/membership.svg) no-repeat;
+  background: url(../images/membership.svg) no-repeat;
   width: 30px;
   text-indent: -9999px;
 }
@@ -293,7 +293,7 @@ li::marker{
 }
 
 #gift .gift_text tr .icon{
-  background: url(/images/icon/membership.svg) no-repeat;
+  background: url(../images/membership.svg) no-repeat;
   width: 30px;
   text-indent: -9999px;
 }
@@ -408,7 +408,7 @@ li::marker{
 }
 
 #faq .faq_text tr .icon{
-  background: url(/images/icon/membership.svg) no-repeat;
+  background: url(../images/membership.svg) no-repeat;
   width: 30px;
   text-indent: -9999px;
 }
@@ -471,7 +471,7 @@ li::marker{
 }
 
 #coperate .coper_text tr .icon{
-  background: url(/images/icon/membership.svg) no-repeat;
+  background: url(../images/membership.svg) no-repeat;
   width: 30px;
   text-indent: -9999px;
 }

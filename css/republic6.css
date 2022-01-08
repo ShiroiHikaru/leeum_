@@ -18,7 +18,7 @@ li::marker{
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/republic.jpg);
+  background: url(../images/republic.jpg);
   background-size: cover;
   height: 328px;
   position: relative;

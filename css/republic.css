@@ -19,7 +19,7 @@ li::marker{
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/republic.jpg);
+  background: url(../images/republic.jpg);
   background-size: cover;
   height: 328px;
   position: relative;
@@ -146,7 +146,7 @@ a{
 /* jung page */
 #jung{
   clear: both;
-  background: url(/images/jung/jung_back.png) no-repeat;
+  background: url(../images/jung_back.png) no-repeat;
   margin-top: 150px;
   width: 100%;
   height: 873px;
@@ -158,7 +158,7 @@ a{
 }
 
 #jung .title h3{
-  background: url(/images/jung/jung_title_w.png) no-repeat;
+  background: url(../images/jung_title_w.png) no-repeat;
   height: 200px;
   width: 700px;
   margin-top: 80px;

@@ -20,7 +20,7 @@ input{font-size: 18px;}
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/login_mypage.jpg);
+  background: url(../images/login_mypage.jpg);
   background-size: cover;
   height: 328px;
   position: relative;
@@ -61,12 +61,12 @@ input{font-size: 18px;}
 }
 
 .line .top li{
-  background: url(/images/list_line.png) no-repeat;
+  background: url(../images/list_line.png) no-repeat;
   text-indent: -9999px;
 }
 
 .line .top .page4{
-  background: url(/images/list_line_bold.png) no-repeat;
+  background: url(../images/list_line_bold.png) no-repeat;
 }
 
 
