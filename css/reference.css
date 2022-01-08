@@ -19,7 +19,7 @@ li::marker{
 /* 메인이미지 영역 */
 #title{
   width: 100%;
-  background: url(/images/login_mypage.jpg);
+  background: url(../images/login_mypage.jpg);
   background-size: cover;
   height: 328px;
   position: relative;
@@ -211,12 +211,12 @@ li::marker{
 }
 
 .page ul .left{
-  background: url(/images/page_left.jpg) no-repeat;
+  background: url(../images/page_left.jpg) no-repeat;
   text-indent: -9999px;
 }
 
 .page ul .right{
-  background: url(/images/page_right.jpg) no-repeat;
+  background: url(../images/page_right.jpg) no-repeat;
   text-indent: -9999px;
 }
 
