@@ -204,21 +204,29 @@ a{
 #collection .line01 .chapter1 a img:hover{
   transform: scale(0.9, 0.9);
   transition: transform 0.5s;
+  box-shadow: #aaa 0 0 0.5rem;
+  border: 1px solid #aaa;
 } 
 
 #collection .line02 .chapter2 a img:hover{
   transform: scale(0.9, 0.9);
   transition: transform 0.5s;
+  box-shadow: #aaa 0 0 0.5rem;
+  border: 1px solid #aaa;
 }
 
 #collection .line03 .chapter3 a img:hover{
   transform: scale(0.9, 0.9);
   transition: transform 0.5s;
+  box-shadow: #aaa 0 0 0.5rem;
+  border: 1px solid #aaa;
 }
 
 #collection .line04 .chapter4 a img:hover{
   transform: scale(0.9, 0.9);
   transition: transform 0.5s;
+  box-shadow: #aaa 0 0 0.5rem;
+  border: 1px solid #aaa;
 }
 
 
