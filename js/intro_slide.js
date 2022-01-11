@@ -1,11 +1,14 @@
 $(document).ready(function(){
-  $(".mario .arttext1").hover(function(){
-    $(this).stop(true).fadeToggle("fast");
+  $("#interview .artist .artistbox .mario h2").hover(function(){
+    $("#interview .artist .artistbox .mario .arttext1").slideToggle("slow");
   });
-  $(".jean .arttext2").hover(function(){
-    $(this).stop(true).fadeToggle("fast");
+
+  $("#interview .artist .artistbox .jean h2").hover(function(){
+    $("#interview .artist .artistbox .jean .arttext2").slideToggle("slow");
   });
-  $(".rem .arttext3").hover(function(){
-    $(this).stop(true).fadeToggle("fast");
+
+  $("#interview .artist .artistbox .rem h2").hover(function(){
+    $("#interview .artist .artistbox .rem .arttext3").slideToggle("slow");
   });
+  
 });

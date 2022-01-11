@@ -283,6 +283,7 @@ li::marker{
   background: rgba(111, 111, 111, 0.6);
   color: white;
   line-height: 30px;
+  display: none;
 }
 
 #interview .artist .artistbox .mario .arttext1 h3{
@@ -297,6 +298,8 @@ li::marker{
   color: #fff;
   text-decoration: none;
 }
+
+
 
 #interview .artist .artistbox .jean .arttext2 a{
   display: inline-block;
@@ -317,14 +320,16 @@ li::marker{
   text-decoration: none;
 }
 
-#interview .artist .artistbox .more{
+
+#interview .artist .artistbox .mario .arttext1 button{
   position: absolute;
   bottom: 80px;
+  left: 120px;
   width: 150px;
   height: 40px;
   font-size: 18px;
   margin-top: 65px;
-  border: 2px solid white;
+  border: 2px solid #fff;
   border-radius: 50px;
   background: rgba(255, 255, 255, 0);
   color: white;
@@ -356,6 +361,7 @@ li::marker{
   background: rgba(111, 111, 111, 0.6);
   color: white;
   line-height: 30px;
+  display: none;
 }
 
 #interview .artist .artistbox .jean .arttext2 h3{
@@ -365,10 +371,13 @@ li::marker{
 
 #interview .artist .artistbox .jean .arttext2 button{
   width: 150px;
+  left: 120px;
   height: 40px;
+  position: absolute;
+  bottom: 80px;
   font-size: 18px;
   margin-top: 50px;
-  border: 2px solid white;
+  border: 2px solid #fff;
   border-radius: 50px;
   background: rgba(255, 255, 255, 0);
   color: white;
@@ -404,6 +413,7 @@ li::marker{
   background: rgba(111, 111, 111, 0.6);
   color: white;
   line-height: 30px;
+  display: none;
 }
 
 #interview .artist .artistbox .rem .arttext3 h3{
@@ -413,7 +423,10 @@ li::marker{
 
 #interview .artist .artistbox .rem .arttext3 button{
   width: 150px;
+  left: 120px;
   height: 40px;
+  position: absolute;
+  bottom: 80px;
   font-size: 18px;
   margin-top: 50px;
   border: 2px solid white;
