@@ -10,6 +10,11 @@
   overflow: hidden;
 }
 
+#artist .line01 .no1 a{
+  display: block;
+  height: 160px;
+}
+
 #artist .line01 .no1 p{
   width: 280px;
   height: 163px;
@@ -37,6 +42,12 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+
+#artist .line01 .no2 a{
+  display: block;
+  height: 160px;
 }
 
 #artist .line01 .no2 p{
@@ -68,6 +79,11 @@
   overflow: hidden;
 }
 
+#artist .line01 .no3 a{
+  display: block;
+  height: 160px;
+}
+
 #artist .line01 .no3 p{
   width: 280px;
   height: 163px;
@@ -95,6 +111,11 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line01 .no4 a{
+  display: block;
+  height: 160px;
 }
 
 #artist .line01 .no4 p{
@@ -127,6 +148,11 @@
   overflow: hidden;
 }
 
+#artist .line02 .no5 a{
+  display: block;
+  height: 160px;
+}
+
 #artist .line02 .no5 p{
   width: 280px;
   height: 163px;
@@ -154,6 +180,12 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+
+#artist .line02 .no6 a{
+  display: block;
+  height: 160px;
 }
 
 #artist .line02 .no6 p{
@@ -187,6 +219,11 @@
   overflow: hidden;
 }
 
+#artist .line02 .no7 a{
+  display: block;
+  height: 160px;
+}
+
 #artist .line02 .no7 p{
   width: 280px;
   height: 163px;
@@ -216,6 +253,11 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line02 .no8 a{
+  display: block;
+  height: 160px;
 }
 
 #artist .line02 .no8 p{
@@ -248,6 +290,11 @@
   overflow: hidden;
 }
 
+#artist .line03 .no9 a{
+  display: block;
+  height: 160px;
+}
+
 #artist .line03 .no9 p{
   width: 280px;
   height: 163px;
@@ -275,6 +322,11 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line03 .no10 a{
+  display: block;
+  height: 160px;
 }
 
 #artist .line03 .no10 p{
@@ -307,6 +359,11 @@
   overflow: hidden;
 }
 
+#artist .line03 .no11 a{
+  display: block;
+  height: 160px;
+}
+
 #artist .line03 .no11 p{
   width: 280px;
   height: 163px;
@@ -336,6 +393,16 @@
   margin-bottom: 20px;
   overflow: hidden;
 }
+
+#artist .line03 .no12 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 #artist .line03 .no12 p{
   width: 280px;
@@ -368,6 +435,18 @@
   overflow: hidden;
 }
 
+
+#artist .line04 .no13 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 #artist .line04 .no13 p{
   width: 280px;
   height: 163px;
@@ -397,6 +476,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line04 .no14 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line04 .no14 p{
@@ -430,6 +518,15 @@
   overflow: hidden;
 }
 
+#artist .line05 .no15 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line05 .no15 p{
   width: 280px;
   height: 163px;
@@ -458,6 +555,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line06 .no16 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line06 .no16 p{
@@ -489,6 +595,15 @@
   overflow: hidden;
 }
 
+#artist .line06 .no17 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line06 .no17 p{
   width: 280px;
   height: 163px;
@@ -516,6 +631,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line06 .no18 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line06 .no18 p{
@@ -548,6 +672,16 @@
   overflow: hidden;
 }
 
+#artist .line07 .no19 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 #artist .line07 .no19 p{
   width: 280px;
   height: 163px;
@@ -575,6 +709,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line07 .no20 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line07 .no20 p{
@@ -607,6 +750,15 @@
   overflow: hidden;
 }
 
+#artist .line07 .no21 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line07 .no21 p{
   width: 280px;
   height: 163px;
@@ -635,6 +787,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line07 .no22 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line07 .no22 p{
@@ -667,6 +828,15 @@
   overflow: hidden;
 }
 
+#artist .line08 .no23 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line08 .no23 p{
   width: 280px;
   height: 163px;
@@ -696,6 +866,16 @@
   overflow: hidden;
 }
 
+#artist .line08 .no24 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 #artist .line08 .no24 p{
   width: 280px;
   height: 163px;
@@ -724,6 +904,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line08 .no25 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line08 .no25 p{
@@ -756,6 +945,16 @@
   overflow: hidden;
 }
 
+
+#artist .line09 .no26 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line09 .no26 p{
   width: 280px;
   height: 163px;
@@ -783,6 +982,16 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+
+#artist .line09 .no27 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line09 .no27 p{
@@ -814,6 +1023,15 @@
   overflow: hidden;
 }
 
+#artist .line09 .no28 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line09 .no28 p{
   width: 280px;
   height: 163px;
@@ -841,6 +1059,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line09 .no29 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line09 .no29 p{
@@ -873,6 +1100,16 @@
   overflow: hidden;
 }
 
+
+#artist .line10 .no30 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line10 .no30 p{
   width: 280px;
   height: 163px;
@@ -900,6 +1137,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line10 .no31 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line10 .no31 p{
@@ -931,6 +1177,16 @@
   overflow: hidden;
 }
 
+
+#artist .line10 .no32 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line10 .no32 p{
   width: 280px;
   height: 163px;
@@ -960,6 +1216,15 @@
   overflow: hidden;
 }
 
+#artist .line10 .no33 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line10 .no33 p{
   width: 280px;
   height: 163px;
@@ -987,6 +1252,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line10 .no34 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line10 .no34 p{
@@ -1019,6 +1293,15 @@
   overflow: hidden;
 }
 
+#artist .line10 .no35 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line10 .no35 p{
   width: 280px;
   height: 163px;
@@ -1046,6 +1329,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line10 .no36 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line10 .no36 p{
@@ -1077,6 +1369,15 @@
   overflow: hidden;
 }
 
+#artist .line10 .no37 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line10 .no37 p{
   width: 280px;
   height: 163px;
@@ -1104,6 +1405,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line10 .no38 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line10 .no38 p{
@@ -1136,6 +1446,15 @@
   overflow: hidden;
 }
 
+#artist .line10 .no39 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line10 .no39 p{
   width: 280px;
   height: 163px;
@@ -1163,6 +1482,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line10 .no40 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line10 .no40 p{
@@ -1194,6 +1522,15 @@
   overflow: hidden;
 }
 
+#artist .line10 .no41 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line10 .no41 p{
   width: 280px;
   height: 163px;
@@ -1221,6 +1558,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line11 .no42 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line11 .no42 p{
@@ -1252,6 +1598,15 @@
   overflow: hidden;
 }
 
+#artist .line11 .no43 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line11 .no43 p{
   width: 280px;
   height: 163px;
@@ -1279,6 +1634,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line12 .no44 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line12 .no44 p{
@@ -1310,6 +1674,15 @@
   overflow: hidden;
 }
 
+#artist .line12 .no45 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line12 .no45 p{
   width: 280px;
   height: 163px;
@@ -1339,6 +1712,15 @@
   overflow: hidden;
 }
 
+#artist .line12 .no46 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line12 .no46 p{
   width: 280px;
   height: 163px;
@@ -1366,6 +1748,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line12 .no47 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line12 .no47 p{
@@ -1398,6 +1789,15 @@
   overflow: hidden;
 }
 
+#artist .line13 .no48 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line13 .no48 p{
   width: 280px;
   height: 163px;
@@ -1427,6 +1827,15 @@
   overflow: hidden;
 }
 
+#artist .line13 .no49 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line13 .no49 p{
   width: 280px;
   height: 163px;
@@ -1454,6 +1863,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line13 .no50 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line13 .no50 p{
@@ -1486,6 +1904,15 @@
   overflow: hidden;
 }
 
+#artist .line14 .no51 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line14 .no51 p{
   width: 280px;
   height: 163px;
@@ -1513,6 +1940,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line14 .no52 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line14 .no52 p{
@@ -1544,6 +1980,16 @@
   overflow: hidden;
 }
 
+#artist .line14 .no53 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 #artist .line14 .no53 p{
   width: 280px;
   height: 163px;
@@ -1571,6 +2017,16 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+
+#artist .line14 .no54 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line14 .no54 p{
@@ -1603,6 +2059,15 @@
   overflow: hidden;
 }
 
+#artist .line15 .no55 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line15 .no55 p{
   width: 280px;
   height: 163px;
@@ -1633,6 +2098,15 @@
   overflow: hidden;
 }
 
+#artist .line15 .no56 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line15 .no56 p{
   width: 280px;
   height: 163px;
@@ -1660,6 +2134,15 @@
   background-size: 100% 100%;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+#artist .line15 .no57 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #artist .line15 .no57 p{
