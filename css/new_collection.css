@@ -140,7 +140,7 @@ a{
 }
 
 .filter ul li{
-  width: calc(900px / 5);
+  width: calc(900px / 7);
   text-align: center;
   padding: 5px;
 }
@@ -169,7 +169,7 @@ a{
   cursor: pointer;
 }
 
-/* 작가페이지 */
+/* 작품영역 */
 #collection{
   width: 1200px;
   height: 100%;
