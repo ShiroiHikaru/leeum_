@@ -179,6 +179,8 @@ main{
   overflow: hidden;
 }
 
+
+
 #main_banner .bannerwrap .banner4 img{
   position: relative;
   width: 290px;
@@ -189,7 +191,7 @@ main{
 
 #main_banner .bannerwrap .banner4 a img:hover{
   transform: scale(1.1, 1.1);
-  transition: transform 0.5s;
+  transition: 0.5s;
 }
 
 .textbox{
