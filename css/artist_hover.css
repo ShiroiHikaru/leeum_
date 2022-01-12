@@ -2174,6 +2174,15 @@
   overflow: hidden;
 }
 
+#artist .line15 .no58 a{
+  display: block;
+  height: 160px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #artist .line15 .no58 p{
   width: 280px;
   height: 163px;
