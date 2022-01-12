@@ -31,6 +31,7 @@
 
 #quick .quickcon ul .btn1 .login:hover{
     background: url(../images/hover_01.jpg);
+    transition: 0.3s;
 }
 
 #quick .quickcon ul .btn2{
@@ -39,6 +40,7 @@
 
 #quick .quickcon ul .btn2:hover{
     background: url(../images/hover_02.jpg);
+    transition: 0.3s;
 }
 
 #quick .quickcon ul .btn3{
@@ -47,6 +49,7 @@
 
 #quick .quickcon ul .btn3:hover{
     background: url(../images/hover_03.jpg);
+    transition: 0.3s;
 }
 
 #quick .quickcon ul .btn4{
@@ -55,6 +58,7 @@
 
 #quick .quickcon ul .btn4:hover{
     background: url(../images/hover_04.jpg);
+    transition: 0.3s;
 }
 
 #quick .quickcon ul .btn5{
