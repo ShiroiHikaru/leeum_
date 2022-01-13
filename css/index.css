@@ -46,15 +46,42 @@ main{
   top: 300px;
 }
 
-
-#main_Slide .arrow .prev{
-  float: left;
+/* 팝업 */
+#main_noti{
+  display: block;
+  position: relative;
 }
 
-#main_Slide .arrow .next{
-  float: right;
+#main_noti #main_noti_img_block{
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
+#main_noti #srv_func{
+  position: absolute;
+  background: #fff;
+  width: 390px;
+  height: 30px;
+  padding: 5px;
+  top: 550px;
+}
+
+#main_noti #srv_func .checkbox_area{
+  line-height: 30px;
+}
+
+#main_noti #srv_func .closebtn{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+
+
+
+
+/* 메인 */
 #avi{
   width: 100%;
   height: 100%;

@@ -17,11 +17,27 @@
 
   <main>
     <section id="quick"></section>
-    
+    <!-- 팝업영역 -->
+    <div id="main_noti">
+          <div id="main_noti_img_block">
+            <a href="javascript:window.open('images/main_popup.jpg', 'again_leeum', 'width=400, height=550, scrollbars=yes, resizable=no')" target="_self">
+                <img src="images/main_popup.jpg" alt="재개장안내">
+            </a>
+          </div>
+          <div id="srv_func">
+              <div class="checkbox_area">
+                  "하루 동안 보지 않기"
+                  <input type="checkbox" name="ckbViewStatus_main_noti" id="ckbViewStatus_main_noti" value="1" onmouseover="this.style.cursor='pointer';" onfocus="this.blur();">
+              </div>
+              <a href="javascript:jsFncLayerPopupCloseWin('main_noti', 'ckbViewStatus_main_noti, '1');" class="btn_close">
+                  <img src="images/banner_close.png" border="0" alt="닫기" class="closebtn">
+              </a>
+          </div>
+    </div>
   <section id="avi">
     <video src="pcVid.mp4" autoplay loop width="100%" type="video/mp4"></video>
   </section>
-
+  
   <section id="ticket">
     <div class="text">
       <h3>예매 / 예약 <span>[Buy a Ticket]</span></h3>
@@ -212,10 +228,17 @@
   <footer></footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/popup_openclose.js"></script> 
   <script type="text/javascript" src="js/quicktoggle.js"></script>
   <script type="text/javascript" src="js/bxslide.js"></script>  
   <script type="text/javascript" src="js/jquery.bxslider.min.js"></script> 
   <script type="text/javascript">
+    function openPop(){
+      let url = "images/main_popup.jpg";
+      let name = "again_leeum";
+      let option = "width = 400px, height = 550px, scrollbar = yes, top = 100, left = 200";
+      window.open("url, name, option");
+    }
     $(document).ready(function(){
       $("header").load("header.html");
       $("#quick").load("quick.html");
