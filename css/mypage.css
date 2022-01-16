@@ -122,7 +122,7 @@ a{
   font-family: 'GmarketSansMedium';
 }
 
-.agebox{
+.mypage_section, .mypage_section2{
   width: 1200px;
   height: 100%;
   margin: auto;
@@ -133,11 +133,11 @@ a{
 }
 
 
-.agebox .terms_title{
+.mypage_section .terms_title{
   text-align: center;
 }
 
-.agebox .terms_title h3{
+.mypage_section .terms_title h3{
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -211,8 +211,6 @@ a{
 
 
 /* 가입폼 영역 */
-
-
 .next_btn{
   width: 1100px;
   margin: auto;
@@ -239,6 +237,31 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+/* 예약 및 관람내역 */
+.mypage_section2{
+  position: absolute;
+  top: 598px;
+  left: 351px;
+  background: #fff;
+}
+.mypage_section2 .terms_title{
+  text-align: center;
+}
+
+.mypage_section2 .terms_title h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.mypage_section2 .subbtn{
+  border: 1px solid red;
+  width: 1100px;
+  height: 40px;
+  margin: auto;
+
 }
 
 
