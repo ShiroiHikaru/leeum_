@@ -69,25 +69,18 @@ a{
   font-size: 20px;
   text-align: center;
   vertical-align: top;
+  padding: 15px 0px 15px;
+  cursor: pointer;
 }
 
-.menu_wrap .dep1 > li > a{
-  display: block;
-  border-left: 1px solid white;
-  padding: 15px 0;
-}
 
-.menu_wrap .dep1 > li > a:hover{
+.menu_wrap .dep1 > li:hover{
   background-color: #8a7a67;
   color: rgb(255, 255, 255);
   font-family: 'GmarketsansMedium';
   transition: 0.3s;
 }
 
-
-.menu_wrap .dep1 > li:hover > .dep2{
-  display: block;
-}
 
 
 
@@ -100,27 +93,6 @@ a{
   margin-top: 150px;
 }
 
-
-.line .line_tap li{
-  float: left;
-  width: 238px;
-  height: 30px;
-}
-
-.line .top li{
-  background: url(../images/list_line.png) no-repeat;
-  text-indent: -9999px;
-}
-
-.line .top .page4{
-  background: url(../images/list_line_bold.png) no-repeat;
-}
-
-
-.line .bottom{
-  clear: both;
-  font-family: 'GmarketSansMedium';
-}
 
 .mypage_section, .mypage_section2{
   width: 1200px;
@@ -243,9 +215,11 @@ a{
 /* 예약 및 관람내역 */
 .mypage_section2{
   position: absolute;
-  top: 598px;
+  z-index: 500;
+  top: 550px;
   left: 351px;
   background: #fff;
+  display: none;
 }
 .mypage_section2 .terms_title{
   text-align: center;
@@ -261,7 +235,23 @@ a{
   width: 1100px;
   height: 40px;
   margin: auto;
+}
 
+.mypage_section2 .subbtn .subbtn1, .subbtn2{
+  width: calc(1093px / 2);
+  height: 40px;
+  font-size: 18px;
+  font-family: 'Gmarketsansmedium';
+  border: none;
+  background: #ccc;
+  color: #000;
+}
+
+.mypage_section2 .mypageboard{
+  width: 1100px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 30px;
 }
 
 
