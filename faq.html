@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/faq.css" type="text/css">
+  <link rel="stylesheet" href="css/jquery.bxslider_research.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.min_research.css">
+  <title>Leeum - 보존연구</title>
+</head>
+<body>
+  <header>
+  </header>
+  
+  <main>
+    <section id="quick">
+    </section>
+
+
+
+    <section id="title">
+      <div class="title_text">
+      <h3>자주 하는 질문 - FAQ</h3>
+      <p>Frequently asked questions</p>
+      </div>
+    </section>
+
+    <section id="question">
+        <h2>자주 하는 질문</h2>
+        <p class="sub">고객님들께서 자주 물으시는 질문들을 모았습니다.</p>
+      <div class="qna1">
+        <h3>01. 관람시간은 어떻게 되나요?</h3>
+        <p>
+          화요일 - 일요일 오전 10시부터 오후 6시 까지입니다.(야외 데크 포함)
+          <button type="button"><a href="infomation.html">관람안내 바로가기</a></button>
+        </p>
+      </div>
+      <div class="qna2">
+        <h3>02. 휴관일은 언제입니까?</h3>
+        <p>
+          매주 월요일, 매년 설날(음력) 및 추석 당일은 휴관입니다.
+          <button type="button"><a href="infomation.html">관람안내 바로가기</a></button>
+        </p>
+      </div>
+      <div class="qna3">
+        <h3>03. 예약을 해야 하나요?</h3>
+        <p>
+          리움미술관은 사전 예약제로 운영되고 있습니다.<br>
+          관람일 14일 전부터 예약이 가능하며, 예약 가능 인원은 최대 4명입니다.
+          <button type="button"><a href="https://ticket.leeum.org/leeum/personal/exhibitList.do">예약사이트 바로가기</a></button>
+        </p>
+      </div>
+      <div class="qna4">
+        <h3>04. 단체 할인이 있나요?</h3>
+        <p>
+          COVID-19 확산 방지를 위하여 단체 예약은 잠정 중단합니다.
+          <button type="button"><a href="infomation.html">관람안내 바로가기</a></button>
+        </p>
+      </div>
+      <div class="qna5">
+        <h3>05. 한번 보존 처리된 작품은 영원하다?</h3>
+        <p>
+          작품은 시간의 흐름과 함께 노화하고 있기 때문에, 처리한 작품이라도 외부 환경이나 보관 및 관리 방법에 따라 또다시 손상될 수 있다. 보존처리에 사용된 재료 또한 시간이 지나면서 노화하므로 재 복원 작업이 요구되기도 한다.
+        </p>
+      </div>
+    </section>
+
+  <div class="clerfix"></div>
+  </main>
+  <footer>
+  </footer>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/quicktoggle.js"></script>
+    <script type="text/javascript" src="js/research.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/bxslide.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("header").load("header.html");
+        $("#quick").load("quick.html");
+        $("footer").load("footer.html");
+      })
+    </script>
+  </body>
+  </html>
