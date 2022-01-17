@@ -76,13 +76,14 @@
 
 #quick .quicklogin{
     width: 350px;
-    height: 399px;
+    height: 358px;
     position: absolute;
     right: 80px;
     top: 0px;
     border: 1px solid #ccc;
     background: #fff;
-    display: flex;
+    display: none;
+    padding-top: 40px;
 }
 
 #quick .quicklogin .loginbox{
