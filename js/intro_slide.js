@@ -22,6 +22,4 @@ $(document).ready(function(){
   $("#interview .artist .artistbox .rem h2").mouseleave(function(){
     $("#interview .artist .artistbox .rem .arttext3").slideUp("slow");
   });
-
-  
 });
