@@ -79,7 +79,7 @@ li::marker{
 }
 
 #friend .friend_btn{
-  background-color: #3d3326;
+  background-color: #141414;
   width: 180px;
   height: 50px;
   float: right;
@@ -87,6 +87,12 @@ li::marker{
   bottom: 120px;
   cursor: pointer;
   border: none;
+}
+
+#friend .friend_btn:hover{
+  background: #8a7a67;
+  color: #fff;
+  transition: 0.3s;
 }
 
 #friend .friend_btn h3 a{
@@ -304,7 +310,7 @@ li::marker{
 
 
 #gift .gift_btn .buy_btn {
-  background-color: #3d3326;
+  background-color: #141414;
   width: 180px;
   height: 50px;
   float: left;
@@ -313,6 +319,12 @@ li::marker{
   cursor: pointer;
   margin: 0.5rem;
   border: none;
+}
+
+#gift .gift_btn .buy_btn:hover{
+  background: #8a7a67;
+  color: #fff;
+  transition: 0.3s;
 }
 
 #gift .gift_btn .buy_btn h3 a{
