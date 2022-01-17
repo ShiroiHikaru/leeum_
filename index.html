@@ -24,7 +24,7 @@
                 <img src="images/main_popup.jpg" alt="재개장안내">
             </a>
           </div>
-          <div id="srv_func">
+          <div id="srv_func" class="srv_func">
               <div class="checkbox_area">
                   "하루 동안 보지 않기"
                   <input type="checkbox" name="ckbViewStatus_main_noti" id="ckbViewStatus_main_noti" value="1" onmouseover="this.style.cursor='pointer';" onfocus="this.blur();">
@@ -233,17 +233,11 @@
   <script type="text/javascript" src="js/bxslide.js"></script>  
   <script type="text/javascript" src="js/jquery.bxslider.min.js"></script> 
   <script type="text/javascript">
-    function openPop(){
-      let url = "images/main_popup.jpg";
-      let name = "again_leeum";
-      let option = "width = 400px, height = 550px, scrollbar = yes, top = 100, left = 200";
-      window.open("url, name, option");
-    }
     $(document).ready(function(){
       $("header").load("header.html");
       $("#quick").load("quick.html");
       $("footer").load("footer.html");
-    })
+    });
   </script> 
 </body>
-  </html>
+</html>

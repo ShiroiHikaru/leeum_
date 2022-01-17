@@ -97,18 +97,18 @@ ul.bxslider {
   left: 260px;
   background: url('../images/arrow_left.png') no-repeat;
 }
-.bx-wrapper .bx-prev:hover,
+/* .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-prev:focus {
   background-position: 0 0;
-}
+} */
 .bx-wrapper .bx-next {
   right: 260px;
   background: url('../images/arrow_right.png') no-repeat;
 }
-.bx-wrapper .bx-next:hover,
+/* .bx-wrapper .bx-next:hover,
 .bx-wrapper .bx-next:focus {
   background-position: -43px 0;
-}
+} */
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
   top: 45%;
