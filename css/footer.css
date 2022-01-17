@@ -44,6 +44,7 @@ footer{
     height: 65px;
     margin: auto;
     padding: 30px;
+    position: relative;
   }
   
   footer .footer_bottom .foot_logo{
@@ -79,14 +80,14 @@ footer{
     border: 1px solid #ccc;
     padding: 10px;
     position: absolute;
-    right: 360px;
+    right: 33px;
   }
   
   footer .footer_bottom .sitelink .site_list ul{
     width: 160px;
     float: right;
     position: relative;
-    right: 9px;
+    right: 3px;
     bottom: 60px;
     background: #fff;
     border: 1px solid #ccc;
