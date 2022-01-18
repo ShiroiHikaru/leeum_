@@ -11,6 +11,7 @@
   <title>Leeum - 회원가입</title>
 </head>
 <body>
+  <div class="portfolio"></div>
   <header></header>
 
   <main>
@@ -91,6 +92,7 @@
   <script type="text/javascript" src="js/quicktoggle.js"></script>  
   <script type="text/javascript">
     $(document).ready(function(){
+      $(".portfolio").load("portfolio.html");
       $("header").load("header.html");
       $("#quick").load("quick.html");
       $("footer").load("footer.html");

@@ -12,6 +12,7 @@
   <title>Leeum - 지난전시</title>
 </head>
 <body>
+  <div class="portfolio"></div>
   <header>
     <nav>
       <h1 id="logo"><a href="index.html"><img src="./images/lee_logo_w.svg" alt="logos" width="173"></a></h1>
@@ -294,6 +295,7 @@
     <script type="text/javascript" src="js/quicktoggle.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
+        $(".portfolio").load("portfolio.html");
         $("header").load("header.html");
         $("#quick").load("quick.html");
         $("footer").load("footer.html");

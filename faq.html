@@ -12,14 +12,12 @@
   <title>Leeum - 보존연구</title>
 </head>
 <body>
-  <header>
-  </header>
+  <div class="portfolio"></div>
+  <header></header>
   
   <main>
     <section id="quick">
     </section>
-
-
 
     <section id="title">
       <div class="title_text">
@@ -122,6 +120,7 @@
     <script type="text/javascript" src="js/bxslide.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
+        $(".portfolio").load("portfolio.html");
         $("header").load("header.html");
         $("#quick").load("quick.html");
         $("footer").load("footer.html");

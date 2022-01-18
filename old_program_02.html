@@ -13,8 +13,8 @@
 </head>
 
 <body>
-  <header>
-  </header>
+  <div class="portfolio"></div>
+  <header></header>
 
   <main>
     <section id="quick">
@@ -219,6 +219,7 @@
   <script type="text/javascript" src="js/quicktoggle.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
+      $(".portfolio").load("portfolio.html");
       $("header").load("header.html");
       $("#quick").load("quick.html");
       $("#page").load("program_page.html");

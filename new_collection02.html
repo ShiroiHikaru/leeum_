@@ -11,6 +11,7 @@
   <title>Leeum - 소장품</title>
 </head>
 <body>
+  <div class="portfolio"></div>
   <header></header>
   
   <main>
@@ -237,6 +238,7 @@
   <script type="text/javascript" src="js/tab.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
+      $(".portfolio").load("portfolio.html");
       $("header").load("header.html");
       $("#quick").load("quick.html");
       $("#page").load("newcolpage.html");
