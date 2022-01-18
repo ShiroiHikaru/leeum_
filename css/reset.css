@@ -40,7 +40,10 @@ body {
 	font-size: 18px;
 }
 
-header{font-size: 20px;}
+header{
+	font-size: 20px;
+	margin-top: 50px;
+}
 
 ::selection{
   background-color: #8a7a67;
