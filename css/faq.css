@@ -1,6 +1,3 @@
-
-
-
 li::marker{color: #8a7a67;}
 
 .clearfix:before, .clearfix:after {
@@ -46,8 +43,6 @@ a{
   text-decoration: none;
 }
 
-
-
 #question{
   width: 1200px;
   padding-bottom: 120px;
@@ -86,6 +81,30 @@ a{
   display: none;
 }
 
+/* button */
+#question .qna1 button{
+  background: #141414;
+  color: #fff;
+  height: 30px;
+  border: none;
+  padding: 0;
+}
+
+#question .qna1 button a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 28px;
+  width: 120px;
+  line-height: 30px;
+}
+
+#question .qna1 button a:hover{
+  background: #8a7a67;
+  color: #fff;
+  transition: 0.3s;
+}
+
 #question .qna2 h3{
   padding: 20px;
   background-color: #3d3326;
@@ -97,6 +116,30 @@ a{
   padding: 20px;
   border: 1px solid #3d3326;
   display: none;
+}
+
+/* button */
+#question .qna2 button{
+  background: #141414;
+  color: #fff;
+  height: 30px;
+  border: none;
+  padding: 0;
+}
+
+#question .qna2 button a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 28px;
+  width: 120px;
+  line-height: 30px;
+}
+
+#question .qna2 button a:hover{
+  background: #8a7a67;
+  color: #fff;
+  transition: 0.3s;
 }
 
 #question .qna3 h3{
@@ -112,6 +155,31 @@ a{
   display: none;
 }
 
+
+/* button */
+#question .qna3 button{
+  background: #141414;
+  color: #fff;
+  height: 30px;
+  border: none;
+  padding: 0;
+}
+
+#question .qna3 button a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 28px;
+  width: 120px;
+  line-height: 30px;
+}
+
+#question .qna3 button a:hover{
+  background: #8a7a67;
+  color: #fff;
+  transition: 0.3s;
+}
+
 #question .qna4 h3{
   padding: 20px;
   background-color: #3d3326;
@@ -123,6 +191,31 @@ a{
   padding: 20px;
   border: 1px solid #3d3326;
   display: none;
+}
+
+
+/* button */
+#question .qna3 button{
+  background: #141414;
+  color: #fff;
+  height: 30px;
+  border: none;
+  padding: 0;
+}
+
+#question .qna3 button a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 28px;
+  width: 120px;
+  line-height: 30px;
+}
+
+#question .qna3 button a:hover{
+  background: #8a7a67;
+  color: #fff;
+  transition: 0.3s;
 }
 
 #question .qna5 h3{
@@ -138,6 +231,31 @@ a{
     display: none;
   }
 
+  
+/* button */
+#question .qna3 button{
+  background: #141414;
+  color: #fff;
+  height: 30px;
+  border: none;
+  padding: 0;
+}
+
+#question .qna3 button a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 28px;
+  width: 120px;
+  line-height: 30px;
+}
+
+#question .qna3 button a:hover{
+  background: #8a7a67;
+  color: #fff;
+  transition: 0.3s;
+}
+
 
   #question .qna6 h3{
     padding: 20px;
@@ -152,6 +270,31 @@ a{
     display: none;
   }  
 
+  
+/* button */
+#question .qna6 button{
+  background: #141414;
+  color: #fff;
+  height: 30px;
+  border: none;
+  padding: 0;
+}
+
+#question .qna6 button a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 28px;
+  width: 120px;
+  line-height: 30px;
+}
+
+#question .qna6 button a:hover{
+  background: #8a7a67;
+  color: #fff;
+  transition: 0.3s;
+}
+
   #question .qna7 h3{
     padding: 20px;
     background-color: #3d3326;
@@ -165,6 +308,31 @@ a{
     display: none;
   }
 
+  
+/* button */
+#question .qna7 button{
+  background: #141414;
+  color: #fff;
+  height: 30px;
+  border: none;
+  padding: 0;
+}
+
+#question .qna7 button a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 28px;
+  width: 120px;
+  line-height: 30px;
+}
+
+#question .qna7 button a:hover{
+  background: #8a7a67;
+  color: #fff;
+  transition: 0.3s;
+}
+
   #question .qna8 h3{
     padding: 20px;
     background-color: #3d3326;
@@ -177,6 +345,31 @@ a{
     border: 1px solid #3d3326;
     display: none;
   }
+
+  
+/* button */
+#question .qna8 button{
+  background: #141414;
+  color: #fff;
+  height: 30px;
+  border: none;
+  padding: 0;
+}
+
+#question .qna8 button a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 28px;
+  width: 120px;
+  line-height: 30px;
+}
+
+#question .qna8 button a:hover{
+  background: #8a7a67;
+  color: #fff;
+  transition: 0.3s;
+}
 
   #question .qna9 h3{
     padding: 20px;
@@ -203,5 +396,30 @@ a{
     border: 1px solid #3d3326;
     display: none;
   }
+
+  
+/* button */
+#question .qna10 button{
+  background: #141414;
+  color: #fff;
+  height: 30px;
+  border: none;
+  padding: 0;
+}
+
+#question .qna10 button a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 28px;
+  width: 120px;
+  line-height: 30px;
+}
+
+#question .qna10 button a:hover{
+  background: #8a7a67;
+  color: #fff;
+  transition: 0.3s;
+}
 
 
