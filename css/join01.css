@@ -98,6 +98,13 @@ li::marker{
   font-size: 18px;
 }
 
+.agebox .boxset{
+  width: 830px;
+  height: 450px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
 .agebox .boxset a{
   text-decoration: none;
   color: white;
@@ -105,15 +112,9 @@ li::marker{
   width: 259px;
 }
 
-.agebox .boxset{
-  width: 830px;
-  margin: auto;
-  margin-bottom: 50px;
-}
+
 
 .agebox .box{
-  display: flex;
-  justify-content: center;
   width: 259px;
   height: 253px;
   background-color: #8a7a67;
@@ -141,9 +142,15 @@ li::marker{
 
 
 .agebox .box_text{
-  margin-top: 60px;
+  width: 100%;
+  height: 75%;
+  padding-top: 60px;
 }
 
+.agebox .box_text h3{
+  color: #fff;
+  width: 100%;
+}
 .agebox .box_text img{
   margin: 15px 0 15px 0;
 }
@@ -153,8 +160,9 @@ li::marker{
   width: 830px;
   height: 95px;
   margin: auto;
+  position: relative;
+  bottom: 200px;
   display: table;
-  margin-top: 50px;
   border-left: 2px solid #ccc;
   padding-left: 15px;
 }
