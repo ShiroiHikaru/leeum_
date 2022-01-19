@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+            .pop {
+            position: fixed;
+            top: 0;
+            left: 0%;
+            z-index: 1000;
+            width: 100%;
+            height: 100%;
+            }
+            .pop_box {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            width: 430px;
+            height: 200px;
+            translate: (-50%, -50%);
+            z-index: 100;
+            background: #fff;
+            }
+
+            .pop_cont {
+            padding: 40px;
+            font-size: 14px;
+            }
+
+            .pop_cont h2 {
+            font-size: 16px;
+            color: #1f1fb2;
+            margin-bottom: 20px;
+            }
+
+            .pop_btn {
+            display: table;
+            table-layout: fixed;
+            width: 100%;
+            height: 50px;
+            background: #141452;
+            }
+
+            .pop_btn a {
+            position: relative;
+            display: table-cell;
+            height: 50px;
+            color: #fff;
+            text-align: center;
+            vertical-align: middle;
+            text-decoration: none;
+            background: #000000;
+            }
+
+            .pop_btn a:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 14px;
+            right: 29px;
+            width: 1px;
+            height: 21px;
+            background: #fff;
+            -moz-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            }
+
+            .pop_btn a:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 14px;
+            right: 29px;
+            width: 1px;
+            height: 21px;
+            background: #fff;
+            -moz-transform: rotate(-45deg);
+            -o-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            }
+
+            .pop_btn a.close_today {
+            background: rgb(88, 88, 88);
+            }
+
+            .pop_btn a.close_today:before,
+            .pop_btn a.close_today:after {
+            display: none;
+            }
+    </style>
+</head>
+<body>
+    <div class="pop" id="pop">
+        <div class="pop_box">
+          <div class="pop_cont">
+            <h2>저작권 관련 공지사항</h2>
+            <p>본 사이트는 상업적인 목적이 아닌 개인 포트폴리오 용도로 제작되었습니다. 홈페이지의 내용과 이미지 등의 저작권은 출처인 리움미술관에 있음을 밝힙니다.</p>
+          </div>
+          <div class="pop_btn">
+            <a id="today" href="javascript:closeToday();" class="close_today">오늘 하루 보지 않기</a>
+            <a href="javascript:closePop();">닫기</a>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+          
+   function setCookie( name, value, expiredays) {
+      let todayDate = new Date();
+      todayDate.setDate(todayDate.getDate() + expiredays);
+      document.cookie = name + "=" + value + "; path=/; expires=" + todayDate.toUTCString() + ";"
+    }
+
+    $(function(){
+      if(document.cookie.indexOf("popToday=close") < 0 ){
+        document.getElementById("pop").style.display = "block";} else {
+                document.getElementById("pop").style.display = "none";
+      }
+    });
+
+    function closeToday() {
+      setCookie("popToday", "close", 1 );
+      $("#pop").css("display", "none");
+      document.getElementById("pop").style.display = "none";
+
+    }
+        function closePop() {
+
+            document.getElementById("pop").style.display = "none";
+
+          }
+      </script>
+</body>
+</html>
